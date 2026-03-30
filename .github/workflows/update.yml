@@ -23,8 +23,8 @@ jobs:
 
       - run: |
           node generators/zee5/index.js
-          node generators/jiotv/index.js
-          node generators/sonyliv/index.js
+         # node generators/jiotv/index.js
+          #node generators/sonyliv/index.js
           node generators/index-builder/index.js
 
       - run: |
