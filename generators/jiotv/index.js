@@ -1,3 +1,5 @@
+console.log("ℹ️ JIOTV generator disabled (API blocked upstream)");
+process.exit(0);
 import fs from "fs";
 import zlib from "zlib";
 import xmlbuilder from "xmlbuilder";
