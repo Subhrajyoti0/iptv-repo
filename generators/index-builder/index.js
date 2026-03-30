@@ -1,98 +1,102 @@
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
 
-const PLAYLIST_DIR = "playlists";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const REPO_ROOT = path.resolve(__dirname, "../..");
+
+const PLAYLIST_DIR = path.join(REPO_ROOT, "playlists");
 const GENRE_DIR = path.join(PLAYLIST_DIR, "genres");
 const COUNTRY_DIR = path.join(PLAYLIST_DIR, "countries");
 
 fs.mkdirSync(GENRE_DIR, { recursive: true });
 fs.mkdirSync(COUNTRY_DIR, { recursive: true });
 
-/* ---------------- LOAD ALL PLAYLISTS ---------------- */
-
 const files = fs
   .readdirSync(PLAYLIST_DIR)
   .filter(f => f.endsWith(".m3u") && !f.startsWith("index"));
 
+console.log(`Found playlist files: ${files.join(", ") || "(none)"}`);
+
 let entries = [];
 
 for (const file of files) {
-  const content = fs.readFileSync(path.join(PLAYLIST_DIR, file), "utf8");
+  const fullPath = path.join(PLAYLIST_DIR, file);
+  const content = fs.readFileSync(fullPath, "utf8");
   const lines = content.split("\n");
-  let buffer = [];
 
-  for (let line of lines) {
-    if (line.startsWith("#EXTINF")) buffer = [line];
-    else if (line.startsWith("http")) {
-      buffer.push(line);
-      entries.push(buffer.join("\n"));
+  let currentExtinf = null;
+  let fileEntries = 0;
+
+  for (const line of lines) {
+    if (line.startsWith("#EXTINF")) {
+      currentExtinf = line;
+    } else if (line.startsWith("http") && currentExtinf) {
+      entries.push(`${currentExtinf}\n${line}`);
+      currentExtinf = null;
+      fileEntries++;
     }
   }
+
+  console.log(`${file}: ${fileEntries} valid entries`);
 }
 
-/* ---------------- GENRE & COUNTRY BUCKETS ---------------- */
+console.log(`Total valid playlist entries: ${entries.length}`);
 
 const genreBuckets = {};
 const countryBuckets = {};
 
-/* ---------------- PARSE ---------------- */
+for (const item of entries) {
+  const groupMatch = item.match(/group-title="([^"]+)"/);
+  if (!groupMatch) continue;
 
-entries.forEach(item => {
-  const matchGenre = item.match(/group-title="([^"]+)"/);
-  if (!matchGenre) return;
+  const group = groupMatch[1];
+  const parts = group.split("|").map(x => x.trim());
 
-  const group = matchGenre[1];
-  const parts = group.split("|").map(p => p.trim());
+  const genre = parts[0] || "General";
+  const countryMatch = (parts[1] || "").match(/\((.*?)\)/);
+  const country = countryMatch ? countryMatch[1].toLowerCase() : "unknown";
 
-  const genre = parts[0];
-  const countryMatch = parts[1]?.match(/\((.*?)\)/);
-  const country = countryMatch ? countryMatch[1] : "Unknown";
-
-  genreBuckets[genre] ||= [];
+  if (!genreBuckets[genre]) genreBuckets[genre] = [];
   genreBuckets[genre].push(item);
 
-  countryBuckets[country] ||= [];
+  if (!countryBuckets[country]) countryBuckets[country] = [];
   countryBuckets[country].push(item);
-});
+}
 
-/* ---------------- WRITE GENRE PLAYLISTS ---------------- */
+console.log(`Genres found: ${Object.keys(genreBuckets).length}`);
+console.log(`Countries found: ${Object.keys(countryBuckets).length}`);
 
-Object.entries(genreBuckets).forEach(([genre, list]) => {
+for (const [genre, list] of Object.entries(genreBuckets)) {
+  const safeName = genre.toLowerCase().replace(/\s+/g, "_");
   fs.writeFileSync(
-    path.join(GENRE_DIR, `${genre.toLowerCase()}.m3u`),
-    "#EXTM3U\n" + list.join("\n\n")
+    path.join(GENRE_DIR, `${safeName}.m3u`),
+    "#EXTM3U\n" + list.join("\n")
   );
-});
+}
 
-/* ---------------- WRITE COUNTRY PLAYLISTS ---------------- */
-
-Object.entries(countryBuckets).forEach(([cty, list]) => {
+for (const [country, list] of Object.entries(countryBuckets)) {
   fs.writeFileSync(
-    path.join(COUNTRY_DIR, `${cty.toLowerCase()}.m3u`),
-    "#EXTM3U\n" + list.join("\n\n")
+    path.join(COUNTRY_DIR, `${country}.m3u`),
+    "#EXTM3U\n" + list.join("\n")
   );
-});
+}
 
-/* ---------------- MASTER INDEX ---------------- */
-
-let index = "#EXTM3U\n";
-
-Object.keys(countryBuckets).forEach(c => {
-  index += `#EXTINF:-1,${c}\n`;
-  index += `countries/${c.toLowerCase()}.m3u\n`;
-});
-
-fs.writeFileSync(path.join(PLAYLIST_DIR, "index.m3u"), index);
-
-/* ---------------- INDEX.BY.GENRE ---------------- */
+let indexM3U = "#EXTM3U\n";
+for (const country of Object.keys(countryBuckets).sort()) {
+  indexM3U += `#EXTINF:-1,${country.toUpperCase()}\n`;
+  indexM3U += `countries/${country}.m3u\n`;
+}
+fs.writeFileSync(path.join(PLAYLIST_DIR, "index.m3u"), indexM3U);
 
 let genreIndex = "#EXTM3U\n";
-
-Object.keys(genreBuckets).forEach(g => {
-  genreIndex += `#EXTINF:-1,${g}\n`;
-  genreIndex += `genres/${g.toLowerCase()}.m3u\n`;
-});
-
+for (const genre of Object.keys(genreBuckets).sort()) {
+  const safeName = genre.toLowerCase().replace(/\s+/g, "_");
+  genreIndex += `#EXTINF:-1,${genre}\n`;
+  genreIndex += `genres/${safeName}.m3u\n`;
+}
 fs.writeFileSync(path.join(PLAYLIST_DIR, "index.genre.m3u"), genreIndex);
 
 console.log("✅ IPTV-org compatible indexes generated");
+``

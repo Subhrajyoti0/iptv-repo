@@ -1,26 +1,30 @@
-
 # IPTV Repository
 
-![Status](https://img.shields.io/badge/status-active-success)
-![Update](https://img.shields.io/badge/update-every_6h-blue)
-![License](https://img.shields.io/github/license/Subhrajyoti0/iptv-repo)
-
-Auto‑updated IPTV playlists with EPG, catch‑up and genre filtering.
+Auto-updated ZEE5 IPTV playlists with XMLTV EPG and catch-up support.
 
 ## Playlists
-All playlists are stored in:
+Generated files are stored in:
 
-playlists/
+- `playlists/zee5_IN.m3u`
+- `playlists/zee5_US.m3u`
+- `playlists/zee5_GB.m3u`
+
+## Indexes
+Generated indexes:
+
+- `playlists/index.m3u`
+- `playlists/index.genre.m3u`
+- `playlists/countries/*.m3u`
+- `playlists/genres/*.m3u`
 
 ## EPG
+Generated XMLTV:
 
-epg/
+- `epg/zee5_epg.xml.gz`
 
-## Generators
-Source code for building playlists:
-
-generators/
+## Update Schedule
+GitHub Actions updates every 6 hours.
 
 ## Legal
-This repository only links to publicly available streams.
-No media content is hosted.
+This repository does not host media content.
+It only generates links to publicly reachable streams.
