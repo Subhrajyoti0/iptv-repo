@@ -1,5 +1,3 @@
-import fetch from 'node-fetch'
-
 const ZEE5_EPG_URL = 'https://gwapi.zee5.com/v1/epg'
 
 export async function fetchZee5EPG(channelId, from, to) {
@@ -22,3 +20,4 @@ export async function fetchZee5EPG(channelId, from, to) {
   const data = await res.json()
   return data?.items?.flatMap(c => c.items || []) ?? []
 }
+``
