@@ -1,35 +1,15 @@
-name: Zee5 EPG Auto Update
-
-on:
-  schedule:
-    # Runs every 6 hours
-    - cron: '0 */6 * * *'
-  workflow_dispatch: # manual run button
-
-jobs:
-  update-epg:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Generate Zee5 EPG
-        run: node generators/zee5/index.js
-
-      - name: Commit and push changes
+- name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add zee5.xml
-          git diff --cached --quiet || git commit -m "Auto-update Zee5 EPG"
-          git push
+          # Add all changes safely
+          git add .
+
+          # Commit only if there are changes
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update Zee5 EPG"
+            git push
+          else
+            echo "No changes to commit"
+          fi
