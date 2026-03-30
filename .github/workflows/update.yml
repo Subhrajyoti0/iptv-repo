@@ -6,30 +6,44 @@ on:
   workflow_dispatch:
 
 jobs:
-  gen:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - run: |
-          cd generators/zee5 && npm install
-          cd ../jiotv && npm install
-          cd ../sonyliv && npm install
+      - name: Install ZEE5 deps
+        run: |
+          cd generators/zee5
+          npm install
 
-      - run: |
+      - name: Install JioTV deps
+        run: |
+          cd generators/jiotv
+          npm install
+
+      - name: Install SonyLIV deps
+        run: |
+          cd generators/sonyliv
+          npm install
+
+      - name: Run generators
+        run: |
           node generators/zee5/index.js
-         # node generators/jiotv/index.js
-          #node generators/sonyliv/index.js
+          # node generators/jiotv/index.js
+          # node generators/sonyliv/index.js
           node generators/index-builder/index.js
 
-      - run: |
+      - name: Commit & push
+        run: |
           git config user.name "iptv-bot"
           git config user.email "bot@github.com"
-          git add .
+          git add playlists epg
           git commit -m "Auto update playlists" || exit 0
           git push
