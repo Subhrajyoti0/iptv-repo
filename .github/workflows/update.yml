@@ -18,32 +18,16 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install root dependencies
+        run: npm install
+
       - name: Install ZEE5 deps
         run: |
           cd generators/zee5
           npm install
 
-      - name: Install JioTV deps
-        run: |
-          cd generators/jiotv
-          npm install
-
-      - name: Install SonyLIV deps
-        run: |
-          cd generators/sonyliv
-          npm install
-
       - name: Run generators
         run: |
           node generators/zee5/index.js
-          # node generators/jiotv/index.js
-          # node generators/sonyliv/index.js
           node generators/index-builder/index.js
-
-      - name: Commit & push
-        run: |
-          git config user.name "iptv-bot"
-          git config user.email "bot@github.com"
-          git add playlists epg
-          git commit -m "Auto update playlists" || exit 0
-          git push
+``
