@@ -1,3 +1,4 @@
 node_modules/
+zee5.xml
 .env
-.DS_Store
+*.log
