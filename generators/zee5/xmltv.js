@@ -1,116 +1,62 @@
-/**
- * Kodi‑optimized XMLTV generator
- * ✅ Correct timestamp format (NO 'T')
- * ✅ Regional timezone support (default: Asia/Kolkata)
- * ✅ Episode & subtitle support
- * ✅ channel-number (LCN)
- * ✅ Strict XML escaping
- */
-
-/* ===== CONFIG ===== */
-
-// Timezone offset (India = +0530)
-// You can change this to:
-//   +0000  (UTC)
-//   +0100  (CET)
-//   -0500  (EST)
 const TIMEZONE_OFFSET = '+0530'
 
-/* ================== */
-
-function escapeXml(str = '') {
-  return str.replace(/[<>&'"]/g, ch => ({
+function escText(str = '') {
+  return str.replace(/[<>&"']/g, c => ({
     '<': '&lt;',
     '>': '&gt;',
     '&': '&amp;',
     '"': '&quot;',
     "'": '&apos;',
-  }[ch]))
+  }[c]))
 }
 
-/**
- * Convert Date to Kodi‑supported XMLTV time
- * Format: YYYYMMDDHHMMSS ±ZZZZ
- */
+function pad(n) {
+  return String(n).padStart(2, '0')
+}
+
 function xmlTime(date) {
-  const pad = n => String(n).padStart(2, '0')
-
-  const year = date.getUTCFullYear()
-  const month = pad(date.getUTCMonth() + 1)
-  const day = pad(date.getUTCDate())
-  const hour = pad(date.getUTCHours())
-  const min = pad(date.getUTCMinutes())
-  const sec = pad(date.getUTCSeconds())
-
-  return `${year}${month}${day}${hour}${min}${sec} ${TIMEZONE_OFFSET}`
+  // Fix: Offset the UTC date to match IST for the string output
+  const offsetDate = new Date(date.getTime() + (5.5 * 60 * 60 * 1000));
+  return (
+    offsetDate.getUTCFullYear() +
+    pad(offsetDate.getUTCMonth() + 1) +
+    pad(offsetDate.getUTCDate()) +
+    pad(offsetDate.getUTCHours()) +
+    pad(offsetDate.getUTCMinutes()) +
+    pad(offsetDate.getUTCSeconds()) +
+    ' ' +
+    TIMEZONE_OFFSET
+  )
 }
 
 export function generateXMLTV(channels, programmesByChannel) {
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
   xml += '<tv generator-info-name="zee5-epg">\n'
 
-  /* ===== CHANNEL DEFINITIONS ===== */
-  channels.forEach((ch, index) => {
-    xml += `  <channel id="${escapeXml(ch.id)}">\n`
-    xml += `    <display-name>${escapeXml(ch.name)}</display-name>\n`
-    xml += `    <channel-number>${index + 1}</channel-number>\n`
-
+  for (let i = 0; i < channels.length; i++) {
+    const ch = channels[i]
+    xml += `  <channel id="${ch.id}">\n`
+    xml += `    <display-name lang="en">${escText(ch.name)}</display-name>\n`
     if (ch.image?.channel_square) {
-      xml += `    <icon src="https://akamaividz2.zee5.com/image/upload/${escapeXml(
-        ch.image.channel_square
-      )}.png"/>\n`
+      xml += `    <icon src="https://akamaividz2.zee5.com/image/upload/${ch.image.channel_square}.png"/>\n`
     }
+    xml += `  </channel>\n`
+  }
 
-    xml += '  </channel>\n'
-  })
-
-  /* ===== PROGRAMME LISTINGS ===== */
-  for (const [channelId, programmes] of Object.entries(programmesByChannel)) {
-    for (const p of programmes) {
-      xml += `  <programme channel="${escapeXml(
-        channelId
-      )}" start="${xmlTime(p.start)}" stop="${xmlTime(p.stop)}">\n`
-
-      /* Title */
-      xml += `    <title>${escapeXml(p.title)}</title>\n`
-
-      /* Subtitle / episode title */
-      if (p.subTitle) {
-        xml += `    <sub-title>${escapeXml(p.subTitle)}</sub-title>\n`
+  for (const [channelId, progs] of Object.entries(programmesByChannel)) {
+    for (const p of progs) {
+      xml += `  <programme channel="${channelId}" start="${xmlTime(new Date(p.start))}" stop="${xmlTime(new Date(p.stop))}">\n`
+      xml += `    <title lang="en">${escText(p.title)}</title>\n`
+      if (p.desc) xml += `    <desc lang="en">${escText(p.desc)}</desc>\n`
+      if (p.categories) {
+        p.categories.forEach(cat => {
+          xml += `    <category lang="en">${escText(cat)}</category>\n`
+        })
       }
-
-      /* Description */
-      if (p.desc) {
-        xml += `    <desc>${escapeXml(p.desc)}</desc>\n`
-      }
-
-      /* Episode number (onscreen) */
-      if (p.episode) {
-        xml += `    <episode-num system="onscreen">${escapeXml(
-          p.episode
-        )}</episode-num>\n`
-      }
-
-      /* Episode number (xmltv_ns) — season/episode indexing */
-      if (
-        Number.isInteger(p.season) &&
-        Number.isInteger(p.episodeNumber)
-      ) {
-        // xmltv_ns is zero‑based
-        xml += `    <episode-num system="xmltv_ns">${
-          p.season - 1
-        }.${p.episodeNumber - 1}.</episode-num>\n`
-      }
-
-      /* Categories / genres */
-      for (const cat of p.categories || []) {
-        xml += `    <category>${escapeXml(cat)}</category>\n`
-      }
-
-      xml += '  </programme>\n'
+      xml += `  </programme>\n`
     }
   }
 
-  xml += '</tv>\n'
+  xml += '</tv>'
   return xml
 }

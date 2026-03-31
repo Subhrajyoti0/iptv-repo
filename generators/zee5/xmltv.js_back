@@ -1,0 +1,71 @@
+
+const TIMEZONE_OFFSET = '+0530'
+
+function escText(str = '') {
+  return str.replace(/[<>&"']/g, c => ({
+    '<': '&lt;',
+    '>': '&gt;',
+    '&': '&amp;',
+    '"': '&quot;',
+    "'": '&apos;',
+  }[c]))
+}
+
+function pad(n) {
+  return String(n).padStart(2, '0')
+}
+
+function xmlTime(date) {
+  return (
+    date.getUTCFullYear() +
+    pad(date.getUTCMonth() + 1) +
+    pad(date.getUTCDate()) +
+    pad(date.getUTCHours()) +
+    pad(date.getUTCMinutes()) +
+    pad(date.getUTCSeconds()) +
+    ' ' +
+    TIMEZONE_OFFSET
+  )
+}
+
+export function generateXMLTV(channels, programmesByChannel) {
+  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
+  xml += '<tv generator-info-name="zee5-epg">\n'
+
+  for (let i = 0; i < channels.length; i++) {
+    const ch = channels[i]
+    xml += `<channel id="${ch.id}">\n`
+    xml += `  <display-name>${escText(ch.name)}</display-name>\n`
+    xml += `  <channel-number>${i + 1}</channel-number>\n`
+
+    if (ch.image?.channel_square) {
+      xml += `  <icon src="https://akamaividz2.zee5.com/image/upload/${ch.image.channel_square}.png"/>\n`
+    }
+
+    xml += '</channel>\n'
+  }
+
+  for (const [channelId, progs] of Object.entries(programmesByChannel)) {
+    for (const p of progs) {
+      xml += `<programme channel="${channelId}" start="${xmlTime(p.start)}" stop="${xmlTime(p.stop)}">\n`
+      xml += `  <title>${escText(p.title)}</title>\n`
+
+      if (p.subTitle) {
+        xml += `  <sub-title>${escText(p.subTitle)}</sub-title>\n`
+      }
+
+      if (p.desc) {
+        xml += `  <desc>${escText(p.desc)}</desc>\n`
+      }
+
+      for (const cat of p.categories || []) {
+        xml += `  <category>${escText(cat)}</category>\n`
+      }
+
+      xml += '</programme>\n'
+    }
+  }
+
+  xml += '</tv>\n'
+  return xml
+}
