@@ -9,6 +9,9 @@ on:
 jobs:
   update-epg:
     runs-on: ubuntu-latest
+    # CRITICAL: Grant write permissions to the repository
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -17,23 +20,32 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20 # Updated to a more recent LTS
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install string-similarity # Ensure this is available for the patcher
+
+      - name: Download Reference M3U
+        run: curl -L "https://iptv-org.github.io/iptv/countries/in.m3u" -o in.m3u
 
       - name: Generate Zee5 EPG
         run: node generators/zee5/index.js
+
+      - name: Patch EPG with Official IDs
+        run: node patcher.js
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
+          
+          # Add all modified files (including the patched zee5.xml)
           git add .
 
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-update Zee5 EPG"
+            git commit -m "Auto-update Zee5 EPG [Patched]"
             git push
           else
             echo "No changes to commit"
