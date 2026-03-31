@@ -1,1 +1,268 @@
-[]
+[
+  {
+    "xmlName": "Zing USA",
+    "xmlNorm": "zing",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "TarangMusic.in@SD",
+    "confidence": 0.15384615384615385
+  },
+  {
+    "xmlName": "Zing",
+    "xmlNorm": "zing",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "TarangMusic.in@SD",
+    "confidence": 0.15384615384615385
+  },
+  {
+    "xmlName": "Zee Yuva",
+    "xmlNorm": "zeeyuva",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "StudioYuva.in@SD",
+    "confidence": 0.4
+  },
+  {
+    "xmlName": "Zee TV USA",
+    "xmlNorm": "zeetv",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeTamil.in@SD",
+    "confidence": 0.5454545454545454
+  },
+  {
+    "xmlName": "Zee TV ME",
+    "xmlNorm": "zeetvme",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "MetroTV.in@SD",
+    "confidence": 0.5
+  },
+  {
+    "xmlName": "Zee TV HD USA",
+    "xmlNorm": "zeetv",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeTamil.in@SD",
+    "confidence": 0.5454545454545454
+  },
+  {
+    "xmlName": "Zee TV HD UK",
+    "xmlNorm": "zeetv",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeTamil.in@SD",
+    "confidence": 0.5454545454545454
+  },
+  {
+    "xmlName": "Zee TV HD Canada",
+    "xmlNorm": "zeetvcanada",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "AradanaTV.in@SD",
+    "confidence": 0.5555555555555556
+  },
+  {
+    "xmlName": "Zee TV HD",
+    "xmlNorm": "zeetv",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeTamil.in@SD",
+    "confidence": 0.5454545454545454
+  },
+  {
+    "xmlName": "Zee TV DE",
+    "xmlNorm": "zeetvde",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeTamil.in@SD",
+    "confidence": 0.46153846153846156
+  },
+  {
+    "xmlName": "Zee TV APAC HD",
+    "xmlNorm": "zeetv",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeTamil.in@SD",
+    "confidence": 0.5454545454545454
+  },
+  {
+    "xmlName": "Zee TV",
+    "xmlNorm": "zeetv",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeTamil.in@SD",
+    "confidence": 0.5454545454545454
+  },
+  {
+    "xmlName": "Zee Sarthak",
+    "xmlNorm": "zeesarthak",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeBharat.in@SD",
+    "confidence": 0.47058823529411764
+  },
+  {
+    "xmlName": "Zee Rajasthan News",
+    "xmlNorm": "zeerajasthannews",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeKannadaNews.in@SD",
+    "confidence": 0.5
+  },
+  {
+    "xmlName": "Zee Punjabi",
+    "xmlNorm": "zeepunjabi",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "DDPunjabi.in@SD",
+    "confidence": 0.7058823529411765
+  },
+  {
+    "xmlName": "Zee Power HD",
+    "xmlNorm": "zeepower",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ReporterTV.in@SD",
+    "confidence": 0.375
+  },
+  {
+    "xmlName": "Zee One German",
+    "xmlNorm": "zeeonegerman",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeRajasthan.in@SD",
+    "confidence": 0.36363636363636365
+  },
+  {
+    "xmlName": "Zee One French",
+    "xmlNorm": "zeeonefrench",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "Rengoni.in@SD",
+    "confidence": 0.35294117647058826
+  },
+  {
+    "xmlName": "Zee One",
+    "xmlNorm": "zeeone",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeBusiness.in@SD",
+    "confidence": 0.4
+  },
+  {
+    "xmlName": "Zee News Uttar Pradesh Uttrakhand",
+    "xmlNorm": "zeenewsuttarpradeshuttrakhand",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeNews.in@SD",
+    "confidence": 0.35294117647058826
+  },
+  {
+    "xmlName": "ZEE News Tamil",
+    "xmlNorm": "zeenewstamil",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeNews.in@SD",
+    "confidence": 0.7058823529411765
+  },
+  {
+    "xmlName": "Zee Marathi USA",
+    "xmlNorm": "zeemarathi",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "SangeetMarathi.in@SD",
+    "confidence": 0.6363636363636364
+  },
+  {
+    "xmlName": "Zee Marathi HD",
+    "xmlNorm": "zeemarathi",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "SangeetMarathi.in@SD",
+    "confidence": 0.6363636363636364
+  },
+  {
+    "xmlName": "Zee Marathi",
+    "xmlNorm": "zeemarathi",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "SangeetMarathi.in@SD",
+    "confidence": 0.6363636363636364
+  },
+  {
+    "xmlName": "Zee Keralam ME",
+    "xmlNorm": "zeekeralamme",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "HarvestTVKeralam.in@SD",
+    "confidence": 0.46153846153846156
+  },
+  {
+    "xmlName": "Zee Keralam HD",
+    "xmlNorm": "zeekeralam",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "HarvestTVKeralam.in@SD",
+    "confidence": 0.5
+  },
+  {
+    "xmlName": "Zee Kannada HD",
+    "xmlNorm": "zeekannada",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "TV5Kannada.in@SD",
+    "confidence": 0.6666666666666666
+  },
+  {
+    "xmlName": "Zee Kannada",
+    "xmlNorm": "zeekannada",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "TV5Kannada.in@SD",
+    "confidence": 0.6666666666666666
+  },
+  {
+    "xmlName": "Zee Chitramandir",
+    "xmlNorm": "zeechitramandir",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "Chithiram.in@SD",
+    "confidence": 0.5454545454545454
+  },
+  {
+    "xmlName": "Zee Bangla International",
+    "xmlNorm": "zeebanglainternational",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "DisneyInternationalHD.in@SD",
+    "confidence": 0.6153846153846154
+  },
+  {
+    "xmlName": "Zee Alwan HD",
+    "xmlNorm": "zeealwan",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "9XJalwa.in@SD",
+    "confidence": 0.46153846153846156
+  },
+  {
+    "xmlName": "Zee Alwan",
+    "xmlNorm": "zeealwan",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "9XJalwa.in@SD",
+    "confidence": 0.46153846153846156
+  },
+  {
+    "xmlName": "Zee Aflam HD",
+    "xmlNorm": "zeeaflam",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeCafe.in@HD",
+    "confidence": 0.46153846153846156
+  },
+  {
+    "xmlName": "Zee Aflam",
+    "xmlNorm": "zeeaflam",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeCafe.in@HD",
+    "confidence": 0.46153846153846156
+  },
+  {
+    "xmlName": "Zee Action",
+    "xmlNorm": "zeeaction",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "ZeeComedyNation.in@HD",
+    "confidence": 0.45454545454545453
+  },
+  {
+    "xmlName": "WION",
+    "xmlNorm": "wion",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "StudioOnePlus.in@SD",
+    "confidence": 0.36363636363636365
+  },
+  {
+    "xmlName": "Suvarna News",
+    "xmlNorm": "suvarnanews",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "SudarshanNews.in@SD",
+    "confidence": 0.5454545454545454
+  },
+  {
+    "xmlName": "&amp;xplorHD",
+    "xmlNorm": "andxplorhd",
+    "reason": "Confidence below safe threshold",
+    "bestMatch": "AndTV.in@SD",
+    "confidence": 0.3076923076923077
+  }
+]
