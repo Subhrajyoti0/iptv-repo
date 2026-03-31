@@ -1,0 +1,82 @@
+name: Zee5 EPG Auto Update
+
+on:
+  schedule:
+    # Every 6 hours
+    - cron: "0 */6 * * *"
+  workflow_dispatch:   # Allow manual run from GitHub UI
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      # --------------------------------------------------
+      # 1️⃣ Checkout repository
+      # --------------------------------------------------
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # --------------------------------------------------
+      # 2️⃣ Setup Node.js
+      # --------------------------------------------------
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # --------------------------------------------------
+      # 3️⃣ Install dependencies
+      # --------------------------------------------------
+      - name: Install dependencies
+        run: |
+          npm install
+
+      # --------------------------------------------------
+      # 4️⃣ Run Zee5 EPG generator (SEQUENTIAL + RESUME)
+      # --------------------------------------------------
+      - name: Generate Zee5 EPG
+        run: |
+          node generators/zee5/index.js
+
+      # --------------------------------------------------
+      # 5️⃣ Run SAFE Option‑A patcher
+      #     (keeps review bucket, no risky auto‑mapping)
+      # --------------------------------------------------
+      - name: Patch channel IDs safely
+        run: |
+          node patcher/patcher.js
+
+      # --------------------------------------------------
+      # 6️⃣ Hard validation guard (NEVER publish bad XML)
+      # --------------------------------------------------
+      - name: Validate XML output
+        run: |
+          if grep -q "&lt;programme" output/zee5.xml; then
+            echo "❌ Escaped XML detected – aborting"
+            exit 1
+          fi
+
+      # --------------------------------------------------
+      # 7️⃣ Commit & push if there are changes
+      # --------------------------------------------------
+      - name: Commit changes
+        run: |
+          git config user.name "zee5-epg-bot"
+          git config user.email "zee5-epg-bot@users.noreply.github.com"
+
+          git add output/zee5.xml \
+                  output/zee5_raw_epg.json \
+                  output/zee5_normalized_epg.json \
+                  patcher/patch_log.json \
+                  patcher/review.json \
+                  output/zee5_progress.json
+
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit"
+          else
+            git commit -m "Auto-update Zee5 EPG (every 6 hours)"
+            git push
+          fi

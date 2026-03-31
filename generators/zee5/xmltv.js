@@ -1,38 +1,72 @@
-const TIMEZONE_OFFSET = ' +0530';
+const TZ = '+0530'
 
-function esc(str = '') {
-  return str.replace(/[<>&"']/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":"&apos;"}[c]));
+function esc(s = '') {
+  return String(s).replace(/[<>&"']/g, c => ({
+    '<': '&lt;',
+    '>': '&gt;',
+    '&': '&amp;',
+    '"': '&quot;',
+    "'": '&apos;',
+  }[c]))
 }
 
-function pad(n) { return String(n).padStart(2, '0'); }
+function pad(n) {
+  return String(n).padStart(2, '0')
+}
 
-function formatKodiTime(date) {
-  // ISO strings are UTC. We need to extract the UTC components to match the +0530 suffix.
-  return date.getUTCFullYear() +
-    pad(date.getUTCMonth() + 1) +
-    pad(date.getUTCDate()) +
-    pad(date.getUTCHours()) +
-    pad(date.getUTCMinutes()) +
-    pad(date.getUTCSeconds()) +
-    TIMEZONE_OFFSET;
+function xmlTime(d) {
+  return (
+    d.getFullYear() +
+    pad(d.getMonth() + 1) +
+    pad(d.getDate()) +
+    pad(d.getHours()) +
+    pad(d.getMinutes()) +
+    pad(d.getSeconds()) +
+    ' ' +
+    TZ
+  )
 }
 
 export function generateXMLTV(channels, programmesByChannel) {
-  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<tv generator-info-name="Zee5-Kodi">\n';
+  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
+  xml += '<tv generator-info-name="zee5-epg">\n'
 
-  channels.forEach(ch => {
-    xml += `  <channel id="${ch.id}">\n    <display-name lang="en">${esc(ch.name)}</display-name>\n  </channel>\n`;
-  });
+  channels.forEach((ch, i) => {
+    xml += `<channel id="${ch.id}">\n`
+    xml += `  <display-name>${esc(ch.name)}</display-name>\n`
+    xml += `  <display-name>${i + 1}</display-name>\n`
+    if (ch.image?.channel_square) {
+      xml += `  https://akamaividz2.zee5.com/image/upload/${ch.image.channel_square}.png\n`
+    }
+    xml += '</channel>\n'
+  })
 
-  for (const [chId, progs] of Object.entries(programmesByChannel)) {
+  for (const [cid, progs] of Object.entries(programmesByChannel)) {
     progs.forEach(p => {
-      const start = formatKodiTime(new Date(p.start));
-      const stop = formatKodiTime(new Date(p.stop));
-      xml += `  <programme start="${start}" stop="${stop}" channel="${chId}">\n`;
-      xml += `    <title lang="en">${esc(p.title)}</title>\n`;
-      if (p.desc) xml += `    <desc lang="en">${esc(p.desc)}</desc>\n`;
-      xml += `  </programme>\n`;
-    });
+      xml += `<programme channel="${cid}" start="${xmlTime(p.schedule.start)}" stop="${xmlTime(p.schedule.stop)}">\n`
+      xml += `  <title>${esc(p.titles.main)}</title>\n`
+
+      if (p.titles.episode) {
+        xml += `  <sub-title>${esc(p.titles.episode)}</sub-title>\n`
+      }
+
+      if (p.description.long) {
+        xml += `  <desc>${esc(p.description.long)}</desc>\n`
+      }
+
+      p.categories.forEach(c => {
+        xml += `  <category>${esc(c)}</category>\n`
+      })
+
+      if (p.media.poster) {
+        xml += `  ${esc(p.media.poster)}\n`
+      }
+
+      xml += '</programme>\n'
+    })
   }
-  return xml + '</tv>';
+
+  xml += '</tv>\n'
+  return xml
 }
+``
