@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="Zee5-Kodi">
-  <channel id="KalingaTV.in@SD">
+  <channel id="0-9-channel_1643519345">
     <display-name lang="en">Zing USA</display-name>
   </channel>
-  <channel id="KalingaTV.in@SD">
+  <channel id="0-9-zing">
     <display-name lang="en">Zing</display-name>
   </channel>
   <channel id="ZeeZest.in@HD">
@@ -33,7 +33,7 @@
   <channel id="ZeeTamil.in@SD">
     <display-name lang="en">Zee TV DE</display-name>
   </channel>
-  <channel id="ZeeTamil.in@SD">
+  <channel id="GraceTV.in@SD">
     <display-name lang="en">Zee TV APAC HD</display-name>
   </channel>
   <channel id="ZeeTamil.in@SD">
@@ -75,10 +75,10 @@
   <channel id="ZeePunjabHaryanaHimachal.in@SD">
     <display-name lang="en">Zee Punjab Haryana Himachal Pradesh</display-name>
   </channel>
-  <channel id="ReporterTV.in@SD">
+  <channel id="0-9-241">
     <display-name lang="en">Zee Power HD</display-name>
   </channel>
-  <channel id="MetroTV.in@SD">
+  <channel id="ZeeCinema.in@HD">
     <display-name lang="en">Zee One German</display-name>
   </channel>
   <channel id="ZeeNews.in@SD">
@@ -135,25 +135,25 @@
   <channel id="ZeeClassic.in@SD">
     <display-name lang="en">Zee Classic</display-name>
   </channel>
-  <channel id="MetroTV.in@SD">
+  <channel id="ZeeCinema.in@HD">
     <display-name lang="en">Zee Cinemalu HD</display-name>
   </channel>
-  <channel id="MetroTV.in@SD">
+  <channel id="ZeeCinema.in@HD">
     <display-name lang="en">Zee Cinemalu</display-name>
   </channel>
-  <channel id="MetroTV.in@SD">
+  <channel id="ZeeCinema.in@HD">
     <display-name lang="en">Zee Cinema USA</display-name>
   </channel>
-  <channel id="MetroTV.in@SD">
+  <channel id="ZeeCinema.in@HD">
     <display-name lang="en">Zee Cinema UK</display-name>
   </channel>
-  <channel id="MetroTV.in@SD">
+  <channel id="ZeeCinema.in@HD">
     <display-name lang="en">Zee Cinema ME</display-name>
   </channel>
-  <channel id="MetroTV.in@SD">
+  <channel id="ZeeCinema.in@HD">
     <display-name lang="en">Zee Cinema HD</display-name>
   </channel>
-  <channel id="MetroTV.in@SD">
+  <channel id="ZeeCinema.in@HD">
     <display-name lang="en">Zee Cinema</display-name>
   </channel>
   <channel id="Chithiram.in@SD">
@@ -180,7 +180,7 @@
   <channel id="ZeeBharat.in@SD">
     <display-name lang="en">Zee Bharat</display-name>
   </channel>
-  <channel id="MetroTV.in@SD">
+  <channel id="ZeeBanglaSonar.in@SD">
     <display-name lang="en">Zee Bangla Sonar</display-name>
   </channel>
   <channel id="DisneyInternationalHD.in@SD">
@@ -216,7 +216,7 @@
   <channel id="Zee24Ghanta.in@SD">
     <display-name lang="en">Zee 24 Ghanta</display-name>
   </channel>
-  <channel id="OnTV.in@SD">
+  <channel id="0-9-wion">
     <display-name lang="en">WION</display-name>
   </channel>
   <channel id="TV9Telugu.in@SD">
@@ -261,7 +261,7 @@
   <channel id="AsianetNews.in@SD">
     <display-name lang="en">Asianet News</display-name>
   </channel>
-  <channel id="AnmolCinema.in@SD">
+  <channel id="AnmolTV.in@SD">
     <display-name lang="en">Anmol TV</display-name>
   </channel>
   <channel id="AnmolCinema.in@SD">
@@ -297,199 +297,199 @@
   <channel id="Andflix.in@HD">
     <display-name lang="en">&amp;flix HD</display-name>
   </channel>
-  <programme start="20260330190000 +0530" stop="20260330193000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330190000 +0530" stop="20260330193000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Spotlight</title>
     <desc lang="en">Martin Baron takes helm at the Boston Globe, urging journalists Michael, Walter, Sacha, and Matt to investigate child molestation allegations against the local church.</desc>
   </programme>
-  <programme start="20260330193000 +0530" stop="20260330200000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330193000 +0530" stop="20260330200000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Spotlight</title>
     <desc lang="en">Martin Baron takes helm at the Boston Globe, urging journalists Michael, Walter, Sacha, and Matt to investigate child molestation allegations against the local church.</desc>
   </programme>
-  <programme start="20260330200000 +0530" stop="20260330203000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330200000 +0530" stop="20260330203000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Spotlight</title>
     <desc lang="en">Martin Baron takes helm at the Boston Globe, urging journalists Michael, Walter, Sacha, and Matt to investigate child molestation allegations against the local church.</desc>
   </programme>
-  <programme start="20260330203000 +0530" stop="20260330210000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330203000 +0530" stop="20260330210000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Spotlight</title>
     <desc lang="en">Martin Baron takes helm at the Boston Globe, urging journalists Michael, Walter, Sacha, and Matt to investigate child molestation allegations against the local church.</desc>
   </programme>
-  <programme start="20260330210000 +0530" stop="20260330213000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330210000 +0530" stop="20260330213000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Yolo Hits</title>
     <desc lang="en">Check out our program featuring a handpicked playlist of the hottest Bollywood and Indipop tracks! It&apos;s the perfect soundtrack for your day, bringing you all the best vibes.</desc>
   </programme>
-  <programme start="20260330213000 +0530" stop="20260330223000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330213000 +0530" stop="20260330223000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Yolo Hits</title>
     <desc lang="en">Check out our program featuring a handpicked playlist of the hottest Bollywood and Indipop tracks! It&apos;s the perfect soundtrack for your day, bringing you all the best vibes.</desc>
   </programme>
-  <programme start="20260330223000 +0530" stop="20260330233000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330223000 +0530" stop="20260330233000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Yolo Hits</title>
     <desc lang="en">Check out our program featuring a handpicked playlist of the hottest Bollywood and Indipop tracks! It&apos;s the perfect soundtrack for your day, bringing you all the best vibes.</desc>
   </programme>
-  <programme start="20260330233000 +0530" stop="20260331003000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330233000 +0530" stop="20260331003000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Yolo Hits</title>
     <desc lang="en">Check out our program featuring a handpicked playlist of the hottest Bollywood and Indipop tracks! It&apos;s the perfect soundtrack for your day, bringing you all the best vibes.</desc>
   </programme>
-  <programme start="20260331003000 +0530" stop="20260331013000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331003000 +0530" stop="20260331013000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Yolo Hits</title>
     <desc lang="en">Check out our program featuring a handpicked playlist of the hottest Bollywood and Indipop tracks! It&apos;s the perfect soundtrack for your day, bringing you all the best vibes.</desc>
   </programme>
-  <programme start="20260331013000 +0530" stop="20260331023000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331013000 +0530" stop="20260331023000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Fomo Tunes</title>
     <desc lang="en">Catch all the latest and greatest in TV and entertainment with us! We&apos;re here to bring you top-notch shows and programming that keep you entertained and coming back for more.</desc>
   </programme>
-  <programme start="20260331023000 +0530" stop="20260331033000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331023000 +0530" stop="20260331033000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Fomo Tunes</title>
     <desc lang="en">Catch all the latest and greatest in TV and entertainment with us! We&apos;re here to bring you top-notch shows and programming that keep you entertained and coming back for more.</desc>
   </programme>
-  <programme start="20260331033000 +0530" stop="20260331043000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331033000 +0530" stop="20260331043000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Fomo Tunes</title>
     <desc lang="en">Catch all the latest and greatest in TV and entertainment with us! We&apos;re here to bring you top-notch shows and programming that keep you entertained and coming back for more.</desc>
   </programme>
-  <programme start="20260331043000 +0530" stop="20260331050000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331043000 +0530" stop="20260331050000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Yolo Hits</title>
     <desc lang="en">Check out our program featuring a handpicked playlist of the hottest Bollywood and Indipop tracks! It&apos;s the perfect soundtrack for your day, bringing you all the best vibes.</desc>
   </programme>
-  <programme start="20260331050000 +0530" stop="20260331053000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331050000 +0530" stop="20260331053000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Sounds Of Canada - The American Rougues</title>
     <desc lang="en">Dive into Canada&apos;s vibrant ethnic communities as we explore and document their rich folk music traditions. Discover the unique sounds and stories that make up this diverse cultural tapestry!</desc>
   </programme>
-  <programme start="20260331053000 +0530" stop="20260331060000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331053000 +0530" stop="20260331060000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Spotlight</title>
     <desc lang="en">Martin Baron takes helm at the Boston Globe, urging journalists Michael, Walter, Sacha, and Matt to investigate child molestation allegations against the local church.</desc>
   </programme>
-  <programme start="20260331060000 +0530" stop="20260331063000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331060000 +0530" stop="20260331063000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Pyaar Tune Kya Kiya</title>
     <desc lang="en">Jai, a fashion photographer, finds his perfect marriage shaken when a model develops feelings for him. Will he resist temptation or risk losing everything he holds dear?</desc>
   </programme>
-  <programme start="20260331063000 +0530" stop="20260331073000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331063000 +0530" stop="20260331073000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Pyaar Tune Kya Kiya</title>
     <desc lang="en">Jai, a fashion photographer, finds his perfect marriage shaken when a model develops feelings for him. Will he resist temptation or risk losing everything he holds dear?</desc>
   </programme>
-  <programme start="20260331073000 +0530" stop="20260331083000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331073000 +0530" stop="20260331083000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Pyaar Tune Kya Kiya</title>
     <desc lang="en">Jai, a fashion photographer, finds his perfect marriage shaken when a model develops feelings for him. Will he resist temptation or risk losing everything he holds dear?</desc>
   </programme>
-  <programme start="20260331083000 +0530" stop="20260331090000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331083000 +0530" stop="20260331090000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Pyaar Tune Kya Kiya</title>
     <desc lang="en">Jai, a fashion photographer, finds his perfect marriage shaken when a model develops feelings for him. Will he resist temptation or risk losing everything he holds dear?</desc>
   </programme>
-  <programme start="20260331090000 +0530" stop="20260331093000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331090000 +0530" stop="20260331093000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Spotlight</title>
     <desc lang="en">Martin Baron takes helm at the Boston Globe, urging journalists Michael, Walter, Sacha, and Matt to investigate child molestation allegations against the local church.</desc>
   </programme>
-  <programme start="20260331093000 +0530" stop="20260331100000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331093000 +0530" stop="20260331100000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Spotlight</title>
     <desc lang="en">Martin Baron takes helm at the Boston Globe, urging journalists Michael, Walter, Sacha, and Matt to investigate child molestation allegations against the local church.</desc>
   </programme>
-  <programme start="20260331100000 +0530" stop="20260331103000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331100000 +0530" stop="20260331103000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Spotlight</title>
     <desc lang="en">Martin Baron takes helm at the Boston Globe, urging journalists Michael, Walter, Sacha, and Matt to investigate child molestation allegations against the local church.</desc>
   </programme>
-  <programme start="20260331103000 +0530" stop="20260331110000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331103000 +0530" stop="20260331110000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Spotlight</title>
     <desc lang="en">Martin Baron takes helm at the Boston Globe, urging journalists Michael, Walter, Sacha, and Matt to investigate child molestation allegations against the local church.</desc>
   </programme>
-  <programme start="20260331113000 +0530" stop="20260331120000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331113000 +0530" stop="20260331120000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Spotlight</title>
     <desc lang="en">Martin Baron takes helm at the Boston Globe, urging journalists Michael, Walter, Sacha, and Matt to investigate child molestation allegations against the local church.</desc>
   </programme>
-  <programme start="20260331120000 +0530" stop="20260331135100 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331120000 +0530" stop="20260331135100 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Movie</title>
     <desc lang="en">The movie name is yet to be announced by the channel.</desc>
   </programme>
-  <programme start="20260331135100 +0530" stop="20260331143600 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331135100 +0530" stop="20260331143600 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Pyaar Tune Kya Kiya</title>
     <desc lang="en">Jai, a fashion photographer, finds his perfect marriage shaken when a model develops feelings for him. Will he resist temptation or risk losing everything he holds dear?</desc>
   </programme>
-  <programme start="20260331143600 +0530" stop="20260331161400 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331143600 +0530" stop="20260331161400 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Movie</title>
     <desc lang="en">The movie name is yet to be announced by the channel.</desc>
   </programme>
-  <programme start="20260331161400 +0530" stop="20260331173000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331161400 +0530" stop="20260331173000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Fear Files</title>
     <desc lang="en">An anthology of mysterious and unexplainable stories that revolve around people experiencing paranormal activities, supernatural elements and frightening entities.</desc>
   </programme>
-  <programme start="20260331173000 +0530" stop="20260331190000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331173000 +0530" stop="20260331190000 +0530" channel="0-9-channel_1643519345">
     <title lang="en">Fear Files</title>
     <desc lang="en">An anthology of mysterious and unexplainable stories that revolve around people experiencing paranormal activities, supernatural elements and frightening entities.</desc>
   </programme>
-  <programme start="20260330192700 +0530" stop="20260330203000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330192700 +0530" stop="20260330203000 +0530" channel="0-9-zing">
     <title lang="en">Yolo Hits</title>
     <desc lang="en">Get ready for a musical throwback! Enjoy a nonstop lineup of timeless classics from legendary artists, all in one amazing hit parade. Perfect for music lovers!</desc>
   </programme>
-  <programme start="20260330203000 +0530" stop="20260330213000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330203000 +0530" stop="20260330213000 +0530" channel="0-9-zing">
     <title lang="en">Yolo Hits</title>
     <desc lang="en">Get ready for a musical throwback! Enjoy a nonstop lineup of timeless classics from legendary artists, all in one amazing hit parade. Perfect for music lovers!</desc>
   </programme>
-  <programme start="20260330213000 +0530" stop="20260330223000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330213000 +0530" stop="20260330223000 +0530" channel="0-9-zing">
     <title lang="en">Yolo Hits</title>
     <desc lang="en">Get ready for a musical throwback! Enjoy a nonstop lineup of timeless classics from legendary artists, all in one amazing hit parade. Perfect for music lovers!</desc>
   </programme>
-  <programme start="20260330223000 +0530" stop="20260330233000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330223000 +0530" stop="20260330233000 +0530" channel="0-9-zing">
     <title lang="en">Yolo Hits</title>
     <desc lang="en">Get ready for a musical throwback! Enjoy a nonstop lineup of timeless classics from legendary artists, all in one amazing hit parade. Perfect for music lovers!</desc>
   </programme>
-  <programme start="20260330233000 +0530" stop="20260331003000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260330233000 +0530" stop="20260331003000 +0530" channel="0-9-zing">
     <title lang="en">Yolo Hits</title>
     <desc lang="en">Get ready for a musical throwback! Enjoy a nonstop lineup of timeless classics from legendary artists, all in one amazing hit parade. Perfect for music lovers!</desc>
   </programme>
-  <programme start="20260331003000 +0530" stop="20260331013000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331003000 +0530" stop="20260331013000 +0530" channel="0-9-zing">
     <title lang="en">Yolo Hits</title>
     <desc lang="en">Get ready for a musical throwback! Enjoy a nonstop lineup of timeless classics from legendary artists, all in one amazing hit parade. Perfect for music lovers!</desc>
   </programme>
-  <programme start="20260331013000 +0530" stop="20260331023000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331013000 +0530" stop="20260331023000 +0530" channel="0-9-zing">
     <title lang="en">Fomo Tunes</title>
     <desc lang="en">Catch all the latest and greatest in TV and entertainment with us! We&apos;re here to bring you top-notch shows and programming that keep you entertained and coming back for more.</desc>
   </programme>
-  <programme start="20260331023000 +0530" stop="20260331033000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331023000 +0530" stop="20260331033000 +0530" channel="0-9-zing">
     <title lang="en">Teleshopping</title>
     <desc lang="en">Shop from home with ease as a wide range of trusted consumer products from popular brands are now available for convenient online purchase and doorstep delivery.</desc>
   </programme>
-  <programme start="20260331033000 +0530" stop="20260331040000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331033000 +0530" stop="20260331040000 +0530" channel="0-9-zing">
     <title lang="en">Fomo Tunes</title>
     <desc lang="en">Catch all the latest and greatest in TV and entertainment with us! We&apos;re here to bring you top-notch shows and programming that keep you entertained and coming back for more.</desc>
   </programme>
-  <programme start="20260331040000 +0530" stop="20260331050000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331040000 +0530" stop="20260331050000 +0530" channel="0-9-zing">
     <title lang="en">Teleshopping</title>
     <desc lang="en">Shop from home with ease as a wide range of trusted consumer products from popular brands are now available for convenient online purchase and doorstep delivery.</desc>
   </programme>
-  <programme start="20260331050000 +0530" stop="20260331054000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331050000 +0530" stop="20260331054000 +0530" channel="0-9-zing">
     <title lang="en">Fomo Tunes</title>
     <desc lang="en">Catch all the latest and greatest in TV and entertainment with us! We&apos;re here to bring you top-notch shows and programming that keep you entertained and coming back for more.</desc>
   </programme>
-  <programme start="20260331054000 +0530" stop="20260331063000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331054000 +0530" stop="20260331063000 +0530" channel="0-9-zing">
     <title lang="en">Pyaar Tune Kya Kiya</title>
     <desc lang="en">Pyaar Tune Kya Kiya is a TV series depicting Indian youth love stories, exploring challenges, mistakes, complexities, and decisions, while delivering social messages in every episode.</desc>
   </programme>
-  <programme start="20260331063000 +0530" stop="20260331073000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331063000 +0530" stop="20260331073000 +0530" channel="0-9-zing">
     <title lang="en">Teleshopping</title>
     <desc lang="en">Shop from home with ease as a wide range of trusted consumer products from popular brands are now available for convenient online purchase and doorstep delivery.</desc>
   </programme>
-  <programme start="20260331073000 +0530" stop="20260331082000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331073000 +0530" stop="20260331082000 +0530" channel="0-9-zing">
     <title lang="en">18 Again</title>
     <desc lang="en">A man in a tough spot gets a second chance! He magically becomes 18 again. Now he can fix his marriage and career. Will he succeed this time?</desc>
   </programme>
-  <programme start="20260331082000 +0530" stop="20260331091000 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331082000 +0530" stop="20260331091000 +0530" channel="0-9-zing">
     <title lang="en">Pyaar Tune Kya Kiya</title>
     <desc lang="en">Pyaar Tune Kya Kiya is a TV series depicting Indian youth love stories, exploring challenges, mistakes, complexities, and decisions, while delivering social messages in every episode.</desc>
   </programme>
-  <programme start="20260331091000 +0530" stop="20260331095800 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331091000 +0530" stop="20260331095800 +0530" channel="0-9-zing">
     <title lang="en">Aye Zindagi</title>
     <desc lang="en">This show explores the ups and downs of youth, highlighting relatable stories as young people tackle and conquer a variety of challenges in their lives with humor and heart.</desc>
   </programme>
-  <programme start="20260331095800 +0530" stop="20260331144600 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331095800 +0530" stop="20260331144600 +0530" channel="0-9-zing">
     <title lang="en">Pyaar Tune Kya Kiya</title>
     <desc lang="en">Pyaar Tune Kya Kiya is a TV series depicting Indian youth love stories, exploring challenges, mistakes, complexities, and decisions, while delivering social messages in every episode.</desc>
   </programme>
-  <programme start="20260331144600 +0530" stop="20260331153500 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331144600 +0530" stop="20260331153500 +0530" channel="0-9-zing">
     <title lang="en">18 Again</title>
     <desc lang="en">A man in a tough spot gets a second chance! He magically becomes 18 again. Now he can fix his marriage and career. Will he succeed this time?</desc>
   </programme>
-  <programme start="20260331153500 +0530" stop="20260331162400 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331153500 +0530" stop="20260331162400 +0530" channel="0-9-zing">
     <title lang="en">Pyaar Tune Kya Kiya</title>
     <desc lang="en">Pyaar Tune Kya Kiya is a TV series depicting Indian youth love stories, exploring challenges, mistakes, complexities, and decisions, while delivering social messages in every episode.</desc>
   </programme>
-  <programme start="20260331162400 +0530" stop="20260331191700 +0530" channel="KalingaTV.in@SD">
+  <programme start="20260331162400 +0530" stop="20260331191700 +0530" channel="0-9-zing">
     <title lang="en">Fear Files</title>
     <desc lang="en">Dive into captivating, real-life inspired tales that uncover the mysterious world of paranormal phenomena. Get ready for thrilling stories that will keep you on the edge of your seat!</desc>
   </programme>
@@ -1749,175 +1749,175 @@
     <title lang="en">Lakshmis Haus Des Schicksals</title>
     <desc lang="en">A teenage girl is kidnapped by a sex trafficking ring. A river pirate and a mother team up to rescue her, facing danger and courage.</desc>
   </programme>
-  <programme start="20260330183000 +0530" stop="20260330190000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260330183000 +0530" stop="20260330190000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Saru</title>
     <desc lang="en">A kabaddi champion from Rajasthan moves to Mumbai to chase her dreams. Along the way, she reunites with her family and fights hard to earn her mother the respect she truly deserves.</desc>
   </programme>
-  <programme start="20260330190000 +0530" stop="20260330193000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260330190000 +0530" stop="20260330193000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Tumm Se Tumm Tak</title>
     <desc lang="en">Anu and Aryavardhan fall in love despite a big age gap. Facing family disapproval and challenges, they fight to show that real love knows no limits or rules.</desc>
   </programme>
-  <programme start="20260330193000 +0530" stop="20260330200000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260330193000 +0530" stop="20260330200000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Vasudha</title>
     <desc lang="en">Vasudha, a cheerful maid, joins business leader Chandrika&apos;s home. Despite differing beliefs, she seeks Chandrika&apos;s approval and struggles to fit into her elite world.</desc>
   </programme>
-  <programme start="20260330200000 +0530" stop="20260330203000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260330200000 +0530" stop="20260330203000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Ganga Mai Ki Betiyan</title>
     <desc lang="en">Ganga Mai, abandoned for bearing daughters, defies norms with fierce love and dignity, raising three girls who each forge bold, individual paths shaped by their dreams and inner fire.</desc>
   </programme>
-  <programme start="20260330203000 +0530" stop="20260330210000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260330203000 +0530" stop="20260330210000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Lakshmi Nivas</title>
     <desc lang="en">Lakshmi, a strong-willed woman, bravely faces pressures in a traditional joint family and stays by her husband Shriniwas, who works hard to build his dream house.</desc>
   </programme>
-  <programme start="20260330210000 +0530" stop="20260330213000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260330210000 +0530" stop="20260330213000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Saru</title>
     <desc lang="en">A kabaddi champion from Rajasthan moves to Mumbai to chase her dreams. Along the way, she reunites with her family and fights hard to earn her mother the respect she truly deserves.</desc>
   </programme>
-  <programme start="20260330213000 +0530" stop="20260330220000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260330213000 +0530" stop="20260330220000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Tumm Se Tumm Tak</title>
     <desc lang="en">Anu and Aryavardhan fall in love despite a big age gap. Facing family disapproval and challenges, they fight to show that real love knows no limits or rules.</desc>
   </programme>
-  <programme start="20260330220000 +0530" stop="20260330230000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260330220000 +0530" stop="20260330230000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Gurbani</title>
     <desc lang="en">Devotees and religious leaders unite at the gurdwara, chanting sacred verses from the Guru Granth Sahib, filling the air with spiritual devotion and reverence.</desc>
   </programme>
-  <programme start="20260330230000 +0530" stop="20260330233000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260330230000 +0530" stop="20260330233000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Brahma Kumaris</title>
     <desc lang="en">Seeking inner peace? Join Brahma Kumari&apos;s Podcast for wisdom on meditation, positivity, and overcoming life&apos;s challenges with spiritual growth.</desc>
   </programme>
-  <programme start="20260330233000 +0530" stop="20260331000000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260330233000 +0530" stop="20260331000000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Baal Shiv</title>
     <desc lang="en">A young Lord Shiva shares a deep bond with his mother, Mahasati Anusuya, and goes on various adventures and vanquishes evil.</desc>
   </programme>
-  <programme start="20260331000000 +0530" stop="20260331003000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331000000 +0530" stop="20260331003000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Vasudha</title>
     <desc lang="en">Vasudha, a cheerful maid, joins business leader Chandrika&apos;s home. Despite differing beliefs, she seeks Chandrika&apos;s approval and struggles to fit into her elite world.</desc>
   </programme>
-  <programme start="20260331003000 +0530" stop="20260331010000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331003000 +0530" stop="20260331010000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Jaane Anjaane Hum Mile</title>
     <desc lang="en">Reet, a determined journalist, navigates the struggles of her &apos;atta-satta&apos; marriage, uncovering family secrets and challenging societal norms in her quest for justice and true love.</desc>
   </programme>
-  <programme start="20260331010000 +0530" stop="20260331013000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331010000 +0530" stop="20260331013000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Lakshmi Nivas</title>
     <desc lang="en">Lakshmi, a strong-willed woman, bravely faces pressures in a traditional joint family and stays by her husband Shriniwas, who works hard to build his dream house.</desc>
   </programme>
-  <programme start="20260331013000 +0530" stop="20260331020000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331013000 +0530" stop="20260331020000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Tumm Se Tumm Tak</title>
     <desc lang="en">Anu and Aryavardhan fall in love despite a big age gap. Facing family disapproval and challenges, they fight to show that real love knows no limits or rules.</desc>
   </programme>
-  <programme start="20260331020000 +0530" stop="20260331023000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331020000 +0530" stop="20260331023000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Ganga Mai Ki Betiyan</title>
     <desc lang="en">Ganga Mai, abandoned for bearing daughters, defies norms with fierce love and dignity, raising three girls who each forge bold, individual paths shaped by their dreams and inner fire.</desc>
   </programme>
-  <programme start="20260331023000 +0530" stop="20260331030000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331023000 +0530" stop="20260331030000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Jagadhatri</title>
     <desc lang="en">Jagaddhatri, a secret crime officer, and orphan Swayambhu partner to fight crime. Only a few friends know her real identity; later, they marry happily.</desc>
   </programme>
-  <programme start="20260331030000 +0530" stop="20260331033000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331030000 +0530" stop="20260331033000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Tumm Se Tumm Tak</title>
     <desc lang="en">Anu and Aryavardhan fall in love despite a big age gap. Facing family disapproval and challenges, they fight to show that real love knows no limits or rules.</desc>
   </programme>
-  <programme start="20260331033000 +0530" stop="20260331040000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331033000 +0530" stop="20260331040000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Lakshmi Nivas</title>
     <desc lang="en">Lakshmi, a strong-willed woman, bravely faces pressures in a traditional joint family and stays by her husband Shriniwas, who works hard to build his dream house.</desc>
   </programme>
-  <programme start="20260331040000 +0530" stop="20260331070000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331040000 +0530" stop="20260331070000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Heropanti 2</title>
     <desc lang="en">Babloo Ranawat, a genius hacker, is tasked with tracking down Laila, the mastermind behind the world&apos;s largest cyber-crime yet to occur. Will Babloo be able to stop him?</desc>
   </programme>
-  <programme start="20260331070000 +0530" stop="20260331073000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331070000 +0530" stop="20260331073000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Jaane Anjaane Hum Mile</title>
     <desc lang="en">Reet, a determined journalist, navigates the struggles of her &apos;atta-satta&apos; marriage, uncovering family secrets and challenging societal norms in her quest for justice and true love.</desc>
   </programme>
-  <programme start="20260331073000 +0530" stop="20260331080000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331073000 +0530" stop="20260331080000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Saru</title>
     <desc lang="en">A kabaddi champion from Rajasthan moves to Mumbai to chase her dreams. Along the way, she reunites with her family and fights hard to earn her mother the respect she truly deserves.</desc>
   </programme>
-  <programme start="20260331080000 +0530" stop="20260331083000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331080000 +0530" stop="20260331083000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Ganga Mai Ki Betiyan</title>
     <desc lang="en">Ganga Mai, abandoned for bearing daughters, defies norms with fierce love and dignity, raising three girls who each forge bold, individual paths shaped by their dreams and inner fire.</desc>
   </programme>
-  <programme start="20260331083000 +0530" stop="20260331090000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331083000 +0530" stop="20260331090000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Jagadhatri</title>
     <desc lang="en">Jagaddhatri, a secret crime officer, and orphan Swayambhu partner to fight crime. Only a few friends know her real identity; later, they marry happily.</desc>
   </programme>
-  <programme start="20260331090000 +0530" stop="20260331093000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331090000 +0530" stop="20260331093000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Bhabi Ji Ghar Par Hai!</title>
     <desc lang="en">In this hilarious comedy, two neighboring couples, the Mishras and the Tiwaris, navigate the chaos that ensues when each husband develops a crush on the other&apos;s wife!</desc>
   </programme>
-  <programme start="20260331093000 +0530" stop="20260331100000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331093000 +0530" stop="20260331100000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Jaane Anjaane Hum Mile</title>
     <desc lang="en">Reet, a determined journalist, navigates the struggles of her &apos;atta-satta&apos; marriage, uncovering family secrets and challenging societal norms in her quest for justice and true love.</desc>
   </programme>
-  <programme start="20260331100000 +0530" stop="20260331103000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331100000 +0530" stop="20260331103000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Vasudha</title>
     <desc lang="en">Vasudha, a cheerful maid, joins business leader Chandrika&apos;s home. Despite differing beliefs, she seeks Chandrika&apos;s approval and struggles to fit into her elite world.</desc>
   </programme>
-  <programme start="20260331103000 +0530" stop="20260331110000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331103000 +0530" stop="20260331110000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Jagadhatri</title>
     <desc lang="en">Jagaddhatri, a secret crime officer, and orphan Swayambhu partner to fight crime. Only a few friends know her real identity; later, they marry happily.</desc>
   </programme>
-  <programme start="20260331110000 +0530" stop="20260331113000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331110000 +0530" stop="20260331113000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Lakshmi Nivas</title>
     <desc lang="en">Lakshmi, a strong-willed woman, bravely faces pressures in a traditional joint family and stays by her husband Shriniwas, who works hard to build his dream house.</desc>
   </programme>
-  <programme start="20260331113000 +0530" stop="20260331120000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331113000 +0530" stop="20260331120000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Saru</title>
     <desc lang="en">A kabaddi champion from Rajasthan moves to Mumbai to chase her dreams. Along the way, she reunites with her family and fights hard to earn her mother the respect she truly deserves.</desc>
   </programme>
-  <programme start="20260331120000 +0530" stop="20260331123000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331120000 +0530" stop="20260331123000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Ganga Mai Ki Betiyan</title>
     <desc lang="en">Ganga Mai, abandoned for bearing daughters, defies norms with fierce love and dignity, raising three girls who each forge bold, individual paths shaped by their dreams and inner fire.</desc>
   </programme>
-  <programme start="20260331123000 +0530" stop="20260331130000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331123000 +0530" stop="20260331130000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Tumm Se Tumm Tak</title>
     <desc lang="en">Anu and Aryavardhan fall in love despite a big age gap. Facing family disapproval and challenges, they fight to show that real love knows no limits or rules.</desc>
   </programme>
-  <programme start="20260331130000 +0530" stop="20260331133000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331130000 +0530" stop="20260331133000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Lakshmi Nivas</title>
     <desc lang="en">Lakshmi, a strong-willed woman, bravely faces pressures in a traditional joint family and stays by her husband Shriniwas, who works hard to build his dream house.</desc>
   </programme>
-  <programme start="20260331133000 +0530" stop="20260331140000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331133000 +0530" stop="20260331140000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Ganga Mai Ki Betiyan</title>
     <desc lang="en">Ganga Mai, abandoned for bearing daughters, defies norms with fierce love and dignity, raising three girls who each forge bold, individual paths shaped by their dreams and inner fire.</desc>
   </programme>
-  <programme start="20260331140000 +0530" stop="20260331143000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331140000 +0530" stop="20260331143000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Jagadhatri</title>
     <desc lang="en">Jagaddhatri, a secret crime officer, and orphan Swayambhu partner to fight crime. Only a few friends know her real identity; later, they marry happily.</desc>
   </programme>
-  <programme start="20260331143000 +0530" stop="20260331150000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331143000 +0530" stop="20260331150000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Vasudha</title>
     <desc lang="en">Vasudha, a cheerful maid, joins business leader Chandrika&apos;s home. Despite differing beliefs, she seeks Chandrika&apos;s approval and struggles to fit into her elite world.</desc>
   </programme>
-  <programme start="20260331150000 +0530" stop="20260331153000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331150000 +0530" stop="20260331153000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Tumm Se Tumm Tak</title>
     <desc lang="en">Anu and Aryavardhan fall in love despite a big age gap. Facing family disapproval and challenges, they fight to show that real love knows no limits or rules.</desc>
   </programme>
-  <programme start="20260331153000 +0530" stop="20260331160000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331153000 +0530" stop="20260331160000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Ganga Mai Ki Betiyan</title>
     <desc lang="en">Ganga Mai, abandoned for bearing daughters, defies norms with fierce love and dignity, raising three girls who each forge bold, individual paths shaped by their dreams and inner fire.</desc>
   </programme>
-  <programme start="20260331160000 +0530" stop="20260331163000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331160000 +0530" stop="20260331163000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Bhabi Ji Ghar Par Hai!</title>
     <desc lang="en">In this hilarious comedy, two neighboring couples, the Mishras and the Tiwaris, navigate the chaos that ensues when each husband develops a crush on the other&apos;s wife!</desc>
   </programme>
-  <programme start="20260331163000 +0530" stop="20260331170000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331163000 +0530" stop="20260331170000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Tumm Se Tumm Tak</title>
     <desc lang="en">Anu and Aryavardhan fall in love despite a big age gap. Facing family disapproval and challenges, they fight to show that real love knows no limits or rules.</desc>
   </programme>
-  <programme start="20260331170000 +0530" stop="20260331173000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331170000 +0530" stop="20260331173000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Saru</title>
     <desc lang="en">A kabaddi champion from Rajasthan moves to Mumbai to chase her dreams. Along the way, she reunites with her family and fights hard to earn her mother the respect she truly deserves.</desc>
   </programme>
-  <programme start="20260331173000 +0530" stop="20260331180000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331173000 +0530" stop="20260331180000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Vasudha</title>
     <desc lang="en">Vasudha, a cheerful maid, joins business leader Chandrika&apos;s home. Despite differing beliefs, she seeks Chandrika&apos;s approval and struggles to fit into her elite world.</desc>
   </programme>
-  <programme start="20260331180000 +0530" stop="20260331183000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331180000 +0530" stop="20260331183000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Jagadhatri</title>
     <desc lang="en">Jagaddhatri, a secret crime officer, and orphan Swayambhu partner to fight crime. Only a few friends know her real identity; later, they marry happily.</desc>
   </programme>
-  <programme start="20260331183000 +0530" stop="20260331190000 +0530" channel="ZeeTamil.in@SD">
+  <programme start="20260331183000 +0530" stop="20260331190000 +0530" channel="GraceTV.in@SD">
     <title lang="en">Saru</title>
     <desc lang="en">A kabaddi champion from Rajasthan moves to Mumbai to chase her dreams. Along the way, she reunites with her family and fights hard to earn her mother the respect she truly deserves.</desc>
   </programme>
@@ -3741,167 +3741,167 @@
     <title lang="en">23 Zile 23 Khabar</title>
     <desc lang="en">The host sheds light on the latest political as well as socio-economic updates, developments and news stories in quick succession.</desc>
   </programme>
-  <programme start="20260330183800 +0530" stop="20260330190400 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330183800 +0530" stop="20260330190400 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kaleerein - Meera - Die Braut, Die Sich Was Traut! S1</title>
     <desc lang="en">Meera, a free spirited girl who wants life on her own terms, values her uniqueness and searches for a suitor who accepts her as she is.</desc>
   </programme>
-  <programme start="20260330190400 +0530" stop="20260330193300 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330190400 +0530" stop="20260330193300 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Maitree - Die Regel Der Liebe S1</title>
     <desc lang="en">Two inseparable best friends from childhood face questions from their mothers about marriages, exploring loyalty, identity, and how their bond might change as life plans evolve.</desc>
   </programme>
-  <programme start="20260330193300 +0530" stop="20260330203400 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330193300 +0530" stop="20260330203400 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Radha Mohan S2</title>
     <desc lang="en">Devoted Radha stands firmly beside troubled Mohan, confronting dark secrets and dangerous enemies to protect their family and their growing bond.</desc>
   </programme>
-  <programme start="20260330203400 +0530" stop="20260330210100 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330203400 +0530" stop="20260330210100 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Alles Begann Und</title>
     <desc lang="en">Young dreamer Rani and determined Rishabh overcome struggles and fate&apos;s twists while chasing love, ambition and happiness together.</desc>
   </programme>
-  <programme start="20260330210100 +0530" stop="20260330220100 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330210100 +0530" stop="20260330220100 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Radha Mohan S2</title>
     <desc lang="en">Devoted Radha stands firmly beside troubled Mohan, confronting dark secrets and dangerous enemies to protect their family and their growing bond.</desc>
   </programme>
-  <programme start="20260330220100 +0530" stop="20260330225000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330220100 +0530" stop="20260330225000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kumkum Bhagya - Bande Des Schicksals S1</title>
     <desc lang="en">Follow Sarla Arora, Punjabi matriarch who runs a marriage hall, as she hopes her daughters Pragya and Bulbul will someday find happiness and secure marriages for all.</desc>
   </programme>
-  <programme start="20260330225000 +0530" stop="20260330231700 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330225000 +0530" stop="20260330231700 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Razia Sultan - Die Herrscherin Von Delhi S1</title>
     <desc lang="en">This historical drama follows the ascent of a remarkable real-life figure, the first woman to rule the Delhi Sultanate, tracing her challenges, power, and legacy for generations.</desc>
   </programme>
-  <programme start="20260330231700 +0530" stop="20260330234100 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330231700 +0530" stop="20260330234100 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kundali Bhagya - Wege Des Schicksals S1</title>
     <desc lang="en">Follow Sarla Arora, Punjabi matriarch who runs a marriage hall, as she hopes her daughters Pragya and Bulbul will someday find happiness and secure marriages for all.</desc>
   </programme>
-  <programme start="20260330234100 +0530" stop="20260331000800 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330234100 +0530" stop="20260331000800 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Alles Begann Und</title>
     <desc lang="en">Young dreamer Rani and determined Rishabh overcome struggles and fate&apos;s twists while chasing love, ambition and happiness together.</desc>
   </programme>
-  <programme start="20260331000800 +0530" stop="20260331003300 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331000800 +0530" stop="20260331003300 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Badho Bahu - Schwer Verliebt S1</title>
     <desc lang="en">Series follows an overweight girl who overcomes challenges. Choto brings Lucky and Komal to Punjab for Teej, where Lucky notes Komal&apos;s hair and growing tender friendship.</desc>
   </programme>
-  <programme start="20260331003300 +0530" stop="20260331013300 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331003300 +0530" stop="20260331013300 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Radha Mohan S2</title>
     <desc lang="en">Devoted Radha stands firmly beside troubled Mohan, confronting dark secrets and dangerous enemies to protect their family and their growing bond.</desc>
   </programme>
-  <programme start="20260331013300 +0530" stop="20260331022300 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331013300 +0530" stop="20260331022300 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kumkum Bhagya - Bande Des Schicksals S1</title>
     <desc lang="en">Follow Sarla Arora, Punjabi matriarch who runs a marriage hall, as she hopes her daughters Pragya and Bulbul will someday find happiness and secure marriages for all.</desc>
   </programme>
-  <programme start="20260331022300 +0530" stop="20260331025000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331022300 +0530" stop="20260331025000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Razia Sultan - Die Herrscherin Von Delhi S1</title>
     <desc lang="en">This historical drama follows the ascent of a remarkable real-life figure, the first woman to rule the Delhi Sultanate, tracing her challenges, power, and legacy for generations.</desc>
   </programme>
-  <programme start="20260331025000 +0530" stop="20260331031300 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331025000 +0530" stop="20260331031300 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kundali Bhagya - Wege Des Schicksals S1</title>
     <desc lang="en">Follow Sarla Arora, Punjabi matriarch who runs a marriage hall, as she hopes her daughters Pragya and Bulbul will someday find happiness and secure marriages for all.</desc>
   </programme>
-  <programme start="20260331031300 +0530" stop="20260331034000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331031300 +0530" stop="20260331034000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Alles Begann Und</title>
     <desc lang="en">Young dreamer Rani and determined Rishabh overcome struggles and fate&apos;s twists while chasing love, ambition and happiness together.</desc>
   </programme>
-  <programme start="20260331034000 +0530" stop="20260331040500 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331034000 +0530" stop="20260331040500 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Badho Bahu - Schwer Verliebt S1</title>
     <desc lang="en">Series follows an overweight girl who overcomes challenges. Choto brings Lucky and Komal to Punjab for Teej, where Lucky notes Komal&apos;s hair and growing tender friendship.</desc>
   </programme>
-  <programme start="20260331040500 +0530" stop="20260331050600 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331040500 +0530" stop="20260331050600 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Radha Mohan S2</title>
     <desc lang="en">Devoted Radha stands firmly beside troubled Mohan, confronting dark secrets and dangerous enemies to protect their family and their growing bond.</desc>
   </programme>
-  <programme start="20260331050600 +0530" stop="20260331055500 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331050600 +0530" stop="20260331055500 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kumkum Bhagya - Bande Des Schicksals S1</title>
     <desc lang="en">Follow Sarla Arora, Punjabi matriarch who runs a marriage hall, as she hopes her daughters Pragya and Bulbul will someday find happiness and secure marriages for all.</desc>
   </programme>
-  <programme start="20260331055500 +0530" stop="20260331062200 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331055500 +0530" stop="20260331062200 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Razia Sultan - Die Herrscherin Von Delhi S1</title>
     <desc lang="en">This historical drama follows the ascent of a remarkable real-life figure, the first woman to rule the Delhi Sultanate, tracing her challenges, power, and legacy for generations.</desc>
   </programme>
-  <programme start="20260331062200 +0530" stop="20260331064500 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331062200 +0530" stop="20260331064500 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kundali Bhagya - Wege Des Schicksals S1</title>
     <desc lang="en">Follow Sarla Arora, Punjabi matriarch who runs a marriage hall, as she hopes her daughters Pragya and Bulbul will someday find happiness and secure marriages for all.</desc>
   </programme>
-  <programme start="20260331064500 +0530" stop="20260331071300 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331064500 +0530" stop="20260331071300 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Alles Begann Und</title>
     <desc lang="en">Young dreamer Rani and determined Rishabh overcome struggles and fate&apos;s twists while chasing love, ambition and happiness together.</desc>
   </programme>
-  <programme start="20260331071300 +0530" stop="20260331073800 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331071300 +0530" stop="20260331073800 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Badho Bahu - Schwer Verliebt S1</title>
     <desc lang="en">Series follows an overweight girl who overcomes challenges. Choto brings Lucky and Komal to Punjab for Teej, where Lucky notes Komal&apos;s hair and growing tender friendship.</desc>
   </programme>
-  <programme start="20260331073800 +0530" stop="20260331080500 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331073800 +0530" stop="20260331080500 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kaleerein - Meera - Die Braut, Die Sich Was Traut! S1</title>
     <desc lang="en">Meera, a free spirited girl who wants life on her own terms, values her uniqueness and searches for a suitor who accepts her as she is.</desc>
   </programme>
-  <programme start="20260331080500 +0530" stop="20260331083400 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331080500 +0530" stop="20260331083400 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Maitree - Die Regel Der Liebe S1</title>
     <desc lang="en">Two inseparable best friends from childhood face questions from their mothers about marriages, exploring loyalty, identity, and how their bond might change as life plans evolve.</desc>
   </programme>
-  <programme start="20260331083400 +0530" stop="20260331092400 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331083400 +0530" stop="20260331092400 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kumkum Bhagya - Bande Des Schicksals S1</title>
     <desc lang="en">Follow Sarla Arora, Punjabi matriarch who runs a marriage hall, as she hopes her daughters Pragya and Bulbul will someday find happiness and secure marriages for all.</desc>
   </programme>
-  <programme start="20260331092400 +0530" stop="20260331095100 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331092400 +0530" stop="20260331095100 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Alles Begann Und</title>
     <desc lang="en">Young dreamer Rani and determined Rishabh overcome struggles and fate&apos;s twists while chasing love, ambition and happiness together.</desc>
   </programme>
-  <programme start="20260331095100 +0530" stop="20260331101800 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331095100 +0530" stop="20260331101800 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Zindagi Ki Mehek - Das Rezept Zur Gro?en Liebe S1</title>
     <desc lang="en">Shaurya and Mehek are reborn into fortunes, reunite in college with boxing, face villains and danger, reveal truth, conquer fear, fall in love, marry happily.</desc>
   </programme>
-  <programme start="20260331101800 +0530" stop="20260331104500 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331101800 +0530" stop="20260331104500 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Razia Sultan - Die Herrscherin Von Delhi S1</title>
     <desc lang="en">This historical drama follows the ascent of a remarkable real-life figure, the first woman to rule the Delhi Sultanate, tracing her challenges, power, and legacy for generations.</desc>
   </programme>
-  <programme start="20260331104500 +0530" stop="20260331111000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331104500 +0530" stop="20260331111000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Badho Bahu - Schwer Verliebt S1</title>
     <desc lang="en">Series follows an overweight girl who overcomes challenges. Choto brings Lucky and Komal to Punjab for Teej, where Lucky notes Komal&apos;s hair and growing tender friendship.</desc>
   </programme>
-  <programme start="20260331111000 +0530" stop="20260331121000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331111000 +0530" stop="20260331121000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Radha Mohan S2</title>
     <desc lang="en">Devoted Radha stands firmly beside troubled Mohan, confronting dark secrets and dangerous enemies to protect their family and their growing bond.</desc>
   </programme>
-  <programme start="20260331121000 +0530" stop="20260331123700 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331121000 +0530" stop="20260331123700 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Alles Begann Und</title>
     <desc lang="en">Young dreamer Rani and determined Rishabh overcome struggles and fate&apos;s twists while chasing love, ambition and happiness together.</desc>
   </programme>
-  <programme start="20260331123700 +0530" stop="20260331130700 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331123700 +0530" stop="20260331130700 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Maitree - Die Regel Der Liebe S1</title>
     <desc lang="en">Two inseparable best friends from childhood face questions from their mothers about marriages, exploring loyalty, identity, and how their bond might change as life plans evolve.</desc>
   </programme>
-  <programme start="20260331130700 +0530" stop="20260331133200 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331130700 +0530" stop="20260331133200 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Jodha Akbar - Die Prinzessin Und Der Mogul S2</title>
     <desc lang="en">In 16th-century India, Mughal emperor Akbar marries Rajput princess Jodha Bai for politics. Despite opposition, they fall in love, shaping India amid court plots and wars.</desc>
   </programme>
-  <programme start="20260331133200 +0530" stop="20260331135800 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331133200 +0530" stop="20260331135800 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Jodha Akbar - Die Prinzessin Und Der Mogul S2</title>
     <desc lang="en">In 16th-century India, Mughal emperor Akbar marries Rajput princess Jodha Bai for politics. Despite opposition, they fall in love, shaping India amid court plots and wars.</desc>
   </programme>
-  <programme start="20260331135800 +0530" stop="20260331142600 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331135800 +0530" stop="20260331142600 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Alles Begann Und</title>
     <desc lang="en">Young dreamer Rani and determined Rishabh overcome struggles and fate&apos;s twists while chasing love, ambition and happiness together.</desc>
   </programme>
-  <programme start="20260331142600 +0530" stop="20260331145100 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331142600 +0530" stop="20260331145100 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Badho Bahu - Schwer Verliebt S1</title>
     <desc lang="en">Series follows an overweight girl who overcomes challenges. Choto brings Lucky and Komal to Punjab for Teej, where Lucky notes Komal&apos;s hair and growing tender friendship.</desc>
   </programme>
-  <programme start="20260331145100 +0530" stop="20260331155100 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331145100 +0530" stop="20260331155100 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Radha Mohan S2</title>
     <desc lang="en">Devoted Radha stands firmly beside troubled Mohan, confronting dark secrets and dangerous enemies to protect their family and their growing bond.</desc>
   </programme>
-  <programme start="20260331155100 +0530" stop="20260331161400 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331155100 +0530" stop="20260331161400 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kundali Bhagya - Wege Des Schicksals S1</title>
     <desc lang="en">Follow Sarla Arora, Punjabi matriarch who runs a marriage hall, as she hopes her daughters Pragya and Bulbul will someday find happiness and secure marriages for all.</desc>
   </programme>
-  <programme start="20260331161400 +0530" stop="20260331171500 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331161400 +0530" stop="20260331171500 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Radha Mohan S2</title>
     <desc lang="en">Devoted Radha stands firmly beside troubled Mohan, confronting dark secrets and dangerous enemies to protect their family and their growing bond.</desc>
   </programme>
-  <programme start="20260331171500 +0530" stop="20260331174200 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331171500 +0530" stop="20260331174200 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Alles Begann Und</title>
     <desc lang="en">Young dreamer Rani and determined Rishabh overcome struggles and fate&apos;s twists while chasing love, ambition and happiness together.</desc>
   </programme>
-  <programme start="20260331174200 +0530" stop="20260331183100 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331174200 +0530" stop="20260331183100 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kumkum Bhagya - Bande Des Schicksals S1</title>
     <desc lang="en">Follow Sarla Arora, Punjabi matriarch who runs a marriage hall, as she hopes her daughters Pragya and Bulbul will someday find happiness and secure marriages for all.</desc>
   </programme>
@@ -6769,339 +6769,339 @@
     <title lang="en">Karz</title>
     <desc lang="en">Monty uncovers the truth about his past life, discovering he was killed by his gold-digger wife while his family was left homeless. With his lover&apos;s support, he seeks justice.</desc>
   </programme>
-  <programme start="20260330183000 +0530" stop="20260330204800 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330183000 +0530" stop="20260330204800 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Shivaji</title>
     <desc lang="en">An engineer arrives in India to serve the nation. A few corrupt officials and politicians try to stop him while he tries to overcome the obstacles.</desc>
   </programme>
-  <programme start="20260330204800 +0530" stop="20260330213000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330204800 +0530" stop="20260330213000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Fillers</title>
     <desc lang="en">Watch promos and fillers back to back.</desc>
   </programme>
-  <programme start="20260330213000 +0530" stop="20260330234200 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330213000 +0530" stop="20260330234200 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Pellam Oorelithe</title>
     <desc lang="en">Vivek is caught with a prostitute. He introduces her to his wife as Subbu&apos;s girlfriend. Subbu accepts his plan at the cost of upsetting his lover.</desc>
   </programme>
-  <programme start="20260330234200 +0530" stop="20260331003000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330234200 +0530" stop="20260331003000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Fillers</title>
     <desc lang="en">Watch promos and fillers back to back.</desc>
   </programme>
-  <programme start="20260331003000 +0530" stop="20260331013000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331003000 +0530" stop="20260331013000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Just Chill</title>
     <desc lang="en">Enjoy a collection of beloved, beautiful songs. Talented artists sing and create the music. Listen to one song after another in this pleasing compilation.</desc>
   </programme>
-  <programme start="20260331013000 +0530" stop="20260331033000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331013000 +0530" stop="20260331033000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Paper Boy</title>
     <desc lang="en">Ravi is a paper boy who is in a relationship with the rich Dharani. However, the social inequality between them poses a threat to their future plans.</desc>
   </programme>
-  <programme start="20260331033000 +0530" stop="20260331063000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331033000 +0530" stop="20260331063000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Baladoor</title>
     <desc lang="en">A young man Chanti helps his uncle Rama Krishna take down their enemy Umapathi and reunite with family.</desc>
   </programme>
-  <programme start="20260331063000 +0530" stop="20260331093000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331063000 +0530" stop="20260331093000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Baghiratha</title>
     <desc lang="en">Bullabbai, president of an island village, has long awaited a bridge to the mainland. After 20 years of delay, he sends his son Chandu to uncover the reasons behind the hold-up.</desc>
   </programme>
-  <programme start="20260331093000 +0530" stop="20260331123000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331093000 +0530" stop="20260331123000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Student No.1</title>
     <desc lang="en">Aditya joins law college to please his father, facing issues and a dark past.</desc>
   </programme>
-  <programme start="20260331123000 +0530" stop="20260331153000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331123000 +0530" stop="20260331153000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Winner</title>
     <desc lang="en">Siddharth loves Sitara. He is shocked when he realises that her father wants her to marry a criminal linked to Siddharth&apos;s evil grandfather.</desc>
   </programme>
-  <programme start="20260331153000 +0530" stop="20260331183000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331153000 +0530" stop="20260331183000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Rakshasudu</title>
     <desc lang="en">Newly appointed police sub-inspector Arun hunts a serial killer targeting teenage girls, but his mission soon comes at a devastating cost.</desc>
   </programme>
-  <programme start="20260331183000 +0530" stop="20260331204800 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331183000 +0530" stop="20260331204800 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Baghiratha</title>
     <desc lang="en">Bullabbai, president of an island village, has long awaited a bridge to the mainland. After 20 years of delay, he sends his son Chandu to uncover the reasons behind the hold-up.</desc>
   </programme>
-  <programme start="20260330183000 +0530" stop="20260330204600 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330183000 +0530" stop="20260330204600 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Shivaji</title>
     <desc lang="en">An SW engineer in India faces corrupt officials hindering his service to the nation.</desc>
   </programme>
-  <programme start="20260330204600 +0530" stop="20260330213000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330204600 +0530" stop="20260330213000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Fillers</title>
     <desc lang="en">Enjoy a light-hearted segment offering brief, engaging content that bridges program transitions with humor, intriguing snippets, and delightful unexpected moments for a seamless viewing experience.</desc>
   </programme>
-  <programme start="20260330213000 +0530" stop="20260330234200 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330213000 +0530" stop="20260330234200 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Pellam Oorelithe</title>
     <desc lang="en">Vivek&apos;s scheme to hide his affair backfires, testing friendships and relationships in unexpected ways.</desc>
   </programme>
-  <programme start="20260330234200 +0530" stop="20260331003000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330234200 +0530" stop="20260331003000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Fillers</title>
     <desc lang="en">Enjoy a light-hearted segment offering brief, engaging content that bridges program transitions with humor, intriguing snippets, and delightful unexpected moments for a seamless viewing experience.</desc>
   </programme>
-  <programme start="20260331003000 +0530" stop="20260331005300 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331003000 +0530" stop="20260331005300 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Just Chill</title>
     <desc lang="en">Enjoy a collection of beloved, beautiful songs. Talented artists sing and create the music. Listen to one song after another in this pleasing compilation.</desc>
   </programme>
-  <programme start="20260331005300 +0530" stop="20260331010000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331005300 +0530" stop="20260331010000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Fillers</title>
     <desc lang="en">Enjoy a light-hearted segment offering brief, engaging content that bridges program transitions with humor, intriguing snippets, and delightful unexpected moments for a seamless viewing experience.</desc>
   </programme>
-  <programme start="20260331010000 +0530" stop="20260331012000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331010000 +0530" stop="20260331012000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Just Chill</title>
     <desc lang="en">Enjoy a collection of beloved, beautiful songs. Talented artists sing and create the music. Listen to one song after another in this pleasing compilation.</desc>
   </programme>
-  <programme start="20260331012000 +0530" stop="20260331013000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331012000 +0530" stop="20260331013000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Fillers</title>
     <desc lang="en">Enjoy a light-hearted segment offering brief, engaging content that bridges program transitions with humor, intriguing snippets, and delightful unexpected moments for a seamless viewing experience.</desc>
   </programme>
-  <programme start="20260331013000 +0530" stop="20260331033000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331013000 +0530" stop="20260331033000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Paper Boy</title>
     <desc lang="en">Social divides challenge the budding romance between a poor paperboy and a wealthy girl.</desc>
   </programme>
-  <programme start="20260331033000 +0530" stop="20260331063000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331033000 +0530" stop="20260331063000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Baladoor</title>
     <desc lang="en">Chanti helps his uncle repair the relationship between brothers. He assists in patching up their bond. Family ties are strengthened through Chanti&apos;s efforts.</desc>
   </programme>
-  <programme start="20260331063000 +0530" stop="20260331093000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331063000 +0530" stop="20260331093000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Baghiratha</title>
     <desc lang="en">Bullabbai sends his son to investigate why a bridge&apos;s construction is delayed. What begins as duty unravels hidden corruption, local tensions, and the unexpected power of asking the right questions.</desc>
   </programme>
-  <programme start="20260331093000 +0530" stop="20260331123000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331093000 +0530" stop="20260331123000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Student No.1</title>
     <desc lang="en">Aditya faces many problems while trying to reform unruly students along with dealing with his terrifying past.</desc>
   </programme>
-  <programme start="20260331123000 +0530" stop="20260331153000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331123000 +0530" stop="20260331153000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Winner</title>
     <desc lang="en">Siddharth is distressed to learn Sitara&apos;s father wants her to marry a criminal jockey linked to his evil grandfather.</desc>
   </programme>
-  <programme start="20260331153000 +0530" stop="20260331181300 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331153000 +0530" stop="20260331181300 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Rakshasudu</title>
     <desc lang="en">Arun, a determined sub-inspector, hunts a cunning serial killer targeting teenage girls, but his relentless pursuit puts him and his loved ones in grave danger, testing his resolve.</desc>
   </programme>
-  <programme start="20260331181300 +0530" stop="20260331183000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331181300 +0530" stop="20260331183000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Fillers</title>
     <desc lang="en">Enjoy a light-hearted segment offering brief, engaging content that bridges program transitions with humor, intriguing snippets, and delightful unexpected moments for a seamless viewing experience.</desc>
   </programme>
-  <programme start="20260331183000 +0530" stop="20260331204800 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331183000 +0530" stop="20260331204800 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Baghiratha</title>
     <desc lang="en">Bullabbai sends his son to investigate why a bridge&apos;s construction is delayed. What begins as duty unravels hidden corruption, local tensions, and the unexpected power of asking the right questions.</desc>
   </programme>
-  <programme start="20260330210000 +0530" stop="20260330213000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330210000 +0530" stop="20260330213000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Cancon Spotlight</title>
     <desc lang="en">Photographer Thomas Meyer shares studio tips: correct lighting, camera setup, and clear communication with models make shooting efficient, editing easier, and keep energy high throughout the session.</desc>
   </programme>
-  <programme start="20260330213000 +0530" stop="20260330220000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330213000 +0530" stop="20260330220000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Cancon Spotlight</title>
     <desc lang="en">Photographer Thomas Meyer shares studio tips: correct lighting, camera setup, and clear communication with models make shooting efficient, editing easier, and keep energy high throughout the session.</desc>
   </programme>
-  <programme start="20260330220000 +0530" stop="20260330230000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330220000 +0530" stop="20260330230000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Jeena Isi Ka Naam Hai</title>
     <desc lang="en">Farooq Shaikh sits down with Bollywood and TV stars, diving into their personal stories, career journeys, and heartfelt moments in candid conversations that reveal the real people behind the fame.</desc>
   </programme>
-  <programme start="20260330230000 +0530" stop="20260330233000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330230000 +0530" stop="20260330233000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">A Table For Two S01</title>
     <desc lang="en">India&apos;s top TV stars gather for candid chats, laughter, and heartfelt moments. The Show reveals their real selves-beyond the glitz and glamour.</desc>
   </programme>
-  <programme start="20260330233000 +0530" stop="20260331000000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330233000 +0530" stop="20260331000000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Starry Nights S01</title>
     <desc lang="en">Komal Nahta hosts Bollywood&apos;s biggest names in a hilarious, revealing chat show. Celebs drop their guard, share secrets, and show sides you&apos;ve never seen before.</desc>
   </programme>
-  <programme start="20260331000000 +0530" stop="20260331003000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331000000 +0530" stop="20260331003000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Cancon Spotlight</title>
     <desc lang="en">Photographer Thomas Meyer shares studio tips: correct lighting, camera setup, and clear communication with models make shooting efficient, editing easier, and keep energy high throughout the session.</desc>
   </programme>
-  <programme start="20260331003000 +0530" stop="20260331010000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331003000 +0530" stop="20260331010000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Cancon Spotlight</title>
     <desc lang="en">Photographer Thomas Meyer shares studio tips: correct lighting, camera setup, and clear communication with models make shooting efficient, editing easier, and keep energy high throughout the session.</desc>
   </programme>
-  <programme start="20260331010000 +0530" stop="20260331040000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331010000 +0530" stop="20260331040000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Khuda Haafiz: Chapter 2 - Agni Pariksha</title>
     <desc lang="en">Sameer and Nargis adopt their late friend&apos;s niece, Nandini. Just as life begins to heal, tragedy strikes again when Nandini is kidnapped, testing their strength.</desc>
   </programme>
-  <programme start="20260331040000 +0530" stop="20260331070000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331040000 +0530" stop="20260331070000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Ghayal Once Again</title>
     <desc lang="en">When a video of his mentor&apos;s murder surfaces, an investigative journalist takes action to find those responsible.</desc>
   </programme>
-  <programme start="20260331070000 +0530" stop="20260331100000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331070000 +0530" stop="20260331100000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Fukrey Returns</title>
     <desc lang="en">Four friends get on with their lives after successfully getting Bholi Punjaban arrested. But they are in for a shock when she returns from prison.</desc>
   </programme>
-  <programme start="20260331100000 +0530" stop="20260331130000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331100000 +0530" stop="20260331130000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Raid 2</title>
     <desc lang="en">Watch the action-packed crime thriller &apos;Raid 2,&apos; filled with high-stakes missions, suspenseful sequences, and gripping investigative drama.</desc>
   </programme>
-  <programme start="20260331130000 +0530" stop="20260331133000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331130000 +0530" stop="20260331133000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Cancon Spotlight</title>
     <desc lang="en">Photographer Thomas Meyer shares studio tips: correct lighting, camera setup, and clear communication with models make shooting efficient, editing easier, and keep energy high throughout the session.</desc>
   </programme>
-  <programme start="20260331133000 +0530" stop="20260331140000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331133000 +0530" stop="20260331140000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Cancon Spotlight</title>
     <desc lang="en">Photographer Thomas Meyer shares studio tips: correct lighting, camera setup, and clear communication with models make shooting efficient, editing easier, and keep energy high throughout the session.</desc>
   </programme>
-  <programme start="20260331140000 +0530" stop="20260331170000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331140000 +0530" stop="20260331170000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Krazzy 4</title>
     <desc lang="en">A doctor and four mentally challenged patients go to a cricket match, but she gets kidnapped. The four, with help from a TV girl, try to rescue her.</desc>
   </programme>
-  <programme start="20260331170000 +0530" stop="20260331173000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331170000 +0530" stop="20260331173000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Cancon Spotlight</title>
     <desc lang="en">Photographer Thomas Meyer shares studio tips: correct lighting, camera setup, and clear communication with models make shooting efficient, editing easier, and keep energy high throughout the session.</desc>
   </programme>
-  <programme start="20260331173000 +0530" stop="20260331180000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331173000 +0530" stop="20260331180000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Cancon Spotlight</title>
     <desc lang="en">Photographer Thomas Meyer shares studio tips: correct lighting, camera setup, and clear communication with models make shooting efficient, editing easier, and keep energy high throughout the session.</desc>
   </programme>
-  <programme start="20260331180000 +0530" stop="20260331210000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331180000 +0530" stop="20260331210000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Bob Biswas</title>
     <desc lang="en">Bob Biswas, a hitman-for-hire, comes out of a prolonged coma and struggles to recall his identity but suffers a moral dilemma when the memories of his past resurface.</desc>
   </programme>
-  <programme start="20260330204000 +0530" stop="20260330230000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330204000 +0530" stop="20260330230000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Khuda Haafiz: Chapter 2 - Agni Pariksha</title>
     <desc lang="en">Sameer and Nargis finally find hope when they adopt their friend&apos;s orphaned niece, Nandini. But just as their lives begin to heal, tragedy strikes again when the little girl is kidnapped.</desc>
   </programme>
-  <programme start="20260330230000 +0530" stop="20260331020000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330230000 +0530" stop="20260331020000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Sajan Chale Sasural</title>
     <desc lang="en">After Shyamsunder assumes his wife Pooja died in a flood, he marries Divya. When he discovers Pooja is alive, he scrambles to hide both marriages while juggling between them.</desc>
   </programme>
-  <programme start="20260331020000 +0530" stop="20260331053000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331020000 +0530" stop="20260331053000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Aaj Ka Arjun</title>
     <desc lang="en">Bheema, exiled for defying a cruel landlord, must rally the very villagers who shunned him when his nephew Kanhaiya is kidnapped, sparking a tense rescue mission.</desc>
   </programme>
-  <programme start="20260331053000 +0530" stop="20260331060000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331053000 +0530" stop="20260331060000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Pure Bollywood</title>
     <desc lang="en">Bollywood songs - catchy, emotional, and upbeat - dominate the charts. From heartbreak to celebration, these tracks capture every mood, making people dance, cry, and sing along everywhere.</desc>
   </programme>
-  <programme start="20260331060000 +0530" stop="20260331095000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331060000 +0530" stop="20260331095000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kranti</title>
     <desc lang="en">Sanga is wrongly accused of killing Raja Laxman Singh. Escaping prison, he forms a rebel group to fight the British and reclaim India&apos;s freedom.</desc>
   </programme>
-  <programme start="20260331095000 +0530" stop="20260331125000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331095000 +0530" stop="20260331125000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Company</title>
     <desc lang="en">Chandu and Mallik form a gang and gain notoriety. But ego and tension tear them apart, leading to betrayal and the collapse of their criminal empire.</desc>
   </programme>
-  <programme start="20260331125000 +0530" stop="20260331151500 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331125000 +0530" stop="20260331151500 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Krazzy 4</title>
     <desc lang="en">A doctor takes four intellectually disabled patients to a cricket match but gets kidnapped. The four team up with a TV channel girl to find and rescue her.</desc>
   </programme>
-  <programme start="20260331151500 +0530" stop="20260331180000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331151500 +0530" stop="20260331180000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Bob Biswas</title>
     <desc lang="en">Bob Biswas, an assassin who wakes after a long coma, struggles to recall his identity. As fragments of his violent past return, he is torn between his old life and a chance at redemption.</desc>
   </programme>
-  <programme start="20260331180000 +0530" stop="20260331211000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331180000 +0530" stop="20260331211000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Players</title>
     <desc lang="en">Charlie and Riya, master thieves, gather a talented crew to pull off the ultimate heist: stealing a hidden fortune in gold bound for Romania.</desc>
   </programme>
-  <programme start="20260330200000 +0530" stop="20260330230000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330200000 +0530" stop="20260330230000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Zaalim</title>
     <desc lang="en">A short-tempered law student has killed someone in his childhood. When his sister is molested, hell breaks lose.</desc>
   </programme>
-  <programme start="20260330230000 +0530" stop="20260331020000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330230000 +0530" stop="20260331020000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Criminal</title>
     <desc lang="en">A doctor builds a hospital for the poor but ends up accused of a wealthy heiress&apos;s murder. Plot twist ensues.</desc>
   </programme>
-  <programme start="20260331020000 +0530" stop="20260331050000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331020000 +0530" stop="20260331050000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Thai Massage</title>
     <desc lang="en">A heartwarming journey of an older man rediscovering life, friendship, and purpose as he embarks on an unexpected adventure that challenges stereotypes and brings healing.</desc>
   </programme>
-  <programme start="20260331050000 +0530" stop="20260331080000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331050000 +0530" stop="20260331080000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Hotel Milan</title>
     <desc lang="en">Vipul runs a hotel with his girlfriend and friend, loved by couples. Their peaceful business is shaken when the anti-Romeo squad storms in and causes trouble.</desc>
   </programme>
-  <programme start="20260331080000 +0530" stop="20260331110000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331080000 +0530" stop="20260331110000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Jaan</title>
     <desc lang="en">Kajal is in danger from Vishamber, but her assigned bodyguard, Karan, hides a dark secret - he&apos;s actually Vishamber&apos;s man, sent to kill her.</desc>
   </programme>
-  <programme start="20260331110000 +0530" stop="20260331140000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331110000 +0530" stop="20260331140000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Fitoor</title>
     <desc lang="en">Noor, a talented Kashmiri boy, aims to win the heart of Begum&apos;s daughter, Firdaus, but faces challenges as Begum plots against him.</desc>
   </programme>
-  <programme start="20260331140000 +0530" stop="20260331163000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331140000 +0530" stop="20260331163000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">The Accidental Prime Minister</title>
     <desc lang="en">Manmohan Singh, a quiet economist, becomes India&apos;s prime minister in 2004. His journey through politics is filled with challenges, decisions, and moments that shaped the country&apos;s future.</desc>
   </programme>
-  <programme start="20260331163000 +0530" stop="20260331170000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331163000 +0530" stop="20260331170000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">100Percent South Indian</title>
     <desc lang="en">A curated collection showcasing entertaining stories, vibrant characters, and engaging moments from the world of southern cinema.</desc>
   </programme>
-  <programme start="20260331170000 +0530" stop="20260331200000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331170000 +0530" stop="20260331200000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Vedaa</title>
     <desc lang="en">A young woman rises against a repressive system, fighting for justice while facing a relentless antagonist determined to uphold the status quo, testing her courage and resilience.</desc>
   </programme>
-  <programme start="20260330202700 +0530" stop="20260330222300 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330202700 +0530" stop="20260330222300 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Mili</title>
     <desc lang="en">Mili, a nursing graduate wishing to move to Canada, finds herself trapped in a freezer due to unforeseen circumstances, challenging her dreams and forcing her into a fight for survival.</desc>
   </programme>
-  <programme start="20260330222300 +0530" stop="20260331003500 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330222300 +0530" stop="20260331003500 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Masss</title>
     <desc lang="en">After a life-threatening accident, a man finds that he can communicate with the dead, and must decide whether to act on their advice.</desc>
   </programme>
-  <programme start="20260331003500 +0530" stop="20260331022800 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331003500 +0530" stop="20260331022800 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Rog</title>
     <desc lang="en">A police officer falls in love with a dead woman while investigating her murder. The police officer finds himself entrapped in conflicts.</desc>
   </programme>
-  <programme start="20260331022800 +0530" stop="20260331050400 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331022800 +0530" stop="20260331050400 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Bengal Tiger</title>
     <desc lang="en">Aakash&apos;s dream is fulfilled when he rubs shoulders with politicians. Things get complicated when he has to choose between Shraddha and Meera.</desc>
   </programme>
-  <programme start="20260331050400 +0530" stop="20260331075100 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331050400 +0530" stop="20260331075100 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Simmba</title>
     <desc lang="en">A fearless cop embraces both duty and fun, bringing justice with style and energy, while facing challenges that test loyalty, strength, and compassion.</desc>
   </programme>
-  <programme start="20260331075100 +0530" stop="20260331104300 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331075100 +0530" stop="20260331104300 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Bajrangi Bhaijaan</title>
     <desc lang="en">Mute Pakistani girl goes missing returning from India. Hanuman devotee Pawan bonds with her, seeks her parents, travels into Pakistan with a Pakistani reporter.</desc>
   </programme>
-  <programme start="20260331104300 +0530" stop="20260331125100 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331104300 +0530" stop="20260331125100 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Dabangg 2</title>
     <desc lang="en">Chulbul Pandey, now in Kanpur, tackles rampant crime and exposes corrupt politician Baccha Bhaiyaa while staying true to his fearless, &apos;Dabang&apos; nature. Love and justice prevail!</desc>
   </programme>
-  <programme start="20260331125100 +0530" stop="20260331150000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331125100 +0530" stop="20260331150000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Hero The Bullet</title>
     <desc lang="en">Siva, a reckless youngster who loves his family, risks everything after clashing with a dangerous don to protect them and ensure their safety.</desc>
   </programme>
-  <programme start="20260331150000 +0530" stop="20260331173800 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331150000 +0530" stop="20260331173800 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Wanted</title>
     <desc lang="en">Gangster Radhe drawn to Jhanvi and she seeks his reform.</desc>
   </programme>
-  <programme start="20260331173800 +0530" stop="20260331192000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331173800 +0530" stop="20260331192000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kaliveera</title>
     <desc lang="en">Kali fights influential criminals in international crime.</desc>
   </programme>
-  <programme start="20260330200600 +0530" stop="20260330220200 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330200600 +0530" stop="20260330220200 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Mili</title>
     <desc lang="en">Mili, a nursing graduate, wishes to relocate to Canada. However, unfathomable circumstances come to the fore as she inadvertently gets trapped in a freezer.</desc>
   </programme>
-  <programme start="20260330220200 +0530" stop="20260330224700 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330220200 +0530" stop="20260330224700 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Ek Joshila</title>
     <desc lang="en">When Krishnaveni is kidnapped, it ignites a fiery quest for vengeance in Vamsi. Join him as he navigates danger and deception to rescue her and settle the score!</desc>
   </programme>
-  <programme start="20260330224700 +0530" stop="20260331010000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330224700 +0530" stop="20260331010000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Masss</title>
     <desc lang="en">A man, post-accident, communicates with the dead, debating their guidance.</desc>
   </programme>
-  <programme start="20260331010000 +0530" stop="20260331013000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331010000 +0530" stop="20260331013000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">The Faith Show</title>
     <desc lang="en">This is a heartwarming take on how histories remind us about sharing love and facing challenges, all with the guiding light of Jesus Christ. Perfect for anyone seeking inspiration!</desc>
   </programme>
-  <programme start="20260331013000 +0530" stop="20260331041000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331013000 +0530" stop="20260331041000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Don Aur Doctor</title>
     <desc lang="en">A doctor&apos;s life takes a wild turn when a wounded gangster seeks treatment at his clinic, altering everything.</desc>
   </programme>
-  <programme start="20260331041000 +0530" stop="20260331065600 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331041000 +0530" stop="20260331065600 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Simmba</title>
     <desc lang="en">A carefree corrupt cop&apos;s world changes after tragedy, pushing him to reform and pursue vengeance against brutal criminals with fierce determination, courage, and unwavering justice.</desc>
   </programme>
-  <programme start="20260331065600 +0530" stop="20260331094000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331065600 +0530" stop="20260331094000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Bajrangi Bhaijaan</title>
     <desc lang="en">Pawan, a devotee of Lord Hanuman, finds a girl, who is speech impaired, lost in Haryana. He soon learns that she belongs to Pakistan and sets out to reunite her with her family at great personal cost.</desc>
   </programme>
-  <programme start="20260331094000 +0530" stop="20260331115400 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331094000 +0530" stop="20260331115400 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Dabangg 2</title>
     <desc lang="en">Chulbul Pandey kills a politician&apos;s brother, prompting revenge. The politician attacks Chulbul&apos;s wife, leaving him furious.</desc>
   </programme>
-  <programme start="20260331115400 +0530" stop="20260331145800 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331115400 +0530" stop="20260331145800 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Vijay The Master</title>
     <desc lang="en">A tough professor with a violent past takes on an education mafia, fighting for student rights while facing his inner demons and complex moral dilemmas.</desc>
   </programme>
-  <programme start="20260331145800 +0530" stop="20260331175000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331145800 +0530" stop="20260331175000 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Wanted</title>
     <desc lang="en">Gangster Radhe falls for middle class girl Jhanvi.</desc>
   </programme>
-  <programme start="20260331175000 +0530" stop="20260331193900 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331175000 +0530" stop="20260331193900 +0530" channel="ZeeCinema.in@HD">
     <title lang="en">Kaliveera</title>
     <desc lang="en">Kali battles powerful criminals on the international stage, navigating a dangerous world of crime and corruption. Her fight for justice is a relentless pursuit of truth, despite the overwhelming odds.</desc>
   </programme>
@@ -8077,59 +8077,59 @@
     <title lang="en">News At Night</title>
     <desc lang="en">The presenter reports the latest updates and developments on breaking news stories, current affairs and socio-political issues.</desc>
   </programme>
-  <programme start="20260330191600 +0530" stop="20260330211500 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330191600 +0530" stop="20260330211500 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Handa Bhoda</title>
     <desc lang="en">Loyalty, love, and growth shape a family&apos;s journey through emotional conflicts and traditional expectations.</desc>
   </programme>
-  <programme start="20260330211500 +0530" stop="20260330233000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330211500 +0530" stop="20260330233000 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Naag Panchami</title>
     <desc lang="en">Movie. Starring - Sundariya, Prema, Shi Kumar, Charulata</desc>
   </programme>
-  <programme start="20260330233000 +0530" stop="20260331003000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260330233000 +0530" stop="20260331003000 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Patanjali Yog - By Yog Rishi Swami Ramdev</title>
     <desc lang="en">Baba Ramdev shows how yoga can help you. He explains different yoga poses. These poses can make your life healthier and less stressful. Learn yoga from Baba Ramdev!</desc>
   </programme>
-  <programme start="20260331003000 +0530" stop="20260331010000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331003000 +0530" stop="20260331010000 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Eso Maa Lakshmi</title>
     <desc lang="en">Devotees celebrate Goddess Lakshmi with prayers, rituals and heartfelt devotion, seeking prosperity, blessings and harmony in their homes and lives.</desc>
   </programme>
-  <programme start="20260331010000 +0530" stop="20260331013000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331010000 +0530" stop="20260331013000 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Eso Maa Lakshmi</title>
     <desc lang="en">Devotees celebrate Goddess Lakshmi with prayers, rituals and heartfelt devotion, seeking prosperity, blessings and harmony in their homes and lives.</desc>
   </programme>
-  <programme start="20260331013000 +0530" stop="20260331020000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331013000 +0530" stop="20260331020000 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Eso Maa Lakshmi</title>
     <desc lang="en">Devotees celebrate Goddess Lakshmi with prayers, rituals and heartfelt devotion, seeking prosperity, blessings and harmony in their homes and lives.</desc>
   </programme>
-  <programme start="20260331020000 +0530" stop="20260331023000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331020000 +0530" stop="20260331023000 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Eso Maa Lakshmi</title>
     <desc lang="en">Devotees celebrate Goddess Lakshmi with prayers, rituals and heartfelt devotion, seeking prosperity, blessings and harmony in their homes and lives.</desc>
   </programme>
-  <programme start="20260331023000 +0530" stop="20260331033000 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331023000 +0530" stop="20260331033000 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Sakaler Sure</title>
     <desc lang="en">Bengali artists love devotional and folk songs. These songs inspire singers and audiences alike. They celebrate culture and faith, creating a shared experience.</desc>
   </programme>
-  <programme start="20260331033000 +0530" stop="20260331060800 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331033000 +0530" stop="20260331060800 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Bouma</title>
     <desc lang="en">Bouma follows the life of a lady living with her always complaining, bickering husband Gobindo. However, after he dies, his widowed wife donates his body to a scientist and researcher.</desc>
   </programme>
-  <programme start="20260331060800 +0530" stop="20260331085900 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331060800 +0530" stop="20260331085900 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Bourani</title>
     <desc lang="en">Ranabir&apos;s sister plots to seize his wealth by marrying his son Tarun to Tuki, but her plan ends in failure.</desc>
   </programme>
-  <programme start="20260331085900 +0530" stop="20260331113500 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331085900 +0530" stop="20260331113500 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Matir Manush</title>
     <desc lang="en">After meeting with an accident, Payel falls in love with a man. Things turn when her father disapproves of their relationship.</desc>
   </programme>
-  <programme start="20260331113500 +0530" stop="20260331140200 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331113500 +0530" stop="20260331140200 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Jwar Bhata</title>
     <desc lang="en">A wealthy widower&apos;s lineage, betrayal, and a fateful grandson entwine as relatives plot a devious scheme to trap Billoo Balraj and Gayetri.</desc>
   </programme>
-  <programme start="20260331140200 +0530" stop="20260331163200 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331140200 +0530" stop="20260331163200 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Putuler Protisodh</title>
     <desc lang="en">A wronged daughter-in-law becomes an avenging spirit, tracking down those who abused her. Get ready for a thrilling tale of justice and empowerment!</desc>
   </programme>
-  <programme start="20260331163200 +0530" stop="20260331190100 +0530" channel="MetroTV.in@SD">
+  <programme start="20260331163200 +0530" stop="20260331190100 +0530" channel="ZeeBanglaSonar.in@SD">
     <title lang="en">Apon Amar Apon</title>
     <desc lang="en">Despite the many obstacles he faces, an aspiring singer tries to establish a foothold in the music industry.</desc>
   </programme>
@@ -9669,199 +9669,199 @@
     <title lang="en">Ja Bolbo Satti Bolbo</title>
     <desc lang="en">Stay informed about Kolkata! This show shares news on social topics, money matters, and local politics. Get the latest updates on what&apos;s happening in the city.</desc>
   </programme>
-  <programme start="20260330183000 +0530" stop="20260330190000 +0530" channel="OnTV.in@SD">
+  <programme start="20260330183000 +0530" stop="20260330190000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260330190000 +0530" stop="20260330193000 +0530" channel="OnTV.in@SD">
+  <programme start="20260330190000 +0530" stop="20260330193000 +0530" channel="0-9-wion">
     <title lang="en">Wion Live Broadcast From USA</title>
     <desc lang="en">The anchor sheds light on some of the latest happenings and news updates pertaining to economy, politics and society, from across USA, live.</desc>
   </programme>
-  <programme start="20260330193000 +0530" stop="20260330200000 +0530" channel="OnTV.in@SD">
+  <programme start="20260330193000 +0530" stop="20260330200000 +0530" channel="0-9-wion">
     <title lang="en">Wion Pulse</title>
     <desc lang="en">The host shares a detailed analysis of the latest news stories from various spheres including political and socio-economic issues from across the globe.</desc>
   </programme>
-  <programme start="20260330200000 +0530" stop="20260330203000 +0530" channel="OnTV.in@SD">
+  <programme start="20260330200000 +0530" stop="20260330203000 +0530" channel="0-9-wion">
     <title lang="en">Gravitas</title>
     <desc lang="en">The host offers an in-depth analysis of social, political, and economic news stories globally, providing comprehensive insights into significant events and trends.</desc>
   </programme>
-  <programme start="20260330203000 +0530" stop="20260330210000 +0530" channel="OnTV.in@SD">
+  <programme start="20260330203000 +0530" stop="20260330210000 +0530" channel="0-9-wion">
     <title lang="en">Gravitas</title>
     <desc lang="en">The host offers an in-depth analysis of social, political, and economic news stories globally, providing comprehensive insights into significant events and trends.</desc>
   </programme>
-  <programme start="20260330210000 +0530" stop="20260330213000 +0530" channel="OnTV.in@SD">
+  <programme start="20260330210000 +0530" stop="20260330213000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260330213000 +0530" stop="20260330220000 +0530" channel="OnTV.in@SD">
+  <programme start="20260330213000 +0530" stop="20260330220000 +0530" channel="0-9-wion">
     <title lang="en">Race To Power</title>
     <desc lang="en">This unique program dives into the evolving political scene in India, providing a clear and engaging look at the changes shaping the country&apos;s future. Don&apos;t miss out on these insights!</desc>
   </programme>
-  <programme start="20260330220000 +0530" stop="20260330223000 +0530" channel="OnTV.in@SD">
+  <programme start="20260330220000 +0530" stop="20260330223000 +0530" channel="0-9-wion">
     <title lang="en">Wion Dispatch</title>
     <desc lang="en">The host presents the latest political, social, sports and economic updates and speaks about the recent developments from around the world.</desc>
   </programme>
-  <programme start="20260330223000 +0530" stop="20260330230000 +0530" channel="OnTV.in@SD">
+  <programme start="20260330223000 +0530" stop="20260330230000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260330230000 +0530" stop="20260330233000 +0530" channel="OnTV.in@SD">
+  <programme start="20260330230000 +0530" stop="20260330233000 +0530" channel="0-9-wion">
     <title lang="en">Wion Fineprint</title>
     <desc lang="en">The host, a professional journalist, presents an in-depth analysis of international news and developments regarding social and economic issues.</desc>
   </programme>
-  <programme start="20260330233000 +0530" stop="20260331000000 +0530" channel="OnTV.in@SD">
+  <programme start="20260330233000 +0530" stop="20260331000000 +0530" channel="0-9-wion">
     <title lang="en">Wion Pulse</title>
     <desc lang="en">The host shares a detailed analysis of the latest news stories from various spheres including political and socio-economic issues from across the globe.</desc>
   </programme>
-  <programme start="20260331000000 +0530" stop="20260331003000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331000000 +0530" stop="20260331003000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331003000 +0530" stop="20260331010000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331003000 +0530" stop="20260331010000 +0530" channel="0-9-wion">
     <title lang="en">Gravitas</title>
     <desc lang="en">The host offers an in-depth analysis of social, political, and economic news stories globally, providing comprehensive insights into significant events and trends.</desc>
   </programme>
-  <programme start="20260331010000 +0530" stop="20260331013000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331010000 +0530" stop="20260331013000 +0530" channel="0-9-wion">
     <title lang="en">Gravitas</title>
     <desc lang="en">The host offers an in-depth analysis of social, political, and economic news stories globally, providing comprehensive insights into significant events and trends.</desc>
   </programme>
-  <programme start="20260331013000 +0530" stop="20260331020000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331013000 +0530" stop="20260331020000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331020000 +0530" stop="20260331023000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331020000 +0530" stop="20260331023000 +0530" channel="0-9-wion">
     <title lang="en">World Dna</title>
     <desc lang="en">Stay in the loop with live updates on all the top stories and happenings worldwide. Get the latest news as it unfolds, keeping you informed and connected!</desc>
   </programme>
-  <programme start="20260331023000 +0530" stop="20260331030000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331023000 +0530" stop="20260331030000 +0530" channel="0-9-wion">
     <title lang="en">World Dna</title>
     <desc lang="en">Stay in the loop with live updates on all the top stories and happenings worldwide. Get the latest news as it unfolds, keeping you informed and connected!</desc>
   </programme>
-  <programme start="20260331030000 +0530" stop="20260331033000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331030000 +0530" stop="20260331033000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331033000 +0530" stop="20260331040000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331033000 +0530" stop="20260331040000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331040000 +0530" stop="20260331043000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331040000 +0530" stop="20260331043000 +0530" channel="0-9-wion">
     <title lang="en">World Business Watch</title>
     <desc lang="en">Join our host as they break down the latest business and economic news from around the globe, making sense of the headlines and keeping you in the loop.</desc>
   </programme>
-  <programme start="20260331043000 +0530" stop="20260331050000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331043000 +0530" stop="20260331050000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331050000 +0530" stop="20260331053000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331050000 +0530" stop="20260331053000 +0530" channel="0-9-wion">
     <title lang="en">World At War</title>
     <desc lang="en">The host discusses the ongoing Ukraine war and global unrest, examining its impact on governments and the public, and the broader implications for international stability.</desc>
   </programme>
-  <programme start="20260331053000 +0530" stop="20260331060000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331053000 +0530" stop="20260331060000 +0530" channel="0-9-wion">
     <title lang="en">Newspoint</title>
     <desc lang="en">Tune in as the host shares the latest updates and highlights from around the globe, keeping you in the loop on all the important happenings you won&apos;t want to miss!</desc>
   </programme>
-  <programme start="20260331060000 +0530" stop="20260331063000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331060000 +0530" stop="20260331063000 +0530" channel="0-9-wion">
     <title lang="en">Speed News</title>
     <desc lang="en">Reporting on top global news and events as they unfold, providing updates on significant stories and developments from around the world.</desc>
   </programme>
-  <programme start="20260331063000 +0530" stop="20260331070000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331063000 +0530" stop="20260331070000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331070000 +0530" stop="20260331073000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331070000 +0530" stop="20260331073000 +0530" channel="0-9-wion">
     <title lang="en">Wion Climate Tracker</title>
     <desc lang="en">The host presents information about the rapidly changing climatic conditions across the globe that impose a threat to the world.</desc>
   </programme>
-  <programme start="20260331073000 +0530" stop="20260331080000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331073000 +0530" stop="20260331080000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331080000 +0530" stop="20260331083000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331080000 +0530" stop="20260331083000 +0530" channel="0-9-wion">
     <title lang="en">Speed News</title>
     <desc lang="en">Reporting on top global news and events as they unfold, providing updates on significant stories and developments from around the world.</desc>
   </programme>
-  <programme start="20260331083000 +0530" stop="20260331090000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331083000 +0530" stop="20260331090000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331090000 +0530" stop="20260331093000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331090000 +0530" stop="20260331093000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331093000 +0530" stop="20260331100000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331093000 +0530" stop="20260331100000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331100000 +0530" stop="20260331103000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331100000 +0530" stop="20260331103000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331103000 +0530" stop="20260331110000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331103000 +0530" stop="20260331110000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331110000 +0530" stop="20260331113000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331110000 +0530" stop="20260331113000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331113000 +0530" stop="20260331120000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331113000 +0530" stop="20260331120000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331120000 +0530" stop="20260331123000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331120000 +0530" stop="20260331123000 +0530" channel="0-9-wion">
     <title lang="en">Wion Business Insights</title>
     <desc lang="en">Wion Business Insights - A deep dive into global markets, emerging trends, and financial strategies, offering expert analysis to navigate the ever-evolving world of business.</desc>
   </programme>
-  <programme start="20260331123000 +0530" stop="20260331130000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331123000 +0530" stop="20260331130000 +0530" channel="0-9-wion">
     <title lang="en">Wion Dispatch</title>
     <desc lang="en">The host presents the latest political, social, sports and economic updates and speaks about the recent developments from around the world.</desc>
   </programme>
-  <programme start="20260331130000 +0530" stop="20260331133000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331130000 +0530" stop="20260331133000 +0530" channel="0-9-wion">
     <title lang="en">Wion World Of Sport</title>
     <desc lang="en">Stay updated with the latest and most important sports stories from around the globe. We&apos;ve got you covered on everything you need to know in the sports world!</desc>
   </programme>
-  <programme start="20260331133000 +0530" stop="20260331140000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331133000 +0530" stop="20260331140000 +0530" channel="0-9-wion">
     <title lang="en">Wion Live Broadcast From USA</title>
     <desc lang="en">The anchor sheds light on some of the latest happenings and news updates pertaining to economy, politics and society, from across USA, live.</desc>
   </programme>
-  <programme start="20260331140000 +0530" stop="20260331143000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331140000 +0530" stop="20260331143000 +0530" channel="0-9-wion">
     <title lang="en">World Of Africa</title>
     <desc lang="en">The host explores crucial sociocultural, sociopolitical, and socioeconomic stories from Africa, highlighting developments that are transforming the quality of life across the continent.</desc>
   </programme>
-  <programme start="20260331143000 +0530" stop="20260331150000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331143000 +0530" stop="20260331150000 +0530" channel="0-9-wion">
     <title lang="en">Race To Power</title>
     <desc lang="en">This unique program dives into the evolving political scene in India, providing a clear and engaging look at the changes shaping the country&apos;s future. Don&apos;t miss out on these insights!</desc>
   </programme>
-  <programme start="20260331150000 +0530" stop="20260331153000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331150000 +0530" stop="20260331153000 +0530" channel="0-9-wion">
     <title lang="en">Wion Fineprint</title>
     <desc lang="en">The host, a professional journalist, presents an in-depth analysis of international news and developments regarding social and economic issues.</desc>
   </programme>
-  <programme start="20260331153000 +0530" stop="20260331160000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331153000 +0530" stop="20260331160000 +0530" channel="0-9-wion">
     <title lang="en">Gravitas</title>
     <desc lang="en">The host offers an in-depth analysis of social, political, and economic news stories globally, providing comprehensive insights into significant events and trends.</desc>
   </programme>
-  <programme start="20260331160000 +0530" stop="20260331163000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331160000 +0530" stop="20260331163000 +0530" channel="0-9-wion">
     <title lang="en">Gravitas</title>
     <desc lang="en">The host offers an in-depth analysis of social, political, and economic news stories globally, providing comprehensive insights into significant events and trends.</desc>
   </programme>
-  <programme start="20260331163000 +0530" stop="20260331170000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331163000 +0530" stop="20260331170000 +0530" channel="0-9-wion">
     <title lang="en">Wion Pulse</title>
     <desc lang="en">The host shares a detailed analysis of the latest news stories from various spheres including political and socio-economic issues from across the globe.</desc>
   </programme>
-  <programme start="20260331170000 +0530" stop="20260331173000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331170000 +0530" stop="20260331173000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
-  <programme start="20260331173000 +0530" stop="20260331180000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331173000 +0530" stop="20260331180000 +0530" channel="0-9-wion">
     <title lang="en">Gravitas</title>
     <desc lang="en">The host offers an in-depth analysis of social, political, and economic news stories globally, providing comprehensive insights into significant events and trends.</desc>
   </programme>
-  <programme start="20260331180000 +0530" stop="20260331183000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331180000 +0530" stop="20260331183000 +0530" channel="0-9-wion">
     <title lang="en">Gravitas</title>
     <desc lang="en">The host offers an in-depth analysis of social, political, and economic news stories globally, providing comprehensive insights into significant events and trends.</desc>
   </programme>
-  <programme start="20260331183000 +0530" stop="20260331190000 +0530" channel="OnTV.in@SD">
+  <programme start="20260331183000 +0530" stop="20260331190000 +0530" channel="0-9-wion">
     <title lang="en">Top Stories</title>
     <desc lang="en">The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports.</desc>
   </programme>
@@ -11985,175 +11985,175 @@
     <title lang="en">Mahanati</title>
     <desc lang="en">Savitri, the most admired actress from South Indian cinema, goes through various tragic incidents in her personal life. Unable to cope with depression, she eventually becomes an alcoholic.</desc>
   </programme>
-  <programme start="20260330183000 +0530" stop="20260330192000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260330183000 +0530" stop="20260330192000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260330192000 +0530" stop="20260330194000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260330192000 +0530" stop="20260330194000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260330194000 +0530" stop="20260330200000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260330194000 +0530" stop="20260330200000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260330200000 +0530" stop="20260330202000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260330200000 +0530" stop="20260330202000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260330202000 +0530" stop="20260330204000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260330202000 +0530" stop="20260330204000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260330204000 +0530" stop="20260330210000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260330204000 +0530" stop="20260330210000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260330210000 +0530" stop="20260330212000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260330210000 +0530" stop="20260330212000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260330212000 +0530" stop="20260330213800 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260330212000 +0530" stop="20260330213800 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260330213800 +0530" stop="20260330222400 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260330213800 +0530" stop="20260330222400 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Jaane Anjaane Hum Mile</title>
     <desc lang="en">Reet, a sharp journalist, and Raghav, a moody man, marry under the traditional &apos;Aata Sata&apos; custom out of love for siblings. Can obligation become genuine love?</desc>
   </programme>
-  <programme start="20260330222400 +0530" stop="20260330231000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260330222400 +0530" stop="20260330231000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Vasudha</title>
     <desc lang="en">Vasudha, a Mumbai fashion writer and photographer, learns her husband&apos;s affair; urged to explore freedom, she befriends Nihar, daughter&apos;s artist friend, reshaping life and love.</desc>
   </programme>
-  <programme start="20260330231000 +0530" stop="20260331003000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260330231000 +0530" stop="20260331003000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Bhor Bhakti</title>
     <desc lang="en">The host talks about India&apos;s different customs and traditions. He explains how people celebrate in various states. Learn about India&apos;s rich cultural diversity. Enjoy the journey.</desc>
   </programme>
-  <programme start="20260331003000 +0530" stop="20260331013000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331003000 +0530" stop="20260331013000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Bhor Bhakti</title>
     <desc lang="en">The host talks about India&apos;s different customs and traditions. He explains how people celebrate in various states. Learn about India&apos;s rich cultural diversity. Enjoy the journey.</desc>
   </programme>
-  <programme start="20260331013000 +0530" stop="20260331020000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331013000 +0530" stop="20260331020000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Bhor Bhakti</title>
     <desc lang="en">The host talks about India&apos;s different customs and traditions. He explains how people celebrate in various states. Learn about India&apos;s rich cultural diversity. Enjoy the journey.</desc>
   </programme>
-  <programme start="20260331020000 +0530" stop="20260331024000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331020000 +0530" stop="20260331024000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Bhor Bhakti</title>
     <desc lang="en">The host talks about India&apos;s different customs and traditions. He explains how people celebrate in various states. Learn about India&apos;s rich cultural diversity. Enjoy the journey.</desc>
   </programme>
-  <programme start="20260331024000 +0530" stop="20260331030000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331024000 +0530" stop="20260331030000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Paramavtaar Shree Krishna</title>
     <desc lang="en">The show follows Krishna from birth to Dwarka, his battles and miracles, his love with gopis, and his role in Mahabharata, ending with Bhagavad G</desc>
   </programme>
-  <programme start="20260331030000 +0530" stop="20260331033400 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331030000 +0530" stop="20260331033400 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Paramavtaar Shree Krishna</title>
     <desc lang="en">The show follows Krishna from birth to Dwarka, his battles and miracles, his love with gopis, and his role in Mahabharata, ending with Bhagavad G</desc>
   </programme>
-  <programme start="20260331033400 +0530" stop="20260331040000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331033400 +0530" stop="20260331040000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kundali Bhagya</title>
     <desc lang="en">Pragya Arora&apos;s sisters, Preeta and Srishti, find their own paths. They face both troubles and joys together. Their lives are full of surprises and challenges as they navigate their destinies.</desc>
   </programme>
-  <programme start="20260331040000 +0530" stop="20260331043000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331040000 +0530" stop="20260331043000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kundali Bhagya</title>
     <desc lang="en">Pragya Arora&apos;s sisters, Preeta and Srishti, find their own paths. They face both troubles and joys together. Their lives are full of surprises and challenges as they navigate their destinies.</desc>
   </programme>
-  <programme start="20260331043000 +0530" stop="20260331050000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331043000 +0530" stop="20260331050000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kundali Bhagya</title>
     <desc lang="en">Pragya Arora&apos;s sisters, Preeta and Srishti, find their own paths. They face both troubles and joys together. Their lives are full of surprises and challenges as they navigate their destinies.</desc>
   </programme>
-  <programme start="20260331050000 +0530" stop="20260331053200 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331050000 +0530" stop="20260331053200 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kundali Bhagya</title>
     <desc lang="en">Pragya Arora&apos;s sisters, Preeta and Srishti, find their own paths. They face both troubles and joys together. Their lives are full of surprises and challenges as they navigate their destinies.</desc>
   </programme>
-  <programme start="20260331053200 +0530" stop="20260331063300 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331053200 +0530" stop="20260331063300 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Jaane Anjaane Hum Mile</title>
     <desc lang="en">Reet, a sharp journalist, and Raghav, a moody man, marry under the traditional &apos;Aata Sata&apos; custom out of love for siblings. Can obligation become genuine love?</desc>
   </programme>
-  <programme start="20260331063300 +0530" stop="20260331073400 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331063300 +0530" stop="20260331073400 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Vasudha</title>
     <desc lang="en">Vasudha, a Mumbai fashion writer and photographer, learns her husband&apos;s affair; urged to explore freedom, she befriends Nihar, daughter&apos;s artist friend, reshaping life and love.</desc>
   </programme>
-  <programme start="20260331073400 +0530" stop="20260331080000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331073400 +0530" stop="20260331080000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Meet</title>
     <desc lang="en">A touching narrative of family bonds, personal growth, and everyday challenges, showing how two individuals learn to navigate life&apos;s pressures while holding onto hope and responsibility.</desc>
   </programme>
-  <programme start="20260331080000 +0530" stop="20260331082900 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331080000 +0530" stop="20260331082900 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Meet</title>
     <desc lang="en">A touching narrative of family bonds, personal growth, and everyday challenges, showing how two individuals learn to navigate life&apos;s pressures while holding onto hope and responsibility.</desc>
   </programme>
-  <programme start="20260331082900 +0530" stop="20260331090000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331082900 +0530" stop="20260331090000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Zindagi Ki Mahek</title>
     <desc lang="en">Mehek Sharma is a cook who decides to enter a cooking competition. Her life takes a turn after she meets Shaurya, a judge of the competition.</desc>
   </programme>
-  <programme start="20260331090000 +0530" stop="20260331092900 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331090000 +0530" stop="20260331092900 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Guddan Tumse Na Ho Payega</title>
     <desc lang="en">Choti Guddan, who wants to revive her father, AJ&apos;s, restaurant, crosses path with Pushpa Birla who aims to destroy the former by any means, including using her own son Agastya for her evil purposes.</desc>
   </programme>
-  <programme start="20260331092900 +0530" stop="20260331100000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331092900 +0530" stop="20260331100000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260331100000 +0530" stop="20260331103000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331100000 +0530" stop="20260331103000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260331103000 +0530" stop="20260331110000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331103000 +0530" stop="20260331110000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260331110000 +0530" stop="20260331113000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331110000 +0530" stop="20260331113000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260331113000 +0530" stop="20260331120000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331113000 +0530" stop="20260331120000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260331120000 +0530" stop="20260331123000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331120000 +0530" stop="20260331123000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260331123000 +0530" stop="20260331130000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331123000 +0530" stop="20260331130000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260331130000 +0530" stop="20260331133200 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331130000 +0530" stop="20260331133200 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
-  <programme start="20260331133200 +0530" stop="20260331143200 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331133200 +0530" stop="20260331143200 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Jaane Anjaane Hum Mile</title>
     <desc lang="en">Reet, a sharp journalist, and Raghav, a moody man, marry under the traditional &apos;Aata Sata&apos; custom out of love for siblings. Can obligation become genuine love?</desc>
   </programme>
-  <programme start="20260331143200 +0530" stop="20260331153300 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331143200 +0530" stop="20260331153300 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Vasudha</title>
     <desc lang="en">Vasudha, a Mumbai fashion writer and photographer, learns her husband&apos;s affair; urged to explore freedom, she befriends Nihar, daughter&apos;s artist friend, reshaping life and love.</desc>
   </programme>
-  <programme start="20260331153300 +0530" stop="20260331160000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331153300 +0530" stop="20260331160000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Meet</title>
     <desc lang="en">A touching narrative of family bonds, personal growth, and everyday challenges, showing how two individuals learn to navigate life&apos;s pressures while holding onto hope and responsibility.</desc>
   </programme>
-  <programme start="20260331160000 +0530" stop="20260331162700 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331160000 +0530" stop="20260331162700 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Meet</title>
     <desc lang="en">A touching narrative of family bonds, personal growth, and everyday challenges, showing how two individuals learn to navigate life&apos;s pressures while holding onto hope and responsibility.</desc>
   </programme>
-  <programme start="20260331162700 +0530" stop="20260331165400 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331162700 +0530" stop="20260331165400 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Bhagya Laxmi</title>
     <desc lang="en">Rishi blames Lakshmi for an accident, and she leaves with their daughter. Years later, their children meet, bringing Rishi and Lakshmi back into each other&apos;s lives.</desc>
   </programme>
-  <programme start="20260331165400 +0530" stop="20260331173000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331165400 +0530" stop="20260331173000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Jodha Akbar</title>
     <desc lang="en">Jodha-Akbar tells of a sixteenth-century political marriage between Emperor Akbar and Rajput princess Jodha Bai. Though political, their union grows into love and changes history.</desc>
   </programme>
-  <programme start="20260331173000 +0530" stop="20260331180000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331173000 +0530" stop="20260331180000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Jodha Akbar</title>
     <desc lang="en">Jodha-Akbar tells of a sixteenth-century political marriage between Emperor Akbar and Rajput princess Jodha Bai. Though political, their union grows into love and changes history.</desc>
   </programme>
-  <programme start="20260331180000 +0530" stop="20260331183000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331180000 +0530" stop="20260331183000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">TeleShopping</title>
     <desc lang="en">Learn about a wide selection of products and take advantage of a convenient method of shopping. A show for those who love to shop from the comforts of their home.</desc>
   </programme>
-  <programme start="20260331183000 +0530" stop="20260331185000 +0530" channel="AnmolCinema.in@SD">
+  <programme start="20260331183000 +0530" stop="20260331185000 +0530" channel="AnmolTV.in@SD">
     <title lang="en">Kumkum Bhagya</title>
     <desc lang="en">Prarthana and Raunak meet by fate. She marries into a rich family but faces struggles. Prarthana works hard to save her marriage and secure her future, overcoming obstacles with determination.</desc>
   </programme>
