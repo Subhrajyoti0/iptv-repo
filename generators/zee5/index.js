@@ -2,39 +2,40 @@ import fs from 'fs'
 import { fetchZee5EPG } from './epg.js'
 import { normalizeProgrammes } from './normalize.js'
 import { generateXMLTV } from './xmltv.js'
+import { generateM3U } from './m3u.js'
 import { fetchChannelsFromCatalog } from './catalogChannels.js'
 import { createLimiter } from '../../utils/rateLimit.js'
 
 /**
- * CONFIG
+ * CONFIGURATION
  */
 const DAYS = 2
 const SEED_FILE = './generators/zee5/seedChannels.json'
 
 /**
- * VERY IMPORTANT:
- * EPG fetching must be SLOW to avoid 403
- * 1 channel at a time = safest
+ * IMPORTANT:
+ * Zee5 blocks aggressive EPG requests.
+ * EPG MUST be fetched very slowly.
  */
 const epgLimiter = createLimiter(1)
 
 /**
- * Load seed channel IDs from JSON
+ * Load seed channel IDs (auto-expanding)
  */
 function loadSeedIds() {
   if (!fs.existsSync(SEED_FILE)) {
     return new Set()
   }
   try {
-    const data = JSON.parse(fs.readFileSync(SEED_FILE, 'utf8'))
-    return new Set(data.channels || [])
+    const json = JSON.parse(fs.readFileSync(SEED_FILE, 'utf8'))
+    return new Set(json.channels || [])
   } catch {
     return new Set()
   }
 }
 
 /**
- * Save expanded seed list back to JSON
+ * Save expanded seed channel IDs
  */
 function saveSeedIds(seedSet) {
   fs.writeFileSync(
@@ -44,7 +45,9 @@ function saveSeedIds(seedSet) {
 }
 
 /**
- * Load channels (catalog → fallback to seeds)
+ * Load channels:
+ * 1) Try Zee5 catalog API (all pages)
+ * 2) Fallback to seed list if catalog is blocked
  */
 async function loadChannels(seedIds) {
   try {
@@ -72,7 +75,7 @@ export async function generateZee5() {
   const channels = await loadChannels(seedIds)
   const programmesByChannel = {}
 
-  console.log('📡 Fetching Zee5 EPG data (human-like, slow mode)...')
+  console.log('📡 Fetching Zee5 EPG data (slow & human-like)...')
 
   await Promise.all(
     channels.map(channel =>
@@ -90,7 +93,7 @@ export async function generateZee5() {
           const epg = await fetchZee5EPG(channel.id, from, to)
           collected.push(...epg)
 
-          // ✅ Auto‑discover channels from EPG
+          // ✅ Auto-discover channels from EPG itself
           for (const p of epg) {
             if (p.channel?.id) {
               seedIds.add(p.channel.id)
@@ -109,25 +112,28 @@ export async function generateZee5() {
     )
   )
 
-  // ✅ Persist expanded seed list
+  // ✅ Persist auto-expanded seeds
   saveSeedIds(seedIds)
 
   // ✅ Generate XMLTV
   const xml = generateXMLTV(channels, programmesByChannel)
   fs.writeFileSync('zee5.xml', xml)
 
+  // ✅ Generate M3U playlist
+  const m3u = generateM3U(channels)
+  fs.writeFileSync('zee5.m3u', m3u)
+
   console.log(
-    `✅ zee5.xml generated | Channels: ${channels.length} | Seeds: ${seedIds.size}`
+    `✅ Generated zee5.xml + zee5.m3u | Channels: ${channels.length} | Seeds: ${seedIds.size}`
   )
 }
 
 /**
- * AUTO‑RUN WHEN EXECUTED DIRECTLY
+ * AUTO-RUN WHEN EXECUTED DIRECTLY
  */
 if (import.meta.url === `file://${process.argv[1]}`) {
   generateZee5().catch(err => {
-    console.error('❌ Zee5 EPG generation failed:', err)
+    console.error('❌ Zee5 generation failed:', err)
     process.exit(1)
   })
 }
-
