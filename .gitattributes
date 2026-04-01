@@ -1,0 +1,7 @@
+zee5.m3u merge=ours
+output/zee5.xml merge=ours
+output/zee5_raw_epg.json merge=ours
+output/zee5_normalized_epg.json merge=ours
+patcher/patch_log.json merge=ours
+patcher/review.json merge=ours
+output/zee5_progress.json merge=ours

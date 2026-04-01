@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-04-01T12:00:00+05:30",
+  "renames": [
+    {
+      "timestamp": "2026-04-01T11:58:40+05:30",
+      "xml_display_name": "&TV HD USA",
+      "old_channel_id": "0-9-channel_12345",
+      "new_channel_id": "AndTV.in@SD",
+      "confidence": 0.82,
+      "method": "auto",
+      "rules": {
+        "brand_match": true,
+        "language_match": true,
+        "genre_match": true,
+        "confidence_threshold": 0.75
+      }
+    }
+  ]
+}

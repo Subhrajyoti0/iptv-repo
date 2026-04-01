@@ -2,51 +2,46 @@ name: Zee5 EPG Auto Update
 
 on:
   schedule:
-    # Runs every 6 hours
-    - cron: '0 */6 * * *'
+    - cron: "0 */6 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-epg:
     runs-on: ubuntu-latest
-    # CRITICAL: Grant write permissions to the repository
-    permissions:
-      contents: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 20 # Updated to a more recent LTS
+          node-version: "20"
 
-      - name: Install dependencies
+      - run: npm install
+
+      - run: node generators/zee5/index.js
+      - run: node patcher/patcher.js
+
+      - name: Abort if XML empty
         run: |
-          npm install
-          npm install string-similarity # Ensure this is available for the patcher
-
-      - name: Download Reference M3U
-        run: curl -L "https://iptv-org.github.io/iptv/countries/in.m3u" -o in.m3u
-
-      - name: Generate Zee5 EPG
-        run: node generators/zee5/index.js
-
-      - name: Patch EPG with Official IDs
-        run: node patcher.js
-
-      - name: Commit and push changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          # Add all modified files (including the patched zee5.xml)
-          git add .
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Auto-update Zee5 EPG [Patched]"
-            git push
-          else
-            echo "No changes to commit"
+          if ! grep -q "<programme" output/zee5.xml; then
+            echo "❌ XML empty — aborting push"
+            exit 1
           fi
+
+      - name: Commit & Push
+        run: |
+          git config user.name "zee5-epg-bot"
+          git config user.email "zee5-epg-bot@users.noreply.github.com"
+
+          git add output/zee5.xml \
+                  output/zee5_raw_epg.json \
+                  output/zee5_normalized_epg.json \
+                  patcher/patch_log.json \
+                  patcher/review.json \
+                  output/zee5_progress.json
+
+          git commit -m "Auto-update Zee5 EPG (6h)" || echo "No changes"
+          git push
