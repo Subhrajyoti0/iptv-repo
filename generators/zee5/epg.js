@@ -1,41 +1,74 @@
-const ZEE5_EPG_URL = 'https://gwapi.zee5.com/v1/epg'
+/**
+ * Fetch Zee5 EPG using GWAPI day-bucket parameters
+ *
+ * API pattern:
+ *   /v1/epg
+ *     ?channels=<CHANNEL_ID>
+ *     &start=0
+ *     &end=5
+ *     &page_size=550
+ *     &translation=en
+ *     &country=IN
+ *     &time_offset=+05:30
+ *
+ * IMPORTANT:
+ * - Programmes are nested in data.items[0].items
+ * - Uses built-in fetch (Node 18+ / Node 22 compatible)
+ */
 
-function sleep(ms) {
-  return new Promise(r => setTimeout(r, ms))
-}
+export async function fetchZee5EPG(channelId) {
+  const params = new URLSearchParams({
+    channels: channelId,
+    start: '0',
+    end: '5',
+    page_size: '550',
+    translation: 'en',
+    country: 'IN',
+    time_offset: '+05:30'
+  })
 
-export async function fetchZee5EPG(channelId, from, to, attempt = 1) {
-  try {
-    const url = new URL(ZEE5_EPG_URL)
-    url.searchParams.set('channels', channelId)
-    url.searchParams.set('from', from.toISOString())
-    url.searchParams.set('to', to.toISOString())
+  const url = `https://gwapi.zee5.com/v1/epg?${params.toString()}`
 
-    const res = await fetch(url.toString(), {
-      headers: {
-        accept: 'application/json',
-        'user-agent': 'Mozilla/5.0',
-      },
-    })
-
-    if (!res.ok) {
-      throw new Error(`HTTP ${res.status}`)
+  const res = await fetch(url, {
+    headers: {
+      origin: 'https://www.zee5.com',
+      referer: 'https://www.zee5.com',
+      'user-agent': 'Mozilla/5.0',
+      accept: 'application/json'
     }
+  })
 
-    const data = await res.json()
-    return data?.items?.flatMap(ch => ch.items ?? []) ?? []
-
-  } catch (err) {
-    if (attempt < 3) {
-      const delay = 2000 * attempt
-      console.warn(
-        `⚠ EPG retry ${attempt} for ${channelId} (waiting ${delay}ms)`
-      )
-      await sleep(delay)
-      return fetchZee5EPG(channelId, from, to, attempt + 1)
-    }
-
-    console.warn(`⛔ Skipping ${channelId} (EPG blocked)`)
-    return []     // ✅ DO NOT THROW
+  if (!res.ok) {
+    throw new Error(`Zee5 EPG failed (${res.status})`)
   }
+
+  const data = await res.json()
+
+  /**
+   * Expected response shape:
+   * {
+   *   items: [
+   *     {
+   *       id: "0-9-zeetvapac",
+   *       title: "...",
+   *       items: [ programme, programme, programme ... ]
+   *     }
+   *   ]
+   * }
+   */
+  if (
+    !data ||
+    !Array.isArray(data.items) ||
+    data.items.length === 0
+  ) {
+    return []
+  }
+
+  const channelEntry = data.items[0]
+
+  if (!channelEntry || !Array.isArray(channelEntry.items)) {
+    return []
+  }
+
+  return channelEntry.items
 }
