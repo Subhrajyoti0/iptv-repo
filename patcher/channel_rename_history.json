@@ -16898,6 +16898,20 @@
         "genre_match": true,
         "confidence_threshold": 0.75
       }
+    },
+    {
+      "timestamp": "2026-04-07T18:59:03.153Z",
+      "xml_display_name": "&amp;flix HD",
+      "old_channel_id": "Andflix.in@HD",
+      "new_channel_id": "Andflix.in@HD",
+      "confidence": 1,
+      "method": "auto",
+      "rules": {
+        "brand_match": true,
+        "language_match": true,
+        "genre_match": true,
+        "confidence_threshold": 0.75
+      }
     }
   ]
 }
