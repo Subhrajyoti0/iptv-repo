@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-04-07T01:52:52.380Z",
+    "timestamp": "2026-04-07T01:59:27.159Z",
     "xml_display_name": "Zing USA",
     "old_channel_id": "0-9-channel_1643519345",
     "reason": "Confidence below safe threshold",
@@ -86,7 +86,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.381Z",
+    "timestamp": "2026-04-07T01:59:27.159Z",
     "xml_display_name": "Zing",
     "old_channel_id": "0-9-zing",
     "reason": "Confidence below safe threshold",
@@ -172,7 +172,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.390Z",
+    "timestamp": "2026-04-07T01:59:27.168Z",
     "xml_display_name": "Zee Yuva",
     "old_channel_id": "0-9-zeeyuva",
     "reason": "Confidence below safe threshold",
@@ -2142,7 +2142,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.392Z",
+    "timestamp": "2026-04-07T01:59:27.170Z",
     "xml_display_name": "Zee TV USA",
     "old_channel_id": "0-9-channel_1586895760",
     "reason": "Confidence below safe threshold",
@@ -4112,7 +4112,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.393Z",
+    "timestamp": "2026-04-07T01:59:27.172Z",
     "xml_display_name": "Zee TV ME",
     "old_channel_id": "0-9-tvme",
     "reason": "Confidence below safe threshold",
@@ -6082,7 +6082,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.394Z",
+    "timestamp": "2026-04-07T01:59:27.174Z",
     "xml_display_name": "Zee TV HD USA",
     "old_channel_id": "0-9-channel_341994370",
     "reason": "Confidence below safe threshold",
@@ -8052,7 +8052,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.395Z",
+    "timestamp": "2026-04-07T01:59:27.175Z",
     "xml_display_name": "Zee TV HD UK",
     "old_channel_id": "0-9-zeetvuk",
     "reason": "Confidence below safe threshold",
@@ -10022,7 +10022,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.397Z",
+    "timestamp": "2026-04-07T01:59:27.177Z",
     "xml_display_name": "Zee TV HD Canada",
     "old_channel_id": "0-9-channel_1017420475",
     "reason": "Confidence below safe threshold",
@@ -11992,7 +11992,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.400Z",
+    "timestamp": "2026-04-07T01:59:27.179Z",
     "xml_display_name": "Zee TV HD",
     "old_channel_id": "0-9-zeetvhd",
     "reason": "Confidence below safe threshold",
@@ -13962,7 +13962,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.402Z",
+    "timestamp": "2026-04-07T01:59:27.181Z",
     "xml_display_name": "Zee TV DE",
     "old_channel_id": "0-9-9z5898964",
     "reason": "Confidence below safe threshold",
@@ -15932,7 +15932,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.403Z",
+    "timestamp": "2026-04-07T01:59:27.181Z",
     "xml_display_name": "Zee TV APAC HD",
     "old_channel_id": "0-9-zeetvapac",
     "reason": "Confidence below safe threshold",
@@ -17902,7 +17902,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.404Z",
+    "timestamp": "2026-04-07T01:59:27.182Z",
     "xml_display_name": "Zee TV",
     "old_channel_id": "0-9-zeetv",
     "reason": "Confidence below safe threshold",
@@ -19872,7 +19872,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.477Z",
+    "timestamp": "2026-04-07T01:59:27.243Z",
     "xml_display_name": "Zee Sarthak",
     "old_channel_id": "0-9-sarthaktv",
     "reason": "Confidence below safe threshold",
@@ -21842,7 +21842,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.478Z",
+    "timestamp": "2026-04-07T01:59:27.244Z",
     "xml_display_name": "Zee Rajasthan News",
     "old_channel_id": "0-9-zeerajasthannews",
     "reason": "Confidence below safe threshold",
@@ -21872,7 +21872,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.478Z",
+    "timestamp": "2026-04-07T01:59:27.244Z",
     "xml_display_name": "Zee Punjabi",
     "old_channel_id": "0-9-215",
     "reason": "Confidence below safe threshold",
@@ -23842,7 +23842,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.488Z",
+    "timestamp": "2026-04-07T01:59:27.255Z",
     "xml_display_name": "Zee Power HD",
     "old_channel_id": "0-9-241",
     "reason": "Confidence below safe threshold",
@@ -25812,7 +25812,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.489Z",
+    "timestamp": "2026-04-07T01:59:27.256Z",
     "xml_display_name": "Zee One German",
     "old_channel_id": "0-9-161",
     "reason": "Confidence below safe threshold",
@@ -27782,7 +27782,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.491Z",
+    "timestamp": "2026-04-07T01:59:27.258Z",
     "xml_display_name": "Zee One French",
     "old_channel_id": "0-9-9z5829362",
     "reason": "Confidence below safe threshold",
@@ -29752,7 +29752,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.492Z",
+    "timestamp": "2026-04-07T01:59:27.260Z",
     "xml_display_name": "Zee One",
     "old_channel_id": "0-9-9z5825786",
     "reason": "Confidence below safe threshold",
@@ -31722,7 +31722,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.493Z",
+    "timestamp": "2026-04-07T01:59:27.260Z",
     "xml_display_name": "Zee News Uttar Pradesh Uttrakhand",
     "old_channel_id": "0-9-channel_265145625",
     "reason": "Confidence below safe threshold",
@@ -31752,7 +31752,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.500Z",
+    "timestamp": "2026-04-07T01:59:27.268Z",
     "xml_display_name": "ZEE News Tamil",
     "old_channel_id": "0-9-9z583533",
     "reason": "Confidence below safe threshold",
@@ -31774,7 +31774,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.524Z",
+    "timestamp": "2026-04-07T01:59:27.287Z",
     "xml_display_name": "Zee Marathi USA",
     "old_channel_id": "0-9-channel_926372368",
     "reason": "Confidence below safe threshold",
@@ -33528,7 +33528,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.525Z",
+    "timestamp": "2026-04-07T01:59:27.288Z",
     "xml_display_name": "Zee Marathi HD",
     "old_channel_id": "0-9-zeemarathi",
     "reason": "Confidence below safe threshold",
@@ -35282,7 +35282,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.526Z",
+    "timestamp": "2026-04-07T01:59:27.289Z",
     "xml_display_name": "Zee Marathi",
     "old_channel_id": "0-9-9z5383486",
     "reason": "Confidence below safe threshold",
@@ -37036,7 +37036,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.537Z",
+    "timestamp": "2026-04-07T01:59:27.300Z",
     "xml_display_name": "Zee Keralam HD",
     "old_channel_id": "0-9-129",
     "reason": "Confidence below safe threshold",
@@ -39006,7 +39006,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.539Z",
+    "timestamp": "2026-04-07T01:59:27.301Z",
     "xml_display_name": "Zee Kannada HD",
     "old_channel_id": "0-9-zeekannada",
     "reason": "Confidence below safe threshold",
@@ -40768,7 +40768,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.541Z",
+    "timestamp": "2026-04-07T01:59:27.302Z",
     "xml_display_name": "Zee Kannada",
     "old_channel_id": "0-9-9z5383466",
     "reason": "Confidence below safe threshold",
@@ -42530,7 +42530,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.614Z",
+    "timestamp": "2026-04-07T01:59:27.368Z",
     "xml_display_name": "Zee Chitramandir",
     "old_channel_id": "0-9-394",
     "reason": "Confidence below safe threshold",
@@ -44500,7 +44500,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.685Z",
+    "timestamp": "2026-04-07T01:59:27.431Z",
     "xml_display_name": "Zee Bangla International",
     "old_channel_id": "0-9-366",
     "reason": "Confidence below safe threshold",
@@ -46290,7 +46290,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.702Z",
+    "timestamp": "2026-04-07T01:59:27.447Z",
     "xml_display_name": "Zee Alwan HD",
     "old_channel_id": "0-9-9z5817234",
     "reason": "Confidence below safe threshold",
@@ -48260,7 +48260,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.703Z",
+    "timestamp": "2026-04-07T01:59:27.448Z",
     "xml_display_name": "Zee Alwan",
     "old_channel_id": "0-9-zeealwan",
     "reason": "Confidence below safe threshold",
@@ -50230,7 +50230,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.704Z",
+    "timestamp": "2026-04-07T01:59:27.449Z",
     "xml_display_name": "Zee Aflam HD",
     "old_channel_id": "0-9-9z5817235",
     "reason": "Confidence below safe threshold",
@@ -52200,7 +52200,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.705Z",
+    "timestamp": "2026-04-07T01:59:27.450Z",
     "xml_display_name": "Zee Aflam",
     "old_channel_id": "0-9-zeeaflam",
     "reason": "Confidence below safe threshold",
@@ -54170,7 +54170,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.706Z",
+    "timestamp": "2026-04-07T01:59:27.451Z",
     "xml_display_name": "Zee Action",
     "old_channel_id": "0-9-zeeaction",
     "reason": "Confidence below safe threshold",
@@ -56140,7 +56140,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.732Z",
+    "timestamp": "2026-04-07T01:59:27.474Z",
     "xml_display_name": "WION",
     "old_channel_id": "0-9-wion",
     "reason": "Confidence below safe threshold",
@@ -58130,7 +58130,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.791Z",
+    "timestamp": "2026-04-07T01:59:27.525Z",
     "xml_display_name": "Tiny Pop",
     "old_channel_id": "0-9-9z5910526",
     "reason": "Confidence below safe threshold",
@@ -60120,7 +60120,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.792Z",
+    "timestamp": "2026-04-07T01:59:27.526Z",
     "xml_display_name": "Suvarna News",
     "old_channel_id": "0-9-201",
     "reason": "Confidence below safe threshold",
@@ -60546,7 +60546,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.793Z",
+    "timestamp": "2026-04-07T01:59:27.527Z",
     "xml_display_name": "Somnath",
     "old_channel_id": "0-9-9z5938348",
     "reason": "Confidence below safe threshold",
@@ -62536,7 +62536,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.796Z",
+    "timestamp": "2026-04-07T01:59:27.530Z",
     "xml_display_name": "Shree Naga Sai Mandir",
     "old_channel_id": "0-9-9z5938352",
     "reason": "Confidence below safe threshold",
@@ -64526,7 +64526,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.805Z",
+    "timestamp": "2026-04-07T01:59:27.543Z",
     "xml_display_name": "Sai Baba, Shirdi",
     "old_channel_id": "0-9-9z5938343",
     "reason": "Confidence below safe threshold",
@@ -66516,7 +66516,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.807Z",
+    "timestamp": "2026-04-07T01:59:27.545Z",
     "xml_display_name": "POP UP",
     "old_channel_id": "0-9-9z5910527",
     "reason": "Confidence below safe threshold",
@@ -68506,7 +68506,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.808Z",
+    "timestamp": "2026-04-07T01:59:27.546Z",
     "xml_display_name": "POP",
     "old_channel_id": "0-9-9z5910525",
     "reason": "Confidence below safe threshold",
@@ -70496,7 +70496,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.817Z",
+    "timestamp": "2026-04-07T01:59:27.555Z",
     "xml_display_name": "Patna Sahib",
     "old_channel_id": "0-9-9z5938344",
     "reason": "Confidence below safe threshold",
@@ -72486,7 +72486,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.829Z",
+    "timestamp": "2026-04-07T01:59:27.567Z",
     "xml_display_name": "Mahavir Mandir Patna",
     "old_channel_id": "0-9-9z5938351",
     "reason": "Confidence below safe threshold",
@@ -74476,7 +74476,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.830Z",
+    "timestamp": "2026-04-07T01:59:27.570Z",
     "xml_display_name": "Ma Naina Devi",
     "old_channel_id": "0-9-9z5938347",
     "reason": "Confidence below safe threshold",
@@ -76466,7 +76466,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.831Z",
+    "timestamp": "2026-04-07T01:59:27.572Z",
     "xml_display_name": "Kashi Vishwanath",
     "old_channel_id": "0-9-9z5938349",
     "reason": "Confidence below safe threshold",
@@ -78456,7 +78456,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.833Z",
+    "timestamp": "2026-04-07T01:59:27.576Z",
     "xml_display_name": "Iskon Vrindavan",
     "old_channel_id": "0-9-9z5938346",
     "reason": "Confidence below safe threshold",
@@ -80446,7 +80446,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.843Z",
+    "timestamp": "2026-04-07T01:59:27.588Z",
     "xml_display_name": "Great! Romance",
     "old_channel_id": "0-9-9z5910524",
     "reason": "Confidence below safe threshold",
@@ -82436,7 +82436,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.844Z",
+    "timestamp": "2026-04-07T01:59:27.589Z",
     "xml_display_name": "Great! Mystery",
     "old_channel_id": "0-9-9z5910523",
     "reason": "Confidence below safe threshold",
@@ -84426,7 +84426,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.845Z",
+    "timestamp": "2026-04-07T01:59:27.590Z",
     "xml_display_name": "Great! Movies",
     "old_channel_id": "0-9-9z5910243",
     "reason": "Confidence below safe threshold",
@@ -84548,7 +84548,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.855Z",
+    "timestamp": "2026-04-07T01:59:27.597Z",
     "xml_display_name": "Dagdusheth",
     "old_channel_id": "0-9-9z5938345",
     "reason": "Confidence below safe threshold",
@@ -86538,7 +86538,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-07T01:52:52.903Z",
+    "timestamp": "2026-04-07T01:59:27.644Z",
     "xml_display_name": "&amp;xplorHD",
     "old_channel_id": "0-9-209",
     "reason": "Confidence below safe threshold",
