@@ -1,8 +1,8 @@
 [
   {
-    "timestamp": "2026-04-13T19:06:17.880Z",
+    "timestamp": "2026-04-13T19:13:29.176Z",
     "xml_display_name": "Zee Zest HD",
-    "old_channel_id": "ZeeZest.in@HD",
+    "old_channel_id": "0-9-348",
     "new_channel_id": "ZeeZest.in@HD",
     "confidence": 1,
     "method": "auto",
@@ -14,9 +14,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:17.905Z",
+    "timestamp": "2026-04-13T19:13:29.199Z",
     "xml_display_name": "Zee Thirai HD",
-    "old_channel_id": "ZeeThirai.in@HD",
+    "old_channel_id": "0-9-224",
     "new_channel_id": "ZeeThirai.in@HD",
     "confidence": 1,
     "method": "auto",
@@ -28,9 +28,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:17.912Z",
+    "timestamp": "2026-04-13T19:13:29.207Z",
     "xml_display_name": "Zee Telugu HD",
-    "old_channel_id": "ETVTelugu.in@HD",
+    "old_channel_id": "0-9-zeetelugu",
     "new_channel_id": "ETVTelugu.in@HD",
     "confidence": 0.75,
     "method": "auto",
@@ -42,9 +42,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:17.923Z",
+    "timestamp": "2026-04-13T19:13:29.220Z",
     "xml_display_name": "Zee Telugu",
-    "old_channel_id": "ETVTelugu.in@HD",
+    "old_channel_id": "0-9-9z5383485",
     "new_channel_id": "ETVTelugu.in@HD",
     "confidence": 0.75,
     "method": "auto",
@@ -56,9 +56,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:17.931Z",
+    "timestamp": "2026-04-13T19:13:29.230Z",
     "xml_display_name": "Zee Tamil HD APAC",
-    "old_channel_id": "ZeeTamil.in@SD",
+    "old_channel_id": "0-9-360",
     "new_channel_id": "ZeeTamil.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -70,9 +70,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:17.939Z",
+    "timestamp": "2026-04-13T19:13:29.239Z",
     "xml_display_name": "Zee Tamil HD",
-    "old_channel_id": "ZeeTamil.in@SD",
+    "old_channel_id": "0-9-zeetamil",
     "new_channel_id": "ZeeTamil.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -84,9 +84,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:17.947Z",
+    "timestamp": "2026-04-13T19:13:29.248Z",
     "xml_display_name": "Zee Tamil",
-    "old_channel_id": "ZeeTamil.in@SD",
+    "old_channel_id": "0-9-9z5383487",
     "new_channel_id": "ZeeTamil.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -98,9 +98,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:17.955Z",
+    "timestamp": "2026-04-13T19:13:29.256Z",
     "xml_display_name": "Zee Talkies HD",
-    "old_channel_id": "ZeeTalkies.in@HD",
+    "old_channel_id": "0-9-zeetalkies",
     "new_channel_id": "ZeeTalkies.in@HD",
     "confidence": 1,
     "method": "auto",
@@ -112,9 +112,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:17.964Z",
+    "timestamp": "2026-04-13T19:13:29.265Z",
     "xml_display_name": "Zee Talkies",
-    "old_channel_id": "ZeeTalkies.in@HD",
+    "old_channel_id": "0-9-9z5383489",
     "new_channel_id": "ZeeTalkies.in@HD",
     "confidence": 1,
     "method": "auto",
@@ -126,9 +126,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:17.974Z",
+    "timestamp": "2026-04-13T19:13:29.276Z",
     "xml_display_name": "Zee Punjab Haryana Himachal Pradesh",
-    "old_channel_id": "ZeePunjabHaryanaHimachal.in@SD",
+    "old_channel_id": "0-9-zeepunjabharyanahima",
     "new_channel_id": "ZeePunjabHaryanaHimachal.in@SD",
     "confidence": 0.8679245283018868,
     "method": "auto",
@@ -140,9 +140,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:17.987Z",
+    "timestamp": "2026-04-13T19:13:29.292Z",
     "xml_display_name": "Zee News Telugu",
-    "old_channel_id": "ZeeTeluguNews.in@SD",
+    "old_channel_id": "0-9-9z583538",
     "new_channel_id": "ZeeTeluguNews.in@SD",
     "confidence": 0.8333333333333334,
     "method": "auto",
@@ -154,9 +154,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:17.995Z",
+    "timestamp": "2026-04-13T19:13:29.301Z",
     "xml_display_name": "ZEE News Malayalam",
-    "old_channel_id": "ZeeMalayalamNews.in@SD",
+    "old_channel_id": "0-9-9z583539",
     "new_channel_id": "ZeeMalayalamNews.in@SD",
     "confidence": 0.8666666666666667,
     "method": "auto",
@@ -168,9 +168,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.003Z",
+    "timestamp": "2026-04-13T19:13:29.310Z",
     "xml_display_name": "Zee News Kannada",
-    "old_channel_id": "ZeeKannadaNews.in@SD",
+    "old_channel_id": "0-9-9z583537",
     "new_channel_id": "ZeeKannadaNews.in@SD",
     "confidence": 0.8461538461538461,
     "method": "auto",
@@ -182,9 +182,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.010Z",
+    "timestamp": "2026-04-13T19:13:29.321Z",
     "xml_display_name": "Zee News",
-    "old_channel_id": "ZeeNews.in@SD",
+    "old_channel_id": "0-9-zeenews",
     "new_channel_id": "ZeeNews.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -196,9 +196,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.022Z",
+    "timestamp": "2026-04-13T19:13:29.337Z",
     "xml_display_name": "Zee Madhya Pradesh Chhattisgarh",
-    "old_channel_id": "ZeeMadhyaPradeshChhattisgarh.in@SD",
+    "old_channel_id": "0-9-zeemadhyapradeshchat",
     "new_channel_id": "ZeeMadhyaPradeshChhattisgarh.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -210,9 +210,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.038Z",
+    "timestamp": "2026-04-13T19:13:29.350Z",
     "xml_display_name": "Zee Delhi NCR Haryana",
-    "old_channel_id": "ZeeDelhiNCRHaryana.in@SD",
+    "old_channel_id": "0-9-zeekalinganews",
     "new_channel_id": "ZeeDelhiNCRHaryana.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -224,9 +224,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.046Z",
+    "timestamp": "2026-04-13T19:13:29.360Z",
     "xml_display_name": "Zee Classic",
-    "old_channel_id": "ZeeClassic.in@SD",
+    "old_channel_id": "0-9-176",
     "new_channel_id": "ZeeClassic.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -238,9 +238,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.054Z",
+    "timestamp": "2026-04-13T19:13:29.367Z",
     "xml_display_name": "Zee Cinemalu HD",
-    "old_channel_id": "ZeeCinema.in@HD",
+    "old_channel_id": "0-9-zeecinemalu",
     "new_channel_id": "ZeeCinema.in@HD",
     "confidence": 0.8888888888888888,
     "method": "auto",
@@ -252,9 +252,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.061Z",
+    "timestamp": "2026-04-13T19:13:29.375Z",
     "xml_display_name": "Zee Cinemalu",
-    "old_channel_id": "ZeeCinema.in@HD",
+    "old_channel_id": "0-9-9z5383488",
     "new_channel_id": "ZeeCinema.in@HD",
     "confidence": 0.8888888888888888,
     "method": "auto",
@@ -266,9 +266,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.070Z",
+    "timestamp": "2026-04-13T19:13:29.385Z",
     "xml_display_name": "Zee Cinema USA",
-    "old_channel_id": "ZeeCinema.in@HD",
+    "old_channel_id": "0-9-179",
     "new_channel_id": "ZeeCinema.in@HD",
     "confidence": 1,
     "method": "auto",
@@ -280,9 +280,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.078Z",
+    "timestamp": "2026-04-13T19:13:29.392Z",
     "xml_display_name": "Zee Cinema UK",
-    "old_channel_id": "ZeeCinema.in@HD",
+    "old_channel_id": "0-9-zeecinemauk",
     "new_channel_id": "ZeeCinema.in@HD",
     "confidence": 1,
     "method": "auto",
@@ -294,9 +294,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.085Z",
+    "timestamp": "2026-04-13T19:13:29.400Z",
     "xml_display_name": "Zee Cinema ME",
-    "old_channel_id": "ZeeCinema.in@HD",
+    "old_channel_id": "0-9-zeecinemaintl",
     "new_channel_id": "ZeeCinema.in@HD",
     "confidence": 0.8888888888888888,
     "method": "auto",
@@ -308,9 +308,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.094Z",
+    "timestamp": "2026-04-13T19:13:29.408Z",
     "xml_display_name": "Zee Cinema HD",
-    "old_channel_id": "ZeeCinema.in@HD",
+    "old_channel_id": "0-9-zeecinemahd",
     "new_channel_id": "ZeeCinema.in@HD",
     "confidence": 1,
     "method": "auto",
@@ -322,9 +322,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.101Z",
+    "timestamp": "2026-04-13T19:13:29.416Z",
     "xml_display_name": "Zee Cinema",
-    "old_channel_id": "ZeeCinema.in@HD",
+    "old_channel_id": "0-9-zeecinema",
     "new_channel_id": "ZeeCinema.in@HD",
     "confidence": 1,
     "method": "auto",
@@ -336,9 +336,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.112Z",
+    "timestamp": "2026-04-13T19:13:29.424Z",
     "xml_display_name": "Zee Café HD",
-    "old_channel_id": "ZeeCafe.in@HD",
+    "old_channel_id": "0-9-zeecafehd",
     "new_channel_id": "ZeeCafe.in@HD",
     "confidence": 0.9090909090909091,
     "method": "auto",
@@ -350,9 +350,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.124Z",
+    "timestamp": "2026-04-13T19:13:29.432Z",
     "xml_display_name": "Zee Business",
-    "old_channel_id": "ZeeBusiness.in@SD",
+    "old_channel_id": "0-9-zeebusiness",
     "new_channel_id": "ZeeBusiness.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -364,9 +364,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.131Z",
+    "timestamp": "2026-04-13T19:13:29.445Z",
     "xml_display_name": "Zee Bollywood",
-    "old_channel_id": "ZeeBollywood.in@SD",
+    "old_channel_id": "0-9-zeeclassic",
     "new_channel_id": "ZeeBollywood.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -378,9 +378,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.140Z",
+    "timestamp": "2026-04-13T19:13:29.454Z",
     "xml_display_name": "Zee Biskope",
-    "old_channel_id": "ZeeBiskope.in@SD",
+    "old_channel_id": "0-9-216",
     "new_channel_id": "ZeeBiskope.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -392,9 +392,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.149Z",
+    "timestamp": "2026-04-13T19:13:29.463Z",
     "xml_display_name": "Zee Bioskop",
-    "old_channel_id": "ZeeBiskope.in@SD",
+    "old_channel_id": "0-9-zeebioskop",
     "new_channel_id": "ZeeBiskope.in@SD",
     "confidence": 0.7777777777777778,
     "method": "auto",
@@ -406,9 +406,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.156Z",
+    "timestamp": "2026-04-13T19:13:29.471Z",
     "xml_display_name": "Zee Bihar Jharkhand",
-    "old_channel_id": "ZeeBiharJharkhand.in@SD",
+    "old_channel_id": "0-9-zeebiharjharkhand",
     "new_channel_id": "ZeeBiharJharkhand.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -420,9 +420,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.164Z",
+    "timestamp": "2026-04-13T19:13:29.479Z",
     "xml_display_name": "Zee Bharat",
-    "old_channel_id": "ZeeBharat.in@SD",
+    "old_channel_id": "0-9-zeehindustan",
     "new_channel_id": "ZeeBharat.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -434,9 +434,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.172Z",
+    "timestamp": "2026-04-13T19:13:29.487Z",
     "xml_display_name": "Zee Bangla Sonar",
-    "old_channel_id": "ZeeBanglaSonar.in@SD",
+    "old_channel_id": "0-9-zeebanglacinema",
     "new_channel_id": "ZeeBanglaSonar.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -448,9 +448,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.182Z",
+    "timestamp": "2026-04-13T19:13:29.497Z",
     "xml_display_name": "Zee Bangla HD",
-    "old_channel_id": "ZeeBanglaSonar.in@SD",
+    "old_channel_id": "0-9-zeebangla",
     "new_channel_id": "ZeeBanglaSonar.in@SD",
     "confidence": 0.7619047619047619,
     "method": "auto",
@@ -462,9 +462,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.190Z",
+    "timestamp": "2026-04-13T19:13:29.506Z",
     "xml_display_name": "Zee Bangla",
-    "old_channel_id": "ZeeBanglaSonar.in@SD",
+    "old_channel_id": "0-9-9z5383484",
     "new_channel_id": "ZeeBanglaSonar.in@SD",
     "confidence": 0.7619047619047619,
     "method": "auto",
@@ -476,9 +476,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.202Z",
+    "timestamp": "2026-04-13T19:13:29.520Z",
     "xml_display_name": "Zee 24 Taas",
-    "old_channel_id": "Zee24Taas.in@SD",
+    "old_channel_id": "0-9-zee24taas",
     "new_channel_id": "Zee24Taas.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -490,9 +490,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.211Z",
+    "timestamp": "2026-04-13T19:13:29.528Z",
     "xml_display_name": "Zee 24 Kalak",
-    "old_channel_id": "Zee24Kalak.in@SD",
+    "old_channel_id": "0-9-zee24kalak",
     "new_channel_id": "Zee24Kalak.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -504,9 +504,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.218Z",
+    "timestamp": "2026-04-13T19:13:29.536Z",
     "xml_display_name": "Zee 24 Ghanta",
-    "old_channel_id": "Zee24Ghanta.in@SD",
+    "old_channel_id": "0-9-24ghantatv",
     "new_channel_id": "Zee24Ghanta.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -518,9 +518,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.227Z",
+    "timestamp": "2026-04-13T19:13:29.546Z",
     "xml_display_name": "TV9 Telugu",
-    "old_channel_id": "TV9Telugu.in@SD",
+    "old_channel_id": "0-9-258",
     "new_channel_id": "TV9Telugu.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -532,9 +532,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.239Z",
+    "timestamp": "2026-04-13T19:13:29.556Z",
     "xml_display_name": "TV9 Marathi",
-    "old_channel_id": "TV9Marathi.in@SD",
+    "old_channel_id": "0-9-257",
     "new_channel_id": "TV9Marathi.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -546,9 +546,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.247Z",
+    "timestamp": "2026-04-13T19:13:29.570Z",
     "xml_display_name": "TV9 Kannada",
-    "old_channel_id": "TV5Kannada.in@SD",
+    "old_channel_id": "0-9-259",
     "new_channel_id": "TV5Kannada.in@SD",
     "confidence": 0.7777777777777778,
     "method": "auto",
@@ -560,9 +560,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.255Z",
+    "timestamp": "2026-04-13T19:13:29.581Z",
     "xml_display_name": "TV9 Gujarati",
-    "old_channel_id": "TV9Gujarati.in@SD",
+    "old_channel_id": "0-9-260",
     "new_channel_id": "TV9Gujarati.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -574,9 +574,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.262Z",
+    "timestamp": "2026-04-13T19:13:29.591Z",
     "xml_display_name": "TV9 Bharatvarsh",
-    "old_channel_id": "TV9Bharatvarsh.in@SD",
+    "old_channel_id": "0-9-251",
     "new_channel_id": "TV9Bharatvarsh.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -588,9 +588,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.270Z",
+    "timestamp": "2026-04-13T19:13:29.601Z",
     "xml_display_name": "TV9 Bangla",
-    "old_channel_id": "TV9Bangla.in@SD",
+    "old_channel_id": "0-9-378",
     "new_channel_id": "TV9Bangla.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -602,9 +602,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.283Z",
+    "timestamp": "2026-04-13T19:13:29.617Z",
     "xml_display_name": "Salaam TV",
-    "old_channel_id": "SalaamTV.in@SD",
+    "old_channel_id": "0-9-zeesalaam",
     "new_channel_id": "SalaamTV.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -616,9 +616,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.293Z",
+    "timestamp": "2026-04-13T19:13:29.631Z",
     "xml_display_name": "Polimer News",
-    "old_channel_id": "PolimerNews.in@SD",
+    "old_channel_id": "0-9-203",
     "new_channel_id": "PolimerNews.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -630,9 +630,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.302Z",
+    "timestamp": "2026-04-13T19:13:29.645Z",
     "xml_display_name": "News 9",
-    "old_channel_id": "INews.in@SD",
+    "old_channel_id": "0-9-261",
     "new_channel_id": "INews.in@SD",
     "confidence": 0.75,
     "method": "auto",
@@ -644,9 +644,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.310Z",
+    "timestamp": "2026-04-13T19:13:29.655Z",
     "xml_display_name": "NDTV Profit",
-    "old_channel_id": "NDTVProfit.in@SD",
+    "old_channel_id": "0-9-9z5942784",
     "new_channel_id": "NDTVProfit.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -658,9 +658,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.317Z",
+    "timestamp": "2026-04-13T19:13:29.664Z",
     "xml_display_name": "NDTV Marathi",
-    "old_channel_id": "NDTVMarathi.in@SD",
+    "old_channel_id": "0-9-9z5942785",
     "new_channel_id": "NDTVMarathi.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -672,9 +672,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.333Z",
+    "timestamp": "2026-04-13T19:13:29.682Z",
     "xml_display_name": "India Today",
-    "old_channel_id": "IndiaToday.in@SD",
+    "old_channel_id": "0-9-indiatoday",
     "new_channel_id": "IndiaToday.in@SD",
     "confidence": 0.75,
     "method": "auto",
@@ -686,9 +686,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.343Z",
+    "timestamp": "2026-04-13T19:13:29.696Z",
     "xml_display_name": "Good News Today",
-    "old_channel_id": "GoodNewsToday.in@SD",
+    "old_channel_id": "0-9-255",
     "new_channel_id": "GoodNewsToday.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -700,9 +700,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.351Z",
+    "timestamp": "2026-04-13T19:13:29.706Z",
     "xml_display_name": "Big Magic",
-    "old_channel_id": "BigMagic.in@SD",
+    "old_channel_id": "0-9-bigmagic_1786965389",
     "new_channel_id": "BigMagic.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -714,9 +714,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.359Z",
+    "timestamp": "2026-04-13T19:13:29.719Z",
     "xml_display_name": "Asianet News",
-    "old_channel_id": "AsianetNews.in@SD",
+    "old_channel_id": "0-9-200",
     "new_channel_id": "AsianetNews.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -728,9 +728,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.372Z",
+    "timestamp": "2026-04-13T19:13:29.734Z",
     "xml_display_name": "Anmol TV",
-    "old_channel_id": "AnmolTV.in@SD",
+    "old_channel_id": "0-9-zeeanmol",
     "new_channel_id": "AnmolTV.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -742,9 +742,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.379Z",
+    "timestamp": "2026-04-13T19:13:29.743Z",
     "xml_display_name": "Anmol Cinema 2",
-    "old_channel_id": "AnmolCinema.in@SD",
+    "old_channel_id": "0-9-bigganga",
     "new_channel_id": "AnmolCinema.in@SD",
     "confidence": 0.9523809523809523,
     "method": "auto",
@@ -756,9 +756,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.386Z",
+    "timestamp": "2026-04-13T19:13:29.752Z",
     "xml_display_name": "Anmol Cinema",
-    "old_channel_id": "AnmolCinema.in@SD",
+    "old_channel_id": "0-9-zeeanmolcinema",
     "new_channel_id": "AnmolCinema.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -770,9 +770,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.395Z",
+    "timestamp": "2026-04-13T19:13:29.762Z",
     "xml_display_name": "Aaj Tak",
-    "old_channel_id": "AajTak.in@SD",
+    "old_channel_id": "0-9-aajtak",
     "new_channel_id": "AajTak.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -784,9 +784,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.404Z",
+    "timestamp": "2026-04-13T19:13:29.772Z",
     "xml_display_name": "&amp;TV HD USA",
-    "old_channel_id": "AndTV.in@SD",
+    "old_channel_id": "0-9-channel_1510237423",
     "new_channel_id": "AndTV.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -798,9 +798,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.412Z",
+    "timestamp": "2026-04-13T19:13:29.781Z",
     "xml_display_name": "&amp;TV HD",
-    "old_channel_id": "AndTV.in@SD",
+    "old_channel_id": "0-9-tvhd_0",
     "new_channel_id": "AndTV.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -812,9 +812,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.420Z",
+    "timestamp": "2026-04-13T19:13:29.790Z",
     "xml_display_name": "&amp;TV HD",
-    "old_channel_id": "AndTV.in@SD",
+    "old_channel_id": "0-9-channel_122044711",
     "new_channel_id": "AndTV.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -826,9 +826,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.428Z",
+    "timestamp": "2026-04-13T19:13:29.799Z",
     "xml_display_name": "&amp;Prive HD",
-    "old_channel_id": "AndpriveHD.in@SD",
+    "old_channel_id": "0-9-9z5543514",
     "new_channel_id": "AndpriveHD.in@SD",
     "confidence": 1,
     "method": "auto",
@@ -840,9 +840,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.436Z",
+    "timestamp": "2026-04-13T19:13:29.809Z",
     "xml_display_name": "&amp;Pictures HD",
-    "old_channel_id": "Andpictures.in@HD",
+    "old_channel_id": "0-9-tvpictureshd",
     "new_channel_id": "Andpictures.in@HD",
     "confidence": 1,
     "method": "auto",
@@ -854,9 +854,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.445Z",
+    "timestamp": "2026-04-13T19:13:29.819Z",
     "xml_display_name": "&amp;Pictures",
-    "old_channel_id": "Andpictures.in@HD",
+    "old_channel_id": "0-9-pictures",
     "new_channel_id": "Andpictures.in@HD",
     "confidence": 1,
     "method": "auto",
@@ -868,9 +868,9 @@
     }
   },
   {
-    "timestamp": "2026-04-13T19:06:18.453Z",
+    "timestamp": "2026-04-13T19:13:29.827Z",
     "xml_display_name": "&amp;flix HD",
-    "old_channel_id": "Andflix.in@HD",
+    "old_channel_id": "0-9-channel_2105335046",
     "new_channel_id": "Andflix.in@HD",
     "confidence": 1,
     "method": "auto",
