@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-04-13T07:53:24.677Z",
+    "timestamp": "2026-04-13T08:01:06.305Z",
     "xml_display_name": "Zing USA",
     "old_channel_id": "0-9-channel_1643519345",
     "reason": "Confidence below safe threshold",
@@ -86,7 +86,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.677Z",
+    "timestamp": "2026-04-13T08:01:06.305Z",
     "xml_display_name": "Zing",
     "old_channel_id": "0-9-zing",
     "reason": "Confidence below safe threshold",
@@ -172,7 +172,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.686Z",
+    "timestamp": "2026-04-13T08:01:06.315Z",
     "xml_display_name": "Zee Yuva",
     "old_channel_id": "0-9-zeeyuva",
     "reason": "Confidence below safe threshold",
@@ -2142,7 +2142,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.687Z",
+    "timestamp": "2026-04-13T08:01:06.317Z",
     "xml_display_name": "Zee TV USA",
     "old_channel_id": "0-9-channel_1586895760",
     "reason": "Confidence below safe threshold",
@@ -4112,7 +4112,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.688Z",
+    "timestamp": "2026-04-13T08:01:06.318Z",
     "xml_display_name": "Zee TV ME",
     "old_channel_id": "0-9-tvme",
     "reason": "Confidence below safe threshold",
@@ -6082,7 +6082,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.690Z",
+    "timestamp": "2026-04-13T08:01:06.320Z",
     "xml_display_name": "Zee TV HD USA",
     "old_channel_id": "0-9-channel_341994370",
     "reason": "Confidence below safe threshold",
@@ -8052,7 +8052,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.691Z",
+    "timestamp": "2026-04-13T08:01:06.321Z",
     "xml_display_name": "Zee TV HD UK",
     "old_channel_id": "0-9-zeetvuk",
     "reason": "Confidence below safe threshold",
@@ -10022,7 +10022,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.693Z",
+    "timestamp": "2026-04-13T08:01:06.322Z",
     "xml_display_name": "Zee TV HD Canada",
     "old_channel_id": "0-9-channel_1017420475",
     "reason": "Confidence below safe threshold",
@@ -11992,7 +11992,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.696Z",
+    "timestamp": "2026-04-13T08:01:06.324Z",
     "xml_display_name": "Zee TV HD",
     "old_channel_id": "0-9-zeetvhd",
     "reason": "Confidence below safe threshold",
@@ -13962,7 +13962,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.698Z",
+    "timestamp": "2026-04-13T08:01:06.325Z",
     "xml_display_name": "Zee TV DE",
     "old_channel_id": "0-9-9z5898964",
     "reason": "Confidence below safe threshold",
@@ -15932,7 +15932,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.699Z",
+    "timestamp": "2026-04-13T08:01:06.326Z",
     "xml_display_name": "Zee TV APAC HD",
     "old_channel_id": "0-9-zeetvapac",
     "reason": "Confidence below safe threshold",
@@ -17902,7 +17902,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.700Z",
+    "timestamp": "2026-04-13T08:01:06.327Z",
     "xml_display_name": "Zee TV",
     "old_channel_id": "0-9-zeetv",
     "reason": "Confidence below safe threshold",
@@ -19872,7 +19872,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.766Z",
+    "timestamp": "2026-04-13T08:01:06.400Z",
     "xml_display_name": "Zee Sarthak",
     "old_channel_id": "0-9-sarthaktv",
     "reason": "Confidence below safe threshold",
@@ -21842,7 +21842,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.766Z",
+    "timestamp": "2026-04-13T08:01:06.401Z",
     "xml_display_name": "Zee Rajasthan News",
     "old_channel_id": "0-9-zeerajasthannews",
     "reason": "Confidence below safe threshold",
@@ -21872,7 +21872,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.767Z",
+    "timestamp": "2026-04-13T08:01:06.402Z",
     "xml_display_name": "Zee Punjabi",
     "old_channel_id": "0-9-215",
     "reason": "Confidence below safe threshold",
@@ -23842,7 +23842,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.778Z",
+    "timestamp": "2026-04-13T08:01:06.411Z",
     "xml_display_name": "Zee Power HD",
     "old_channel_id": "0-9-241",
     "reason": "Confidence below safe threshold",
@@ -25812,7 +25812,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.779Z",
+    "timestamp": "2026-04-13T08:01:06.412Z",
     "xml_display_name": "Zee One German",
     "old_channel_id": "0-9-161",
     "reason": "Confidence below safe threshold",
@@ -27782,7 +27782,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.782Z",
+    "timestamp": "2026-04-13T08:01:06.414Z",
     "xml_display_name": "Zee One French",
     "old_channel_id": "0-9-9z5829362",
     "reason": "Confidence below safe threshold",
@@ -29752,7 +29752,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.784Z",
+    "timestamp": "2026-04-13T08:01:06.416Z",
     "xml_display_name": "Zee One",
     "old_channel_id": "0-9-9z5825786",
     "reason": "Confidence below safe threshold",
@@ -31722,7 +31722,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.785Z",
+    "timestamp": "2026-04-13T08:01:06.416Z",
     "xml_display_name": "Zee News Uttar Pradesh Uttrakhand",
     "old_channel_id": "0-9-channel_265145625",
     "reason": "Confidence below safe threshold",
@@ -31752,7 +31752,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.792Z",
+    "timestamp": "2026-04-13T08:01:06.425Z",
     "xml_display_name": "ZEE News Tamil",
     "old_channel_id": "0-9-9z583533",
     "reason": "Confidence below safe threshold",
@@ -31774,7 +31774,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.814Z",
+    "timestamp": "2026-04-13T08:01:06.450Z",
     "xml_display_name": "Zee Marathi USA",
     "old_channel_id": "0-9-channel_926372368",
     "reason": "Confidence below safe threshold",
@@ -33528,7 +33528,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.815Z",
+    "timestamp": "2026-04-13T08:01:06.451Z",
     "xml_display_name": "Zee Marathi HD",
     "old_channel_id": "0-9-zeemarathi",
     "reason": "Confidence below safe threshold",
@@ -35282,7 +35282,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.816Z",
+    "timestamp": "2026-04-13T08:01:06.452Z",
     "xml_display_name": "Zee Marathi",
     "old_channel_id": "0-9-9z5383486",
     "reason": "Confidence below safe threshold",
@@ -37036,7 +37036,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.826Z",
+    "timestamp": "2026-04-13T08:01:06.464Z",
     "xml_display_name": "Zee Keralam HD",
     "old_channel_id": "0-9-129",
     "reason": "Confidence below safe threshold",
@@ -39006,7 +39006,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.828Z",
+    "timestamp": "2026-04-13T08:01:06.467Z",
     "xml_display_name": "Zee Kannada HD",
     "old_channel_id": "0-9-zeekannada",
     "reason": "Confidence below safe threshold",
@@ -40768,7 +40768,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.829Z",
+    "timestamp": "2026-04-13T08:01:06.468Z",
     "xml_display_name": "Zee Kannada",
     "old_channel_id": "0-9-9z5383466",
     "reason": "Confidence below safe threshold",
@@ -42530,1977 +42530,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.896Z",
-    "xml_display_name": "Zee Chitramandir",
-    "old_channel_id": "0-9-394",
-    "reason": "Confidence below safe threshold",
-    "confidence": 0.5454545454545454,
-    "xmlMeta": {
-      "brand": "zee",
-      "language": null,
-      "genre": "general"
-    },
-    "candidates": [
-      {
-        "id": "6TVTelugu.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "9XJalwa.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "9XJhakaas.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "9XTashan.in@SD",
-        "confidence": 0.09523809523809523
-      },
-      {
-        "id": "10TV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "99TV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Andflix.in@HD",
-        "confidence": 0.2
-      },
-      {
-        "id": "Andpictures.in@HD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "AndpriveHD.in@SD",
-        "confidence": 0.19047619047619047
-      },
-      {
-        "id": "AndTV.in@SD",
-        "confidence": 0.2222222222222222
-      },
-      {
-        "id": "AndTV.in@HD",
-        "confidence": 0.2222222222222222
-      },
-      {
-        "id": "AadinathTV.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "AajTak.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "AajTak.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "AakaashAath.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "AamarBangla.in@SD",
-        "confidence": 0.25
-      },
-      {
-        "id": "AaseervathamTV.in@SD",
-        "confidence": 0.14814814814814814
-      },
-      {
-        "id": "Aastha.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "AasthaBhajan.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "AasthaGujarati.in@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "AasthaKannada.in@SD",
-        "confidence": 0.07692307692307693
-      },
-      {
-        "id": "AasthaPrime1.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "AasthaTamil.in@SD",
-        "confidence": 0.08333333333333333
-      },
-      {
-        "id": "AasthaTelugu.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ABNTVIndia.us@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "ABPAnanda.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "ABPAsmita.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "ABPGanga.in@SD",
-        "confidence": 0.09523809523809523
-      },
-      {
-        "id": "AbzyDhakad.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "AdhyatmTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "AlankarTV.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "AmarUjala.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "AmritaTV.in@SD",
-        "confidence": 0.19047619047619047
-      },
-      {
-        "id": "AnandTV.in@SD",
-        "confidence": 0.2
-      },
-      {
-        "id": "AnandaBarta.in@SD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "AngelTV.in@India",
-        "confidence": 0.1
-      },
-      {
-        "id": "AnimaxAsia.sg@India",
-        "confidence": 0.21052631578947367
-      },
-      {
-        "id": "AnjanTV.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "AnmolTV.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "APN.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ApnaPunjabTV.ca@SD",
-        "confidence": 0
-      },
-      {
-        "id": "AradanaTV.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "AryanTVNational.in@SD",
-        "confidence": 0.07142857142857142
-      },
-      {
-        "id": "AssamTalks.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "AwaazIndiaTV.in@SD",
-        "confidence": 0.12903225806451613
-      },
-      {
-        "id": "AwakeningTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "AyushTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "B4UBhojpuri.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "B4UHitz.in@SD",
-        "confidence": 0.2
-      },
-      {
-        "id": "B4UKadak.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "BhakthiSiri.in@SD",
-        "confidence": 0.11904761904761904
-      },
-      {
-        "id": "BhakthiTV.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "BhaktiSagar.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "BharatSamachar.in@SD",
-        "confidence": 0.2962962962962963
-      },
-      {
-        "id": "BigMagic.in@SD",
-        "confidence": 0.09523809523809523
-      },
-      {
-        "id": "BrioTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "BVG.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "CalvaryTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Captain.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "CCV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ChannelDivya.in@SD",
-        "confidence": 0.24
-      },
-      {
-        "id": "ChannelWIN.in@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "ChardiklaGurbaaniTV.in@SD",
-        "confidence": 0.25
-      },
-      {
-        "id": "ChardiklaTimeTV.in@SD",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "id": "ChardiklaTimeTVNorthAmerica.in@SD",
-        "confidence": 0.15
-      },
-      {
-        "id": "Chithiram.in@SD",
-        "confidence": 0.5454545454545454
-      },
-      {
-        "id": "CNBCAwaaz.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "CNBCBajar.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "CNBCTV18.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "CNBCTV18PrimeHD.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Colors.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ColorsBangla.in@HD",
-        "confidence": 0.08
-      },
-      {
-        "id": "ColorsCineplexBollywood.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ColorsCineplex.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "ColorsCineplexSuperhits.in@SD",
-        "confidence": 0.1111111111111111
-      },
-      {
-        "id": "Colors.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "ColorsInfinity.in@HD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "ColorsRishteyAsia.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ColorsTamil.in@HD",
-        "confidence": 0.08333333333333333
-      },
-      {
-        "id": "CTVNAKDPlus.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "CVREnglish.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "CVRHealth.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "CVROMSpiritual.in@SD",
-        "confidence": 0.14814814814814814
-      },
-      {
-        "id": "Dabangg.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "Dangal2.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "DangalTV.in@SD",
-        "confidence": 0.09523809523809523
-      },
-      {
-        "id": "Darshan24.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "DarshanaTV.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "DDArunPrabha.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "DDAssam.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "DDBangla.in@SD",
-        "confidence": 0.09523809523809523
-      },
-      {
-        "id": "DDBharati.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "DDBihar.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "DDChandana.in@SD",
-        "confidence": 0.2608695652173913
-      },
-      {
-        "id": "DDChhattisgarh.in@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "DDGirnar.in@SD",
-        "confidence": 0.09523809523809523
-      },
-      {
-        "id": "DDGoa.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "DDHaryana.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "DDHimachalPradesh.in@SD",
-        "confidence": 0.26666666666666666
-      },
-      {
-        "id": "DDIndia.in@SD",
-        "confidence": 0.2
-      },
-      {
-        "id": "DDJharkhand.in@SD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "DDKashir.in@SD",
-        "confidence": 0.19047619047619047
-      },
-      {
-        "id": "DDKisan.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "DDMadhyaPradesh.in@SD",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "id": "DDMalayalam.in@SD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "DDManipur.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "DDMeghalaya.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "DDMizoram.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "DDNagaland.in@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "DDNational.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "DDNational.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "DDOdia.in@SD",
-        "confidence": 0.10526315789473684
-      },
-      {
-        "id": "DDPunjabi.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "DDRajasthan.in@SD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "DDSahyadri.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "DDSaptagiri.in@SD",
-        "confidence": 0.08333333333333333
-      },
-      {
-        "id": "DDSports.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "DDTamil.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "DDTripura.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "DDUrdu.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "DDUttarPradesh.in@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "DDUttarakhand.in@SD",
-        "confidence": 0.23076923076923078
-      },
-      {
-        "id": "DDYadagiri.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "DesiChannel.in@SD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "Dhamaal.in@SD",
-        "confidence": 0.2
-      },
-      {
-        "id": "DharmSandesh.in@SD",
-        "confidence": 0.16
-      },
-      {
-        "id": "DheeranTV.in@SD",
-        "confidence": 0.2727272727272727
-      },
-      {
-        "id": "DishaTV.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "DisneyChannel.in@SD",
-        "confidence": 0.23076923076923078
-      },
-      {
-        "id": "DisneyInternationalHD.in@SD",
-        "confidence": 0.0625
-      },
-      {
-        "id": "DY365.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "E24.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "EETTV.in@SD",
-        "confidence": 0.08333333333333333
-      },
-      {
-        "id": "Enterr10Bangla.in@SD",
-        "confidence": 0.06060606060606061
-      },
-      {
-        "id": "EpicTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ETNow.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ETNowSwadesh.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ETVAbhiruchi.in@SD",
-        "confidence": 0.24
-      },
-      {
-        "id": "ETVAndhraPradesh.in@SD",
-        "confidence": 0.20689655172413793
-      },
-      {
-        "id": "ETVComedy.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "ETVJosh.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "ETVLife.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ETVPlus.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "ETVTelangana.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "ETVTelugu.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "FaktMarathi.in@SD",
-        "confidence": 0.2
-      },
-      {
-        "id": "FatehTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "FilamchiBhojpuri.in@SD",
-        "confidence": 0.20689655172413793
-      },
-      {
-        "id": "FoodFood.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "GangaurTV.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "GaundaPunjabTV.ca@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "GlobalPunjab.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Goa365.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Goldmines.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Goldmines2.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "GoodnessTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "GraceTV.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "GSTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "GTCPunjabi.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "GujaratFirst.in@SD",
-        "confidence": 0.16
-      },
-      {
-        "id": "Gyandarshan.in@SD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "HamdardTV.ca@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "HarKhabar.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "HareKrsnaTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "HarvestTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "HarvestTVKeralam.in@SD",
-        "confidence": 0.13793103448275862
-      },
-      {
-        "id": "HarvestUSA.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "HiDost.in@SD",
-        "confidence": 0.10526315789473684
-      },
-      {
-        "id": "HindiKhabar.in@SD",
-        "confidence": 0.25
-      },
-      {
-        "id": "HinduDharmam.in@SD",
-        "confidence": 0.32
-      },
-      {
-        "id": "HistoryTV18.in@HD",
-        "confidence": 0.08333333333333333
-      },
-      {
-        "id": "HNN24x7.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "HopeChannelIndia.in@SD",
-        "confidence": 0.3448275862068966
-      },
-      {
-        "id": "HornbillTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "HyderTV.ca@SD",
-        "confidence": 0
-      },
-      {
-        "id": "IBC24.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Ind24.in@SD",
-        "confidence": 0.1111111111111111
-      },
-      {
-        "id": "IndiaAhead.in@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "IndiaDailyLive.in@SD",
-        "confidence": 0.14814814814814814
-      },
-      {
-        "id": "IndiaToday.in@SD",
-        "confidence": 0.13793103448275862
-      },
-      {
-        "id": "IndiaTV.in@SD",
-        "confidence": 0.2
-      },
-      {
-        "id": "IndiaTVAapKiAdalat.in@SD",
-        "confidence": 0.0975609756097561
-      },
-      {
-        "id": "IndiaVoice.in@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "IndywoodTV.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "INH24x7.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Insync.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "INWILD.nl@SD",
-        "confidence": 0
-      },
-      {
-        "id": "IsaiAruvi.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "IshwarBhaktiTV.in@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "JaiMaharashtra.in@SD",
-        "confidence": 0.2222222222222222
-      },
-      {
-        "id": "JaihindTV.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "JanTV.in@SD",
-        "confidence": 0.1111111111111111
-      },
-      {
-        "id": "JanamTV.in@SD",
-        "confidence": 0.2
-      },
-      {
-        "id": "JantaTV.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "JayaMax.in@SD",
-        "confidence": 0.2
-      },
-      {
-        "id": "JayaPlus.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "JeevanTV.in@SD",
-        "confidence": 0.19047619047619047
-      },
-      {
-        "id": "JinvaniChannel.in@SD",
-        "confidence": 0.14814814814814814
-      },
-      {
-        "id": "Jonack.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "KairaliArabia.in@SD",
-        "confidence": 0.15384615384615385
-      },
-      {
-        "id": "KairaliTV.in@SD",
-        "confidence": 0.2727272727272727
-      },
-      {
-        "id": "KairaliWe.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "KalaignarMurasu.in@SD",
-        "confidence": 0.07142857142857142
-      },
-      {
-        "id": "KalaignarSeithigal.in@SD",
-        "confidence": 0.12903225806451613
-      },
-      {
-        "id": "KalaignarTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "KalingaTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "KannurVision.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "KappaTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "KaumudyTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "KCLTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "KCM.sg@India",
-        "confidence": 0
-      },
-      {
-        "id": "KeralaVision.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "KhabarFast.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "KhabrainAbhiTak.in@SD",
-        "confidence": 0.21428571428571427
-      },
-      {
-        "id": "KhushbooBangla.in@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "KiteVicters.in@SD",
-        "confidence": 0.06666666666666667
-      },
-      {
-        "id": "KolkataTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "KTVBangla.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "LifeTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "MNaduTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "MSignMedia.in@SD",
-        "confidence": 0.13793103448275862
-      },
-      {
-        "id": "MadhaTV.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "MadhimugamTV.in@SD",
-        "confidence": 0.24
-      },
-      {
-        "id": "MahaMovie.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "MahaaBhakti.in@SD",
-        "confidence": 0.08333333333333333
-      },
-      {
-        "id": "MahaaMax.in@SD",
-        "confidence": 0.19047619047619047
-      },
-      {
-        "id": "Maiboli.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "MakkalTV.in@SD",
-        "confidence": 0.09523809523809523
-      },
-      {
-        "id": "MalaiMurasuTV.in@SD",
-        "confidence": 0.1111111111111111
-      },
-      {
-        "id": "MalarTV.in@SD",
-        "confidence": 0.07692307692307693
-      },
-      {
-        "id": "MangoMobileTV.in@HD",
-        "confidence": 0.15384615384615385
-      },
-      {
-        "id": "ManoranjanGrand.in@SD",
-        "confidence": 0.2857142857142857
-      },
-      {
-        "id": "ManoranjanTV.in@SD",
-        "confidence": 0.24
-      },
-      {
-        "id": "Mastiii.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "Mayyazhi.in@SD",
-        "confidence": 0.14814814814814814
-      },
-      {
-        "id": "MazhavilManorama.in@SD",
-        "confidence": 0.27586206896551724
-      },
-      {
-        "id": "MazhavilManorama.in@HD",
-        "confidence": 0.27586206896551724
-      },
-      {
-        "id": "MBCTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "MediaOne.in@SD",
-        "confidence": 0.09523809523809523
-      },
-      {
-        "id": "MercyTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "MetroTV.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "MHOneDilSe.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "MHOneShraddha.in@SD",
-        "confidence": 0.07692307692307693
-      },
-      {
-        "id": "MirrorNow.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "MKSix.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "MarutamTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "MNX.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "MoonTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "MoviePlex.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "MrBeanAnimated.uk@English",
-        "confidence": 0.14814814814814814
-      },
-      {
-        "id": "NagalandTV.in@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "NambikkaiTV.in@SD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "NamdhariTV.in@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "NandighoshaTV.in@SD",
-        "confidence": 0.23076923076923078
-      },
-      {
-        "id": "NationalGeographic.in@HD",
-        "confidence": 0.12903225806451613
-      },
-      {
-        "id": "NationalGeographicWild.in@HD",
-        "confidence": 0.11428571428571428
-      },
-      {
-        "id": "Nazara.in@SD",
-        "confidence": 0.10526315789473684
-      },
-      {
-        "id": "NDTV24x7.in@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "NDTVGoodTimes.in@SD",
-        "confidence": 0.07692307692307693
-      },
-      {
-        "id": "NDTVIndia.in@SD",
-        "confidence": 0.21428571428571427
-      },
-      {
-        "id": "NDTVMadhyaPradeshChhattisgarh.in@SD",
-        "confidence": 0.19047619047619047
-      },
-      {
-        "id": "NDTVMarathi.in@SD",
-        "confidence": 0.3333333333333333
-      },
-      {
-        "id": "NDTVProfit.in@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "NDTVRajasthan.in@SD",
-        "confidence": 0.23076923076923078
-      },
-      {
-        "id": "Nepal1.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Network10.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "NickHDPlus.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "NickJr.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Nickelodeon.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "NireekshanaTV.in@SD",
-        "confidence": 0.23076923076923078
-      },
-      {
-        "id": "NKTV24x7.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "NKTVBangla.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "NKRTVKannada.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "NTCTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "NTVTelugu.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "OdishaTV.in@SD",
-        "confidence": 0.09523809523809523
-      },
-      {
-        "id": "OliTV.in@SD",
-        "confidence": 0.1111111111111111
-      },
-      {
-        "id": "OMTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "OnTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "OnkarOnlyTruthTV.in@SD",
-        "confidence": 0.06896551724137931
-      },
-      {
-        "id": "OrangeBanglaTV.in@SD",
-        "confidence": 0.14814814814814814
-      },
-      {
-        "id": "ParasGold.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "PasandTV.in@SD",
-        "confidence": 0.19047619047619047
-      },
-      {
-        "id": "PeaceofMindTV.in@SD",
-        "confidence": 0.07692307692307693
-      },
-      {
-        "id": "PeaceTVBangla.ae@SD",
-        "confidence": 0.07692307692307693
-      },
-      {
-        "id": "PeaceTVUrdu.ae@SD",
-        "confidence": 0
-      },
-      {
-        "id": "PeppersTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Pitaara.in@SD",
-        "confidence": 0.2
-      },
-      {
-        "id": "PMCTelugu.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "PolimerTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "PrarthanaTV.in@SD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "PratidinTime.in@SD",
-        "confidence": 0.16
-      },
-      {
-        "id": "PravasiChannel.in@SD",
-        "confidence": 0.2222222222222222
-      },
-      {
-        "id": "PrudentMedia.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "PTCChakde.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "PTCPunjabi.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "PTCPunjabiGold.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "PublicTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "PunjabiHits.in@SD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "PunjabiZindabadTV.in@SD",
-        "confidence": 0.058823529411764705
-      },
-      {
-        "id": "PuthiyaThalaimurai.in@SD",
-        "confidence": 0.12903225806451613
-      },
-      {
-        "id": "PuthuyugamTV.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "QelloConcertsbyStingray.ca@SD",
-        "confidence": 0.05555555555555555
-      },
-      {
-        "id": "RPlus.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "RPlusGold.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "RaftaarMedia.in@SD",
-        "confidence": 0.16
-      },
-      {
-        "id": "RajDigitalPlus.in@SD",
-        "confidence": 0.2222222222222222
-      },
-      {
-        "id": "RajMusixKannada.in@SD",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "id": "RajMusixMalayalam.in@SD",
-        "confidence": 0.2
-      },
-      {
-        "id": "RajMusixTamil.in@SD",
-        "confidence": 0.15384615384615385
-      },
-      {
-        "id": "RajMusixTelugu.in@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "RajTV.in@SD",
-        "confidence": 0.1111111111111111
-      },
-      {
-        "id": "Ramdhenu.in@SD",
-        "confidence": 0.19047619047619047
-      },
-      {
-        "id": "Rang.in@SD",
-        "confidence": 0.23529411764705882
-      },
-      {
-        "id": "RDXGoa.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Rengoni.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ReporterTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "RepublicBangla.in@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "RepublicBharat.in@SD",
-        "confidence": 0.05405405405405406
-      },
-      {
-        "id": "RepublicKannada.in@SD",
-        "confidence": 0.07142857142857142
-      },
-      {
-        "id": "RepublicTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "RojaTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "RomedyNow.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "RongeenTV.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "RozanaSpokesman.in@SD",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "id": "RTIndia.in@HD",
-        "confidence": 0.2
-      },
-      {
-        "id": "RupasiBangla.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "SaamTV.in@SD",
-        "confidence": 0.10526315789473684
-      },
-      {
-        "id": "SachBedhadak.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "SADATV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Sadhna.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SafariTV.in@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "SairamTV.in@SD",
-        "confidence": 0.2857142857142857
-      },
-      {
-        "id": "SalaamTV.in@SD",
-        "confidence": 0.09523809523809523
-      },
-      {
-        "id": "SalvationTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SamacharPlus24x7.in@SD",
-        "confidence": 0.20689655172413793
-      },
-      {
-        "id": "SamayKolkata.in@SD",
-        "confidence": 0.16
-      },
-      {
-        "id": "SanaPlus.in@SD",
-        "confidence": 0.09523809523809523
-      },
-      {
-        "id": "SanaTV.in@SD",
-        "confidence": 0.12048192771084337
-      },
-      {
-        "id": "SangeetBangla.in@SD",
-        "confidence": 0.15384615384615385
-      },
-      {
-        "id": "SangeetBhojpuri.in@SD",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "id": "SangeetMarathi.in@SD",
-        "confidence": 0.37037037037037035
-      },
-      {
-        "id": "SankaraTV.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "SansadTV1.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "SansadTV1.in@HD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "SansadTV2.in@HD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "SanskarTV.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "SanskarWebTV.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "SantvaniChannel.in@SD",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "id": "SathiyamTV.in@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "SatsangTV.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "SatsangWebTV.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "ShaliniTV.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "Shalom.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ShekinahTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ShemarooJosh.in@SD",
-        "confidence": 0.08
-      },
-      {
-        "id": "ShemarooMarathiBana.in@SD",
-        "confidence": 0.25
-      },
-      {
-        "id": "ShemarooTV.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "ShemarooUmang.in@SD",
-        "confidence": 0.15384615384615385
-      },
-      {
-        "id": "ShowBox.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ShubhTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ShubhsandeshTV.in@SD",
-        "confidence": 0.12121212121212122
-      },
-      {
-        "id": "SiriKannada.in@SD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "SirippoliTV.in@SD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "SohamTV.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "SongdewTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Sonic.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SonyAath.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SonyBBCEarth.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "SonyEntertainmentTelevision.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "SonyMax2.in@SD",
-        "confidence": 0.09523809523809523
-      },
-      {
-        "id": "SonyMax.in@HD",
-        "confidence": 0.1
-      },
-      {
-        "id": "SonyPal.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SonyPix.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "SonySAB.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "SonySportsTen2.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "SonySportsTen3Hindi.in@SD",
-        "confidence": 0.1875
-      },
-      {
-        "id": "SonySportsTen5.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SonySportsTen5.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "SonyWah.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SonyYay.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SooriyanTV.ca@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "SouthStation.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "Spondon.in@SD",
-        "confidence": 0.1
-      },
-      {
-        "id": "StarBharat.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "StarGold2.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "StarGold2.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "StarGold.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "StarGoldRomance.in@SD",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "id": "StarGoldSelect.in@HD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "StarGoldThrills.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "StarMaaGold.in@SD",
-        "confidence": 0.08333333333333333
-      },
-      {
-        "id": "StarSports1.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "StarSports1Tamil.in@SD",
-        "confidence": 0.06896551724137931
-      },
-      {
-        "id": "StarSports3.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "StarUtsav.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "StarVijay.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "StarVijay.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "Starnet.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "StarPlus.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "StingrayClassicRock.ca@SD",
-        "confidence": 0.0625
-      },
-      {
-        "id": "StingrayDJAZZ.ca@SD",
-        "confidence": 0.07692307692307693
-      },
-      {
-        "id": "StingrayEasyListening.ca@SD",
-        "confidence": 0.058823529411764705
-      },
-      {
-        "id": "StingrayNaturescape.ca@SD",
-        "confidence": 0.0625
-      },
-      {
-        "id": "StingrayTheSpa.ca@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "StingrayTodaysKPop.ca@SD",
-        "confidence": 0.06451612903225806
-      },
-      {
-        "id": "StudioOnePlus.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "StudioYuva.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "SubhartiTV.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "SubhavaarthaTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SubinTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SuriyanTV.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "SVBC2.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SVBC3.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SVBC4.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "SVBC.in@SD",
-        "confidence": 0.13333333333333333
-      },
-      {
-        "id": "Swantham.in@SD",
-        "confidence": 0.19047619047619047
-      },
-      {
-        "id": "SwarajExpressSMBC.in@SD",
-        "confidence": 0.05555555555555555
-      },
-      {
-        "id": "SwatantraTV.in@SD",
-        "confidence": 0.25
-      },
-      {
-        "id": "TaazaTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "TamilJanam.in@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "TamilanTV.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "TamilVisionTV.ca@SD",
-        "confidence": 0.07692307692307693
-      },
-      {
-        "id": "TarangTV.in@SD",
-        "confidence": 0.19047619047619047
-      },
-      {
-        "id": "TehzeebTV.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "TeluguOne.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "ThalaaTV.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "ThanthiOne.in@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "ThanthiTV.in@SD",
-        "confidence": 0.2727272727272727
-      },
-      {
-        "id": "TheMovieClub.in@HD",
-        "confidence": 0.08
-      },
-      {
-        "id": "TheMovieClub.in@Plus2",
-        "confidence": 0.07692307692307693
-      },
-      {
-        "id": "ThePetCollective.us@India",
-        "confidence": 0.06896551724137931
-      },
-      {
-        "id": "TheQIndia.us@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "TimesNowNavbharat.in@SD",
-        "confidence": 0.05
-      },
-      {
-        "id": "TollyTV.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "TotalBhakti.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "TotalTVHaryana.in@SD",
-        "confidence": 0.07407407407407407
-      },
-      {
-        "id": "Travelxp.in@4KHDR",
-        "confidence": 0.1111111111111111
-      },
-      {
-        "id": "Travelxp.in@HD",
-        "confidence": 0.19047619047619047
-      },
-      {
-        "id": "Tunes6.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "TV5Kannada.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "TVBRICSEnglish.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "UltimateTV.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "UniqueTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "VaanavilTV.in@SD",
-        "confidence": 0.08695652173913043
-      },
-      {
-        "id": "VanithaTV.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "VasanthTV.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "VCV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Vedic.in@SD",
-        "confidence": 0.1111111111111111
-      },
-      {
-        "id": "VelichamTV.in@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "VendharTV.in@SD",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "id": "VijaySuper.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "VillageTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "VissaTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "VyasChannel.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "WayanadVision.in@SD",
-        "confidence": 0.07692307692307693
-      },
-      {
-        "id": "WeOneKerala.in@SD",
-        "confidence": 0.058823529411764705
-      },
-      {
-        "id": "WeatherSpy.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "WinTV.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "ZainabiaChannel.in@SD",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "id": "ZBBhakti.in@HD",
-        "confidence": 0
-      },
-      {
-        "id": "Zee24Ghanta.in@SD",
-        "confidence": 0.25
-      },
-      {
-        "id": "Zee24Kalak.in@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "Zee24Taas.in@SD",
-        "confidence": 0.18181818181818182
-      },
-      {
-        "id": "ZeeBanglaSonar.in@SD",
-        "confidence": 0.2222222222222222
-      },
-      {
-        "id": "ZeeBharat.in@SD",
-        "confidence": 0.2727272727272727
-      },
-      {
-        "id": "ZeeBiharJharkhand.in@SD",
-        "confidence": 0.26666666666666666
-      },
-      {
-        "id": "ZeeBiskope.in@SD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "ZeeBollywood.in@SD",
-        "confidence": 0.16
-      },
-      {
-        "id": "ZeeBusiness.in@SD",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "id": "ZeeCafe.in@HD",
-        "confidence": 0.3
-      },
-      {
-        "id": "ZeeCineClassic.in@SD",
-        "confidence": 0.2222222222222222
-      },
-      {
-        "id": "ZeeClassic.in@SD",
-        "confidence": 0.2608695652173913
-      },
-      {
-        "id": "ZeeComedyNation.in@HD",
-        "confidence": 0.21428571428571427
-      },
-      {
-        "id": "ZeeDelhiNCRHaryana.in@SD",
-        "confidence": 0.25806451612903225
-      },
-      {
-        "id": "ZeeDilSe.in@HD",
-        "confidence": 0.2857142857142857
-      },
-      {
-        "id": "ZeeHorrorNights.in@HD",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "id": "ZeeMadhyaPradeshChhattisgarh.in@SD",
-        "confidence": 0.24390243902439024
-      },
-      {
-        "id": "ZeePunjabHaryanaHimachal.in@SD",
-        "confidence": 0.32432432432432434
-      },
-      {
-        "id": "ZeeRajasthan.in@SD",
-        "confidence": 0.32
-      },
-      {
-        "id": "ZeeSouthFlix.in@HD",
-        "confidence": 0.16
-      },
-      {
-        "id": "ZeeTalkies.in@HD",
-        "confidence": 0.17391304347826086
-      },
-      {
-        "id": "ZeeTamil.in@SD",
-        "confidence": 0.2857142857142857
-      },
-      {
-        "id": "ZeeTamil.in@HD",
-        "confidence": 0.2857142857142857
-      },
-      {
-        "id": "ZeeThirai.in@HD",
-        "confidence": 0.45454545454545453
-      },
-      {
-        "id": "ZeeUttarPradeshUttarakhand.in@SD",
-        "confidence": 0.2564102564102564
-      },
-      {
-        "id": "ZeeZest.in@HD",
-        "confidence": 0.2
-      },
-      {
-        "id": "Zoom.in@SD",
-        "confidence": 0
-      },
-      {
-        "id": "Zoom.in@Global",
-        "confidence": 0
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-04-13T07:53:24.974Z",
+    "timestamp": "2026-04-13T08:01:06.613Z",
     "xml_display_name": "Zee Bangla International",
     "old_channel_id": "0-9-366",
     "reason": "Confidence below safe threshold",
@@ -46290,7 +44320,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.994Z",
+    "timestamp": "2026-04-13T08:01:06.631Z",
     "xml_display_name": "Zee Alwan HD",
     "old_channel_id": "0-9-9z5817234",
     "reason": "Confidence below safe threshold",
@@ -48260,7 +46290,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.996Z",
+    "timestamp": "2026-04-13T08:01:06.632Z",
     "xml_display_name": "Zee Alwan",
     "old_channel_id": "0-9-zeealwan",
     "reason": "Confidence below safe threshold",
@@ -50230,7 +48260,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:24.998Z",
+    "timestamp": "2026-04-13T08:01:06.633Z",
     "xml_display_name": "Zee Aflam HD",
     "old_channel_id": "0-9-9z5817235",
     "reason": "Confidence below safe threshold",
@@ -52200,7 +50230,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.000Z",
+    "timestamp": "2026-04-13T08:01:06.634Z",
     "xml_display_name": "Zee Aflam",
     "old_channel_id": "0-9-zeeaflam",
     "reason": "Confidence below safe threshold",
@@ -54170,7 +52200,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.002Z",
+    "timestamp": "2026-04-13T08:01:06.635Z",
     "xml_display_name": "Zee Action",
     "old_channel_id": "0-9-zeeaction",
     "reason": "Confidence below safe threshold",
@@ -56140,7 +54170,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.031Z",
+    "timestamp": "2026-04-13T08:01:06.661Z",
     "xml_display_name": "WION",
     "old_channel_id": "0-9-wion",
     "reason": "Confidence below safe threshold",
@@ -58130,7 +56160,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.088Z",
+    "timestamp": "2026-04-13T08:01:06.727Z",
     "xml_display_name": "Tiny Pop",
     "old_channel_id": "0-9-9z5910526",
     "reason": "Confidence below safe threshold",
@@ -60120,7 +58150,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.089Z",
+    "timestamp": "2026-04-13T08:01:06.729Z",
     "xml_display_name": "Suvarna News",
     "old_channel_id": "0-9-201",
     "reason": "Confidence below safe threshold",
@@ -60546,7 +58576,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.091Z",
+    "timestamp": "2026-04-13T08:01:06.730Z",
     "xml_display_name": "Somnath",
     "old_channel_id": "0-9-9z5938348",
     "reason": "Confidence below safe threshold",
@@ -62536,7 +60566,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.093Z",
+    "timestamp": "2026-04-13T08:01:06.733Z",
     "xml_display_name": "Shree Naga Sai Mandir",
     "old_channel_id": "0-9-9z5938352",
     "reason": "Confidence below safe threshold",
@@ -64526,7 +62556,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.103Z",
+    "timestamp": "2026-04-13T08:01:06.747Z",
     "xml_display_name": "Sai Baba, Shirdi",
     "old_channel_id": "0-9-9z5938343",
     "reason": "Confidence below safe threshold",
@@ -66516,7 +64546,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.104Z",
+    "timestamp": "2026-04-13T08:01:06.749Z",
     "xml_display_name": "POP UP",
     "old_channel_id": "0-9-9z5910527",
     "reason": "Confidence below safe threshold",
@@ -68506,7 +66536,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.105Z",
+    "timestamp": "2026-04-13T08:01:06.750Z",
     "xml_display_name": "POP",
     "old_channel_id": "0-9-9z5910525",
     "reason": "Confidence below safe threshold",
@@ -70496,7 +68526,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.113Z",
+    "timestamp": "2026-04-13T08:01:06.761Z",
     "xml_display_name": "Patna Sahib",
     "old_channel_id": "0-9-9z5938344",
     "reason": "Confidence below safe threshold",
@@ -72486,7 +70516,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.138Z",
+    "timestamp": "2026-04-13T08:01:06.788Z",
     "xml_display_name": "NDTV India",
     "old_channel_id": "0-9-9z5942783",
     "reason": "Confidence below safe threshold",
@@ -74476,7 +72506,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.139Z",
+    "timestamp": "2026-04-13T08:01:06.789Z",
     "xml_display_name": "NDTV 24x7",
     "old_channel_id": "0-9-9z5942782",
     "reason": "Confidence below safe threshold",
@@ -76466,7 +74496,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.140Z",
+    "timestamp": "2026-04-13T08:01:06.790Z",
     "xml_display_name": "Mahavir Mandir Patna",
     "old_channel_id": "0-9-9z5938351",
     "reason": "Confidence below safe threshold",
@@ -78456,7 +76486,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.141Z",
+    "timestamp": "2026-04-13T08:01:06.791Z",
     "xml_display_name": "Ma Naina Devi",
     "old_channel_id": "0-9-9z5938347",
     "reason": "Confidence below safe threshold",
@@ -80446,7 +78476,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.143Z",
+    "timestamp": "2026-04-13T08:01:06.793Z",
     "xml_display_name": "Kashi Vishwanath",
     "old_channel_id": "0-9-9z5938349",
     "reason": "Confidence below safe threshold",
@@ -82436,7 +80466,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.145Z",
+    "timestamp": "2026-04-13T08:01:06.795Z",
     "xml_display_name": "Iskon Vrindavan",
     "old_channel_id": "0-9-9z5938346",
     "reason": "Confidence below safe threshold",
@@ -84426,7 +82456,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.156Z",
+    "timestamp": "2026-04-13T08:01:06.804Z",
     "xml_display_name": "Great! Romance",
     "old_channel_id": "0-9-9z5910524",
     "reason": "Confidence below safe threshold",
@@ -86416,7 +84446,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.157Z",
+    "timestamp": "2026-04-13T08:01:06.805Z",
     "xml_display_name": "Great! Mystery",
     "old_channel_id": "0-9-9z5910523",
     "reason": "Confidence below safe threshold",
@@ -88406,7 +86436,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.158Z",
+    "timestamp": "2026-04-13T08:01:06.806Z",
     "xml_display_name": "Great! Movies",
     "old_channel_id": "0-9-9z5910243",
     "reason": "Confidence below safe threshold",
@@ -88528,7 +86558,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.165Z",
+    "timestamp": "2026-04-13T08:01:06.816Z",
     "xml_display_name": "Dagdusheth",
     "old_channel_id": "0-9-9z5938345",
     "reason": "Confidence below safe threshold",
@@ -90518,7 +88548,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-13T07:53:25.217Z",
+    "timestamp": "2026-04-13T08:01:06.871Z",
     "xml_display_name": "&amp;xplorHD",
     "old_channel_id": "0-9-209",
     "reason": "Confidence below safe threshold",
