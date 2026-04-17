@@ -8,19 +8,24 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: zee5-epg-main
+  cancel-in-progress: false
+
 jobs:
   update-epg:
     runs-on: ubuntu-latest
 
     steps:
-<<<<<<< Updated upstream
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         run: npm install
@@ -31,19 +36,6 @@ jobs:
       - name: Run safe patcher
         run: node patcher/patcher.js
 
-=======
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      - run: npm install
-
-      - run: node generators/zee5/index.js
-      - run: node patcher/patcher.js
-
->>>>>>> Stashed changes
       - name: Abort if XML empty
         run: |
           if ! grep -q "<programme" output/zee5.xml; then
@@ -51,14 +43,11 @@ jobs:
             exit 1
           fi
 
-<<<<<<< Updated upstream
       - name: Remove runtime resume file
         run: |
           rm -f output/zee5_progress.json
 
-=======
->>>>>>> Stashed changes
-      - name: Commit & Push
+      - name: Commit changes
         run: |
           git config user.name "zee5-epg-bot"
           git config user.email "zee5-epg-bot@users.noreply.github.com"
@@ -71,4 +60,22 @@ jobs:
                   patcher/channel_rename_history.json
 
           git commit -m "Auto-update Zee5 EPG (6h)" || echo "No changes"
-          git push
+
+      - name: Rebase and push safely
+        run: |
+          if git diff --quiet HEAD~1 HEAD 2>/dev/null; then
+            echo "ℹ️ No new commit to push"
+            exit 0
+          fi
+
+          for attempt in 1 2 3; do
+            echo "🔁 Push attempt $attempt"
+
+            git pull --rebase origin main && git push && exit 0
+
+            echo "⚠️ Push failed, retrying after backoff..."
+            sleep $((attempt * 10))
+          done
+
+          echo "❌ Failed to push after 3 attempts"
+          exit 1
