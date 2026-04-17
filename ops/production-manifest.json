@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "description": "Production-line manifest for the Zee5 IPTV / XMLTV repository. Use this as the source of truth for cleanup reviews and Copilot-guided audits.",
+  "keep_production": [
+    "generators/zee5/index.js",
+    "generators/zee5/epg.js",
+    "generators/zee5/catalogSequential.js",
+    "generators/zee5/normalizeProgramme.js",
+    "generators/zee5/xmltv.js",
+    "patcher/patcher.js",
+    "patcher/patch_log.json",
+    "patcher/review.json",
+    "patcher/channel_rename_history.json",
+    "output/zee5.xml",
+    "output/zee5_raw_epg.json",
+    "output/zee5_normalized_epg.json",
+    ".github/workflows/zee5-epg-auto-update.yml",
+    ".gitignore",
+    ".gitattributes",
+    "package.json",
+    "package-lock.json",
+    "README.md",
+    "LICENSE",
+    "in.m3u"
+  ],
+  "runtime_ignore": [
+    "output/zee5_progress.json"
+  ],
+  "review_before_delete": [
+    ".github/workflows/update.yml.disabled",
+    ".github/workflows/zee5-epg.yml.disabled",
+    "patcher.js",
+    "patcher.cjs",
+    "zee5.xml",
+    "zee5.m3u",
+    "progress.json"
+  ],
+  "notes": {
+    "production_line": [
+      "catalogSequential.js -> epg.js -> normalizeProgramme.js -> xmltv.js -> output/zee5.xml -> patcher/patcher.js -> patched output/zee5.xml -> GitHub Pages / clients"
+    ],
+    "policy": [
+      "Never delete files silently",
+      "Runtime files must not be committed",
+      "All questionable deletions require PR review"
+    ]
+  }
+}

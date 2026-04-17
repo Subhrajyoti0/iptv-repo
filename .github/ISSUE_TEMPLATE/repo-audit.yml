@@ -1,0 +1,92 @@
+name: Repo audit (Copilot)
+description: Ask Copilot to audit the repository for production-line files, duplicates, stale artifacts, and review-before-delete candidates.
+title: "[Copilot Audit] "
+labels:
+  - copilot
+  - audit
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this issue to ask GitHub Copilot coding agent to audit the repository and open a reviewable PR.
+        
+        The goal is:
+        - identify the final production-line files
+        - identify duplicates / stale files / disabled workflows
+        - recommend, but do not silently delete
+        - always produce a PR for review
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What should Copilot investigate?
+      placeholder: |
+        Audit the entire repository, identify production-line files, duplicates, disabled workflows, runtime files, and outdated references. Open a PR with keep vs review-before-delete recommendations.
+    validations:
+      required: true
+
+  - type: textarea
+    id: known_context
+    attributes:
+      label: Known context
+      description: Any known issues, file paths, or recent failures?
+      placeholder: |
+        - The active workflow should be .github/workflows/zee5-epg-auto-update.yml
+        - output/zee5_progress.json is runtime-only and should remain ignored
+        - patcher/patcher.js is the production patcher
+        - review.json and channel_rename_history.json are important audit artifacts
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      description: What must the resulting PR contain?
+      placeholder: |
+        PR must include:
+        1. Root cause / rationale
+        2. Files recommended to keep
+        3. Files recommended for review before deletion
+        4. Files that must remain ignored
+        5. No silent deletions
+        6. No auto-merge
+    validations:
+      required: true
+
+  - type: dropdown
+    id: allow_deletions
+    attributes:
+      label: Should Copilot delete files directly?
+      description: Strongly recommended to keep this disabled.
+      options:
+        - "No — propose only in a PR checklist"
+        - "Yes — but only after explicit human approval in PR comments"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: workflow_scope
+    attributes:
+      label: Workflow review scope
+      description: Should Copilot inspect workflow files too?
+      options:
+        - "Yes — inspect active, disabled, duplicate, and legacy workflows"
+        - "No — only scan source and output files"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Required checks
+      options:
+        - label: Identify production-line files and their relationships
+          required: true
+        - label: Identify duplicates / stale root-level files
+          required: true
+        - label: Identify disabled or duplicate workflows
+          required: true
+        - label: Flag runtime-only files that should remain ignored
+          required: true
+        - label: Produce a review-first PR instead of deleting silently
+          required: true

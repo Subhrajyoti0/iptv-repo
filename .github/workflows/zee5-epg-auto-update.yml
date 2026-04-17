@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+<<<<<<< Updated upstream
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -30,6 +31,19 @@ jobs:
       - name: Run safe patcher
         run: node patcher/patcher.js
 
+=======
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm install
+
+      - run: node generators/zee5/index.js
+      - run: node patcher/patcher.js
+
+>>>>>>> Stashed changes
       - name: Abort if XML empty
         run: |
           if ! grep -q "<programme" output/zee5.xml; then
@@ -37,10 +51,13 @@ jobs:
             exit 1
           fi
 
+<<<<<<< Updated upstream
       - name: Remove runtime resume file
         run: |
           rm -f output/zee5_progress.json
 
+=======
+>>>>>>> Stashed changes
       - name: Commit & Push
         run: |
           git config user.name "zee5-epg-bot"
