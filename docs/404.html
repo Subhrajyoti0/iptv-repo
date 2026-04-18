@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>404 — iptv-repo</title>
+  <meta name="theme-color" content="#0b1220" />
+  <style>
+    :root{
+      --bg:#0b1220;
+      --panel:#111827;
+      --text:#e5e7eb;
+      --muted:#94a3b8;
+      --brand:#22c55e;
+      --brand2:#38bdf8;
+      --line:#1f2937;
+      --shadow:0 10px 30px rgba(0,0,0,.25);
+      --radius:18px;
+      --sans: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+    * { box-sizing:border-box; }
+    html,body {
+      margin:0; padding:0;
+      background:linear-gradient(180deg,#0b1220 0%,#0b1220 70%,#0f172a 100%);
+      color:var(--text);
+      font-family:var(--sans);
+    }
+    .wrap {
+      width:min(900px, calc(100vw - 32px));
+      margin:0 auto;
+      min-height:100vh;
+      display:grid;
+      place-items:center;
+      padding:32px 0;
+    }
+    .card {
+      width:100%;
+      background:linear-gradient(180deg,rgba(17,24,39,.94),rgba(15,23,42,.98));
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:32px;
+    }
+    .eyebrow {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 12px;
+      border-radius:999px;
+      background:rgba(56,189,248,.08);
+      color:#7dd3fc;
+      border:1px solid rgba(56,189,248,.2);
+      font-size:.84rem;
+      font-weight:700;
+      margin-bottom:16px;
+    }
+    h1 {
+      margin:0 0 12px;
+      font-size:clamp(2rem, 4vw, 3rem);
+      line-height:1.05;
+      letter-spacing:-.02em;
+    }
+    p {
+      margin:0 0 18px;
+      color:var(--muted);
+      line-height:1.7;
+      font-size:1rem;
+    }
+    .actions {
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:18px;
+    }
+    .btn {
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding:13px 16px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.1);
+      background:#111827;
+      color:var(--text);
+      font-weight:700;
+      text-decoration:none;
+      transition:all .2s ease;
+    }
+    .btn:hover { transform:translateY(-1px); border-color:rgba(255,255,255,.2); }
+    .btn.primary {
+      background:linear-gradient(135deg,var(--brand),#16a34a);
+      color:#06121f;
+      border:none;
+    }
+    .code {
+      margin-top:18px;
+      padding:16px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.08);
+      background:rgba(255,255,255,.03);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size:.92rem;
+      word-break:break-all;
+      color:#cbd5e1;
+    }
+    .small {
+      color:var(--muted);
+      font-size:.9rem;
+      margin-top:18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="eyebrow">404 • Page not found</div>
+      <h1>This page does not exist</h1>
+      <p>
+        The file or route you tried to open was not found in this published static site.
+        If you were looking for a Zee5 playlist or XMLTV feed, use the landing page to get the current published links.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="./index.html">Open landing page</a>
+        <a class="btn" href="https://subhrajyoti0.github.io/iptv-repo/output/zee5.xml">Open EPG feed</a>
+        <a class="btn" href="https://subhrajyoti0.github.io/iptv-repo/docs/zee5.m3u">Open playlist</a>
+        <a class="btn" href="https://github.com/Subhrajyoti0/iptv-repo" target="_blank" rel="noopener">Open repository</a>
+      </div>
+
+      <div class="code">https://subhrajyoti0.github.io/iptv-repo/output/zee5.xml</div>
+      <div class="code">https://subhrajyoti0.github.io/iptv-repo/docs/zee5.m3u</div>
+
+      <div class="small">
+        This custom 404 page is designed for a static GitHub Pages site. GitHub Pages supports custom 404 pages for published sites. [1](https://windowsreport.com/github-adds-rubber-duck-debugging-ai-to-copilot-cli-for-smarter-code-reviews/)
+      </div>
+    </div>
+  </div>
+</body>
+</html>

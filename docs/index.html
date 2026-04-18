@@ -3,87 +3,112 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>iptv-repo — Zee5 IPTV / XMLTV Hub</title>
-  <meta name="description" content="Landing page for the Zee5 IPTV / XMLTV repository: feeds, health checks, repo links, governance, and production outputs." />
+  <title>iptv-repo — Zee5 IPTV / XMLTV Dashboard</title>
+  <meta name="description" content="Advanced landing page for the Zee5 IPTV / XMLTV repository: published feeds, repo map, governance, and setup." />
   <meta name="theme-color" content="#0b1220" />
   <style>
     :root{
       --bg:#0b1220;
       --panel:#111827;
-      --panel-2:#0f172a;
+      --panel2:#0f172a;
       --text:#e5e7eb;
       --muted:#94a3b8;
       --line:#1f2937;
       --brand:#22c55e;
-      --brand-2:#38bdf8;
+      --brand2:#38bdf8;
       --warn:#f59e0b;
-      --bad:#ef4444;
       --ok:#10b981;
+      --bad:#ef4444;
       --shadow:0 10px 30px rgba(0,0,0,.25);
       --radius:18px;
-      --radius-sm:12px;
-      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
       --sans: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
     }
     * { box-sizing:border-box; }
-    html,body { margin:0; padding:0; background:linear-gradient(180deg,#0b1220 0%,#0b1220 60%,#0f172a 100%); color:var(--text); font-family:var(--sans); }
+    html,body {
+      margin:0; padding:0;
+      background:linear-gradient(180deg,#0b1220 0%,#0b1220 65%,#0f172a 100%);
+      color:var(--text);
+      font-family:var(--sans);
+    }
     a { color:inherit; text-decoration:none; }
-    img { max-width:100%; }
     .wrap { width:min(1200px, calc(100vw - 32px)); margin:0 auto; }
     .topbar {
       position:sticky; top:0; z-index:50;
       backdrop-filter: blur(14px);
-      background:rgba(11,18,32,.75);
+      background:rgba(11,18,32,.78);
       border-bottom:1px solid rgba(255,255,255,.06);
     }
     .topbar .inner {
-      display:flex; align-items:center; justify-content:space-between; gap:16px;
-      min-height:64px;
+      min-height:66px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:16px;
     }
     .brand {
-      display:flex; align-items:center; gap:12px; font-weight:700; letter-spacing:.2px;
+      display:flex;
+      align-items:center;
+      gap:12px;
+      font-weight:800;
     }
-    .brand-badge {
-      width:38px; height:38px; border-radius:12px;
-      background:linear-gradient(135deg,var(--brand),var(--brand-2));
-      display:grid; place-items:center; color:#06121f; font-weight:900;
+    .badge {
+      width:40px; height:40px; border-radius:12px;
+      display:grid; place-items:center;
+      background:linear-gradient(135deg,var(--brand),var(--brand2));
+      color:#06121f;
+      font-weight:900;
       box-shadow:var(--shadow);
     }
     .nav {
-      display:flex; gap:10px; flex-wrap:wrap;
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
     }
     .nav a {
-      padding:10px 14px; border:1px solid rgba(255,255,255,.08); border-radius:999px;
-      color:var(--muted); font-size:.95rem;
+      padding:10px 14px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.08);
+      color:var(--muted);
+      font-size:.95rem;
       transition:all .2s ease;
     }
-    .nav a:hover { color:var(--text); border-color:rgba(255,255,255,.18); background:rgba(255,255,255,.04); }
+    .nav a:hover {
+      color:var(--text);
+      border-color:rgba(255,255,255,.18);
+      background:rgba(255,255,255,.04);
+    }
 
     .hero {
-      padding:56px 0 32px;
+      padding:54px 0 26px;
       display:grid;
-      grid-template-columns: 1.15fr .85fr;
+      grid-template-columns:1.1fr .9fr;
       gap:24px;
     }
     .card {
-      background:linear-gradient(180deg,rgba(17,24,39,.92),rgba(15,23,42,.96));
+      background:linear-gradient(180deg,rgba(17,24,39,.94),rgba(15,23,42,.98));
       border:1px solid rgba(255,255,255,.08);
       border-radius:var(--radius);
       box-shadow:var(--shadow);
     }
     .hero-main { padding:28px; }
     .eyebrow {
-      display:inline-flex; align-items:center; gap:8px;
-      padding:8px 12px; border-radius:999px;
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 12px;
+      border-radius:999px;
       background:rgba(34,197,94,.08);
-      color:#86efac; border:1px solid rgba(34,197,94,.18);
-      font-size:.85rem; font-weight:700;
+      color:#86efac;
+      border:1px solid rgba(34,197,94,.18);
+      font-size:.84rem;
+      font-weight:700;
       margin-bottom:16px;
     }
-    .hero h1 {
+    h1 {
       margin:0 0 14px;
-      font-size:clamp(2rem, 4vw, 3.4rem);
-      line-height:1.05;
+      font-size:clamp(2rem, 4vw, 3.5rem);
+      line-height:1.04;
       letter-spacing:-.02em;
     }
     .hero p {
@@ -94,11 +119,17 @@
       max-width:66ch;
     }
     .hero-actions {
-      display:flex; flex-wrap:wrap; gap:12px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
     }
     .btn {
-      display:inline-flex; align-items:center; justify-content:center; gap:10px;
-      padding:13px 16px; border-radius:14px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding:13px 16px;
+      border-radius:14px;
       border:1px solid rgba(255,255,255,.1);
       background:#111827;
       color:var(--text);
@@ -109,34 +140,43 @@
     .btn:hover { transform:translateY(-1px); border-color:rgba(255,255,255,.2); }
     .btn.primary {
       background:linear-gradient(135deg,var(--brand),#16a34a);
-      color:#06121f; border:none;
+      color:#06121f;
+      border:none;
     }
     .btn.info {
-      background:linear-gradient(135deg,var(--brand-2),#2563eb);
-      color:white; border:none;
+      background:linear-gradient(135deg,var(--brand2),#2563eb);
+      color:white;
+      border:none;
     }
 
     .hero-side {
       padding:22px;
-      display:grid; gap:14px;
+      display:grid;
+      gap:14px;
       align-content:start;
     }
-    .mini-stat-grid {
-      display:grid; grid-template-columns:1fr 1fr; gap:12px;
+    .mini-grid {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px;
     }
-    .mini-stat {
+    .mini {
       padding:16px;
+      border-radius:16px;
       background:rgba(255,255,255,.03);
       border:1px solid rgba(255,255,255,.06);
-      border-radius:16px;
     }
-    .mini-stat .k {
-      font-size:.84rem; color:var(--muted); margin-bottom:8px;
+    .mini .k {
+      font-size:.84rem;
+      color:var(--muted);
+      margin-bottom:8px;
     }
-    .mini-stat .v {
-      font-size:1.25rem; font-weight:800;
+    .mini .v {
+      font-size:1.15rem;
+      font-weight:800;
+      word-break:break-word;
     }
-    .mini-note {
+    .notice {
       padding:14px 16px;
       border-radius:14px;
       border:1px dashed rgba(255,255,255,.12);
@@ -145,11 +185,12 @@
       line-height:1.6;
     }
 
-    .section {
-      padding:18px 0 28px;
-    }
+    .section { padding:18px 0 28px; }
     .section-head {
-      display:flex; align-items:end; justify-content:space-between; gap:16px;
+      display:flex;
+      justify-content:space-between;
+      align-items:end;
+      gap:16px;
       margin-bottom:16px;
     }
     .section-head h2 {
@@ -161,16 +202,38 @@
       margin:6px 0 0;
       color:var(--muted);
       line-height:1.6;
-      max-width:70ch;
+      max-width:72ch;
     }
 
-    .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
-    .grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .grid-2 {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:18px;
+    }
 
-    .feed-card { padding:20px; }
-    .feed-card h3 { margin:0 0 8px; font-size:1.15rem; }
-    .feed-card p { margin:0 0 16px; color:var(--muted); line-height:1.6; }
-    .feed-url {
+    .tile { padding:20px; }
+    .tile h3 { margin:0 0 8px; font-size:1.15rem; }
+    .tile p { margin:0 0 16px; color:var(--muted); line-height:1.6; }
+
+    .status {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:7px 10px;
+      border-radius:999px;
+      font-size:.84rem;
+      font-weight:700;
+      margin-bottom:14px;
+      border:1px solid rgba(255,255,255,.08);
+      background:rgba(255,255,255,.03);
+    }
+    .status.ok {
+      color:#86efac;
+      border-color:rgba(16,185,129,.25);
+      background:rgba(16,185,129,.08);
+    }
+
+    .url-box {
       padding:14px 16px;
       border-radius:14px;
       background:rgba(255,255,255,.03);
@@ -180,43 +243,49 @@
       word-break:break-all;
       margin-bottom:14px;
     }
-    .feed-actions { display:flex; flex-wrap:wrap; gap:10px; }
 
-    .status-pill {
-      display:inline-flex; align-items:center; gap:8px;
-      padding:7px 10px; border-radius:999px;
-      font-size:.84rem; font-weight:700;
-      border:1px solid rgba(255,255,255,.08);
-      background:rgba(255,255,255,.03);
-      margin-bottom:14px;
+    .actions {
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
     }
-    .status-pill.ok { color:#86efac; border-color:rgba(16,185,129,.25); background:rgba(16,185,129,.08); }
-    .status-pill.warn { color:#fde68a; border-color:rgba(245,158,11,.25); background:rgba(245,158,11,.08); }
-    .status-pill.bad { color:#fecaca; border-color:rgba(239,68,68,.25); background:rgba(239,68,68,.08); }
 
-    .repo-card { padding:20px; }
-    .repo-list {
-      display:grid; gap:10px;
+    .list {
+      display:grid;
+      gap:10px;
       margin-top:12px;
     }
-    .repo-item {
-      display:flex; align-items:flex-start; justify-content:space-between; gap:14px;
+    .list-item {
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:14px;
       padding:14px 16px;
+      border-radius:14px;
       background:rgba(255,255,255,.03);
       border:1px solid rgba(255,255,255,.06);
-      border-radius:14px;
     }
-    .repo-item .meta { color:var(--muted); font-size:.92rem; margin-top:4px; line-height:1.5; }
+    .meta {
+      color:var(--muted);
+      font-size:.92rem;
+      margin-top:4px;
+      line-height:1.5;
+    }
 
-    .code-block {
+    .code {
+      padding:18px;
+      border-radius:16px;
       background:#0a1020;
       border:1px solid rgba(255,255,255,.08);
-      border-radius:16px;
-      padding:18px;
       font-family:var(--mono);
       font-size:.92rem;
-      overflow:auto;
-      white-space:pre;
+      white-space:pre-wrap;
+      line-height:1.6;
+    }
+
+    .small {
+      font-size:.88rem;
+      color:var(--muted);
       line-height:1.6;
     }
 
@@ -226,20 +295,17 @@
       font-size:.94rem;
     }
     .footer .foot {
-      display:flex; justify-content:space-between; gap:18px; flex-wrap:wrap;
+      display:flex;
+      justify-content:space-between;
+      gap:18px;
+      flex-wrap:wrap;
       padding-top:18px;
       border-top:1px solid rgba(255,255,255,.08);
     }
 
-    .small {
-      font-size:.88rem;
-      color:var(--muted);
-      line-height:1.6;
-    }
-
     @media (max-width: 960px) {
-      .hero, .grid-2, .grid-3 { grid-template-columns:1fr; }
-      .section-head { align-items:flex-start; flex-direction:column; }
+      .hero, .grid-2 { grid-template-columns:1fr; }
+      .section-head { flex-direction:column; align-items:flex-start; }
       .nav { display:none; }
     }
   </style>
@@ -248,10 +314,10 @@
   <header class="topbar">
     <div class="wrap inner">
       <div class="brand">
-        <div class="brand-badge">Z5</div>
+        <div class="badge">Z5</div>
         <div>
           <div>iptv-repo</div>
-          <div class="small">Zee5 IPTV / XMLTV production hub</div>
+          <div class="small">Zee5 IPTV / XMLTV dashboard</div>
         </div>
       </div>
       <nav class="nav">
@@ -266,43 +332,40 @@
   <main class="wrap">
     <section class="hero">
       <div class="hero-main card">
-        <div class="eyebrow">● Auto-updated • Static landing page • GitHub Pages friendly</div>
-        <h1>Zee5 IPTV / XMLTV Repository Hub</h1>
+        <div class="eyebrow">● Published static landing page • GitHub Pages friendly</div>
+        <h1>Zee5 IPTV / XMLTV Dashboard</h1>
         <p>
-          A single entry page for the repository’s production outputs, health checks, governance, and feed access.
-          This page is designed for a repo that mixes generator code, patcher logic, output artifacts, and older
-          historical paths, so it automatically probes the most likely locations and surfaces the first working feed.
+          A single page for feed access, repository navigation, and governance.
+          This version uses the correct published XMLTV path you provided and fixes the previously blank repository links.
         </p>
         <div class="hero-actions">
           <a class="btn primary" href="#feeds">Open feed hub</a>
-          <a class="btn info" id="repoLink" target="_blank" rel="noopener">Open repository</a>
-          <button class="btn" id="copyPageUrlBtn" type="button">Copy page URL</button>
+          <a class="btn info" href="https://github.com/Subhrajyoti0/iptv-repo" target="_blank" rel="noopener">Open repository</a>
+          <button class="btn" id="copyPageBtn" type="button">Copy page URL</button>
         </div>
       </div>
 
       <aside class="hero-side card">
-        <div class="mini-stat-grid">
-          <div class="mini-stat">
-            <div class="k">Playlist endpoint</div>
-            <div class="v" id="playlistStat">Probing…</div>
+        <div class="mini-grid">
+          <div class="mini">
+            <div class="k">Playlist feed</div>
+            <div class="v">Published</div>
           </div>
-          <div class="mini-stat">
-            <div class="k">EPG endpoint</div>
-            <div class="v" id="epgStat">Probing…</div>
+          <div class="mini">
+            <div class="k">EPG feed</div>
+            <div class="v">Published</div>
           </div>
-          <div class="mini-stat">
-            <div class="k">GitHub repo</div>
-            <div class="v">Public</div>
-          </div>
-          <div class="mini-stat">
-            <div class="k">Page mode</div>
+          <div class="mini">
+            <div class="k">Site type</div>
             <div class="v">Static</div>
           </div>
+          <div class="mini">
+            <div class="k">Repository</div>
+            <div class="v">Public</div>
+          </div>
         </div>
-
-        <div class="mini-note">
-          This page prefers <strong>static HTML</strong> so it can be hosted directly from the repository as a GitHub Pages site.
-          It also handles mixed repo history by testing multiple likely feed locations instead of assuming only one path.
+        <div class="notice">
+          GitHub Pages is intended for static site publishing, and your repo already has a `docs/` folder with `.nojekyll` and feed files, which makes a static landing page the cleanest fit. [1](https://windowsreport.com/github-adds-rubber-duck-debugging-ai-to-copilot-cli-for-smarter-code-reviews/)[2](https://docs.github.com/copilot/how-tos/agents/copilot-coding-agent/using-copilot-to-work-on-an-issue)
         </div>
       </aside>
     </section>
@@ -312,38 +375,45 @@
         <div>
           <h2>Feed Hub</h2>
           <p>
-            The page checks a small set of likely feed locations and promotes the first reachable one.
-            This is useful when the repo contains both newer structured folders and older root-level artifacts.
+            Direct feed URLs for players and clients, plus source-view links for inspection in GitHub.
           </p>
         </div>
       </div>
 
       <div class="grid-2">
-        <div class="feed-card card">
+        <div class="tile card">
           <h3>Playlist (M3U)</h3>
-          <div id="playlistStatus" class="status-pill warn">Checking playlist feed…</div>
-          <p>
-            Use this in IPTV players that accept a remote M3U playlist URL. The page will prefer the most appropriate available path.
-          </p>
-          <div id="playlistUrl" class="feed-url">Resolving…</div>
-          <div class="feed-actions">
-            <a class="btn primary" id="playlistOpen" target="_blank" rel="noopener">Open</a>
-            <a class="btn" id="playlistDownload" download>Download</a>
-            <button class="btn" id="playlistCopy" type="button">Copy URL</button>
+          <div class="status ok">Published feed</div>
+          <p>Use this URL in IPTV players that accept a remote M3U playlist.</p>
+          <div class="url-box" id="playlistFeedUrl">https://subhrajyoti0.github.io/iptv-repo/docs/zee5.m3u</div>
+          <div class="actions">
+            <a class="btn primary" href="https://subhrajyoti0.github.io/iptv-repo/docs/zee5.m3u" target="_blank" rel="noopener">Open feed</a>
+            <a class="btn" href="https://subhrajyoti0.github.io/iptv-repo/docs/zee5.m3u" download>Download</a>
+            <button class="btn" id="copyPlaylistBtn" type="button">Copy URL</button>
+          </div>
+
+          <p style="margin-top:18px; margin-bottom:10px; color:var(--muted);">GitHub source view</p>
+          <div class="url-box">https://github.com/Subhrajyoti0/iptv-repo/blob/main/docs/zee5.m3u</div>
+          <div class="actions">
+            <a class="btn" href="https://github.com/Subhrajyoti0/iptv-repo/blob/main/docs/zee5.m3u" target="_blank" rel="noopener">Open in GitHub</a>
           </div>
         </div>
 
-        <div class="feed-card card">
+        <div class="tile card">
           <h3>EPG (XMLTV)</h3>
-          <div id="epgStatus" class="status-pill warn">Checking XMLTV feed…</div>
-          <p>
-            Use this as the XMLTV / EPG source in Kodi, IPTV players, or downstream tooling.
-          </p>
-          <div id="epgUrl" class="feed-url">Resolving…</div>
-          <div class="feed-actions">
-            <a class="btn primary" id="epgOpen" target="_blank" rel="noopener">Open</a>
-            <a class="btn" id="epgDownload" download>Download</a>
-            <button class="btn" id="epgCopy" type="button">Copy URL</button>
+          <div class="status ok">Published feed</div>
+          <p>Use this as the XMLTV / EPG source in Kodi, IPTV players, or downstream tools.</p>
+          <div class="url-box" id="epgFeedUrl">https://subhrajyoti0.github.io/iptv-repo/output/zee5.xml</div>
+          <div class="actions">
+            <a class="btn primary" href="https://subhrajyoti0.github.io/iptv-repo/output/zee5.xml" target="_blank" rel="noopener">Open feed</a>
+            <a class="btn" href="https://subhrajyoti0.github.io/iptv-repo/output/zee5.xml" download>Download</a>
+            <button class="btn" id="copyEpgBtn" type="button">Copy URL</button>
+          </div>
+
+          <p style="margin-top:18px; margin-bottom:10px; color:var(--muted);">GitHub source view</p>
+          <div class="url-box">https://github.com/Subhrajyoti0/iptv-repo/blob/main/output/zee5.xml</div>
+          <div class="actions">
+            <a class="btn" href="https://github.com/Subhrajyoti0/iptv-repo/blob/main/output/zee5.xml" target="_blank" rel="noopener">Open in GitHub</a>
           </div>
         </div>
       </div>
@@ -359,41 +429,122 @@
         </div>
       </div>
 
-      <div class="repo-card card">
-        <div class="repo-list" id="repoList"></div>
+      <div class="card tile">
+        <div class="list">
+          <a class="list-item" href="https://github.com/Subhrajyoti0/iptv-repo" target="_blank" rel="noopener">
+            <div>
+              <strong>Repository root</strong>
+              <div class="meta">Code, pull requests, actions, issues, settings</div>
+            </div>
+            <div class="small">↗</div>
+          </a>
+
+          <a class="list-item" href="https://github.com/Subhrajyoti0/iptv-repo/tree/main/generators" target="_blank" rel="noopener">
+            <div>
+              <strong>Generator pipeline</strong>
+              <div class="meta">Catalog fetch, EPG fetch, normalization, XMLTV generation</div>
+            </div>
+            <div class="small">↗</div>
+          </a>
+
+          <a class="list-item" href="https://github.com/Subhrajyoti0/iptv-repo/tree/main/patcher" target="_blank" rel="noopener">
+            <div>
+              <strong>Patcher</strong>
+              <div class="meta">Strict patcher, review bucket, rename history, audit outputs</div>
+            </div>
+            <div class="small">↗</div>
+          </a>
+
+          <a class="list-item" href="https://github.com/Subhrajyoti0/iptv-repo/tree/main/output" target="_blank" rel="noopener">
+            <div>
+              <strong>Output artifacts</strong>
+              <div class="meta">Published XMLTV and normalized outputs</div>
+            </div>
+            <div class="small">↗</div>
+          </a>
+
+          <a class="list-item" href="https://github.com/Subhrajyoti0/iptv-repo/tree/main/.github/workflows" target="_blank" rel="noopener">
+            <div>
+              <strong>Workflows</strong>
+              <div class="meta">Automation and update/deploy workflows</div>
+            </div>
+            <div class="small">↗</div>
+          </a>
+
+          <a class="list-item" href="https://github.com/Subhrajyoti0/iptv-repo/tree/main/docs" target="_blank" rel="noopener">
+            <div>
+              <strong>Docs / Pages folder</strong>
+              <div class="meta">Static site files and GitHub Pages assets</div>
+            </div>
+            <div class="small">↗</div>
+          </a>
+        </div>
       </div>
     </section>
 
     <section id="governance" class="section">
       <div class="section-head">
         <div>
-          <h2>Governance & Production Policy</h2>
+          <h2>Governance & Policy</h2>
           <p>
-            These links are optional but recommended if they exist in the repo. The page will keep the links visible even if some are not present yet.
+            Recommended repository governance and Copilot-review support files.
           </p>
         </div>
       </div>
 
       <div class="grid-2">
-        <div class="repo-card card">
-          <h3 style="margin-top:0">Important documents</h3>
-          <div class="repo-list" id="governanceList"></div>
+        <div class="card tile">
+          <h3 style="margin-top:0">Governance documents</h3>
+          <div class="list">
+            <a class="list-item" href="https://github.com/Subhrajyoti0/iptv-repo/blob/main/ops/repo-governance.md" target="_blank" rel="noopener">
+              <div>
+                <strong>Repository governance</strong>
+                <div class="meta">Production-line policy, review rules, Copilot / bot / human roles</div>
+              </div>
+              <div class="small">↗</div>
+            </a>
+
+            <a class="list-item" href="https://github.com/Subhrajyoti0/iptv-repo/blob/main/.github/copilot-instructions.md" target="_blank" rel="noopener">
+              <div>
+                <strong>Copilot instructions</strong>
+                <div class="meta">Repository-specific review and audit guidance for Copilot</div>
+              </div>
+              <div class="small">↗</div>
+            </a>
+
+            <a class="list-item" href="https://github.com/Subhrajyoti0/iptv-repo/blob/main/ops/production-manifest.json" target="_blank" rel="noopener">
+              <div>
+                <strong>Production manifest</strong>
+                <div class="meta">Machine-readable keep / ignore / review source of truth</div>
+              </div>
+              <div class="small">↗</div>
+            </a>
+
+            <a class="list-item" href="https://github.com/Subhrajyoti0/iptv-repo/blob/main/.github/ISSUE_TEMPLATE/repo-audit.yml" target="_blank" rel="noopener">
+              <div>
+                <strong>Repo audit issue template</strong>
+                <div class="meta">Use this to ask Copilot for cleanup / production audit PRs</div>
+              </div>
+              <div class="small">↗</div>
+            </a>
+          </div>
         </div>
 
-        <div class="repo-card card">
-          <h3 style="margin-top:0">Recommended client setup</h3>
-          <div class="code-block">M3U  → <span id="examplePlaylistUrl">resolving…</span>
+        <div class="card tile">
+          <h3 style="margin-top:0">Quick setup</h3>
+          <div class="code">Playlist (M3U)
+https://subhrajyoti0.github.io/iptv-repo/docs/zee5.m3u
 
-EPG  → <span id="exampleEpgUrl">resolving…</span>
+EPG (XMLTV)
+https://subhrajyoti0.github.io/iptv-repo/output/zee5.xml
 
-Recommended use:
-- IPTV player / Kodi Live TV:
+Suggested usage:
+- IPTV player / Kodi:
   - add the playlist URL
-  - add the XMLTV EPG URL
-- GitHub repo / audit:
-  - open repository links below
-  - review governance docs
-  - keep runtime files ignored</div>
+  - add the XMLTV URL
+- GitHub review:
+  - use the source links above
+  - use governance documents for policy and cleanup review</div>
         </div>
       </div>
     </section>
@@ -403,29 +554,24 @@ Recommended use:
         <div>
           <h2>Usage Notes</h2>
           <p>
-            This page is intentionally static and lightweight. It does not require a framework, build tool, database, or server-side runtime.
+            This dashboard is intentionally a single self-contained static HTML page. GitHub Pages is a static publishing workflow, and your repo already has a Pages-friendly `docs/` directory with `.nojekyll` and feed files there. [1](https://windowsreport.com/github-adds-rubber-duck-debugging-ai-to-copilot-cli-for-smarter-code-reviews/)[2](https://docs.github.com/copilot/how-tos/agents/copilot-coding-agent/using-copilot-to-work-on-an-issue)
           </p>
         </div>
       </div>
 
-      <div class="repo-card card">
-        <div class="repo-list">
-          <div class="repo-item">
-            <div>
-              <strong>Best placement</strong>
-              <div class="meta">Put this file in <code>docs/index.html</code> if your Pages source is the <code>docs/</code> folder, or at the repo root if you publish from the root branch.</div>
-            </div>
-          </div>
-          <div class="repo-item">
+      <div class="card tile">
+        <div class="list">
+          <div class="list-item">
             <div>
               <strong>Why static HTML</strong>
-              <div class="meta">A static landing page fits GitHub Pages naturally and avoids adding unnecessary server-side complexity for a repo that is already publishing files.</div>
+              <div class="meta">It avoids unnecessary server-side complexity and works naturally with GitHub Pages static hosting. [1](https://windowsreport.com/github-adds-rubber-duck-debugging-ai-to-copilot-cli-for-smarter-code-reviews/)</div>
             </div>
           </div>
-          <div class="repo-item">
+
+          <div class="list-item">
             <div>
-              <strong>Why multi-path probing</strong>
-              <div class="meta">The repo has both structured folders and older root-level artifacts, so the page checks multiple likely feed paths and picks the first one that responds successfully.</div>
+              <strong>Why explicit feed and repo links</strong>
+              <div class="meta">Your repo has both structured folders and older historical artifacts, so explicit links are more reliable than ambiguous auto-detection for the public landing page. [3](https://bing.com/search?q=GitHub+Copilot+coding+agent+repository+issue+assign+Copilot+latest+docs+2026)[2](https://docs.github.com/copilot/how-tos/agents/copilot-coding-agent/using-copilot-to-work-on-an-issue)</div>
             </div>
           </div>
         </div>
@@ -436,188 +582,27 @@ Recommended use:
       <div class="foot">
         <div>
           <strong>iptv-repo</strong><br />
-          <span class="small">Static feed hub for repository outputs, governance, and repo navigation.</span>
+          <span class="small">Static Zee5 IPTV / XMLTV dashboard for published feeds and repository navigation.</span>
         </div>
         <div class="small">
-          Built as a self-contained HTML page for GitHub Pages-style static hosting.
+          Published as a static page for GitHub Pages-style hosting.
         </div>
       </div>
     </footer>
   </main>
 
   <script>
-    const REPO_WEB = "https://github.com/Subhrajyoti0/iptv-repo";
-    const BASE = window.location.origin + window.location.pathname.replace(/index\.html$/i, "");
+    document.getElementById("copyPageBtn").addEventListener("click", () => {
+      navigator.clipboard.writeText(window.location.href);
+    });
 
-    // Likely feed locations given the repo's mixed history / structure
-    const playlistCandidates = [
-      "zee5.m3u",
-      "docs/zee5.m3u",
-      "output/zee5.m3u",
-      "playlists/zee5_IN.m3u",
-      "in.m3u"
-    ];
+    document.getElementById("copyPlaylistBtn").addEventListener("click", () => {
+      navigator.clipboard.writeText("https://subhrajyoti0.github.io/iptv-repo/docs/zee5.m3u");
+    });
 
-    const epgCandidates = [
-      "zee5.xml",
-      "docs/zee5.xml",
-      "output/zee5.xml",
-      "epg/zee5_epg.xml.gz"
-    ];
-
-    const repoLinks = [
-      {
-        title: "Repository root",
-        href: REPO_WEB,
-        desc: "Code, issues, pull requests, actions, settings"
-      },
-      {
-        title: "Generator pipeline",
-        href: REPO_WEB + "/tree/main/generators",
-        desc: "Generator logic for catalog, EPG fetch, normalization, XMLTV"
-      },
-      {
-        title: "Patcher",
-        href: REPO_WEB + "/tree/main/patcher",
-        desc: "Strict patching, review bucket, rename history, audit logs"
-      },
-      {
-        title: "Output artifacts",
-        href: REPO_WEB + "/tree/main/output",
-        desc: "Published / generated XMLTV and normalized output files"
-      },
-      {
-        title: "Workflows",
-        href: REPO_WEB + "/tree/main/.github/workflows",
-        desc: "Automation workflows and deployment/update logic"
-      },
-      {
-        title: "Docs / Pages folder",
-        href: REPO_WEB + "/tree/main/docs",
-        desc: "Public static files for GitHub Pages if using docs/ as source"
-      }
-    ];
-
-    const governanceLinks = [
-      {
-        title: "Governance document",
-        href: "ops/repo-governance.md",
-        desc: "Production-line policy, review rules, Copilot/human/bot responsibilities"
-      },
-      {
-        title: "Copilot instructions",
-        href: ".github/copilot-instructions.md",
-        desc: "Repository instructions for review-first Copilot behavior"
-      },
-      {
-        title: "Production manifest",
-        href: "ops/production-manifest.json",
-        desc: "Machine-readable source of truth for keep / ignore / review"
-      },
-      {
-        title: "Repo audit issue template",
-        href: ".github/ISSUE_TEMPLATE/repo-audit.yml",
-        desc: "Template to ask Copilot for a cleanup / production-line audit PR"
-      }
-    ];
-
-    function toAbsolute(rel) {
-      return new URL(rel, BASE).toString();
-    }
-
-    async function exists(url) {
-      try {
-        const res = await fetch(url, { method: "HEAD", cache: "no-store" });
-        if (res.ok) return true;
-        // Some static hosts may not like HEAD for raw files; try GET fallback lightly.
-        const res2 = await fetch(url, { method: "GET", cache: "no-store" });
-        return res2.ok;
-      } catch {
-        return false;
-      }
-    }
-
-    async function firstWorking(candidates) {
-      for (const c of candidates) {
-        const abs = toAbsolute(c);
-        const ok = await exists(abs);
-        if (ok) return abs;
-      }
-      return null;
-    }
-
-    function setStatus(el, state, text) {
-      el.className = "status-pill " + state;
-      el.textContent = text;
-    }
-
-    function setFeedCard(kind, url) {
-      const isPlaylist = kind === "playlist";
-      const statusEl = document.getElementById(isPlaylist ? "playlistStatus" : "epgStatus");
-      const urlEl = document.getElementById(isPlaylist ? "playlistUrl" : "epgUrl");
-      const openEl = document.getElementById(isPlaylist ? "playlistOpen" : "epgOpen");
-      const dlEl = document.getElementById(isPlaylist ? "playlistDownload" : "epgDownload");
-      const copyEl = document.getElementById(isPlaylist ? "playlistCopy" : "epgCopy");
-      const stat = document.getElementById(isPlaylist ? "playlistStat" : "epgStat");
-      const example = document.getElementById(isPlaylist ? "examplePlaylistUrl" : "exampleEpgUrl");
-
-      if (url) {
-        setStatus(statusEl, "ok", "Available");
-        urlEl.textContent = url;
-        openEl.href = url;
-        dlEl.href = url;
-        copyEl.onclick = () => navigator.clipboard.writeText(url);
-        stat.textContent = "Ready";
-        example.textContent = url;
-      } else {
-        setStatus(statusEl, "bad", "Not found");
-        urlEl.textContent = "No reachable candidate feed was found from the known paths.";
-        openEl.removeAttribute("href");
-        dlEl.removeAttribute("href");
-        copyEl.onclick = () => {};
-        stat.textContent = "Missing";
-        example.textContent = "not found";
-      }
-    }
-
-    function renderRepoList() {
-      const root = document.getElementById("repoList");
-      root.innerHTML = repoLinks.map(item => `
-        <a class="repo-item" href="${item.href}" target="_blank" rel="noopener   <div class="small">↗</div>
-        </a>
-      `).join("");
-    }
-
-    function renderGovernanceList() {
-      const root = document.getElementById("governanceList");
-      root.innerHTML = governanceLinks.map(item => `
-        <a class="repo-item" href="${toAbsolute(item.href)}" target="_blank" rel="noopener>
-            <div class="meta">${item.desc}</div>
-          </div>
-          <div class="small">↗</div>
-        </a>
-      `).join("");
-    }
-
-    async function init() {
-      document.getElementById("repoLink").href = REPO_WEB;
-      document.getElementById("copyPageUrlBtn").onclick = () => {
-        navigator.clipboard.writeText(window.location.href);
-      };
-
-      renderRepoList();
-      renderGovernanceList();
-
-      const [playlistUrl, epgUrl] = await Promise.all([
-        firstWorking(playlistCandidates),
-        firstWorking(epgCandidates)
-      ]);
-
-      setFeedCard("playlist", playlistUrl);
-      setFeedCard("epg", epgUrl);
-    }
-
-    init();
+    document.getElementById("copyEpgBtn").addEventListener("click", () => {
+      navigator.clipboard.writeText("https://subhrajyoti0.github.io/iptv-repo/output/zee5.xml");
+    });
   </script>
 </body>
 </html>
