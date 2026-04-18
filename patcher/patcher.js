@@ -1,10 +1,15 @@
 import fs from 'fs'
 import stringSimilarity from 'string-similarity'
 
-/* ===================== PATHS ===================== */
+/* ===================== CONFIG ===================== */
 
 const XML_PATH = './output/zee5.xml'
-const M3U_PATH = './in.m3u'
+const LOCAL_M3U_PATH = './in.m3u'
+
+// Default to the real upstream India playlist from iptv-org
+const M3U_URL =
+  process.env.M3U_URL ||
+  'https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/in.m3u'
 
 const REVIEW_FILE = './patcher/review.json'
 const PATCH_LOG_FILE = './patcher/patch_log.json'
@@ -31,7 +36,7 @@ function stripNoiseForCore(name = '') {
   n = n.toLowerCase()
   n = n.replace(/\(.*?\)/g, '')
 
-  // remove only quality/region noise here
+  // remove only obvious quality/region noise from the core string
   n = n.replace(/\b(hd|sd|uhd|fhd|4k|usa|us|uk|apac|me|middleeast|intl|international|canada|ca|india|in)\b/g, '')
   n = n.replace(/[^a-z0-9]/g, '')
 
@@ -85,7 +90,7 @@ function inferRegionFromName(name = '') {
   if (/\bme\b|\bmiddle east\b/.test(n)) return 'me'
   if (/\bcanada\b|\bca\b/.test(n)) return 'ca'
   if (/\binternational\b|\bintl\b/.test(n)) return 'intl'
-  if (/\bindia\b|\bin\b/.test(n)) return 'in'
+  if (/\bindia\b/.test(n)) return 'in'
   if (/\bgerman\b|\bde\b/.test(n)) return 'de'
   if (/\bfrench\b|\bfr\b/.test(n)) return 'fr'
 
@@ -113,10 +118,6 @@ function parseTvgId(id = '') {
 
 /* ===================== STRONG METADATA INFERENCE ===================== */
 
-/**
- * Strong brand inference.
- * If brand differs, auto-patch must be blocked.
- */
 function inferBrand(name = '', tvgIdBase = '') {
   const n = decodeAmpersands(name).toLowerCase()
   const b = String(tvgIdBase || '').toLowerCase()
@@ -137,9 +138,6 @@ function inferBrand(name = '', tvgIdBase = '') {
   return null
 }
 
-/**
- * Strong language inference.
- */
 function inferLanguage(name = '') {
   const n = decodeAmpersands(name).toLowerCase()
 
@@ -156,10 +154,6 @@ function inferLanguage(name = '') {
   return null
 }
 
-/**
- * Strong genre inference.
- * If both known and different, reject.
- */
 function inferGenre(name = '') {
   const n = decodeAmpersands(name).toLowerCase()
 
@@ -172,26 +166,11 @@ function inferGenre(name = '') {
   return null
 }
 
-/**
- * Strong family extraction.
- * This is the most important safeguard after brand.
- *
- * Examples:
- *   Zee Cinemalu HD  -> family = cinemalu
- *   Zee Cinema HD    -> family = cinema
- *   Zee Bangla HD    -> family = bangla
- *   Zee Bangla Sonar -> family = banglasonar
- *   TV9 Kannada      -> family = kannada
- *   News 9           -> family = news9
- *   INews            -> family = inews
- */
 function inferFamily(name = '', tvgIdBase = '') {
   const n = decodeAmpersands(name).toLowerCase()
   const b = String(tvgIdBase || '').toLowerCase()
+  const source = `${n} ${b}`
 
-  const source = n || b
-
-  // Exact known family patterns first
   if (/cinemalu/.test(source)) return 'cinemalu'
   if (/cinema/.test(source)) return 'cinema'
   if (/banglasonar/.test(source) || /bangla sonar/.test(source)) return 'banglasonar'
@@ -212,7 +191,7 @@ function inferFamily(name = '', tvgIdBase = '') {
   if (/classic/.test(source)) return 'classic'
   if (/bollywood/.test(source)) return 'bollywood'
   if (/business/.test(source)) return 'business'
-  if (/news9/.test(source)) return 'news9'
+  if (/news9/.test(source) || /\bnews 9\b/.test(source)) return 'news9'
   if (/inews/.test(source)) return 'inews'
   if (/tv9/.test(source)) return 'tv9'
   if (/tv5/.test(source)) return 'tv5'
@@ -220,18 +199,17 @@ function inferFamily(name = '', tvgIdBase = '') {
   if (/wion/.test(source)) return 'wion'
   if (/bharat/.test(source)) return 'bharat'
   if (/zing/.test(source)) return 'zing'
-  if (/andtv|&tv|and tv/.test(source)) return 'tv'
+  if (/andtv|&tv|and tv|zee tv|zeetv/.test(source)) return 'tv'
   if (/andflix|&flix|and flix/.test(source)) return 'flix'
   if (/andpictures|&pictures|and pictures/.test(source)) return 'pictures'
   if (/andprive|&prive|and prive/.test(source)) return 'prive'
   if (/andxplor|&xplor|and xplor/.test(source)) return 'xplor'
-  if (/zeetv|zee tv/.test(source)) return 'tv'
   if (/zeeone|zee one/.test(source)) return 'one'
   if (/alwan/.test(source)) return 'alwan'
   if (/aflam/.test(source)) return 'aflam'
   if (/yuva/.test(source)) return 'yuva'
 
-  // Fallback: stripped core
+  // fallback core family
   let core = source
   core = core.replace(/\b(zee|tv9|tv5|etv|inews|india today|aaj tak|and)\b/g, '')
   core = core.replace(/\b(hd|sd|uhd|fhd|4k|usa|us|uk|apac|me|intl|international|canada|ca|india|in)\b/g, '')
@@ -255,18 +233,12 @@ function buildMeta({ name = '', tvgId = null }) {
 
 /* ===================== HARD RULES ===================== */
 
-/**
- * Hard reject if any of these differ and both are known.
- */
 function hardReject(xmlMeta, m3uMeta) {
   if (xmlMeta.brand && m3uMeta.brand && xmlMeta.brand !== m3uMeta.brand) return true
   if (xmlMeta.language && m3uMeta.language && xmlMeta.language !== m3uMeta.language) return true
   if (xmlMeta.genre && m3uMeta.genre && xmlMeta.genre !== m3uMeta.genre) return true
   if (xmlMeta.family && m3uMeta.family && xmlMeta.family !== m3uMeta.family) return true
-
-  // explicit region mismatch
   if (xmlMeta.region && m3uMeta.region && xmlMeta.region !== m3uMeta.region) return true
-
   return false
 }
 
@@ -351,173 +323,214 @@ function saveRenameHistory(history) {
   fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2))
 }
 
-/* ===================== LOAD FILES ===================== */
+/* ===================== LOAD XML ===================== */
 
-if (!fs.existsSync(XML_PATH) || !fs.existsSync(M3U_PATH)) {
-  throw new Error('❌ Required files missing (output/zee5.xml or in.m3u)')
+if (!fs.existsSync(XML_PATH)) {
+  throw new Error('❌ Required XML missing: output/zee5.xml')
 }
 
 const xml = fs.readFileSync(XML_PATH, 'utf8')
-const m3u = fs.readFileSync(M3U_PATH, 'utf8')
+
+/* ===================== FETCH / LOAD M3U ===================== */
+
+async function loadM3UText() {
+  console.log(`📡 Loading upstream M3U: ${M3U_URL}`)
+
+  try {
+    const res = await fetch(M3U_URL, {
+      headers: {
+        'user-agent': 'Mozilla/5.0',
+        accept: 'text/plain, application/x-mpegurl, application/vnd.apple.mpegurl, */*'
+      }
+    })
+
+    if (!res.ok) {
+      throw new Error(`Remote M3U fetch failed (${res.status})`)
+    }
+
+    const text = await res.text()
+    if (!text.includes('#EXTM3U') && !text.includes('#EXTINF')) {
+      throw new Error('Remote M3U does not look like a valid playlist')
+    }
+
+    console.log('✅ Remote M3U loaded successfully')
+    return text
+  } catch (err) {
+    console.warn(`⚠ Remote M3U failed: ${err.message}`)
+
+    if (fs.existsSync(LOCAL_M3U_PATH)) {
+      console.warn(`⚠ Falling back to local M3U: ${LOCAL_M3U_PATH}`)
+      return fs.readFileSync(LOCAL_M3U_PATH, 'utf8')
+    }
+
+    throw new Error('❌ Could not load remote M3U and no local fallback exists')
+  }
+}
 
 /* ===================== PARSE M3U ===================== */
 
-const m3uChannels = []
+function parseM3UChannels(m3uText) {
+  const out = []
 
-m3u.split('#EXTINF').forEach(chunk => {
-  const tvgId = chunk.match(/tvg-id="([^"]+)"/)?.[1]
-  const tvgName = chunk.match(/tvg-name="([^"]+)"/)?.[1]
-  const label = chunk.match(/,(.+?)\r?\n/)?.[1]
+  m3uText.split('#EXTINF').forEach(chunk => {
+    const tvgId = chunk.match(/tvg-id="([^"]+)"/)?.[1]
+    const tvgName = chunk.match(/tvg-name="([^"]+)"/)?.[1]
+    const label = chunk.match(/,(.+?)\r?\n/)?.[1]
 
-  const name = (tvgName || label || '').trim()
-  if (!tvgId || !name) return
+    const name = (tvgName || label || '').trim()
+    if (!tvgId || !name) return
 
-  m3uChannels.push({
-    id: tvgId,
-    name,
-    meta: buildMeta({ name, tvgId })
+    out.push({
+      id: tvgId,
+      name,
+      meta: buildMeta({ name, tvgId })
+    })
   })
-})
 
-if (m3uChannels.length === 0) {
-  throw new Error('❌ No channels parsed from M3U')
+  return out
 }
 
-/* ===================== PATCH INIT ===================== */
+/* ===================== MAIN PATCH LOGIC ===================== */
 
-let patchedXML = xml
-const review = []
-const patchLog = []
-const history = loadRenameHistory()
+async function run() {
+  const m3uText = await loadM3UText()
+  const m3uChannels = parseM3UChannels(m3uText)
 
-const channelRegex =
-  /<channel id="([^"]+)">[\s\S]*?<display-name[^>]*>([^<]+)<\/display-name>/g
-
-console.log('📡 Running strict Option‑A patcher (brand/language/genre/family/region/quality aware)...')
-
-/* ===================== PATCH LOOP ===================== */
-
-let match
-while ((match = channelRegex.exec(xml)) !== null) {
-  const oldId = match[1]
-  const displayName = match[2].trim()
-
-  const xmlMeta = buildMeta({ name: displayName, tvgId: null })
-
-  // PASS 1: exact canonical display-name
-  const exactCandidates = m3uChannels.filter(c => {
-    if (hardReject(xmlMeta, c.meta)) return false
-    return stripNoiseForCore(displayName) === stripNoiseForCore(c.name)
-  })
-
-  let chosen = null
-  let chosenScore = null
-  let method = null
-
-  if (exactCandidates.length === 1) {
-    chosen = exactCandidates[0]
-    chosenScore = scoreCandidate(displayName, xmlMeta, chosen)
-    method = 'exact-display-name'
-  } else {
-    const candidates = m3uChannels.filter(c => !hardReject(xmlMeta, c.meta))
-
-    if (candidates.length === 0) {
-      review.push({
-        timestamp: new Date().toISOString(),
-        xml_display_name: displayName,
-        old_channel_id: oldId,
-        reason: 'Hard rules blocked all candidates',
-        xmlMeta
-      })
-      continue
-    }
-
-    const scored = candidates.map(c => ({
-      candidate: c,
-      ...scoreCandidate(displayName, xmlMeta, c)
-    }))
-
-    scored.sort((a, b) => b.finalScore - a.finalScore)
-
-    const best = scored[0]
-
-    /**
-     * Strong threshold:
-     * only very confident candidates get auto-patched
-     */
-    if (best.finalScore < 0.93) {
-      review.push({
-        timestamp: new Date().toISOString(),
-        xml_display_name: displayName,
-        old_channel_id: oldId,
-        reason: 'Score below strict threshold',
-        xmlMeta,
-        topCandidates: scored.slice(0, 5).map(s => ({
-          id: s.candidate.id,
-          name: s.candidate.name,
-          meta: s.candidate.meta,
-          finalScore: Number(s.finalScore.toFixed(4)),
-          scoreName: Number(s.scoreName.toFixed(4)),
-          familyScore: Number(s.familyScore.toFixed(4)),
-          regionScore: Number(s.regionScore.toFixed(4)),
-          qualityScore: Number(s.qualityScore.toFixed(4)),
-          languageScore: Number(s.languageScore.toFixed(4)),
-          genreScore: Number(s.genreScore.toFixed(4))
-        }))
-      })
-      continue
-    }
-
-    chosen = best.candidate
-    chosenScore = best
-    method = 'strict-weighted'
+  if (m3uChannels.length === 0) {
+    throw new Error('❌ No channels parsed from upstream M3U')
   }
 
-  if (!chosen || chosen.id === oldId) continue
+  let patchedXML = xml
+  const review = []
+  const patchLog = []
+  const history = loadRenameHistory()
 
-  const escapedOldId = escapeRegex(oldId)
+  const channelRegex =
+    /<channel id="([^"]+)">[\s\S]*?<display-name[^>]*>([^<]+)<\/display-name>/g
 
-  patchedXML = patchedXML
-    .replace(new RegExp(`id="${escapedOldId}"`, 'g'), `id="${chosen.id}"`)
-    .replace(new RegExp(`channel="${escapedOldId}"`, 'g'), `channel="${chosen.id}"`)
+  console.log('📡 Running strict patcher against real upstream iptv-org IN playlist...')
 
-  const entry = {
-    timestamp: new Date().toISOString(),
-    xml_display_name: displayName,
-    old_channel_id: oldId,
-    new_channel_id: chosen.id,
-    confidence: Number(chosenScore.finalScore.toFixed(4)),
-    method,
-    evaluated: {
-      xmlMeta,
-      chosenMeta: chosen.meta,
-      scoreBreakdown: {
-        finalScore: Number(chosenScore.finalScore.toFixed(4)),
-        scoreName: Number(chosenScore.scoreName.toFixed(4)),
-        familyScore: Number(chosenScore.familyScore.toFixed(4)),
-        regionScore: Number(chosenScore.regionScore.toFixed(4)),
-        qualityScore: Number(chosenScore.qualityScore.toFixed(4)),
-        languageScore: Number(chosenScore.languageScore.toFixed(4)),
-        genreScore: Number(chosenScore.genreScore.toFixed(4))
+  let match
+  while ((match = channelRegex.exec(xml)) !== null) {
+    const oldId = match[1]
+    const displayName = match[2].trim()
+
+    const xmlMeta = buildMeta({ name: displayName, tvgId: null })
+
+    // PASS 1: exact canonical display-name
+    const exactCandidates = m3uChannels.filter(c => {
+      if (hardReject(xmlMeta, c.meta)) return false
+      return stripNoiseForCore(displayName) === stripNoiseForCore(c.name)
+    })
+
+    let chosen = null
+    let chosenScore = null
+    let method = null
+
+    if (exactCandidates.length === 1) {
+      chosen = exactCandidates[0]
+      chosenScore = scoreCandidate(displayName, xmlMeta, chosen)
+      method = 'exact-display-name'
+    } else {
+      const candidates = m3uChannels.filter(c => !hardReject(xmlMeta, c.meta))
+
+      if (candidates.length === 0) {
+        review.push({
+          timestamp: new Date().toISOString(),
+          xml_display_name: displayName,
+          old_channel_id: oldId,
+          reason: 'Hard rules blocked all candidates',
+          xmlMeta
+        })
+        continue
+      }
+
+      const scored = candidates.map(c => ({
+        candidate: c,
+        ...scoreCandidate(displayName, xmlMeta, c)
+      }))
+
+      scored.sort((a, b) => b.finalScore - a.finalScore)
+      const best = scored[0]
+
+      // very strict threshold
+      if (best.finalScore < 0.93) {
+        review.push({
+          timestamp: new Date().toISOString(),
+          xml_display_name: displayName,
+          old_channel_id: oldId,
+          reason: 'Score below strict threshold',
+          xmlMeta,
+          topCandidates: scored.slice(0, 5).map(s => ({
+            id: s.candidate.id,
+            name: s.candidate.name,
+            meta: s.candidate.meta,
+            finalScore: Number(s.finalScore.toFixed(4)),
+            scoreName: Number(s.scoreName.toFixed(4)),
+            familyScore: Number(s.familyScore.toFixed(4)),
+            regionScore: Number(s.regionScore.toFixed(4)),
+            qualityScore: Number(s.qualityScore.toFixed(4)),
+            languageScore: Number(s.languageScore.toFixed(4)),
+            genreScore: Number(s.genreScore.toFixed(4))
+          }))
+        })
+        continue
+      }
+
+      chosen = best.candidate
+      chosenScore = best
+      method = 'strict-weighted'
+    }
+
+    if (!chosen || chosen.id === oldId) continue
+
+    const escapedOldId = escapeRegex(oldId)
+
+    patchedXML = patchedXML
+      .replace(new RegExp(`id="${escapedOldId}"`, 'g'), `id="${chosen.id}"`)
+      .replace(new RegExp(`channel="${escapedOldId}"`, 'g'), `channel="${chosen.id}"`)
+
+    const entry = {
+      timestamp: new Date().toISOString(),
+      xml_display_name: displayName,
+      old_channel_id: oldId,
+      new_channel_id: chosen.id,
+      confidence: Number(chosenScore.finalScore.toFixed(4)),
+      method,
+      evaluated: {
+        xmlMeta,
+        chosenMeta: chosen.meta,
+        scoreBreakdown: {
+          finalScore: Number(chosenScore.finalScore.toFixed(4)),
+          scoreName: Number(chosenScore.scoreName.toFixed(4)),
+          familyScore: Number(chosenScore.familyScore.toFixed(4)),
+          regionScore: Number(chosenScore.regionScore.toFixed(4)),
+          qualityScore: Number(chosenScore.qualityScore.toFixed(4)),
+          languageScore: Number(chosenScore.languageScore.toFixed(4)),
+          genreScore: Number(chosenScore.genreScore.toFixed(4))
+        }
       }
     }
+
+    patchLog.push(entry)
+    history.renames.push(entry)
+
+    console.log(
+      `✅ ${displayName} → ${chosen.id} (${Math.round(chosenScore.finalScore * 100)}%) [${method}]`
+    )
   }
 
-  patchLog.push(entry)
-  history.renames.push(entry)
+  fs.writeFileSync(XML_PATH, patchedXML)
+  fs.writeFileSync(PATCH_LOG_FILE, JSON.stringify(patchLog, null, 2))
+  fs.writeFileSync(REVIEW_FILE, JSON.stringify(review, null, 2))
+  saveRenameHistory(history)
 
-  console.log(
-    `✅ ${displayName} → ${chosen.id} (${Math.round(chosenScore.finalScore * 100)}%) [${method}]`
-  )
+  console.log('\n✅ Auto‑patched:', patchLog.length)
+  console.log('⚠️ Review required:', review.length)
+  console.log('📜 Rename history updated:', history.renames.length)
 }
 
-/* ===================== WRITE OUTPUT ===================== */
-
-fs.writeFileSync(XML_PATH, patchedXML)
-fs.writeFileSync(PATCH_LOG_FILE, JSON.stringify(patchLog, null, 2))
-fs.writeFileSync(REVIEW_FILE, JSON.stringify(review, null, 2))
-saveRenameHistory(history)
-
-console.log('\n✅ Auto‑patched:', patchLog.length);
-console.log('⚠️ Review required:', review.length);
-console.log('📜 Rename history updated:', history.renames.length);
+run().catch(err => {
+  console.error('❌ FATAL:', err.message)
+  process.exit(1)
+})
