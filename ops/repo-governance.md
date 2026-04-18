@@ -331,3 +331,5 @@ Never silently delete. Never auto-merge cleanup. Never bypass review for questio
 **Copilot advises. Humans decide. Production safety wins.**
 
 _Copilot review test marker – do not keep_
+
+_Third Copilot trigger_
