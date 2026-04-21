@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-04-20T19:02:08.672Z",
+    "timestamp": "2026-04-21T02:05:56.081Z",
     "xml_display_name": "Zing USA",
     "old_channel_id": "0-9-channel_1643519345",
     "reason": "Hard rules blocked all candidates",
@@ -21,7 +21,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.700Z",
+    "timestamp": "2026-04-21T02:05:56.113Z",
     "xml_display_name": "Zee TV USA",
     "old_channel_id": "0-9-channel_1586895760",
     "reason": "Hard rules blocked all candidates",
@@ -42,7 +42,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.700Z",
+    "timestamp": "2026-04-21T02:05:56.113Z",
     "xml_display_name": "Zee TV ME",
     "old_channel_id": "0-9-tvme",
     "reason": "Hard rules blocked all candidates",
@@ -63,7 +63,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.700Z",
+    "timestamp": "2026-04-21T02:05:56.113Z",
     "xml_display_name": "Zee TV HD USA",
     "old_channel_id": "0-9-channel_341994370",
     "reason": "Hard rules blocked all candidates",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.700Z",
+    "timestamp": "2026-04-21T02:05:56.114Z",
     "xml_display_name": "Zee TV HD UK",
     "old_channel_id": "0-9-zeetvuk",
     "reason": "Hard rules blocked all candidates",
@@ -105,7 +105,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.701Z",
+    "timestamp": "2026-04-21T02:05:56.114Z",
     "xml_display_name": "Zee TV HD Canada",
     "old_channel_id": "0-9-channel_1017420475",
     "reason": "Hard rules blocked all candidates",
@@ -126,7 +126,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.710Z",
+    "timestamp": "2026-04-21T02:05:56.122Z",
     "xml_display_name": "Zee TV DE",
     "old_channel_id": "0-9-9z5898964",
     "reason": "Hard rules blocked all candidates",
@@ -147,7 +147,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.710Z",
+    "timestamp": "2026-04-21T02:05:56.122Z",
     "xml_display_name": "Zee TV APAC HD",
     "old_channel_id": "0-9-zeetvapac",
     "reason": "Hard rules blocked all candidates",
@@ -168,28 +168,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.722Z",
-    "xml_display_name": "Zee Thirai HD",
-    "old_channel_id": "0-9-224",
-    "reason": "Hard rules blocked all candidates",
-    "xmlMeta": {
-      "rawName": "Zee Thirai HD",
-      "brand": "zee",
-      "language": "ta",
-      "genre": "movies",
-      "family": "thirai",
-      "region": null,
-      "quality": "hd",
-      "parsedId": {
-        "raw": "",
-        "baseId": "",
-        "region": null,
-        "quality": null
-      }
-    }
-  },
-  {
-    "timestamp": "2026-04-20T19:02:08.737Z",
+    "timestamp": "2026-04-21T02:05:56.153Z",
     "xml_display_name": "Zee Tamil HD APAC",
     "old_channel_id": "0-9-360",
     "reason": "Hard rules blocked all candidates",
@@ -210,313 +189,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.737Z",
-    "xml_display_name": "Zee Tamil HD",
-    "old_channel_id": "0-9-zeetamil",
-    "reason": "Score below strict threshold",
-    "xmlMeta": {
-      "rawName": "Zee Tamil HD",
-      "brand": "zee",
-      "language": "ta",
-      "genre": "general",
-      "family": "tamil",
-      "region": null,
-      "quality": "hd",
-      "parsedId": {
-        "raw": "",
-        "baseId": "",
-        "region": null,
-        "quality": null
-      }
-    },
-    "topCandidates": [
-      {
-        "id": "DDTamil.in@SD",
-        "name": "DD Tamil",
-        "meta": {
-          "rawName": "DD Tamil",
-          "brand": null,
-          "language": "ta",
-          "genre": "general",
-          "family": "tamil",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "DDTamil.in@SD",
-            "baseId": "DDTamil",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.7882,
-        "scoreName": 0.6154,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.4,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "ColorsTamil.in@HD",
-        "name": "Colors Tamil HD (1080p)",
-        "meta": {
-          "rawName": "Colors Tamil HD (1080p)",
-          "brand": null,
-          "language": "ta",
-          "genre": "general",
-          "family": "tamil",
-          "region": "in",
-          "quality": "hd",
-          "parsedId": {
-            "raw": "ColorsTamil.in@HD",
-            "baseId": "ColorsTamil",
-            "region": "in",
-            "quality": "hd"
-          }
-        },
-        "finalScore": 0.7782,
-        "scoreName": 0.4706,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 1,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "ColorsTamil.in@HD",
-        "name": "Colors Tamil HD (1080p)",
-        "meta": {
-          "rawName": "Colors Tamil HD (1080p)",
-          "brand": null,
-          "language": "ta",
-          "genre": "general",
-          "family": "tamil",
-          "region": "in",
-          "quality": "hd",
-          "parsedId": {
-            "raw": "ColorsTamil.in@HD",
-            "baseId": "ColorsTamil",
-            "region": "in",
-            "quality": "hd"
-          }
-        },
-        "finalScore": 0.7782,
-        "scoreName": 0.4706,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 1,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "TamilanTV.in@SD",
-        "name": "Tamilan TV (1080p)",
-        "meta": {
-          "rawName": "Tamilan TV (1080p)",
-          "brand": null,
-          "language": "ta",
-          "genre": "general",
-          "family": "tamil",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "TamilanTV.in@SD",
-            "baseId": "TamilanTV",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.7553,
-        "scoreName": 0.5333,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.4,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "TamilJanam.in@SD",
-        "name": "Tamil Janam (576p)",
-        "meta": {
-          "rawName": "Tamil Janam (576p)",
-          "brand": null,
-          "language": "ta",
-          "genre": "general",
-          "family": "tamil",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "TamilJanam.in@SD",
-            "baseId": "TamilJanam",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.742,
-        "scoreName": 0.5,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.4,
-        "languageScore": 1,
-        "genreScore": 1
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-04-20T19:02:08.737Z",
-    "xml_display_name": "Zee Tamil",
-    "old_channel_id": "0-9-9z5383487",
-    "reason": "Score below strict threshold",
-    "xmlMeta": {
-      "rawName": "Zee Tamil",
-      "brand": "zee",
-      "language": "ta",
-      "genre": "general",
-      "family": "tamil",
-      "region": null,
-      "quality": null,
-      "parsedId": {
-        "raw": "",
-        "baseId": "",
-        "region": null,
-        "quality": null
-      }
-    },
-    "topCandidates": [
-      {
-        "id": "DDTamil.in@SD",
-        "name": "DD Tamil",
-        "meta": {
-          "rawName": "DD Tamil",
-          "brand": null,
-          "language": "ta",
-          "genre": "general",
-          "family": "tamil",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "DDTamil.in@SD",
-            "baseId": "DDTamil",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.8122,
-        "scoreName": 0.6154,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.7,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "TamilanTV.in@SD",
-        "name": "Tamilan TV (1080p)",
-        "meta": {
-          "rawName": "Tamilan TV (1080p)",
-          "brand": null,
-          "language": "ta",
-          "genre": "general",
-          "family": "tamil",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "TamilanTV.in@SD",
-            "baseId": "TamilanTV",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.7793,
-        "scoreName": 0.5333,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.7,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "TamilJanam.in@SD",
-        "name": "Tamil Janam (576p)",
-        "meta": {
-          "rawName": "Tamil Janam (576p)",
-          "brand": null,
-          "language": "ta",
-          "genre": "general",
-          "family": "tamil",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "TamilJanam.in@SD",
-            "baseId": "TamilJanam",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.766,
-        "scoreName": 0.5,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.7,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "AasthaTamil.in@SD",
-        "name": "Aastha Tamil (480p)",
-        "meta": {
-          "rawName": "Aastha Tamil (480p)",
-          "brand": null,
-          "language": "ta",
-          "genre": "general",
-          "family": "tamil",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "AasthaTamil.in@SD",
-            "baseId": "AasthaTamil",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.7542,
-        "scoreName": 0.4706,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.7,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "ColorsTamil.in@HD",
-        "name": "Colors Tamil HD (1080p)",
-        "meta": {
-          "rawName": "Colors Tamil HD (1080p)",
-          "brand": null,
-          "language": "ta",
-          "genre": "general",
-          "family": "tamil",
-          "region": "in",
-          "quality": "hd",
-          "parsedId": {
-            "raw": "ColorsTamil.in@HD",
-            "baseId": "ColorsTamil",
-            "region": "in",
-            "quality": "hd"
-          }
-        },
-        "finalScore": 0.7542,
-        "scoreName": 0.4706,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.7,
-        "languageScore": 1,
-        "genreScore": 1
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.182Z",
     "xml_display_name": "Zee Sarthak",
     "old_channel_id": "0-9-sarthaktv",
     "reason": "Hard rules blocked all candidates",
@@ -537,7 +210,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.182Z",
     "xml_display_name": "Zee Rajasthan News",
     "old_channel_id": "0-9-zeerajasthannews",
     "reason": "Hard rules blocked all candidates",
@@ -558,7 +231,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "Zee Punjabi",
     "old_channel_id": "0-9-215",
     "reason": "Score below strict threshold",
@@ -711,7 +384,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "Zee Punjab Haryana Himachal Pradesh",
     "old_channel_id": "0-9-zeepunjabharyanahima",
     "reason": "Hard rules blocked all candidates",
@@ -732,7 +405,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "Zee Power HD",
     "old_channel_id": "0-9-241",
     "reason": "Hard rules blocked all candidates",
@@ -753,7 +426,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "Zee One German",
     "old_channel_id": "0-9-161",
     "reason": "Hard rules blocked all candidates",
@@ -774,7 +447,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "Zee One French",
     "old_channel_id": "0-9-9z5829362",
     "reason": "Hard rules blocked all candidates",
@@ -795,7 +468,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "Zee One",
     "old_channel_id": "0-9-9z5825786",
     "reason": "Hard rules blocked all candidates",
@@ -816,7 +489,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "Zee News Uttar Pradesh Uttrakhand",
     "old_channel_id": "0-9-channel_265145625",
     "reason": "Hard rules blocked all candidates",
@@ -837,7 +510,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "Zee News Telugu",
     "old_channel_id": "0-9-9z583538",
     "reason": "Score below strict threshold",
@@ -886,7 +559,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "ZEE News Tamil",
     "old_channel_id": "0-9-9z583533",
     "reason": "Score below strict threshold",
@@ -906,6 +579,32 @@
       }
     },
     "topCandidates": [
+      {
+        "id": "ZeeTamilNews.in@SD",
+        "name": "Zee Tamil News (720p)",
+        "meta": {
+          "rawName": "Zee Tamil News (720p)",
+          "brand": "zee",
+          "language": "ta",
+          "genre": "news",
+          "family": "tamil",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeTamilNews.in@SD",
+            "baseId": "ZeeTamilNews",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "finalScore": 0.8933,
+        "scoreName": 0.8182,
+        "familyScore": 1,
+        "regionScore": 0.9,
+        "qualityScore": 0.7,
+        "languageScore": 1,
+        "genreScore": 1
+      },
       {
         "id": "News7Tamil.in@SD",
         "name": "News 7 Tamil (576p)",
@@ -1009,37 +708,11 @@
         "qualityScore": 0.7,
         "languageScore": 1,
         "genreScore": 1
-      },
-      {
-        "id": "News18TamilNadu.in@SD",
-        "name": "News18 Tamil Nadu (1080p)",
-        "meta": {
-          "rawName": "News18 Tamil Nadu (1080p)",
-          "brand": null,
-          "language": "ta",
-          "genre": "news",
-          "family": "tamil",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "News18TamilNadu.in@SD",
-            "baseId": "News18TamilNadu",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.79,
-        "scoreName": 0.56,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.7,
-        "languageScore": 1,
-        "genreScore": 1
       }
     ]
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "ZEE News Malayalam",
     "old_channel_id": "0-9-9z583539",
     "reason": "Hard rules blocked all candidates",
@@ -1060,7 +733,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "Zee News Kannada",
     "old_channel_id": "0-9-9z583537",
     "reason": "Score below strict threshold",
@@ -1135,7 +808,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-20T19:02:08.752Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "Zee News",
     "old_channel_id": "0-9-zeenews",
     "reason": "Hard rules blocked all candidates",
@@ -1156,7 +829,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.753Z",
+    "timestamp": "2026-04-21T02:05:56.183Z",
     "xml_display_name": "Zee Marathi USA",
     "old_channel_id": "0-9-channel_926372368",
     "reason": "Hard rules blocked all candidates",
@@ -1177,7 +850,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.768Z",
+    "timestamp": "2026-04-21T02:05:56.198Z",
     "xml_display_name": "Zee Madhya Pradesh Chhattisgarh",
     "old_channel_id": "0-9-zeemadhyapradeshchat",
     "reason": "Hard rules blocked all candidates",
@@ -1198,7 +871,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.768Z",
+    "timestamp": "2026-04-21T02:05:56.199Z",
     "xml_display_name": "Zee Keralam HD",
     "old_channel_id": "0-9-129",
     "reason": "Score below strict threshold",
@@ -1247,7 +920,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-20T19:02:08.768Z",
+    "timestamp": "2026-04-21T02:05:56.199Z",
     "xml_display_name": "Zee Kannada HD",
     "old_channel_id": "0-9-zeekannada",
     "reason": "Score below strict threshold",
@@ -1267,6 +940,32 @@
       }
     },
     "topCandidates": [
+      {
+        "id": "ColorsKannada.in@HD",
+        "name": "Colors Kannada HD (1080p)",
+        "meta": {
+          "rawName": "Colors Kannada HD (1080p)",
+          "brand": null,
+          "language": "kn",
+          "genre": "general",
+          "family": "kannada",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ColorsKannada.in@HD",
+            "baseId": "ColorsKannada",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "finalScore": 0.8186,
+        "scoreName": 0.5714,
+        "familyScore": 1,
+        "regionScore": 0.9,
+        "qualityScore": 1,
+        "languageScore": 1,
+        "genreScore": 1
+      },
       {
         "id": "NKRTVKannada.in@SD",
         "name": "NKR TV Kannada (576p)",
@@ -1346,10 +1045,10 @@
         "genreScore": 1
       },
       {
-        "id": "RajMusixKannada.in@SD",
-        "name": "Raj Musix Kannada (576p)",
+        "id": "ColorsKannada.in@SD",
+        "name": "Colors Kannada (576p)",
         "meta": {
-          "rawName": "Raj Musix Kannada (576p)",
+          "rawName": "Colors Kannada (576p)",
           "brand": null,
           "language": "kn",
           "genre": "general",
@@ -1357,40 +1056,14 @@
           "region": "in",
           "quality": "sd",
           "parsedId": {
-            "raw": "RajMusixKannada.in@SD",
-            "baseId": "RajMusixKannada",
+            "raw": "ColorsKannada.in@SD",
+            "baseId": "ColorsKannada",
             "region": "in",
             "quality": "sd"
           }
         },
-        "finalScore": 0.7507,
-        "scoreName": 0.5217,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.4,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "RepublicKannada.in@SD",
-        "name": "Republic Kannada (1080p)",
-        "meta": {
-          "rawName": "Republic Kannada (1080p)",
-          "brand": null,
-          "language": "kn",
-          "genre": "general",
-          "family": "kannada",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "RepublicKannada.in@SD",
-            "baseId": "RepublicKannada",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.7507,
-        "scoreName": 0.5217,
+        "finalScore": 0.7706,
+        "scoreName": 0.5714,
         "familyScore": 1,
         "regionScore": 0.9,
         "qualityScore": 0.4,
@@ -1400,7 +1073,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-20T19:02:08.768Z",
+    "timestamp": "2026-04-21T02:05:56.199Z",
     "xml_display_name": "Zee Kannada",
     "old_channel_id": "0-9-9z5383466",
     "reason": "Score below strict threshold",
@@ -1499,10 +1172,10 @@
         "genreScore": 1
       },
       {
-        "id": "RajMusixKannada.in@SD",
-        "name": "Raj Musix Kannada (576p)",
+        "id": "ColorsKannada.in@SD",
+        "name": "Colors Kannada (576p)",
         "meta": {
-          "rawName": "Raj Musix Kannada (576p)",
+          "rawName": "Colors Kannada (576p)",
           "brand": null,
           "language": "kn",
           "genre": "general",
@@ -1510,14 +1183,14 @@
           "region": "in",
           "quality": "sd",
           "parsedId": {
-            "raw": "RajMusixKannada.in@SD",
-            "baseId": "RajMusixKannada",
+            "raw": "ColorsKannada.in@SD",
+            "baseId": "ColorsKannada",
             "region": "in",
             "quality": "sd"
           }
         },
-        "finalScore": 0.7747,
-        "scoreName": 0.5217,
+        "finalScore": 0.7946,
+        "scoreName": 0.5714,
         "familyScore": 1,
         "regionScore": 0.9,
         "qualityScore": 0.7,
@@ -1525,25 +1198,25 @@
         "genreScore": 1
       },
       {
-        "id": "RepublicKannada.in@SD",
-        "name": "Republic Kannada (1080p)",
+        "id": "ColorsKannada.in@HD",
+        "name": "Colors Kannada HD (1080p)",
         "meta": {
-          "rawName": "Republic Kannada (1080p)",
+          "rawName": "Colors Kannada HD (1080p)",
           "brand": null,
           "language": "kn",
           "genre": "general",
           "family": "kannada",
           "region": "in",
-          "quality": "sd",
+          "quality": "hd",
           "parsedId": {
-            "raw": "RepublicKannada.in@SD",
-            "baseId": "RepublicKannada",
+            "raw": "ColorsKannada.in@HD",
+            "baseId": "ColorsKannada",
             "region": "in",
-            "quality": "sd"
+            "quality": "hd"
           }
         },
-        "finalScore": 0.7747,
-        "scoreName": 0.5217,
+        "finalScore": 0.7946,
+        "scoreName": 0.5714,
         "familyScore": 1,
         "regionScore": 0.9,
         "qualityScore": 0.7,
@@ -1553,7 +1226,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-20T19:02:08.768Z",
+    "timestamp": "2026-04-21T02:05:56.199Z",
     "xml_display_name": "Zee Delhi NCR Haryana",
     "old_channel_id": "0-9-zeekalinganews",
     "reason": "Hard rules blocked all candidates",
@@ -1574,7 +1247,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.790Z",
+    "timestamp": "2026-04-21T02:05:56.224Z",
     "xml_display_name": "Zee Cinema USA",
     "old_channel_id": "0-9-179",
     "reason": "Hard rules blocked all candidates",
@@ -1595,7 +1268,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.790Z",
+    "timestamp": "2026-04-21T02:05:56.224Z",
     "xml_display_name": "Zee Cinema UK",
     "old_channel_id": "0-9-zeecinemauk",
     "reason": "Hard rules blocked all candidates",
@@ -1616,7 +1289,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.790Z",
+    "timestamp": "2026-04-21T02:05:56.224Z",
     "xml_display_name": "Zee Cinema ME",
     "old_channel_id": "0-9-zeecinemaintl",
     "reason": "Hard rules blocked all candidates",
@@ -1637,7 +1310,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.805Z",
+    "timestamp": "2026-04-21T02:05:56.242Z",
     "xml_display_name": "Zee Café HD",
     "old_channel_id": "0-9-zeecafehd",
     "reason": "Hard rules blocked all candidates",
@@ -1658,7 +1331,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.829Z",
+    "timestamp": "2026-04-21T02:05:56.276Z",
     "xml_display_name": "Zee Bioskop",
     "old_channel_id": "0-9-zeebioskop",
     "reason": "Hard rules blocked all candidates",
@@ -1679,7 +1352,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.829Z",
+    "timestamp": "2026-04-21T02:05:56.276Z",
     "xml_display_name": "Zee Bihar Jharkhand",
     "old_channel_id": "0-9-zeebiharjharkhand",
     "reason": "Hard rules blocked all candidates",
@@ -1700,7 +1373,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.848Z",
+    "timestamp": "2026-04-21T02:05:56.293Z",
     "xml_display_name": "Zee Bangla International",
     "old_channel_id": "0-9-366",
     "reason": "Hard rules blocked all candidates",
@@ -1721,313 +1394,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.848Z",
-    "xml_display_name": "Zee Bangla HD",
-    "old_channel_id": "0-9-zeebangla",
-    "reason": "Score below strict threshold",
-    "xmlMeta": {
-      "rawName": "Zee Bangla HD",
-      "brand": "zee",
-      "language": "bn",
-      "genre": "general",
-      "family": "bangla",
-      "region": null,
-      "quality": "hd",
-      "parsedId": {
-        "raw": "",
-        "baseId": "",
-        "region": null,
-        "quality": null
-      }
-    },
-    "topCandidates": [
-      {
-        "id": "DDBangla.in@SD",
-        "name": "DD Bangla",
-        "meta": {
-          "rawName": "DD Bangla",
-          "brand": null,
-          "language": "bn",
-          "genre": "general",
-          "family": "bangla",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "DDBangla.in@SD",
-            "baseId": "DDBangla",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.8087,
-        "scoreName": 0.6667,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.4,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "ColorsBangla.in@HD",
-        "name": "Colors Bangla HD (1080p)",
-        "meta": {
-          "rawName": "Colors Bangla HD (1080p)",
-          "brand": null,
-          "language": "bn",
-          "genre": "general",
-          "family": "bangla",
-          "region": "in",
-          "quality": "hd",
-          "parsedId": {
-            "raw": "ColorsBangla.in@HD",
-            "baseId": "ColorsBangla",
-            "region": "in",
-            "quality": "hd"
-          }
-        },
-        "finalScore": 0.8005,
-        "scoreName": 0.5263,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 1,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "KTVBangla.in@SD",
-        "name": "KTV Bangla (720p)",
-        "meta": {
-          "rawName": "KTV Bangla (720p)",
-          "brand": null,
-          "language": "bn",
-          "genre": "general",
-          "family": "bangla",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "KTVBangla.in@SD",
-            "baseId": "KTVBangla",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.792,
-        "scoreName": 0.625,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.4,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "NKTVBangla.in@SD",
-        "name": "NK TV Bangla (1080p)",
-        "meta": {
-          "rawName": "NK TV Bangla (1080p)",
-          "brand": null,
-          "language": "bn",
-          "genre": "general",
-          "family": "bangla",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "NKTVBangla.in@SD",
-            "baseId": "NKTVBangla",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.7773,
-        "scoreName": 0.5882,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.4,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "AamarBangla.in@SD",
-        "name": "Aamar Bangla (720p)",
-        "meta": {
-          "rawName": "Aamar Bangla (720p)",
-          "brand": null,
-          "language": "bn",
-          "genre": "general",
-          "family": "bangla",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "AamarBangla.in@SD",
-            "baseId": "AamarBangla",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.7642,
-        "scoreName": 0.5556,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.4,
-        "languageScore": 1,
-        "genreScore": 1
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-04-20T19:02:08.848Z",
-    "xml_display_name": "Zee Bangla",
-    "old_channel_id": "0-9-9z5383484",
-    "reason": "Score below strict threshold",
-    "xmlMeta": {
-      "rawName": "Zee Bangla",
-      "brand": "zee",
-      "language": "bn",
-      "genre": "general",
-      "family": "bangla",
-      "region": null,
-      "quality": null,
-      "parsedId": {
-        "raw": "",
-        "baseId": "",
-        "region": null,
-        "quality": null
-      }
-    },
-    "topCandidates": [
-      {
-        "id": "DDBangla.in@SD",
-        "name": "DD Bangla",
-        "meta": {
-          "rawName": "DD Bangla",
-          "brand": null,
-          "language": "bn",
-          "genre": "general",
-          "family": "bangla",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "DDBangla.in@SD",
-            "baseId": "DDBangla",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.8327,
-        "scoreName": 0.6667,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.7,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "KTVBangla.in@SD",
-        "name": "KTV Bangla (720p)",
-        "meta": {
-          "rawName": "KTV Bangla (720p)",
-          "brand": null,
-          "language": "bn",
-          "genre": "general",
-          "family": "bangla",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "KTVBangla.in@SD",
-            "baseId": "KTVBangla",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.816,
-        "scoreName": 0.625,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.7,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "NKTVBangla.in@SD",
-        "name": "NK TV Bangla (1080p)",
-        "meta": {
-          "rawName": "NK TV Bangla (1080p)",
-          "brand": null,
-          "language": "bn",
-          "genre": "general",
-          "family": "bangla",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "NKTVBangla.in@SD",
-            "baseId": "NKTVBangla",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.8013,
-        "scoreName": 0.5882,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.7,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "AamarBangla.in@SD",
-        "name": "Aamar Bangla (720p)",
-        "meta": {
-          "rawName": "Aamar Bangla (720p)",
-          "brand": null,
-          "language": "bn",
-          "genre": "general",
-          "family": "bangla",
-          "region": "in",
-          "quality": "sd",
-          "parsedId": {
-            "raw": "AamarBangla.in@SD",
-            "baseId": "AamarBangla",
-            "region": "in",
-            "quality": "sd"
-          }
-        },
-        "finalScore": 0.7882,
-        "scoreName": 0.5556,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.7,
-        "languageScore": 1,
-        "genreScore": 1
-      },
-      {
-        "id": "ColorsBangla.in@HD",
-        "name": "Colors Bangla HD (1080p)",
-        "meta": {
-          "rawName": "Colors Bangla HD (1080p)",
-          "brand": null,
-          "language": "bn",
-          "genre": "general",
-          "family": "bangla",
-          "region": "in",
-          "quality": "hd",
-          "parsedId": {
-            "raw": "ColorsBangla.in@HD",
-            "baseId": "ColorsBangla",
-            "region": "in",
-            "quality": "hd"
-          }
-        },
-        "finalScore": 0.7765,
-        "scoreName": 0.5263,
-        "familyScore": 1,
-        "regionScore": 0.9,
-        "qualityScore": 0.7,
-        "languageScore": 1,
-        "genreScore": 1
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-04-20T19:02:08.848Z",
+    "timestamp": "2026-04-21T02:05:56.311Z",
     "xml_display_name": "Zee Alwan HD",
     "old_channel_id": "0-9-9z5817234",
     "reason": "Score below strict threshold",
@@ -2076,7 +1443,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-20T19:02:08.848Z",
+    "timestamp": "2026-04-21T02:05:56.311Z",
     "xml_display_name": "Zee Alwan",
     "old_channel_id": "0-9-zeealwan",
     "reason": "Score below strict threshold",
@@ -2125,7 +1492,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-20T19:02:08.848Z",
+    "timestamp": "2026-04-21T02:05:56.311Z",
     "xml_display_name": "Zee Aflam HD",
     "old_channel_id": "0-9-9z5817235",
     "reason": "Hard rules blocked all candidates",
@@ -2146,7 +1513,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.848Z",
+    "timestamp": "2026-04-21T02:05:56.312Z",
     "xml_display_name": "Zee Aflam",
     "old_channel_id": "0-9-zeeaflam",
     "reason": "Hard rules blocked all candidates",
@@ -2167,7 +1534,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.848Z",
+    "timestamp": "2026-04-21T02:05:56.312Z",
     "xml_display_name": "Zee Action",
     "old_channel_id": "0-9-zeeaction",
     "reason": "Hard rules blocked all candidates",
@@ -2188,7 +1555,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.848Z",
+    "timestamp": "2026-04-21T02:05:56.312Z",
     "xml_display_name": "Zee 24 Taas",
     "old_channel_id": "0-9-zee24taas",
     "reason": "Hard rules blocked all candidates",
@@ -2209,7 +1576,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.848Z",
+    "timestamp": "2026-04-21T02:05:56.312Z",
     "xml_display_name": "Zee 24 Kalak",
     "old_channel_id": "0-9-zee24kalak",
     "reason": "Hard rules blocked all candidates",
@@ -2230,7 +1597,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.848Z",
+    "timestamp": "2026-04-21T02:05:56.312Z",
     "xml_display_name": "Zee 24 Ghanta",
     "old_channel_id": "0-9-24ghantatv",
     "reason": "Hard rules blocked all candidates",
@@ -2251,7 +1618,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.911Z",
+    "timestamp": "2026-04-21T02:05:56.381Z",
     "xml_display_name": "Tiny Pop",
     "old_channel_id": "0-9-9z5910526",
     "reason": "Hard rules blocked all candidates",
@@ -2272,7 +1639,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.911Z",
+    "timestamp": "2026-04-21T02:05:56.381Z",
     "xml_display_name": "Suvarna News",
     "old_channel_id": "0-9-201",
     "reason": "Hard rules blocked all candidates",
@@ -2293,7 +1660,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.911Z",
+    "timestamp": "2026-04-21T02:05:56.381Z",
     "xml_display_name": "Shree Naga Sai  Temple - Coimbatore",
     "old_channel_id": "0-9-9z5946519",
     "reason": "Hard rules blocked all candidates",
@@ -2314,7 +1681,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.911Z",
+    "timestamp": "2026-04-21T02:05:56.381Z",
     "xml_display_name": "Salaam TV",
     "old_channel_id": "0-9-zeesalaam",
     "reason": "Hard rules blocked all candidates",
@@ -2335,7 +1702,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.911Z",
+    "timestamp": "2026-04-21T02:05:56.381Z",
     "xml_display_name": "POP UP",
     "old_channel_id": "0-9-9z5910527",
     "reason": "Hard rules blocked all candidates",
@@ -2356,7 +1723,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.911Z",
+    "timestamp": "2026-04-21T02:05:56.381Z",
     "xml_display_name": "POP",
     "old_channel_id": "0-9-9z5910525",
     "reason": "Hard rules blocked all candidates",
@@ -2377,7 +1744,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.911Z",
+    "timestamp": "2026-04-21T02:05:56.381Z",
     "xml_display_name": "Polimer News",
     "old_channel_id": "0-9-203",
     "reason": "Hard rules blocked all candidates",
@@ -2398,7 +1765,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.911Z",
+    "timestamp": "2026-04-21T02:05:56.382Z",
     "xml_display_name": "Patna Sahib",
     "old_channel_id": "0-9-9z5946518",
     "reason": "Hard rules blocked all candidates",
@@ -2419,7 +1786,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.911Z",
+    "timestamp": "2026-04-21T02:05:56.382Z",
     "xml_display_name": "News 9",
     "old_channel_id": "0-9-261",
     "reason": "Score below strict threshold",
@@ -2468,7 +1835,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-20T19:02:08.911Z",
+    "timestamp": "2026-04-21T02:05:56.382Z",
     "xml_display_name": "NDTV Profit",
     "old_channel_id": "0-9-9z5942784",
     "reason": "Hard rules blocked all candidates",
@@ -2489,7 +1856,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.918Z",
+    "timestamp": "2026-04-21T02:05:56.390Z",
     "xml_display_name": "NDTV India",
     "old_channel_id": "0-9-9z5942783",
     "reason": "Hard rules blocked all candidates",
@@ -2510,7 +1877,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.918Z",
+    "timestamp": "2026-04-21T02:05:56.390Z",
     "xml_display_name": "NDTV 24x7",
     "old_channel_id": "0-9-9z5942782",
     "reason": "Hard rules blocked all candidates",
@@ -2531,7 +1898,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.925Z",
+    "timestamp": "2026-04-21T02:05:56.400Z",
     "xml_display_name": "Great! Romance",
     "old_channel_id": "0-9-9z5910524",
     "reason": "Hard rules blocked all candidates",
@@ -2552,7 +1919,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.925Z",
+    "timestamp": "2026-04-21T02:05:56.400Z",
     "xml_display_name": "Great! Mystery",
     "old_channel_id": "0-9-9z5910523",
     "reason": "Hard rules blocked all candidates",
@@ -2573,7 +1940,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.925Z",
+    "timestamp": "2026-04-21T02:05:56.400Z",
     "xml_display_name": "Great! Movies",
     "old_channel_id": "0-9-9z5910243",
     "reason": "Hard rules blocked all candidates",
@@ -2594,7 +1961,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.925Z",
+    "timestamp": "2026-04-21T02:05:56.400Z",
     "xml_display_name": "Good News Today",
     "old_channel_id": "0-9-255",
     "reason": "Hard rules blocked all candidates",
@@ -2615,7 +1982,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.925Z",
+    "timestamp": "2026-04-21T02:05:56.400Z",
     "xml_display_name": "Big Magic",
     "old_channel_id": "0-9-bigmagic_1786965389",
     "reason": "Hard rules blocked all candidates",
@@ -2636,7 +2003,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.925Z",
+    "timestamp": "2026-04-21T02:05:56.400Z",
     "xml_display_name": "Asianet News",
     "old_channel_id": "0-9-200",
     "reason": "Hard rules blocked all candidates",
@@ -2657,7 +2024,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.925Z",
+    "timestamp": "2026-04-21T02:05:56.400Z",
     "xml_display_name": "Anmol TV",
     "old_channel_id": "0-9-zeeanmol",
     "reason": "Hard rules blocked all candidates",
@@ -2678,7 +2045,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.925Z",
+    "timestamp": "2026-04-21T02:05:56.401Z",
     "xml_display_name": "Anmol Cinema 2",
     "old_channel_id": "0-9-bigganga",
     "reason": "Score below strict threshold",
@@ -2831,7 +2198,7 @@
     ]
   },
   {
-    "timestamp": "2026-04-20T19:02:08.940Z",
+    "timestamp": "2026-04-21T02:05:56.419Z",
     "xml_display_name": "&amp;xplorHD",
     "old_channel_id": "0-9-209",
     "reason": "Hard rules blocked all candidates",
@@ -2852,7 +2219,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.940Z",
+    "timestamp": "2026-04-21T02:05:56.419Z",
     "xml_display_name": "&amp;TV HD USA",
     "old_channel_id": "0-9-channel_1510237423",
     "reason": "Hard rules blocked all candidates",
@@ -2873,7 +2240,7 @@
     }
   },
   {
-    "timestamp": "2026-04-20T19:02:08.956Z",
+    "timestamp": "2026-04-21T02:05:56.440Z",
     "xml_display_name": "&amp;Prive HD",
     "old_channel_id": "0-9-9z5543514",
     "reason": "Hard rules blocked all candidates",
@@ -2883,27 +2250,6 @@
       "language": null,
       "genre": null,
       "family": "prive",
-      "region": null,
-      "quality": "hd",
-      "parsedId": {
-        "raw": "",
-        "baseId": "",
-        "region": null,
-        "quality": null
-      }
-    }
-  },
-  {
-    "timestamp": "2026-04-20T19:02:08.972Z",
-    "xml_display_name": "&amp;flix HD",
-    "old_channel_id": "0-9-channel_2105335046",
-    "reason": "Hard rules blocked all candidates",
-    "xmlMeta": {
-      "rawName": "&amp;flix HD",
-      "brand": "and",
-      "language": null,
-      "genre": null,
-      "family": "flix",
       "region": null,
       "quality": "hd",
       "parsedId": {
