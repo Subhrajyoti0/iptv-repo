@@ -66143,6 +66143,2064 @@
           "genreScore": 0.7
         }
       }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.498Z",
+      "xml_display_name": "Zing",
+      "old_channel_id": "0-9-zing",
+      "new_channel_id": "Zing.in@SD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zing",
+          "brand": null,
+          "language": "hi",
+          "genre": "music",
+          "family": "zing",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zing! (576p)",
+          "brand": null,
+          "language": "hi",
+          "genre": "music",
+          "family": "zing",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "Zing.in@SD",
+            "baseId": "Zing",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.509Z",
+      "xml_display_name": "Zee Zest HD",
+      "old_channel_id": "0-9-348",
+      "new_channel_id": "ZeeZest.in@HD",
+      "confidence": 0.99,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Zest HD",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "general",
+          "family": "zest",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Zest HD (1080p)",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "general",
+          "family": "zest",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ZeeZest.in@HD",
+            "baseId": "ZeeZest",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.99,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 1,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.519Z",
+      "xml_display_name": "Zee Yuva",
+      "old_channel_id": "0-9-zeeyuva",
+      "new_channel_id": "ZeeYuva.in@SD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Yuva",
+          "brand": "zee",
+          "language": "mr",
+          "genre": "general",
+          "family": "yuva",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Yuva (576p)",
+          "brand": "zee",
+          "language": "mr",
+          "genre": "general",
+          "family": "yuva",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeYuva.in@SD",
+            "baseId": "ZeeYuva",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.534Z",
+      "xml_display_name": "Zee TV HD",
+      "old_channel_id": "0-9-zeetvhd",
+      "new_channel_id": "ZeeTV.in@HD",
+      "confidence": 0.99,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee TV HD",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "general",
+          "family": "tv",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee TV HD (1080p)",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "general",
+          "family": "tv",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ZeeTV.in@HD",
+            "baseId": "ZeeTV",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.99,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 1,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.542Z",
+      "xml_display_name": "Zee TV",
+      "old_channel_id": "0-9-zeetv",
+      "new_channel_id": "ZeeTV.in@SD",
+      "confidence": 0.966,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee TV",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "general",
+          "family": "tv",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee TV (1080p)",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "general",
+          "family": "tv",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeTV.in@SD",
+            "baseId": "ZeeTV",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.551Z",
+      "xml_display_name": "Zee Thirai HD",
+      "old_channel_id": "0-9-224",
+      "new_channel_id": "ZeeThirai.in@HD",
+      "confidence": 0.99,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Thirai HD",
+          "brand": "zee",
+          "language": "ta",
+          "genre": "movies",
+          "family": "thirai",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Thirai HD (1080p)",
+          "brand": "zee",
+          "language": "ta",
+          "genre": "movies",
+          "family": "thirai",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ZeeThirai.in@HD",
+            "baseId": "ZeeThirai",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.99,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 1,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.557Z",
+      "xml_display_name": "Zee Telugu HD",
+      "old_channel_id": "0-9-zeetelugu",
+      "new_channel_id": "ZeeTelugu.in@HD",
+      "confidence": 0.99,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Telugu HD",
+          "brand": "zee",
+          "language": "te",
+          "genre": "general",
+          "family": "telugu",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Telugu HD (1080p)",
+          "brand": "zee",
+          "language": "te",
+          "genre": "general",
+          "family": "telugu",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ZeeTelugu.in@HD",
+            "baseId": "ZeeTelugu",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.99,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 1,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.565Z",
+      "xml_display_name": "Zee Telugu",
+      "old_channel_id": "0-9-9z5383485",
+      "new_channel_id": "ZeeTelugu.in@HD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Telugu",
+          "brand": "zee",
+          "language": "te",
+          "genre": "general",
+          "family": "telugu",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Telugu HD (1080p)",
+          "brand": "zee",
+          "language": "te",
+          "genre": "general",
+          "family": "telugu",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ZeeTelugu.in@HD",
+            "baseId": "ZeeTelugu",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.574Z",
+      "xml_display_name": "Zee Tamil HD",
+      "old_channel_id": "0-9-zeetamil",
+      "new_channel_id": "ZeeTamil.in@SD",
+      "confidence": 0.942,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Tamil HD",
+          "brand": "zee",
+          "language": "ta",
+          "genre": "general",
+          "family": "tamil",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Tamil (576p)",
+          "brand": "zee",
+          "language": "ta",
+          "genre": "general",
+          "family": "tamil",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeTamil.in@SD",
+            "baseId": "ZeeTamil",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.942,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.4,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.581Z",
+      "xml_display_name": "Zee Tamil",
+      "old_channel_id": "0-9-9z5383487",
+      "new_channel_id": "ZeeTamil.in@SD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Tamil",
+          "brand": "zee",
+          "language": "ta",
+          "genre": "general",
+          "family": "tamil",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Tamil (576p)",
+          "brand": "zee",
+          "language": "ta",
+          "genre": "general",
+          "family": "tamil",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeTamil.in@SD",
+            "baseId": "ZeeTamil",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.590Z",
+      "xml_display_name": "Zee Talkies HD",
+      "old_channel_id": "0-9-zeetalkies",
+      "new_channel_id": "ZeeTalkies.in@HD",
+      "confidence": 0.99,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Talkies HD",
+          "brand": "zee",
+          "language": "mr",
+          "genre": "movies",
+          "family": "talkies",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Talkies HD (1080p)",
+          "brand": "zee",
+          "language": "mr",
+          "genre": "movies",
+          "family": "talkies",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ZeeTalkies.in@HD",
+            "baseId": "ZeeTalkies",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.99,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 1,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.597Z",
+      "xml_display_name": "Zee Talkies",
+      "old_channel_id": "0-9-9z5383489",
+      "new_channel_id": "ZeeTalkies.in@HD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Talkies",
+          "brand": "zee",
+          "language": "mr",
+          "genre": "movies",
+          "family": "talkies",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Talkies HD (1080p)",
+          "brand": "zee",
+          "language": "mr",
+          "genre": "movies",
+          "family": "talkies",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ZeeTalkies.in@HD",
+            "baseId": "ZeeTalkies",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.607Z",
+      "xml_display_name": "Zee Marathi HD",
+      "old_channel_id": "0-9-zeemarathi",
+      "new_channel_id": "ZeeMarathi.in@HD",
+      "confidence": 0.99,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Marathi HD",
+          "brand": "zee",
+          "language": "mr",
+          "genre": "general",
+          "family": "marathi",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Marathi HD (1080p)",
+          "brand": "zee",
+          "language": "mr",
+          "genre": "general",
+          "family": "marathi",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ZeeMarathi.in@HD",
+            "baseId": "ZeeMarathi",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.99,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 1,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.614Z",
+      "xml_display_name": "Zee Marathi",
+      "old_channel_id": "0-9-9z5383486",
+      "new_channel_id": "ZeeMarathi.in@SD",
+      "confidence": 0.966,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Marathi",
+          "brand": "zee",
+          "language": "mr",
+          "genre": "general",
+          "family": "marathi",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Marathi (576p)",
+          "brand": "zee",
+          "language": "mr",
+          "genre": "general",
+          "family": "marathi",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeMarathi.in@SD",
+            "baseId": "ZeeMarathi",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.624Z",
+      "xml_display_name": "Zee Classic",
+      "old_channel_id": "0-9-176",
+      "new_channel_id": "ZeeClassic.in@SD",
+      "confidence": 0.966,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Classic",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "movies",
+          "family": "classic",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Classic (576p)",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "movies",
+          "family": "classic",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeClassic.in@SD",
+            "baseId": "ZeeClassic",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.631Z",
+      "xml_display_name": "Zee Cinemalu HD",
+      "old_channel_id": "0-9-zeecinemalu",
+      "new_channel_id": "ZeeCinemalu.in@HD",
+      "confidence": 0.99,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Cinemalu HD",
+          "brand": "zee",
+          "language": "te",
+          "genre": "movies",
+          "family": "cinemalu",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Cinemalu HD (1080p)",
+          "brand": "zee",
+          "language": "te",
+          "genre": "movies",
+          "family": "cinemalu",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ZeeCinemalu.in@HD",
+            "baseId": "ZeeCinemalu",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.99,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 1,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.639Z",
+      "xml_display_name": "Zee Cinemalu",
+      "old_channel_id": "0-9-9z5383488",
+      "new_channel_id": "ZeeCinemalu.in@HD",
+      "confidence": 0.966,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Cinemalu",
+          "brand": "zee",
+          "language": "te",
+          "genre": "movies",
+          "family": "cinemalu",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Cinemalu HD (1080p)",
+          "brand": "zee",
+          "language": "te",
+          "genre": "movies",
+          "family": "cinemalu",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ZeeCinemalu.in@HD",
+            "baseId": "ZeeCinemalu",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.646Z",
+      "xml_display_name": "Zee Cinema HD",
+      "old_channel_id": "0-9-zeecinemahd",
+      "new_channel_id": "ZeeCinema.in@HD",
+      "confidence": 0.99,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Cinema HD",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "movies",
+          "family": "cinema",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Cinema HD (1080p)",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "movies",
+          "family": "cinema",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ZeeCinema.in@HD",
+            "baseId": "ZeeCinema",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.99,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 1,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.654Z",
+      "xml_display_name": "Zee Cinema",
+      "old_channel_id": "0-9-zeecinema",
+      "new_channel_id": "ZeeCinema.in@HD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Cinema",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "movies",
+          "family": "cinema",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Cinema HD (1080p)",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "movies",
+          "family": "cinema",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "ZeeCinema.in@HD",
+            "baseId": "ZeeCinema",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.661Z",
+      "xml_display_name": "Zee Business",
+      "old_channel_id": "0-9-zeebusiness",
+      "new_channel_id": "ZeeBusiness.in@SD",
+      "confidence": 0.966,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Business",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "news",
+          "family": "business",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Business (720p)",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "news",
+          "family": "business",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeBusiness.in@SD",
+            "baseId": "ZeeBusiness",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.674Z",
+      "xml_display_name": "Zee Bollywood",
+      "old_channel_id": "0-9-zeeclassic",
+      "new_channel_id": "ZeeBollywood.in@SD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Bollywood",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "movies",
+          "family": "bollywood",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Bollywood (576p)",
+          "brand": "zee",
+          "language": "hi",
+          "genre": "movies",
+          "family": "bollywood",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeBollywood.in@SD",
+            "baseId": "ZeeBollywood",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.683Z",
+      "xml_display_name": "Zee Biskope",
+      "old_channel_id": "0-9-216",
+      "new_channel_id": "ZeeBiskope.in@SD",
+      "confidence": 0.942,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Biskope",
+          "brand": "zee",
+          "language": null,
+          "genre": "movies",
+          "family": "biskope",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Biskope (576p)",
+          "brand": "zee",
+          "language": null,
+          "genre": "movies",
+          "family": "biskope",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeBiskope.in@SD",
+            "baseId": "ZeeBiskope",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.942,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 0.7,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.690Z",
+      "xml_display_name": "Zee Bharat",
+      "old_channel_id": "0-9-zeehindustan",
+      "new_channel_id": "ZeeBharat.in@SD",
+      "confidence": 0.924,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Bharat",
+          "brand": "zee",
+          "language": null,
+          "genre": null,
+          "family": "bharat",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Bharat (720p)",
+          "brand": "zee",
+          "language": null,
+          "genre": null,
+          "family": "bharat",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeBharat.in@SD",
+            "baseId": "ZeeBharat",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.924,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 0.7,
+          "genreScore": 0.7
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.696Z",
+      "xml_display_name": "Zee Bangla Sonar",
+      "old_channel_id": "0-9-zeebanglacinema",
+      "new_channel_id": "ZeeBanglaSonar.in@SD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Bangla Sonar",
+          "brand": "zee",
+          "language": "bn",
+          "genre": "general",
+          "family": "banglasonar",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Bangla Sonar (576p)",
+          "brand": "zee",
+          "language": "bn",
+          "genre": "general",
+          "family": "banglasonar",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeBanglaSonar.in@SD",
+            "baseId": "ZeeBanglaSonar",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.703Z",
+      "xml_display_name": "Zee Bangla HD",
+      "old_channel_id": "0-9-zeebangla",
+      "new_channel_id": "ZeeBangla.in@SD",
+      "confidence": 0.942,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Bangla HD",
+          "brand": "zee",
+          "language": "bn",
+          "genre": "general",
+          "family": "bangla",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Bangla (576p)",
+          "brand": "zee",
+          "language": "bn",
+          "genre": "general",
+          "family": "bangla",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeBangla.in@SD",
+            "baseId": "ZeeBangla",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.942,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.4,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.710Z",
+      "xml_display_name": "Zee Bangla",
+      "old_channel_id": "0-9-9z5383484",
+      "new_channel_id": "ZeeBangla.in@SD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Zee Bangla",
+          "brand": "zee",
+          "language": "bn",
+          "genre": "general",
+          "family": "bangla",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Zee Bangla (576p)",
+          "brand": "zee",
+          "language": "bn",
+          "genre": "general",
+          "family": "bangla",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "ZeeBangla.in@SD",
+            "baseId": "ZeeBangla",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.718Z",
+      "xml_display_name": "WION",
+      "old_channel_id": "0-9-wion",
+      "new_channel_id": "WION.in@SD",
+      "confidence": 0.942,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "WION",
+          "brand": null,
+          "language": null,
+          "genre": "news",
+          "family": "wion",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "WION (1080p)",
+          "brand": null,
+          "language": null,
+          "genre": "news",
+          "family": "wion",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "WION.in@SD",
+            "baseId": "WION",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.942,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 0.7,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.727Z",
+      "xml_display_name": "TV9 Telugu",
+      "old_channel_id": "0-9-258",
+      "new_channel_id": "TV9Telugu.in@SD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "TV9 Telugu",
+          "brand": "tv9",
+          "language": "te",
+          "genre": "general",
+          "family": "telugu",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "TV9 Telugu (720p)",
+          "brand": "tv9",
+          "language": "te",
+          "genre": "general",
+          "family": "telugu",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "TV9Telugu.in@SD",
+            "baseId": "TV9Telugu",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.736Z",
+      "xml_display_name": "TV9 Marathi",
+      "old_channel_id": "0-9-257",
+      "new_channel_id": "TV9Marathi.in@SD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "TV9 Marathi",
+          "brand": "tv9",
+          "language": "mr",
+          "genre": "general",
+          "family": "marathi",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "TV9 Marathi (720p)",
+          "brand": "tv9",
+          "language": "mr",
+          "genre": "general",
+          "family": "marathi",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "TV9Marathi.in@SD",
+            "baseId": "TV9Marathi",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.745Z",
+      "xml_display_name": "TV9 Kannada",
+      "old_channel_id": "0-9-259",
+      "new_channel_id": "TV9Kannada.in@SD",
+      "confidence": 0.966,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "TV9 Kannada",
+          "brand": "tv9",
+          "language": "kn",
+          "genre": "general",
+          "family": "kannada",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "TV9 Kannada (720p) [Not 24/7]",
+          "brand": "tv9",
+          "language": "kn",
+          "genre": "general",
+          "family": "kannada",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "TV9Kannada.in@SD",
+            "baseId": "TV9Kannada",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.753Z",
+      "xml_display_name": "TV9 Gujarati",
+      "old_channel_id": "0-9-260",
+      "new_channel_id": "TV9Gujarati.in@SD",
+      "confidence": 0.942,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "TV9 Gujarati",
+          "brand": "tv9",
+          "language": null,
+          "genre": "general",
+          "family": "tv9",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "TV9 Gujarati (720p)",
+          "brand": "tv9",
+          "language": null,
+          "genre": "general",
+          "family": "tv9",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "TV9Gujarati.in@SD",
+            "baseId": "TV9Gujarati",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.942,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 0.7,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.762Z",
+      "xml_display_name": "TV9 Bharatvarsh",
+      "old_channel_id": "0-9-251",
+      "new_channel_id": "TV9Bharatvarsh.in@SD",
+      "confidence": 0.942,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "TV9 Bharatvarsh",
+          "brand": "tv9",
+          "language": null,
+          "genre": "news",
+          "family": "tv9",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "TV9 Bharatvarsh (720p)",
+          "brand": "tv9",
+          "language": null,
+          "genre": "news",
+          "family": "tv9",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "TV9Bharatvarsh.in@SD",
+            "baseId": "TV9Bharatvarsh",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.942,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 0.7,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.770Z",
+      "xml_display_name": "TV9 Bangla",
+      "old_channel_id": "0-9-378",
+      "new_channel_id": "TV9Bangla.in@SD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "TV9 Bangla",
+          "brand": "tv9",
+          "language": "bn",
+          "genre": "general",
+          "family": "bangla",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "TV9 Bangla (720p)",
+          "brand": "tv9",
+          "language": "bn",
+          "genre": "general",
+          "family": "bangla",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "TV9Bangla.in@SD",
+            "baseId": "TV9Bangla",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.778Z",
+      "xml_display_name": "NDTV Marathi",
+      "old_channel_id": "0-9-9z5942785",
+      "new_channel_id": "NDTVMarathi.in@SD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "NDTV Marathi",
+          "brand": null,
+          "language": "mr",
+          "genre": "general",
+          "family": "marathi",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "NDTV Marathi (1080p)",
+          "brand": null,
+          "language": "mr",
+          "genre": "general",
+          "family": "marathi",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "NDTVMarathi.in@SD",
+            "baseId": "NDTVMarathi",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.785Z",
+      "xml_display_name": "India Today",
+      "old_channel_id": "0-9-indiatoday",
+      "new_channel_id": "IndiaToday.in@SD",
+      "confidence": 0.85,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "India Today",
+          "brand": "indiatoday",
+          "language": null,
+          "genre": null,
+          "family": null,
+          "region": "in",
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "India Today",
+          "brand": "indiatoday",
+          "language": null,
+          "genre": null,
+          "family": "indiatoday",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "IndiaToday.in@SD",
+            "baseId": "IndiaToday",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.85,
+          "scoreName": 1,
+          "familyScore": 0.7,
+          "regionScore": 1,
+          "qualityScore": 0.7,
+          "languageScore": 0.7,
+          "genreScore": 0.7
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.793Z",
+      "xml_display_name": "Anmol Cinema",
+      "old_channel_id": "0-9-zeeanmolcinema",
+      "new_channel_id": "AnmolCinema.in@SD",
+      "confidence": 0.942,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Anmol Cinema",
+          "brand": null,
+          "language": null,
+          "genre": "movies",
+          "family": "cinema",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Anmol Cinema (576p)",
+          "brand": null,
+          "language": null,
+          "genre": "movies",
+          "family": "cinema",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "AnmolCinema.in@SD",
+            "baseId": "AnmolCinema",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.942,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 0.7,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.801Z",
+      "xml_display_name": "Aaj Tak",
+      "old_channel_id": "0-9-aajtak",
+      "new_channel_id": "AajTak.in@SD",
+      "confidence": 0.942,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "Aaj Tak",
+          "brand": "aajtak",
+          "language": null,
+          "genre": "news",
+          "family": "aajtak",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "Aaj Tak (720p)",
+          "brand": "aajtak",
+          "language": null,
+          "genre": "news",
+          "family": "aajtak",
+          "region": "in",
+          "quality": "sd",
+          "parsedId": {
+            "raw": "AajTak.in@SD",
+            "baseId": "AajTak",
+            "region": "in",
+            "quality": "sd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.942,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 0.7,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.809Z",
+      "xml_display_name": "&amp;TV HD",
+      "old_channel_id": "0-9-tvhd_0",
+      "new_channel_id": "AndTV.in@HD",
+      "confidence": 0.99,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "&amp;TV HD",
+          "brand": "and",
+          "language": "hi",
+          "genre": "general",
+          "family": "tv",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "&TV HD (1080p)",
+          "brand": "and",
+          "language": "hi",
+          "genre": "general",
+          "family": "tv",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "AndTV.in@HD",
+            "baseId": "AndTV",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.99,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 1,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.815Z",
+      "xml_display_name": "&amp;TV HD",
+      "old_channel_id": "0-9-channel_122044711",
+      "new_channel_id": "AndTV.in@HD",
+      "confidence": 0.99,
+      "method": "strict-weighted",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "&amp;TV HD",
+          "brand": "and",
+          "language": "hi",
+          "genre": "general",
+          "family": "tv",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "&TV HD (1080p)",
+          "brand": "and",
+          "language": "hi",
+          "genre": "general",
+          "family": "tv",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "AndTV.in@HD",
+            "baseId": "AndTV",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.99,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 1,
+          "languageScore": 1,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.828Z",
+      "xml_display_name": "&amp;Pictures HD",
+      "old_channel_id": "0-9-tvpictureshd",
+      "new_channel_id": "Andpictures.in@HD",
+      "confidence": 0.966,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "&amp;Pictures HD",
+          "brand": "and",
+          "language": null,
+          "genre": "movies",
+          "family": "pictures",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "&pictures HD (1080p)",
+          "brand": "and",
+          "language": null,
+          "genre": "movies",
+          "family": "pictures",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "Andpictures.in@HD",
+            "baseId": "Andpictures",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.966,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 1,
+          "languageScore": 0.7,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.835Z",
+      "xml_display_name": "&amp;Pictures",
+      "old_channel_id": "0-9-pictures",
+      "new_channel_id": "Andpictures.in@HD",
+      "confidence": 0.942,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "&amp;Pictures",
+          "brand": "and",
+          "language": null,
+          "genre": "movies",
+          "family": "pictures",
+          "region": null,
+          "quality": null,
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "&pictures HD (1080p)",
+          "brand": "and",
+          "language": null,
+          "genre": "movies",
+          "family": "pictures",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "Andpictures.in@HD",
+            "baseId": "Andpictures",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.942,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 0.7,
+          "languageScore": 0.7,
+          "genreScore": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:10:39.841Z",
+      "xml_display_name": "&amp;flix HD",
+      "old_channel_id": "0-9-channel_2105335046",
+      "new_channel_id": "Andflix.in@HD",
+      "confidence": 0.948,
+      "method": "exact-display-name",
+      "evaluated": {
+        "xmlMeta": {
+          "rawName": "&amp;flix HD",
+          "brand": "and",
+          "language": null,
+          "genre": null,
+          "family": "flix",
+          "region": null,
+          "quality": "hd",
+          "parsedId": {
+            "raw": "",
+            "baseId": "",
+            "region": null,
+            "quality": null
+          }
+        },
+        "chosenMeta": {
+          "rawName": "&flix HD (1080p)",
+          "brand": "and",
+          "language": null,
+          "genre": null,
+          "family": "flix",
+          "region": "in",
+          "quality": "hd",
+          "parsedId": {
+            "raw": "Andflix.in@HD",
+            "baseId": "Andflix",
+            "region": "in",
+            "quality": "hd"
+          }
+        },
+        "scoreBreakdown": {
+          "finalScore": 0.948,
+          "scoreName": 1,
+          "familyScore": 1,
+          "regionScore": 0.9,
+          "qualityScore": 1,
+          "languageScore": 0.7,
+          "genreScore": 0.7
+        }
+      }
     }
   ]
 }
