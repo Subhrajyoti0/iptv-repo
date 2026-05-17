@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-05-16T19:00:52.944Z",
+    "timestamp": "2026-05-17T02:38:45.174Z",
     "xml_display_name": "Zing",
     "old_channel_id": "0-9-zing",
     "new_channel_id": "Zing.in@SD",
@@ -49,7 +49,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:52.956Z",
+    "timestamp": "2026-05-17T02:38:45.186Z",
     "xml_display_name": "Zee Zest HD",
     "old_channel_id": "0-9-348",
     "new_channel_id": "ZeeZest.in@HD",
@@ -98,7 +98,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:52.963Z",
+    "timestamp": "2026-05-17T02:38:45.192Z",
     "xml_display_name": "Zee Yuva",
     "old_channel_id": "0-9-zeeyuva",
     "new_channel_id": "ZeeYuva.in@SD",
@@ -147,7 +147,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:52.973Z",
+    "timestamp": "2026-05-17T02:38:45.205Z",
     "xml_display_name": "Zee TV HD",
     "old_channel_id": "0-9-zeetvhd",
     "new_channel_id": "ZeeTV.in@HD",
@@ -196,7 +196,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:52.984Z",
+    "timestamp": "2026-05-17T02:38:45.211Z",
     "xml_display_name": "Zee TV",
     "old_channel_id": "0-9-zeetv",
     "new_channel_id": "ZeeTV.in@HD",
@@ -245,7 +245,56 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:52.991Z",
+    "timestamp": "2026-05-17T02:38:45.218Z",
+    "xml_display_name": "Zee Thirai HD",
+    "old_channel_id": "0-9-224",
+    "new_channel_id": "ZeeThirai.in@HD",
+    "confidence": 0.99,
+    "method": "exact-display-name",
+    "evaluated": {
+      "xmlMeta": {
+        "rawName": "Zee Thirai HD",
+        "brand": "zee",
+        "language": "ta",
+        "genre": "movies",
+        "family": "thirai",
+        "region": null,
+        "quality": "hd",
+        "parsedId": {
+          "raw": "",
+          "baseId": "",
+          "region": null,
+          "quality": null
+        }
+      },
+      "chosenMeta": {
+        "rawName": "Zee Thirai HD (1080p)",
+        "brand": "zee",
+        "language": "ta",
+        "genre": "movies",
+        "family": "thirai",
+        "region": "in",
+        "quality": "hd",
+        "parsedId": {
+          "raw": "ZeeThirai.in@HD",
+          "baseId": "ZeeThirai",
+          "region": "in",
+          "quality": "hd"
+        }
+      },
+      "scoreBreakdown": {
+        "finalScore": 0.99,
+        "scoreName": 1,
+        "familyScore": 1,
+        "regionScore": 0.9,
+        "qualityScore": 1,
+        "languageScore": 1,
+        "genreScore": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-17T02:38:45.223Z",
     "xml_display_name": "Zee Telugu HD",
     "old_channel_id": "0-9-zeetelugu",
     "new_channel_id": "ZeeTelugu.in@HD",
@@ -294,7 +343,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:52.998Z",
+    "timestamp": "2026-05-17T02:38:45.229Z",
     "xml_display_name": "Zee Telugu",
     "old_channel_id": "0-9-9z5383485",
     "new_channel_id": "ZeeTelugu.in@HD",
@@ -343,7 +392,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.006Z",
+    "timestamp": "2026-05-17T02:38:45.236Z",
     "xml_display_name": "Zee Talkies HD",
     "old_channel_id": "0-9-zeetalkies",
     "new_channel_id": "ZeeTalkies.in@HD",
@@ -392,7 +441,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.012Z",
+    "timestamp": "2026-05-17T02:38:45.240Z",
     "xml_display_name": "Zee Talkies",
     "old_channel_id": "0-9-9z5383489",
     "new_channel_id": "ZeeTalkies.in@HD",
@@ -441,7 +490,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.019Z",
+    "timestamp": "2026-05-17T02:38:45.247Z",
     "xml_display_name": "Zee Marathi HD",
     "old_channel_id": "0-9-zeemarathi",
     "new_channel_id": "ZeeMarathi.in@HD",
@@ -490,7 +539,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.025Z",
+    "timestamp": "2026-05-17T02:38:45.252Z",
     "xml_display_name": "Zee Marathi",
     "old_channel_id": "0-9-9z5383486",
     "new_channel_id": "ZeeMarathi.in@SD",
@@ -539,7 +588,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.033Z",
+    "timestamp": "2026-05-17T02:38:45.258Z",
     "xml_display_name": "Zee Classic",
     "old_channel_id": "0-9-176",
     "new_channel_id": "ZeeClassic.in@SD",
@@ -588,7 +637,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.039Z",
+    "timestamp": "2026-05-17T02:38:45.263Z",
     "xml_display_name": "Zee Cinemalu HD",
     "old_channel_id": "0-9-zeecinemalu",
     "new_channel_id": "ZeeCinemalu.in@HD",
@@ -637,7 +686,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.046Z",
+    "timestamp": "2026-05-17T02:38:45.268Z",
     "xml_display_name": "Zee Cinemalu",
     "old_channel_id": "0-9-9z5383488",
     "new_channel_id": "ZeeCinemalu.in@HD",
@@ -686,7 +735,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.053Z",
+    "timestamp": "2026-05-17T02:38:45.274Z",
     "xml_display_name": "Zee Cinema HD",
     "old_channel_id": "0-9-zeecinemahd",
     "new_channel_id": "ZeeCinema.in@HD",
@@ -735,7 +784,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.060Z",
+    "timestamp": "2026-05-17T02:38:45.280Z",
     "xml_display_name": "Zee Cinema",
     "old_channel_id": "0-9-zeecinema",
     "new_channel_id": "ZeeCinema.in@HD",
@@ -784,7 +833,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.067Z",
+    "timestamp": "2026-05-17T02:38:45.285Z",
     "xml_display_name": "Zee Business",
     "old_channel_id": "0-9-zeebusiness",
     "new_channel_id": "ZeeBusiness.in@SD",
@@ -833,7 +882,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.073Z",
+    "timestamp": "2026-05-17T02:38:45.290Z",
     "xml_display_name": "Zee Bollywood",
     "old_channel_id": "0-9-zeeclassic",
     "new_channel_id": "ZeeBollywood.in@SD",
@@ -882,7 +931,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.081Z",
+    "timestamp": "2026-05-17T02:38:45.296Z",
     "xml_display_name": "Zee Biskope",
     "old_channel_id": "0-9-216",
     "new_channel_id": "ZeeBiskope.in@SD",
@@ -931,7 +980,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.088Z",
+    "timestamp": "2026-05-17T02:38:45.302Z",
     "xml_display_name": "Zee Bharat",
     "old_channel_id": "0-9-zeehindustan",
     "new_channel_id": "ZeeBharat.in@SD",
@@ -980,7 +1029,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.096Z",
+    "timestamp": "2026-05-17T02:38:45.306Z",
     "xml_display_name": "Zee Bangla Sonar",
     "old_channel_id": "0-9-zeebanglacinema",
     "new_channel_id": "ZeeBanglaSonar.in@SD",
@@ -1029,7 +1078,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.105Z",
+    "timestamp": "2026-05-17T02:38:45.314Z",
     "xml_display_name": "WION",
     "old_channel_id": "0-9-wion",
     "new_channel_id": "WION.in@SD",
@@ -1078,7 +1127,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.114Z",
+    "timestamp": "2026-05-17T02:38:45.321Z",
     "xml_display_name": "TV9 Telugu",
     "old_channel_id": "0-9-258",
     "new_channel_id": "TV9Telugu.in@SD",
@@ -1127,7 +1176,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.122Z",
+    "timestamp": "2026-05-17T02:38:45.326Z",
     "xml_display_name": "TV9 Marathi",
     "old_channel_id": "0-9-257",
     "new_channel_id": "TV9Marathi.in@SD",
@@ -1176,7 +1225,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.133Z",
+    "timestamp": "2026-05-17T02:38:45.333Z",
     "xml_display_name": "TV9 Kannada",
     "old_channel_id": "0-9-259",
     "new_channel_id": "TV9Kannada.in@SD",
@@ -1225,7 +1274,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.141Z",
+    "timestamp": "2026-05-17T02:38:45.340Z",
     "xml_display_name": "TV9 Gujarati",
     "old_channel_id": "0-9-260",
     "new_channel_id": "TV9Gujarati.in@SD",
@@ -1274,7 +1323,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.159Z",
+    "timestamp": "2026-05-17T02:38:45.345Z",
     "xml_display_name": "TV9 Bharatvarsh",
     "old_channel_id": "0-9-251",
     "new_channel_id": "TV9Bharatvarsh.in@SD",
@@ -1323,7 +1372,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.167Z",
+    "timestamp": "2026-05-17T02:38:45.351Z",
     "xml_display_name": "TV9 Bangla",
     "old_channel_id": "0-9-378",
     "new_channel_id": "TV9Bangla.in@SD",
@@ -1372,7 +1421,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.175Z",
+    "timestamp": "2026-05-17T02:38:45.358Z",
     "xml_display_name": "NDTV Marathi",
     "old_channel_id": "0-9-9z5942785",
     "new_channel_id": "NDTVMarathi.in@SD",
@@ -1421,7 +1470,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.181Z",
+    "timestamp": "2026-05-17T02:38:45.363Z",
     "xml_display_name": "India Today",
     "old_channel_id": "0-9-indiatoday",
     "new_channel_id": "IndiaToday.in@SD",
@@ -1470,7 +1519,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.187Z",
+    "timestamp": "2026-05-17T02:38:45.370Z",
     "xml_display_name": "Anmol Cinema",
     "old_channel_id": "0-9-zeeanmolcinema",
     "new_channel_id": "AnmolCinema.in@SD",
@@ -1519,7 +1568,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.193Z",
+    "timestamp": "2026-05-17T02:38:45.375Z",
     "xml_display_name": "Aaj Tak",
     "old_channel_id": "0-9-aajtak",
     "new_channel_id": "AajTak.in@SD",
@@ -1568,7 +1617,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.202Z",
+    "timestamp": "2026-05-17T02:38:45.381Z",
     "xml_display_name": "&amp;TV HD",
     "old_channel_id": "0-9-tvhd_0",
     "new_channel_id": "AndTV.in@SD",
@@ -1617,7 +1666,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.207Z",
+    "timestamp": "2026-05-17T02:38:45.386Z",
     "xml_display_name": "&amp;TV HD",
     "old_channel_id": "0-9-channel_122044711",
     "new_channel_id": "AndTV.in@SD",
@@ -1666,7 +1715,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.214Z",
+    "timestamp": "2026-05-17T02:38:45.399Z",
     "xml_display_name": "&amp;Pictures HD",
     "old_channel_id": "0-9-tvpictureshd",
     "new_channel_id": "Andpictures.in@HD",
@@ -1715,7 +1764,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.220Z",
+    "timestamp": "2026-05-17T02:38:45.405Z",
     "xml_display_name": "&amp;Pictures",
     "old_channel_id": "0-9-pictures",
     "new_channel_id": "Andpictures.in@HD",
@@ -1764,7 +1813,7 @@
     }
   },
   {
-    "timestamp": "2026-05-16T19:00:53.226Z",
+    "timestamp": "2026-05-17T02:38:45.410Z",
     "xml_display_name": "&amp;flix HD",
     "old_channel_id": "0-9-channel_2105335046",
     "new_channel_id": "Andflix.in@HD",
