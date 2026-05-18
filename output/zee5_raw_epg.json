@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T02:43:29.297Z",
+  "generated_at": "2026-05-18T09:48:49.587Z",
   "mode": "gwapi-start-end",
   "start": 0,
   "end": 5,
@@ -112665,7 +112665,7 @@
     "0-9-9z5950417": {
       "meta": {
         "id": "0-9-9z5950417",
-        "name": "Zee Punjabi HD",
+        "name": "Zee Punjabi HD UK",
         "image": {
           "cover": "1920x770925749ff77584183ba21cbeb909870a8",
           "app_cover": "1920x1080appcover7585faffd8b344d4a8f30ad29c5e9224",
@@ -317376,29 +317376,7 @@
           "motion_app_cover": "",
           "motion_cover": "",
           "motion_vert_banner": "",
-          "motion_homefeed-launcher-sticker": "",
-          "in__cover": "1920x7703461fefdb1584a1d90c652734359f41e",
-          "in__app_cover": "1920x1080appcover8ad74d6c86ea4437b188942e9c408120",
-          "in__list": "1920x1080list5a78fb63f1484e45aa1df1f76498acb1",
-          "in__channel_square": "386x386c639d64cf0434627a861c69bc73fd0d0",
-          "in__channel_list": "360x2036f57ee5807f542159c175ac53cac89e9",
-          "in__channel_web": "170x120d072b7d40d8746a79a9543c5af6b138d",
-          "in__square": "374x3748472654254574b86900fd275efc87043",
-          "in__tv_cover": "",
-          "in__portrait": "720x1080withlogoabb00979c2e046d08e155b8ce0eeba63",
-          "in__listclean": "1920x1080listaf85be44554a41328d869784edbc347d",
-          "in__portraitclean": "",
-          "in__homefeed-launcher-sticker": "1920x457464c0b10d0af4730881b7dee51d1247d",
-          "in__vert_banner": "845x1080508530c2a32b49b1ac17eae7d2edcdfa",
-          "in__4k_banner": "",
-          "in__hd_tile": "",
-          "in__2x3_hd_poster": "2000x300087c30475c5d44076990033a525af7673",
-          "in__title_logo": "",
-          "in__tv_banner": "3840x2160tvbanner3eeac170e82c43ae848c44f7b22b9072",
-          "in__motion_app_cover": "",
-          "in__motion_cover": "",
-          "in__motion_vert_banner": "",
-          "in__motion_homefeed-launcher-sticker": ""
+          "motion_homefeed-launcher-sticker": ""
         },
         "languages": [
           "bn"
