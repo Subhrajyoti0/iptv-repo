@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T08:53:08.345Z",
+  "generated_at": "2026-05-22T14:25:58.505Z",
   "mode": "gwapi-start-end",
   "start": 0,
   "end": 5,
@@ -453016,7 +453016,29 @@
           "motion_app_cover": "",
           "motion_cover": "",
           "motion_vert_banner": "",
-          "motion_homefeed-launcher-sticker": ""
+          "motion_homefeed-launcher-sticker": "",
+          "in__cover": "1920x77074fe0e35dffe4869832b311faeb553c5",
+          "in__app_cover": "1920x1080appcover3eb3458af65d4d52b75c8b78371b1df3",
+          "in__list": "1920x1080list73190f7e1dba45bdb1241f255264bf43",
+          "in__channel_square": "386x38691de15717392406092cff64f30b7bf0c",
+          "in__channel_list": "360x203bdf97c060a9c45e4a676c5362804db83",
+          "in__channel_web": "170x1202af92789d1814c2bb3d3e7fc1201296f",
+          "in__square": "374x374b14fa5cf8afb4217a44894aadc9824dc",
+          "in__tv_cover": "",
+          "in__portrait": "720x1080withlogo4d8a069c7554481db3f3a29bacda9fe4",
+          "in__listclean": "1920x1080list060fc83d9fc748d0b7b90497d792d426",
+          "in__portraitclean": "1920x548415186c14b6647b5b03079158a66a5c2",
+          "in__homefeed-launcher-sticker": "1920x4579d963790113c47ac852ce19dcdaaafc3",
+          "in__vert_banner": "845x1080977b88282056486e88f819b76da4d644",
+          "in__4k_banner": "3840x216015611b5ccf4d444eb20c32a883725b20",
+          "in__hd_tile": "1920x1080494d833e15934d999d1e4e87fcba5ab3",
+          "in__2x3_hd_poster": "2000x30005e43527d4c5f4501810ec258a7c4cbf1",
+          "in__title_logo": "4320x275012cc330eeef045e4a42008d5cee2126c",
+          "in__tv_banner": "3840x2160tvbanner1419d99e6e5c4ab6b95c384675d77494",
+          "in__motion_app_cover": "",
+          "in__motion_cover": "",
+          "in__motion_vert_banner": "",
+          "in__motion_homefeed-launcher-sticker": ""
         },
         "languages": [
           "hi"
