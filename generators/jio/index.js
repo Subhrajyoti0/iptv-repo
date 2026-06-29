@@ -22,7 +22,11 @@ export async function generateJio() {
 
   console.log("📡 Fetching JioTV channels...");
 
-  let channels = await fetchChannels();
+  let channels = await fetchChannels({
+    cacheFile: CHANNEL_JSON,
+    allowEmpty: true
+  });
+
   channels = channels.filter(ch => !ch.hidden);
 
   if (LIMIT > 0) {
@@ -30,7 +34,7 @@ export async function generateJio() {
     console.log(`⚙️ Test mode enabled: JIO_LIMIT=${LIMIT}`);
   }
 
-  console.log(`✅ Jio channels: ${channels.length}`);
+  console.log(`✅ Jio channels available: ${channels.length}`);
   console.log(`📅 Jio EPG offset range: ${START_OFFSET} → ${END_OFFSET}`);
 
   fs.writeFileSync(CHANNEL_JSON, JSON.stringify(channels, null, 2));
@@ -47,6 +51,10 @@ export async function generateJio() {
 
   const epgStats = [];
   let totalProgrammes = 0;
+
+  if (channels.length === 0) {
+    console.warn("⚠️ No Jio channels available. Writing empty Jio EPG files and continuing.");
+  }
 
   for (const [i, channel] of channels.entries()) {
     console.log(`📺 [${i + 1}/${channels.length}] Fetching Jio EPG: ${channel.name}`);
@@ -94,6 +102,7 @@ export async function generateJio() {
     JSON.stringify(
       {
         generated_at: new Date().toISOString(),
+        status: channels.length === 0 ? "jio_unavailable" : "ok",
         format: "jsonl",
         full_epg_jsonl: "output/jio_epg.jsonl",
         xmltv: "output/jio_epg.xml",
@@ -107,7 +116,7 @@ export async function generateJio() {
     )
   );
 
-  console.log("✅ JioTV generation complete");
+  console.log("✅ JioTV generation step complete");
   console.log(`✅ Channels      : ${CHANNEL_JSON}`);
   console.log(`✅ EPG JSONL     : ${EPG_JSONL}`);
   console.log(`✅ EPG Summary   : ${EPG_JSON_SUMMARY}`);
@@ -116,7 +125,7 @@ export async function generateJio() {
   console.log(`✅ Total programmes: ${totalProgrammes}`);
 
   if (totalProgrammes === 0) {
-    console.warn("⚠️ Jio EPG returned zero programmes. Channel metadata was still saved.");
+    console.warn("⚠️ Jio EPG produced zero programmes. Build will continue.");
   }
 }
 
@@ -189,11 +198,7 @@ function writeXmlProgramme(stream, p) {
   }
 
   if (p.desc) {
-    stream.write(`    <desc lang="en">${escapeXml(p.desc)}</desc>\n`);
-  }
-
-  if (p.category) {
-    stream.write(`    <category lang="en">${escapeXml(p.category)}</category>\n`);
+    stream.write(`    <desc lang="en">${escapeXml(p.desc)}</desc>\n stream.write(`    <category lang="en">${escapeXml(p.category)}</category>\n`);
   }
 
   if (Array.isArray(p.genre)) {
@@ -205,7 +210,7 @@ function writeXmlProgramme(stream, p) {
   }
 
   if (p.image) {
-    stream.write(`    <icon src="${escapeXml(p.image)}" />\n`);
+    stream.write(`    " />\n`);
   }
 
   if (p.director || p.actors) {

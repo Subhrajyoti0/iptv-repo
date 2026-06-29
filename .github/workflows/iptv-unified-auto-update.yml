@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update-all:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
@@ -31,27 +31,57 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run full build pipeline
+      - name: Run full unified IPTV build
+        env:
+          JIO_START_OFFSET: "0"
+          JIO_END_OFFSET: "5"
+          JIO_ALLOW_EMPTY: "1"
         run: npm run build
 
       - name: Validate Zee5 XMLTV
         run: |
           if [ ! -s output/zee5.xml ]; then
-            echo "Zee5 XML missing or empty"
+            echo "Zee5 XMLTV missing or empty"
             exit 1
           fi
 
           if ! grep -q "<programme" output/zee5.xml; then
-            echo "Zee5 XML has no programme entries"
+            echo "Zee5 XMLTV has no programme entries"
             exit 1
           fi
 
-      - name: Validate unified output
+      - name: Validate final unified XMLTV
         run: |
-          if [ ! -s output/unified_channels.json ]; then
-            echo "Unified channel output missing or empty"
+          if [ ! -s output/iptv_unified.xml ]; then
+            echo "Final unified XMLTV missing or empty"
             exit 1
           fi
+
+          if ! grep -q "<channel" output/iptv_unified.xml; then
+            echo "Final unified XMLTV has no channel entries"
+            exit 1
+          fi
+
+      - name: Show output summary
+        run: |
+          echo "Generated output files:"
+          ls -lh output || true
+
+          echo ""
+          echo "Final unified XMLTV channel count:"
+          grep -c "<channel" output/iptv_unified.xml || true
+
+          echo ""
+          echo "Final unified XMLTV programme count:"
+          grep -c "<programme" output/iptv_unified.xml || true
+
+          echo ""
+          echo "Jio summary:"
+          cat output/jio_epg.json 2>/dev/null || true
+
+          echo ""
+          echo "Unified summary:"
+          cat output/iptv_unified_summary.json 2>/dev/null || true
 
       - name: Remove runtime files
         run: |
@@ -65,10 +95,17 @@ jobs:
           git add output/zee5.xml \
                   output/zee5_raw_epg.json \
                   output/zee5_normalized_epg.json \
+                  output/in_parsed.json \
                   output/jio_channels.json \
+                  output/jio_epg.json \
+                  output/jio_epg.jsonl \
                   output/jio_epg.xml \
+                  output/jio_epg_stats.json \
                   output/unified_channels.json \
                   output/review.json \
+                  output/iptv_unified.xml \
+                  output/iptv_unified_summary.json \
+                  docs/iptv_unified.xml \
                   patcher/patch_log.json \
                   patcher/review.json \
                   patcher/channel_rename_history.json
@@ -80,7 +117,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Auto-update unified IPTV pipeline (6h)"
+          git commit -m "Auto-update unified IPTV XMLTV pipeline (6h)"
 
       - name: Ensure clean working tree before push
         run: |
