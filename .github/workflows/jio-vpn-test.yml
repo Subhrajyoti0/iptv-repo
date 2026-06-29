@@ -1,4 +1,4 @@
-name: Test JioTV with Free VPN
+name: Test JioTV with OpenVPN CloudConnexa
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  test-jio-vpn:
+  test-jio-openvpn:
     runs-on: ubuntu-latest
     timeout-minutes: 45
 
@@ -26,23 +26,28 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install OpenVPN tools
+      - name: Install OpenVPN
         run: |
           sudo apt-get update
-          sudo apt-get install -y openvpn curl
+          sudo apt-get install -y openvpn curl iproute2
 
-      - name: Write VPN config
+      - name: Write OpenVPN config from secret
+        env:
+          VPN_CONFIG: ${{ secrets.FREE_VPN_CONFIG }}
         run: |
-          cat > vpn-config.ovpn <<'EOF'
-          ${{ secrets.FREE_VPN_CONFIG }}
-          EOF
+          if [ -z "$VPN_CONFIG" ]; then
+            echo "FREE_VPN_CONFIG secret is missing"
+            exit 1
+          fi
 
-          sed -i 's/\r$//' vpn-config.ovpn
+          printf '%s\n' "$VPN_CONFIG" > cloudconnexa.ovpn
+          sed -i 's/\r$//' cloudconnexa.ovpn
+          chmod 600 cloudconnexa.ovpn
 
-          echo "VPN config written."
-          grep -E "^(remote|proto|dev)" vpn-config.ovpn || true
+          echo "VPN config loaded."
+          grep -E "^(client|dev|proto|remote|redirect-gateway|route)" cloudconnexa.ovpn || true
 
-      - name: Write VPN auth file if provided
+      - name: Write VPN auth file if username/password are provided
         env:
           VPN_USER: ${{ secrets.FREE_VPN_USERNAME }}
           VPN_PASS: ${{ secrets.FREE_VPN_PASSWORD }}
@@ -51,79 +56,106 @@ jobs:
             printf "%s\n%s\n" "$VPN_USER" "$VPN_PASS" > vpn-auth.txt
             chmod 600 vpn-auth.txt
 
-            if grep -q "^auth-user-pass" vpn-config.ovpn; then
-              sed -i 's|^auth-user-pass.*|auth-user-pass vpn-auth.txt|' vpn*config.ovpn
+            if grep -q "^auth-user-pass" cloudconnexa.ovpn; then
+              sed -i 's|^auth-user-pass.*|auth-user-pass vpn-auth.txt|' cloudconnexa.ovpn
             else
-     *        echo "auth-user-pass vpn-a*th.txt" >> vpn-config.ovpn
-       *    fi
+              echo "auth-user-pass vpn-auth.txt" >> cloudconnexa.ovpn
+            fi
           else
-            *cho "No VPN username/password secr*ts provided. Assuming config does *ot require auth."
+            echo "No VPN username/password secrets supplied. Assuming profile has embedded certificates/auth."
           fi
 
-  *   - name: Start VPN
-        run: *
-          sudo openvpn \
-        *   --config vpn-config.ovpn \
-    *       --daemon \
-            --lo* openvpn.log \
-            --write*id openvpn.pid
-
-          echo "Wa*ting for VPN tunnel..."
-          *leep 20
-
-          echo "OpenVPN l*g:"
-          sudo tail -n 80 open*pn.log || true
-
-      - name: Veri*y public IP after VPN
-        run:*|
-          echo "Public IP:"
-    *     curl -s https://ifconfig.me |* true
+      - name: Show IP before VPN
+        run: |
+          echo "Public IP before VPN:"
+          curl -s https://ifconfig.me || true
           echo ""
-          *cho "Cloudflare trace:"
+
+      - name: Start OpenVPN
+        run: |
+          sudo openvpn \
+            --config cloudconnexa.ovpn \
+            --daemon \
+            --log openvpn.log \
+            --writepid openvpn.pid
+
+          echo "Waiting for VPN tunnel..."
+          sleep 25
+
+          echo "OpenVPN log tail:"
+          sudo tail -n 120 openvpn.log || true
+
+      - name: Show routing and IP after VPN
+        run: |
+          echo "Routes:"
+          ip route || true
+
+          echo ""
+          echo "Public IP after VPN:"
+          curl -s https://ifconfig.me || true
+          echo ""
+
+          echo ""
+          echo "Cloudflare trace:"
           curl -s https://www.cloudflare.com/cdn-cgi/trace || true
 
-      - name: Test Jio channel API only
+      - name: Test Jio channel API
         run: |
-          node -e "
-          const url = 'https://jiotv.data.cdn.jio.com/apis/v3.0/getMobileChannelList/get/?os=android&devicetype=phone&usertype=tvYR7NSNn7rymo3F';
-          fetch(url, {
+          cat > test-jio-api.mjs <<'NODE'
+          const url = "https://jiotv.data.cdn.jio.com/apis/v3.0/getMobileChannelList/get/?os=android&devicetype=phone&usertype=tvYR7NSNn7rymo3F";
+
+          const response = await fetch(url, {
             headers: {
-              'user-agent': 'Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36',
-              'accept': 'application/json,text/plain,*/*'
+              "user-agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36",
+              "accept": "application/json,text/plain,*/*"
             }
-          }).then*async r => {
-            console.l*g('status:', r.status);
-          * const text = await r.text();
-    *       console.log(text.slice(0, 5*0));
-            if (!r.ok) proces*.exit(1);
-          }).catch(e => *
-            console.error(e);
-   *        process.exit(1);
-         *});
-          "
+          });
 
-      - name: Run*Jio generator limited test
-       *env:
+          console.log("status:", response.status);
+
+          const text = await response.text();
+          console.log(text.slice(0, 700));
+
+          if (!response.ok) {
+            process.exit(1);
+          }
+          NODE
+
+          node test-jio-api.mjs
+
+      - name: Run Jio generator limited test
+        env:
           JIO_LIMIT: "20"
-   *      JIO_START_OFFSET: "0"
-      *   JIO_END_OFFSET: "0"
-          J*O_ALLOW_EMPTY: "0"
-          JIO_S*RICT: "1"
-        run: npm run jio*
-      - name: Show generated Jio *utput summary
-        if: always()*        run: |
-          ls -lh ou*put || true
-          cat output/j*o_epg.json 2>/dev/null || true
-   *      grep -c "<programme" output/*io_epg.xml 2>/dev/null || true
+          JIO_START_OFFSET: "0"
+          JIO_END_OFFSET: "0"
+          JIO_ALLOW_EMPTY: "0"
+          JIO_STRICT: "1"
+        run: npm run jio
 
-  *   - name: Upload test outputs as *rtifact
+      - name: Show generated output summary
         if: always()
-     *  uses: actions/upload-artifact@v4*        with:
-          name: jio-*pn-test-output
+        run: |
+          echo "Output files:"
+          ls -lh output || true
+
+          echo ""
+          echo "Jio summary:"
+          cat output/jio_epg.json 2>/dev/null || true
+
+          echo ""
+          echo "Programme count:"
+          grep -c "<programme" output/jio_epg.xml 2>/dev/null || true
+
+      - name: Upload VPN test artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jio-openvpn-cloudconnexa-test
           path: |
- *          output/jio_channels.json*            output/jio_epg.json
-  *         output/jio_epg.jsonl
-    *       output/jio_epg.xml
-        *   output/jio_epg_stats.json
-     *      openvpn.log
-          if-no-*iles-found: ignore
+            openvpn.log
+            output/jio_channels.json
+            output/jio_epg.json
+            output/jio_epg.jsonl
+            output/jio_epg.xml
+            output/jio_epg_stats.json
+          if-no-files-found: ignore
