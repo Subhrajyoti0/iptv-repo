@@ -1,0 +1,22 @@
+{
+  "name": "iptv-repo — Zee5 IPTV / XMLTV",
+  "short_name": "iptv-repo",
+  "description": "Zee5 IPTV playlist and XMLTV EPG hub published via GitHub Pages.",
+  "start_url": "/iptv-repo/docs/",
+  "scope": "/iptv-repo/",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "icons": [
+    {
+      "src": "/iptv-repo/docs/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/iptv-repo/docs/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

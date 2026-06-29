@@ -1,9 +1,23 @@
 {
   "name": "iptv-repo",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Unified IPTV and XMLTV generation pipeline for Zee5, JioTV, and iptv-org metadata.",
   "type": "module",
+  "private": true,
+  "scripts": {
+    "zee5": "node generators/zee5/index.js",
+    "jio": "node generators/jio/index.js",
+    "parse:iptv": "curl -L -o in.m3u https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/in.m3u && node utils/parse_iptv_org_m3u.js",
+    "legacy-patch": "node patcher/patcher.js",
+    "unified": "node patcher/unified/index.js",
+    "build": "npm run zee5 && npm run jio && npm run parse:iptv && npm run unified",
+    "build:test": "JIO_LIMIT=20 npm run build",
+    "test:json": "node -e \"JSON.parse(require('fs').readFileSync('package.json','utf8')); console.log('package.json OK')\""
+  },
   "dependencies": {
-    "axios": "^1.6.0",
     "string-similarity": "^4.0.4"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
