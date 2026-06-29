@@ -12,7 +12,7 @@ permissions:
 jobs:
   test-jio-openvpn:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
@@ -26,7 +26,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install OpenVPN
+      - name: Install OpenVPN tools
         run: |
           sudo apt-get update
           sudo apt-get install -y openvpn curl iproute2 dnsutils
@@ -45,39 +45,34 @@ jobs:
           chmod 600 cloudconnexa.ovpn
 
           echo "VPN config loaded."
-          grep -E "^(client|dev|proto|remote|setenv)" cloudconnexa.ovpn || true
+          echo "Visible non-sensitive config lines:"
+          grep -E "^(client|dev|proto|remote|setenv|cipher|auth|remote-cert-tls)" cloudconnexa.ovpn || true
 
-      - name: Prepare split route for JioTV API
-        id: jioip
+      - name: Patch OpenVPN config for safe split routing
         run: |
-          JIO_HOST="jiotv.data.cdn.jio.com"
-          JIO_IP="$(getent ahostsv4 "$JIO_HOST" | awk '{print $1; exit}')"
-
-          if [ -z "$JIO_IP" ]; then
-            echo "Could not resolve $JIO_HOST"
-            exit 1
-          fi
-
-          echo "Jio host: $JIO_HOST"
-          echo "Jio IP: $JIO_IP"
-
-          echo "$JIO_IP $JIO_HOST" | sudo tee -a /etc/hosts
-          echo "jio_ip=$JIO_IP" >> "$GITHUB_OUTPUT"
-
-          # Remove dangerous full-tunnel directives if present
+          # Remove full-tunnel directives if they exist in the uploaded secret.
+          # Full tunnel can break GitHub runner control/log traffic.
           sed -i '/^redirect-gateway/d' cloudconnexa.ovpn
           sed -i '/^route-metric/d' cloudconnexa.ovpn
 
-          # Prevent VPN from taking over the whole GitHub runner
+          # Do not accept server-pushed routes.
           echo "" >> cloudconnexa.ovpn
           echo "route-nopull" >> cloudconnexa.ovpn
           echo "pull-filter ignore redirect-gateway" >> cloudconnexa.ovpn
+          echo "auth-nocache" >> cloudconnexa.ovpn
+          echo "verb 4" >> cloudconnexa.ovpn
 
-          # Route only JioTV API IP via VPN
-          echo "route $JIO_IP 255.255.255.255 vpn_gateway" >> cloudconnexa.ovpn
+          echo "Final route-related OpenVPN config:"
+          grep -E "^(remote|proto|dev|route-nopull|pull-filter|route |redirect-gateway|route-metric|verb)" cloudconnexa.ovpn || true
 
-          echo "Final route-related config:"
-          grep -E "^(remote|proto|dev|route-nopull|pull-filter|route |redirect-gateway|route-metric)" cloudconnexa.ovpn || true
+      - name: Show public IP before VPN
+        run: |
+          echo "Public IP before VPN:"
+          curl -s https://ifconfig.me || true
+          echo ""
+
+          echo "Default route before VPN:"
+          ip route | head -20 || true
 
       - name: Start OpenVPN
         run: |
@@ -112,23 +107,81 @@ jobs:
             exit 1
           fi
 
-      - name: Verify split route
+      - name: Route JioTV CDN IPv4 addresses via VPN tunnel
         run: |
-          echo "Route to JioTV API IP:"
-          ip route get "${{ steps.jioip.outputs.jio_ip }}" || true
+          JIO_HOST="jiotv.data.cdn.jio.com"
+
+          TUN_DEV="$(ip -o link show | awk -F': ' '/tun[0-9]/{print $2; exit}')"
+
+          if [ -z "$TUN_DEV" ]; then
+            echo "Could not find tun interface"
+            ip link
+            exit 1
+          fi
+
+          echo "Detected VPN interface: $TUN_DEV"
+
+          echo "Resolving JioTV IPv4 addresses..."
+          getent ahostsv4 "$JIO_HOST" | awk '{print $1}' | sort -u > jio-ips.txt
+
+          if [ ! -s jio-ips.txt ]; then
+            echo "Could not resolve JioTV IPv4 addresses"
+            exit 1
+          fi
+
+          echo "Resolved JioTV IPs:"
+          cat jio-ips.txt
+
+          while read -r ip; do
+            echo "Routing $ip via $TUN_DEV"
+            sudo ip route replace "$ip/32" dev "$TUN_DEV"
+          done < jio-ips.txt
+
+          echo "Route checks:"
+          while read -r ip; do
+            ip route get "$ip" || true
+          done < jio-ips.txt
+
+      - name: Show routing after VPN
+        run: |
+          echo "Default route after VPN:"
+          ip route | head -30 || true
 
           echo ""
-          echo "Default route:"
-          ip route | head -20 || true
-
-          echo ""
-          echo "Public IP may still show GitHub IP because only JioTV IP is routed via VPN:"
+          echo "Public IP may still show GitHub IP because only JioTV IPs are routed via VPN:"
           curl -s https://ifconfig.me || true
           echo ""
 
-      - name: Test Jio channel API
+          echo ""
+          echo "Cloudflare trace:"
+          curl -s https://www.cloudflare.com/cdn-cgi/trace || true
+          echo ""
+
+      - name: Test Jio channel API using curl
+        run: |
+          URL="https://jiotv.data.cdn.jio.com/apis/v3.0/getMobileChannelList/get/?os=android&devicetype=phone&usertype=tvYR7NSNn7rymo3F"
+
+          echo "Testing JioTV channel API with curl..."
+          curl -4 -v \
+            --connect-timeout 20 \
+            --max-time 45 \
+            -H "User-Agent: Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36" \
+            -H "Accept: application/json,text/plain,*/*" \
+            "$URL" \
+            -o jio-response.txt
+
+          echo ""
+          echo "First 700 chars of response:"
+          head -c 700 jio-response.txt || true
+          echo ""
+
+      - name: Create Jio API Node test script
         run: |
           cat > test-jio-api.mjs <<'NODE'
+          import dns from "node:dns";
+
+          dns.setDefaultResultOrder("ipv4first");
+
           const url = "https://jiotv.data.cdn.jio.com/apis/v3.0/getMobileChannelList/get/?os=android&devicetype=phone&usertype=tvYR7NSNn7rymo3F";
 
           const response = await fetch(url, {
@@ -148,7 +201,8 @@ jobs:
           }
           NODE
 
-          node test-jio-api.mjs
+      - name: Test Jio channel API using Node
+        run: node test-jio-api.mjs
 
       - name: Run Jio generator limited test
         env:
@@ -159,11 +213,18 @@ jobs:
           JIO_STRICT: "1"
         run: npm run jio
 
-      - name: Show generated output summary
+      - name: Show generated Jio output summary
         if: always()
         run: |
+          echo "Output files:"
           ls -lh output || true
+
+          echo ""
+          echo "Jio summary:"
           cat output/jio_epg.json 2>/dev/null || true
+
+          echo ""
+          echo "Jio XMLTV programme count:"
           grep -c "<programme" output/jio_epg.xml 2>/dev/null || true
 
       - name: Upload VPN test artifacts
@@ -173,6 +234,8 @@ jobs:
           name: jio-openvpn-cloudconnexa-test
           path: |
             openvpn.log
+            jio-ips.txt
+            jio-response.txt
             output/jio_channels.json
             output/jio_epg.json
             output/jio_epg.jsonl
