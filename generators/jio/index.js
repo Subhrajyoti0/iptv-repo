@@ -178,7 +178,7 @@ function writeXmlChannel(stream, ch) {
   stream.write(`    <display-name>${escapeXml(ch.name)}</display-name>\n`);
 
   if (ch.logo) {
-    stream.write(`    <icon src="${escapeXml(ch.logo)}" />\n`);
+    stream.write(`    " />\n`);
   }
 
   stream.write(`  </channel>\n`);
@@ -198,7 +198,11 @@ function writeXmlProgramme(stream, p) {
   }
 
   if (p.desc) {
-    stream.write(`    <desc lang="en">${escapeXml(p.desc)}</desc>\n stream.write(`    <category lang="en">${escapeXml(p.category)}</category>\n`);
+    stream.write(`    <desc lang="en">${escapeXml(p.desc)}</desc>\n`);
+  }
+
+  if (p.category) {
+    stream.write(`    <category lang="en">${escapeXml(p.category)}</category>\n`);
   }
 
   if (Array.isArray(p.genre)) {
