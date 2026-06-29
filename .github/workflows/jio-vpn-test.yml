@@ -1,0 +1,129 @@
+name: Test JioTV with Free VPN
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - test/jio-vpn-github-runner
+
+permissions:
+  contents: read
+
+jobs:
+  test-jio-vpn:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install OpenVPN tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openvpn curl
+
+      - name: Write VPN config
+        run: |
+          cat > vpn-config.ovpn <<'EOF'
+          ${{ secrets.FREE_VPN_CONFIG }}
+          EOF
+
+          sed -i 's/\r$//' vpn-config.ovpn
+
+          echo "VPN config written."
+          grep -E "^(remote|proto|dev)" vpn-config.ovpn || true
+
+      - name: Write VPN auth file if provided
+        env:
+          VPN_USER: ${{ secrets.FREE_VPN_USERNAME }}
+          VPN_PASS: ${{ secrets.FREE_VPN_PASSWORD }}
+        run: |
+          if [ -n "$VPN_USER" ] && [ -n "$VPN_PASS" ]; then
+            printf "%s\n%s\n" "$VPN_USER" "$VPN_PASS" > vpn-auth.txt
+            chmod 600 vpn-auth.txt
+
+            if grep -q "^auth-user-pass" vpn-config.ovpn; then
+              sed -i 's|^auth-user-pass.*|auth-user-pass vpn-auth.txt|' vpn*config.ovpn
+            else
+     *        echo "auth-user-pass vpn-a*th.txt" >> vpn-config.ovpn
+       *    fi
+          else
+            *cho "No VPN username/password secr*ts provided. Assuming config does *ot require auth."
+          fi
+
+  *   - name: Start VPN
+        run: *
+          sudo openvpn \
+        *   --config vpn-config.ovpn \
+    *       --daemon \
+            --lo* openvpn.log \
+            --write*id openvpn.pid
+
+          echo "Wa*ting for VPN tunnel..."
+          *leep 20
+
+          echo "OpenVPN l*g:"
+          sudo tail -n 80 open*pn.log || true
+
+      - name: Veri*y public IP after VPN
+        run:*|
+          echo "Public IP:"
+    *     curl -s https://ifconfig.me |* true
+          echo ""
+          *cho "Cloudflare trace:"
+          curl -s https://www.cloudflare.com/cdn-cgi/trace || true
+
+      - name: Test Jio channel API only
+        run: |
+          node -e "
+          const url = 'https://jiotv.data.cdn.jio.com/apis/v3.0/getMobileChannelList/get/?os=android&devicetype=phone&usertype=tvYR7NSNn7rymo3F';
+          fetch(url, {
+            headers: {
+              'user-agent': 'Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36',
+              'accept': 'application/json,text/plain,*/*'
+            }
+          }).then*async r => {
+            console.l*g('status:', r.status);
+          * const text = await r.text();
+    *       console.log(text.slice(0, 5*0));
+            if (!r.ok) proces*.exit(1);
+          }).catch(e => *
+            console.error(e);
+   *        process.exit(1);
+         *});
+          "
+
+      - name: Run*Jio generator limited test
+       *env:
+          JIO_LIMIT: "20"
+   *      JIO_START_OFFSET: "0"
+      *   JIO_END_OFFSET: "0"
+          J*O_ALLOW_EMPTY: "0"
+          JIO_S*RICT: "1"
+        run: npm run jio*
+      - name: Show generated Jio *utput summary
+        if: always()*        run: |
+          ls -lh ou*put || true
+          cat output/j*o_epg.json 2>/dev/null || true
+   *      grep -c "<programme" output/*io_epg.xml 2>/dev/null || true
+
+  *   - name: Upload test outputs as *rtifact
+        if: always()
+     *  uses: actions/upload-artifact@v4*        with:
+          name: jio-*pn-test-output
+          path: |
+ *          output/jio_channels.json*            output/jio_epg.json
+  *         output/jio_epg.jsonl
+    *       output/jio_epg.xml
+        *   output/jio_epg_stats.json
+     *      openvpn.log
+          if-no-*iles-found: ignore
