@@ -29,7 +29,7 @@ jobs:
       - name: Install OpenVPN
         run: |
           sudo apt-get update
-          sudo apt-get install -y openvpn curl iproute2
+          sudo apt-get install -y openvpn curl iproute2 dnsutils
 
       - name: Write OpenVPN config from secret
         env:
@@ -45,31 +45,39 @@ jobs:
           chmod 600 cloudconnexa.ovpn
 
           echo "VPN config loaded."
-          grep -E "^(client|dev|proto|remote|redirect-gateway|route)" cloudconnexa.ovpn || true
+          grep -E "^(client|dev|proto|remote|setenv)" cloudconnexa.ovpn || true
 
-      - name: Write VPN auth file if username/password are provided
-        env:
-          VPN_USER: ${{ secrets.FREE_VPN_USERNAME }}
-          VPN_PASS: ${{ secrets.FREE_VPN_PASSWORD }}
+      - name: Prepare split route for JioTV API
+        id: jioip
         run: |
-          if [ -n "$VPN_USER" ] && [ -n "$VPN_PASS" ]; then
-            printf "%s\n%s\n" "$VPN_USER" "$VPN_PASS" > vpn-auth.txt
-            chmod 600 vpn-auth.txt
+          JIO_HOST="jiotv.data.cdn.jio.com"
+          JIO_IP="$(getent ahostsv4 "$JIO_HOST" | awk '{print $1; exit}')"
 
-            if grep -q "^auth-user-pass" cloudconnexa.ovpn; then
-              sed -i 's|^auth-user-pass.*|auth-user-pass vpn-auth.txt|' cloudconnexa.ovpn
-            else
-              echo "auth-user-pass vpn-auth.txt" >> cloudconnexa.ovpn
-            fi
-          else
-            echo "No VPN username/password secrets supplied. Assuming profile has embedded certificates/auth."
+          if [ -z "$JIO_IP" ]; then
+            echo "Could not resolve $JIO_HOST"
+            exit 1
           fi
 
-      - name: Show IP before VPN
-        run: |
-          echo "Public IP before VPN:"
-          curl -s https://ifconfig.me || true
-          echo ""
+          echo "Jio host: $JIO_HOST"
+          echo "Jio IP: $JIO_IP"
+
+          echo "$JIO_IP $JIO_HOST" | sudo tee -a /etc/hosts
+          echo "jio_ip=$JIO_IP" >> "$GITHUB_OUTPUT"
+
+          # Remove dangerous full-tunnel directives if present
+          sed -i '/^redirect-gateway/d' cloudconnexa.ovpn
+          sed -i '/^route-metric/d' cloudconnexa.ovpn
+
+          # Prevent VPN from taking over the whole GitHub runner
+          echo "" >> cloudconnexa.ovpn
+          echo "route-nopull" >> cloudconnexa.ovpn
+          echo "pull-filter ignore redirect-gateway" >> cloudconnexa.ovpn
+
+          # Route only JioTV API IP via VPN
+          echo "route $JIO_IP 255.255.255.255 vpn_gateway" >> cloudconnexa.ovpn
+
+          echo "Final route-related config:"
+          grep -E "^(remote|proto|dev|route-nopull|pull-filter|route |redirect-gateway|route-metric)" cloudconnexa.ovpn || true
 
       - name: Start OpenVPN
         run: |
@@ -80,24 +88,43 @@ jobs:
             --writepid openvpn.pid
 
           echo "Waiting for VPN tunnel..."
-          sleep 25
+
+          for i in $(seq 1 90); do
+            if sudo grep -q "Initialization Sequence Completed" openvpn.log; then
+              echo "VPN connected."
+              break
+            fi
+
+            if sudo grep -qi "AUTH_FAILED\|TLS Error\|Exiting due to fatal error" openvpn.log; then
+              echo "VPN failed."
+              sudo cat openvpn.log
+              exit 1
+            fi
+
+            sleep 1
+          done
 
           echo "OpenVPN log tail:"
           sudo tail -n 120 openvpn.log || true
 
-      - name: Show routing and IP after VPN
+          if ! sudo grep -q "Initialization Sequence Completed" openvpn.log; then
+            echo "VPN did not complete initialization."
+            exit 1
+          fi
+
+      - name: Verify split route
         run: |
-          echo "Routes:"
-          ip route || true
+          echo "Route to JioTV API IP:"
+          ip route get "${{ steps.jioip.outputs.jio_ip }}" || true
 
           echo ""
-          echo "Public IP after VPN:"
+          echo "Default route:"
+          ip route | head -20 || true
+
+          echo ""
+          echo "Public IP may still show GitHub IP because only JioTV IP is routed via VPN:"
           curl -s https://ifconfig.me || true
           echo ""
-
-          echo ""
-          echo "Cloudflare trace:"
-          curl -s https://www.cloudflare.com/cdn-cgi/trace || true
 
       - name: Test Jio channel API
         run: |
@@ -135,15 +162,8 @@ jobs:
       - name: Show generated output summary
         if: always()
         run: |
-          echo "Output files:"
           ls -lh output || true
-
-          echo ""
-          echo "Jio summary:"
           cat output/jio_epg.json 2>/dev/null || true
-
-          echo ""
-          echo "Programme count:"
           grep -c "<programme" output/jio_epg.xml 2>/dev/null || true
 
       - name: Upload VPN test artifacts
