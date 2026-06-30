@@ -13,7 +13,7 @@ export async function fetchEPG(channelId, offset = 0, langId = 6) {
     const res = await fetch(url, {
       headers: {
         "user-agent": "Mozilla/5.0",
-        accept: "application/json"
+        "accept": "application/json"
       }
     });
 
@@ -73,22 +73,18 @@ export function normalizeJioProgramme(raw, channel, offset) {
     channel: String(raw.channel_id || channel.id),
     channelName: raw.channel_name || channel.name,
     offset,
-
     start: normalizeEpoch(raw.startEpoch || raw.serverEpoch),
     stop: normalizeEpoch(raw.endEpoch),
-
     title: raw.showname || raw.showName || raw.title || "Unknown Programme",
     subtitle: raw.episode_num ? `Episode ${raw.episode_num}` : "",
     desc: raw.episode_desc || raw.description || "",
     category: raw.showCategory || raw.showGenre?.[0] || channel.category || "",
     genre: Array.isArray(raw.showGenre) ? raw.showGenre : [],
     image: normalizeImage(image),
-
     director: raw.director || "",
     actors: raw.starCast || "",
     rating: raw.pcr || "",
     repeat: Boolean(raw.willRepeat || raw.isRepeat),
-
     showId: raw.showId || "",
     srno: raw.srno || null,
     duration: raw.duration || null,
@@ -102,15 +98,18 @@ function normalizeEpoch(value) {
   if (!value) return null;
 
   const n = Number(value);
+
   if (!Number.isFinite(n)) return null;
 
   const millis = n > 9999999999 ? n : n * 1000;
+
   return new Date(millis).toISOString();
 }
 
 function normalizeImage(value) {
   if (!value) return "";
   if (String(value).startsWith("http")) return value;
+
   return `${POSTER_BASE}${value}`;
 }
 
@@ -120,12 +119,16 @@ function dedupeProgrammes(items) {
 
   for (const p of items) {
     const key = `${p.channel}|${p.start}|${p.stop}|${p.title}`;
+
     if (seen.has(key)) continue;
 
     seen.add(key);
     out.push(p);
   }
 
-  out.sort((a, b) => new Date(a.start).getTime() - new Date(b.start).getTime());
+  out.sort((a, b) => {
+    return new Date(a.start).getTime() - new Date(b.start).getTime();
+  });
+
   return out;
 }

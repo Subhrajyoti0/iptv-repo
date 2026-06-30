@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const input = process.argv[2] || "in.m3u";
+const input = process.argv[2] || "output/iptv_org_in.m3u";
 const output = process.argv[3] || "output/in_parsed.json";
 
 if (!fs.existsSync(input)) {
@@ -18,6 +18,7 @@ for (let i = 0; i < lines.length; i++) {
   if (!line.startsWith("#EXTINF")) continue;
 
   const url = lines[i + 1]?.trim();
+
   if (!url || url.startsWith("#")) continue;
 
   const tvgId = line.match(/tvg-id="([^"]*)"/)?.[1] || "";

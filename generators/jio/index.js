@@ -178,7 +178,7 @@ function writeXmlChannel(stream, ch) {
   stream.write(`    <display-name>${escapeXml(ch.name)}</display-name>\n`);
 
   if (ch.logo) {
-    stream.write(`    " />\n`);
+    stream.write(`    <icon src="${escapeXml(ch.logo)}" />\n`);
   }
 
   stream.write(`  </channel>\n`);
@@ -214,7 +214,7 @@ function writeXmlProgramme(stream, p) {
   }
 
   if (p.image) {
-    stream.write(`    " />\n`);
+    stream.write(`    <icon src="${escapeXml(p.image)}" />\n`);
   }
 
   if (p.director || p.actors) {

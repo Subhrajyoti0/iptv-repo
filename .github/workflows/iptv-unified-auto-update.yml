@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update-all:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
 
     steps:
       - name: Checkout repository
@@ -31,34 +31,22 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run full unified IPTV build
+      - name: Run full Kodi master XMLTV build
         env:
           JIO_START_OFFSET: "0"
           JIO_END_OFFSET: "5"
           JIO_ALLOW_EMPTY: "1"
         run: npm run build
 
-      - name: Validate Zee5 XMLTV
+      - name: Validate Kodi master XMLTV
         run: |
-          if [ ! -s output/zee5.xml ]; then
-            echo "Zee5 XMLTV missing or empty"
+          if [ ! -s output/kodi_master.xml ]; then
+            echo "Kodi master XMLTV missing or empty"
             exit 1
           fi
 
-          if ! grep -q "<programme" output/zee5.xml; then
-            echo "Zee5 XMLTV has no programme entries"
-            exit 1
-          fi
-
-      - name: Validate final unified XMLTV
-        run: |
-          if [ ! -s output/iptv_unified.xml ]; then
-            echo "Final unified XMLTV missing or empty"
-            exit 1
-          fi
-
-          if ! grep -q "<channel" output/iptv_unified.xml; then
-            echo "Final unified XMLTV has no channel entries"
+          if ! grep -q "<channel" output/kodi_master.xml; then
+            echo "Kodi master XMLTV has no channel entries"
             exit 1
           fi
 
@@ -68,20 +56,16 @@ jobs:
           ls -lh output || true
 
           echo ""
-          echo "Final unified XMLTV channel count:"
-          grep -c "<channel" output/iptv_unified.xml || true
+          echo "Kodi master channel count:"
+          grep -c "<channel" output/kodi_master.xml || true
 
           echo ""
-          echo "Final unified XMLTV programme count:"
-          grep -c "<programme" output/iptv_unified.xml || true
+          echo "Kodi master programme count:"
+          grep -c "<programme" output/kodi_master.xml || true
 
           echo ""
-          echo "Jio summary:"
-          cat output/jio_epg.json 2>/dev/null || true
-
-          echo ""
-          echo "Unified summary:"
-          cat output/iptv_unified_summary.json 2>/dev/null || true
+          echo "Kodi master summary:"
+          cat output/kodi_master_summary.json 2>/dev/null || true
 
       - name: Remove runtime files
         run: |
@@ -95,17 +79,18 @@ jobs:
           git add output/zee5.xml \
                   output/zee5_raw_epg.json \
                   output/zee5_normalized_epg.json \
+                  output/iptv_org_in.m3u \
                   output/in_parsed.json \
                   output/jio_channels.json \
                   output/jio_epg.json \
                   output/jio_epg.jsonl \
                   output/jio_epg.xml \
                   output/jio_epg_stats.json \
-                  output/unified_channels.json \
-                  output/review.json \
-                  output/iptv_unified.xml \
-                  output/iptv_unified_summary.json \
-                  docs/iptv_unified.xml \
+                  output/jio_iptv_matches.json \
+                  output/jio_iptv_review.json \
+                  output/kodi_master.xml \
+                  output/kodi_master_summary.json \
+                  docs/kodi_master.xml \
                   patcher/patch_log.json \
                   patcher/review.json \
                   patcher/channel_rename_history.json
@@ -117,15 +102,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Auto-update unified IPTV XMLTV pipeline (6h)"
-
-      - name: Ensure clean working tree before push
-        run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            echo "Working tree still dirty before push"
-            git status --porcelain
-            exit 1
-          fi
+          git commit -m "Auto-update Kodi master XMLTV pipeline (6h)"
 
       - name: Rebase and push safely
         run: |

@@ -10,6 +10,7 @@ export async function retryFetch(fn, retries = 3, delayMs = 800) {
       return await fn();
     } catch (err) {
       lastError = err;
+
       if (i < retries - 1) {
         await sleep(delayMs * (i + 1));
       }

@@ -1,5 +1,12 @@
-node_modules/
-.env
-*.log
-
+# Runtime / local-only state
 output/zee5_progress.json
+
+# Local patch backups
+today-work.patch
+today-staged-work.patch
+
+# VPN / secret material - never commit
+*.ovpn
+vpn-auth.txt
+cloudconnexa.ovpn
+openvpn.log

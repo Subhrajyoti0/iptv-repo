@@ -19,7 +19,7 @@ export async function fetchChannels(options = {}) {
     const res = await fetch(CHANNEL_API, {
       headers: {
         "user-agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36",
-        accept: "application/json,text/plain,*/*"
+        "accept": "application/json,text/plain,*/*"
       }
     });
 
@@ -36,11 +36,9 @@ export async function fetchChannels(options = {}) {
       throw new Error("Invalid JioTV channel list response: missing result[]");
     }
 
-    const channels = json.result
+    return json.result
       .filter(ch => ch && ch.channel_id && ch.channel_name)
       .map(ch => normalizeJioChannel(ch));
-
-    return channels;
   } catch (err) {
     console.warn(`⚠️ Jio channel fetch unavailable: ${err.message}`);
 
@@ -51,6 +49,7 @@ export async function fetchChannels(options = {}) {
     if (fs.existsSync(cacheFile)) {
       try {
         const cached = JSON.parse(fs.readFileSync(cacheFile, "utf8"));
+
         if (Array.isArray(cached)) {
           console.warn(`⚠️ Using cached Jio channels: ${cacheFile}`);
           return cached;
@@ -61,7 +60,7 @@ export async function fetchChannels(options = {}) {
     }
 
     if (allowEmpty) {
-      console.warn("⚠️ Continuing with empty Jio channel list. Zee5 + iptv-org pipeline can still run.");
+      console.warn("⚠️ Continuing with empty Jio channel list.");
       return [];
     }
 
@@ -92,8 +91,7 @@ export function normalizeJioChannel(ch) {
     planType: ch.plan_type || null,
     price: ch.channelPrice || null,
     hidden: Boolean(ch.isHidden),
-    fast: Boolean(ch.isFast),
-    raw: ch
+    fast: Boolean(ch.isFast)
   };
 }
 
