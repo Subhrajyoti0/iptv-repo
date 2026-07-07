@@ -1,107 +1,107 @@
-import fs from "fs";
-import { ProxyAgent } from "undici";
+import { ProxyAgent, setGlobalDispatcher, fetch } from "undici";
 
-// Using standard Indian proxy lists + some reliable fallbacks
-const PROXY_SOURCES = [
-  "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt",
-  "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
-  "https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt"
-];
+// Global failsafe: prevents internal Node crypto layers from rejecting self-signed public proxy certificates
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
-// Helper: strictly grab proxies that are likely in India
-async function fetchIndianProxies() {
-  console.log("🌐 Fetching live proxies from the custom Indian registry list...");
-  const proxies = new Set();
-  
-  try {
-    for (const source of PROXY_SOURCES) {
-      const res = await fetch(source);
-      if (!res.ok) continue;
-      const text = await res.text();
-      
-      const lines = text.split("\n").map(l => l.trim()).filter(Boolean);
-      for (const line of lines) {
-        // Basic naive IP format check just to clean garbage data
-        if (line.match(/^(\d{1,3}\.){3}\d{1,3}:\d{2,5}$/)) {
-          proxies.add(`http://${line}`);
-        }
-      }
-    }
-  } catch (err) {
-    console.warn("⚠️ Could not fetch proxy list, returning empty set.");
-  }
-  
-  // Return an array of up to 50 proxies to race
-  return Array.from(proxies).slice(0, 50);
-}
+let proxyInitPromise = null;
 
-// Helper: Test a single proxy
-async function verifyProxy(proxyUrl) {
-  // ✅ FIX: Replaced requestTimeout with undici's native timeout properties
-  const agent = new ProxyAgent({ 
-    uri: proxyUrl, 
-    connectTimeout: 8000, 
-    headersTimeout: 10000,
-    bodyTimeout: 10000,
-    requestTls: { rejectUnauthorized: false },
-    proxyTls: { rejectUnauthorized: false }
-  });
+// Spoof a modern Windows Chrome browser to bypass WAF Bot-Detection WAFs
+export const WAF_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+  "Accept-Language": "en-US,en;q=0.9",
+  "Connection": "keep-alive",
+  "Upgrade-Insecure-Requests": "1",
+  "Sec-Fetch-Dest": "document",
+  "Sec-Fetch-Mode": "navigate",
+  "Sec-Fetch-Site": "none",
+  "Sec-Fetch-User": "?1"
+};
 
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second hard-abort
+export async function initIndianProxy() {
+  if (proxyInitPromise) return proxyInitPromise;
 
-  try {
-    const res = await fetch("https://jiotv.com", {
-      dispatcher: agent,
-      signal: controller.signal,
-      headers: {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-      }
-    });
-
-    clearTimeout(timeoutId);
-
-    if (res.ok) {
-      return agent; // Return the working agent!
-    }
-    throw new Error(`HTTP ${res.status}`);
-  } catch (err) {
-    clearTimeout(timeoutId);
-    if (err.name === 'AbortError' || err.code === 'UND_ERR_HEADERS_TIMEOUT') {
-        throw new Error("Timeout");
-    }
-    throw err;
-  }
-}
-
-let activeAgent = null;
-
-// Main export: Finds the fastest working proxy
-export async function getJioProxyAgent() {
-  if (activeAgent) return activeAgent;
-
-  const proxyList = await fetchIndianProxies();
-  if (proxyList.length === 0) return null;
-
-  // Take the first 8 proxies and race them. We just need ONE to work.
-  const batch = proxyList.slice(0, 8);
-  console.log(`🔄 Racing ${batch.length} Indian proxies in parallel...`);
-
-  try {
-    // Promise.any resolves as soon as ONE proxy successfully connects and returns the agent
-    activeAgent = await Promise.any(batch.map(url => verifyProxy(url)));
-    console.log("✅ Successfully established proxy tunnel to India!");
-    return activeAgent;
-  } catch (aggregateError) {
-    console.warn("❌ All parallel proxy verification paths failed.");
+  proxyInitPromise = (async () => {
+    const apiUrl = "https://api.proxyscrape.com/v4/free-proxy-list/get?request=display_proxies&proxy_format=protocolipport&format=text&protocol=http&country=in";
     
-    // Print out the exact failure reasons to help with debugging
-    console.log("🔍 Troubleshooting Connection Diagnostics:");
-    aggregateError.errors.forEach(e => {
-        console.log(`   -> Node dropped request due to: ${e.message}`);
-    });
+    console.log("🌐 Fetching live proxies from the Indian registry...");
+    try {
+      const res = await fetch(apiUrl);
+      if (!res.ok) throw new Error(`ProxyScrape API Error: ${res.status}`);
+      
+      const text = await res.text();
+      let proxies = text.split("\n")
+        .map(p => p.trim())
+        .filter(Boolean)
+        .map(p => p.includes("://") ? p : `http://${p}`);
 
-    console.warn("⚠️ Pipeline falling back to clear system execution context.");
-    return null; 
+      if (proxies.length === 0) {
+        console.warn("⚠️ Public proxy directory returned zero entries.");
+        return false;
+      }
+
+      // 50 proxies to maximize our chances against WAF IP-bans
+      const candidates = proxies.slice(0, 50);
+      console.log(`🔄 Racing ${candidates.length} proxies against the JioTV WAF in parallel...`);
+
+      const testProxy = async (proxyUrl) => {
+        // Native undici configuration for strict timeouts and TLS bypass
+        const agent = new ProxyAgent({ 
+          uri: proxyUrl, 
+          connectTimeout: 8000,   // Max time to establish TCP socket
+          headersTimeout: 10000,  // Max time waiting for WAF to clear headers
+          bodyTimeout: 10000,     // Max time to download response
+          requestTls: { rejectUnauthorized: false },
+          proxyTls: { rejectUnauthorized: false }
+        });
+        
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 12000);
+
+        try {
+          // WORST CASE FIX: We test directly against JioTV to ensure the WAF doesn't block the IP
+          const testRes = await fetch("https://jiotv.com/", {
+            dispatcher: agent,
+            signal: controller.signal,
+            headers: WAF_HEADERS // Bypass User-Agent fingerprinting
+          });
+          
+          clearTimeout(timeout);
+
+          // Only accept proxies that Jio explicitly allows (200 OK)
+          if (testRes.ok) {
+            return { agent, proxyUrl };
+          }
+          throw new Error(`Jio_WAF_Rejected_${testRes.status}`);
+        } catch (err) {
+          clearTimeout(timeout);
+          const trueError = err.cause ? (err.cause.message || err.cause.code) : err.message;
+          throw new Error(trueError);
+        }
+      };
+
+      // The first proxy to bypass the WAF and load JioTV wins
+      const winner = await Promise.any(candidates.map(p => testProxy(p)));
+      
+      console.log(`\n✅ WAF BYPASS SUCCESS! Routed network through: [${winner.proxyUrl}]`);
+      
+      // Lock this verified proxy globally for the rest of the Node process
+      setGlobalDispatcher(winner.agent);
+      return true;
+
+    } catch (aggregateError) {
+      console.error("\n❌ All parallel proxy verification paths failed WAF/Network checks.");
+      
+      if (aggregateError.errors) {
+        const uniqueErrors = [...new Set(aggregateError.errors.map(e => e.message))];
+        console.log("🔍 Troubleshooting Connection Diagnostics:");
+        uniqueErrors.forEach(err => console.log(`   -> Dropped due to: ${err}`));
+      }
+    }
+    
+    console.warn("⚠️ Pipeline falling back to clear system execution context (Likely to hit 450 Geo-block).");
+    return false;
+  })();
+
+  return proxyInitPromise;
   }
-}
