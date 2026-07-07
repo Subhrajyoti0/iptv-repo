@@ -1,3 +1,6 @@
+// At the top of channels.js, import the headers:
+import { WAF_HEADERS } from "./proxy.js";
+
 import fs from "fs";
 import path from "path";
 import { initIndianProxy } from "./proxy.js";
@@ -26,7 +29,11 @@ export async function fetchChannels(options = {}) {
         accept: "application/json,text/plain,*/*"
       }
     });
-
+    // ... inside your fetch function:
+    const res = await fetch("https://jiotv.data.cdn.jio.com/apis/v1.4/getMobileChannelList/...", {
+      headers: WAF_HEADERS // <--- CRITICAL FOR WAF BYPASS
+    });
+    
     if (!res.ok) {
       const body = await safeText(res);
       throw new Error(
