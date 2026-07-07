@@ -1,115 +1,107 @@
-import { ProxyAgent, setGlobalDispatcher, fetch } from "undici";
+import fs from "fs";
+import { ProxyAgent } from "undici";
 
-// Global failsafe flag to prevent internal crypto layers from rejecting public proxy streams
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+// Using standard Indian proxy lists + some reliable fallbacks
+const PROXY_SOURCES = [
+  "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt",
+  "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
+  "https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt"
+];
 
-let proxyInitPromise = null;
-
-/**
- * Automatically discovers, verifies, and attaches a live Indian proxy.
- * Explicitly pulls nodes that support SSL/HTTPS tunneling.
- */
-export async function initIndianProxy() {
-  if (proxyInitPromise) return proxyInitPromise;
-
-  proxyInitPromise = (async () => {
-    // 1. Try fetching proxies explicitly verified to support SSL tunneling first
-    const apiUrl = "https://api.proxyscrape.com/v4/free-proxy-list/get?request=display_proxies&proxy_format=protocolipport&format=text&protocol=http&country=in&ssl=yes";
-    
-    console.log("🌐 Fetching live proxies from the custom Indian registry list...");
-    try {
-      const res = await fetch(apiUrl);
-      if (!res.ok) throw new Error(`ProxyScrape API returned error status: ${res.status}`);
-      
+// Helper: strictly grab proxies that are likely in India
+async function fetchIndianProxies() {
+  console.log("🌐 Fetching live proxies from the custom Indian registry list...");
+  const proxies = new Set();
+  
+  try {
+    for (const source of PROXY_SOURCES) {
+      const res = await fetch(source);
+      if (!res.ok) continue;
       const text = await res.text();
-      let proxies = text.split("\n")
-        .map(p => p.trim())
-        .filter(Boolean)
-        .map(p => p.includes("://") ? p : `http://${p}`);
-
-      // Fallback: If the strict SSL pool is empty, grab the wider list
-      if (proxies.length === 0) {
-        console.warn("⚠️ No explicit SSL proxies found in current slice. Pulling general pool...");
-        const fallbackRes = await fetch("https://api.proxyscrape.com/v4/free-proxy-list/get?request=display_proxies&proxy_format=protocolipport&format=text&protocol=http&country=in");
-        if (fallbackRes.ok) {
-          const fallbackText = await fallbackRes.text();
-          proxies = fallbackText.split("\n")
-            .map(p => p.trim())
-            .filter(Boolean)
-            .map(p => p.includes("://") ? p : `http://${p}`);
+      
+      const lines = text.split("\n").map(l => l.trim()).filter(Boolean);
+      for (const line of lines) {
+        // Basic naive IP format check just to clean garbage data
+        if (line.match(/^(\d{1,3}\.){3}\d{1,3}:\d{2,5}$/)) {
+          proxies.add(`http://${line}`);
         }
-      }
-
-      if (proxies.length === 0) {
-        console.warn("⚠️ Public proxy directory returned zero active text entries.");
-        return false;
-      }
-
-      // Check up to 60 proxies across the cluster to find a fast responder
-      const candidates = proxies.slice(0, 60);
-      console.log(`🔄 Racing ${candidates.length} Indian proxies in parallel...`);
-
-      const testProxy = async (proxyUrl) => {
-        // Correct undici structure for handling strict SSL bypass across a proxy tunnel
-        const agent = new ProxyAgent({ 
-          uri: proxyUrl, 
-          requestTimeout: 15000, 
-          requestTls: {
-            rejectUnauthorized: false
-          },
-          proxyTls: {
-            rejectUnauthorized: false
-          }
-        });
-        
-        const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 12000); // 12s benchmark cap
-
-        try {
-          const testRes = await fetch("https://api.ipify.org", {
-            dispatcher: agent,
-            signal: controller.signal
-          });
-          clearTimeout(timeout);
-
-          if (testRes.ok) {
-            const verifiedIp = await testRes.text();
-            return { agent, proxyUrl, verifiedIp: verifiedIp.trim() };
-          }
-          throw new Error(`HTTP_Status_${testRes.status}`);
-        } catch (err) {
-          clearTimeout(timeout);
-          
-          // Drill past the generic 'fetch failed' wrapper down to the true connection cause
-          const trueError = err.cause ? (err.cause.message || err.cause.code || err.cause) : err.message;
-          throw new Error(trueError);
-        }
-      };
-
-      // First proxy to successfully resolve ipify wins the race instantly
-      const winner = await Promise.any(candidates.map(p => testProxy(p)));
-      
-      console.log(`\n✅ Success! Connected through Indian Proxy: [${winner.proxyUrl}]`);
-      console.log(`📡 Verified Node Endpoint IP: ${winner.verifiedIp}`);
-      
-      setGlobalDispatcher(winner.agent);
-      return true;
-
-    } catch (aggregateError) {
-      console.error("\n❌ All parallel proxy verification paths failed.");
-      
-      if (aggregateError.errors) {
-        const uniqueErrors = [...new Set(aggregateError.errors.map(e => e.message))];
-        console.log("🔍 Troubleshooting Connection Diagnostics:");
-        uniqueErrors.forEach(err => console.log(`   -> Node dropped request due to: ${err}`));
-      } else {
-        console.error("   -> Error:", aggregateError.message || aggregateError);
       }
     }
-    
-    console.warn("⚠️ Pipeline falling back to clear system execution context.");
-    return false;
-  })();
-
-  return proxyInitPromise;
+  } catch (err) {
+    console.warn("⚠️ Could not fetch proxy list, returning empty set.");
   }
+  
+  // Return an array of up to 50 proxies to race
+  return Array.from(proxies).slice(0, 50);
+}
+
+// Helper: Test a single proxy
+async function verifyProxy(proxyUrl) {
+  // ✅ FIX: Replaced requestTimeout with undici's native timeout properties
+  const agent = new ProxyAgent({ 
+    uri: proxyUrl, 
+    connectTimeout: 8000, 
+    headersTimeout: 10000,
+    bodyTimeout: 10000,
+    requestTls: { rejectUnauthorized: false },
+    proxyTls: { rejectUnauthorized: false }
+  });
+
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second hard-abort
+
+  try {
+    const res = await fetch("https://jiotv.com", {
+      dispatcher: agent,
+      signal: controller.signal,
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      }
+    });
+
+    clearTimeout(timeoutId);
+
+    if (res.ok) {
+      return agent; // Return the working agent!
+    }
+    throw new Error(`HTTP ${res.status}`);
+  } catch (err) {
+    clearTimeout(timeoutId);
+    if (err.name === 'AbortError' || err.code === 'UND_ERR_HEADERS_TIMEOUT') {
+        throw new Error("Timeout");
+    }
+    throw err;
+  }
+}
+
+let activeAgent = null;
+
+// Main export: Finds the fastest working proxy
+export async function getJioProxyAgent() {
+  if (activeAgent) return activeAgent;
+
+  const proxyList = await fetchIndianProxies();
+  if (proxyList.length === 0) return null;
+
+  // Take the first 8 proxies and race them. We just need ONE to work.
+  const batch = proxyList.slice(0, 8);
+  console.log(`🔄 Racing ${batch.length} Indian proxies in parallel...`);
+
+  try {
+    // Promise.any resolves as soon as ONE proxy successfully connects and returns the agent
+    activeAgent = await Promise.any(batch.map(url => verifyProxy(url)));
+    console.log("✅ Successfully established proxy tunnel to India!");
+    return activeAgent;
+  } catch (aggregateError) {
+    console.warn("❌ All parallel proxy verification paths failed.");
+    
+    // Print out the exact failure reasons to help with debugging
+    console.log("🔍 Troubleshooting Connection Diagnostics:");
+    aggregateError.errors.forEach(e => {
+        console.log(`   -> Node dropped request due to: ${e.message}`);
+    });
+
+    console.warn("⚠️ Pipeline falling back to clear system execution context.");
+    return null; 
+  }
+}
