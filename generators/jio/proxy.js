@@ -4,7 +4,7 @@ let proxyInitPromise = null;
 
 /**
  * Automatically discovers, verifies, and attaches a live Indian HTTP proxy.
- * Uses a promise cache to guarantee the search loop runs exactly once per process.
+ * Uses parallel racing to find the fastest operational proxy in under 6 seconds.
  */
 export async function initIndianProxy() {
   if (proxyInitPromise) return proxyInitPromise;
@@ -27,38 +27,46 @@ export async function initIndianProxy() {
         return false;
       }
 
-      console.log(`🔄 Discovered ${proxies.length} candidates. Verifying tunnel health...`);
-      
-      // Test the top 15 freshest entries to keep performance fast
-      const testPool = proxies.slice(0, 15);
+      // Take a wider batch of 30 candidates to maximize our odds
+      const candidates = proxies.slice(0, 30);
+      console.log(`🔄 Testing ${candidates.length} candidates simultaneously in parallel...`);
 
-      for (const proxy of testPool) {
+      // Inline helper to validate a single proxy target
+      const testProxy = async (proxy) => {
         const proxyUrl = `http://${proxy}`;
-        const agent = new ProxyAgent({ uri: proxyUrl, requestTimeout: 10000 });
+        const agent = new ProxyAgent({ uri: proxyUrl, requestTimeout: 12000 });
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 6000); // 6 second parallel limit
 
         try {
-          const controller = new AbortController();
-          const timeout = setTimeout(() => controller.abort(), 4000); // 4s strict connection gate
-
-          const testRes = await fetch("https://www.google.com", {
+          // Using api.ipify.org because it doesn't block public proxies like Google does
+          const testRes = await fetch("https://api.ipify.org", {
             dispatcher: agent,
             signal: controller.signal
           });
-
           clearTimeout(timeout);
 
           if (testRes.ok) {
-            console.log(`✅ Validated working Indian proxy route: [${proxyUrl}]`);
-            setGlobalDispatcher(agent);
-            return true;
+            return { agent, proxyUrl };
           }
-        } catch {
-          // Silent catch: continue testing next proxy in queue
+          throw new Error("Failed validation status check");
+        } catch (err) {
+          clearTimeout(timeout);
+          throw err;
         }
-      }
-      console.warn("❌ All online public proxy options failed validation rules.");
+      };
+
+      // Promise.any returns the FIRST promise that resolves successfully.
+      // The fastest working proxy wins instantly!
+      const winner = await Promise.any(candidates.map(p => testProxy(p)));
+      
+      console.log(`✅ Validated working Indian proxy route: [${winner.proxyUrl}]`);
+      setGlobalDispatcher(winner.agent);
+      return true;
+
     } catch (err) {
-      console.warn(`⚠️ Proxy auto-discovery subsystem error: ${err.message}`);
+      // Catches if Promise.any throws an AggregateError (meaning all 30 options failed)
+      console.warn("❌ All parallel public proxy options failed validation rules.");
     }
     
     console.warn("⚠️ Pipeline falling back to clear execution context.");
