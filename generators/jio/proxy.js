@@ -4,72 +4,87 @@ let proxyInitPromise = null;
 
 /**
  * Automatically discovers, verifies, and attaches a live Indian HTTP proxy.
- * Uses parallel racing to find the fastest operational proxy in under 6 seconds.
+ * Tailored for high-latency tolerance and loose TLS handshake compliance.
  */
 export async function initIndianProxy() {
   if (proxyInitPromise) return proxyInitPromise;
 
   proxyInitPromise = (async () => {
-    console.log("🌐 Initiating automated Indian proxy discovery...");
+    const apiUrl = "https://api.proxyscrape.com/v4/free-proxy-list/get?request=display_proxies&proxy_format=protocolipport&format=text&protocol=http&country=in";
+    
+    console.log("🌐 Fetching live proxies from the custom Indian registry list...");
     try {
-      // Fetch plain text list of live Indian HTTP proxies
-      const res = await fetch(
-        "https://api.proxyscrape.com/v4/free-proxy-list/get?request=display_proxies&country=in&protocol=http&proxy_format=ipport&format=text"
-      );
-      
-      if (!res.ok) throw new Error(`ProxyScrape API returned status: ${res.status}`);
+      const res = await fetch(apiUrl);
+      if (!res.ok) throw new Error(`ProxyScrape API returned error status: ${res.status}`);
       
       const text = await res.text();
-      const proxies = text.split("\n").map(p => p.trim()).filter(Boolean);
+      const proxies = text.split("\n")
+        .map(p => p.trim())
+        .filter(Boolean)
+        .map(p => p.startsWith("http") ? p : `http://${p}`);
 
       if (proxies.length === 0) {
-        console.warn("⚠️ Public proxy directory returned zero active Indian endpoints.");
+        console.warn("⚠️ Public proxy directory returned zero active text entries.");
         return false;
       }
 
-      // Take a wider batch of 30 candidates to maximize our odds
-      const candidates = proxies.slice(0, 30);
-      console.log(`🔄 Testing ${candidates.length} candidates simultaneously in parallel...`);
+      // Grab up to 50 proxies to capture both the fast 450ms nodes and the slower ones
+      const candidates = proxies.slice(0, 50);
+      console.log(`🔄 Racing ${candidates.length} proxies simultaneously in parallel...`);
 
-      // Inline helper to validate a single proxy target
-      const testProxy = async (proxy) => {
-        const proxyUrl = `http://${proxy}`;
-        const agent = new ProxyAgent({ uri: proxyUrl, requestTimeout: 12000 });
+      const testProxy = async (proxyUrl) => {
+        // Relax TLS validation rules to handle public proxy certificate modifications
+        const agent = new ProxyAgent({ 
+          uri: proxyUrl, 
+          requestTimeout: 25000, // 25-second resilience boundary for slow nodes
+          connect: {
+            rejectUnauthorized: false
+          }
+        });
+        
         const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 6000); // 6 second parallel limit
+        const timeout = setTimeout(() => controller.abort(), 20000); // 20s test window
 
         try {
-          // Using api.ipify.org because it doesn't block public proxies like Google does
           const testRes = await fetch("https://api.ipify.org", {
             dispatcher: agent,
-            signal: controller.signal
+            signal: controller.signal,
+            // Disable strict SSL verification on the test fetch itself
+            rejectUnauthorized: false
           });
           clearTimeout(timeout);
 
           if (testRes.ok) {
-            return { agent, proxyUrl };
+            const verifiedIp = await testRes.text();
+            return { agent, proxyUrl, verifiedIp: verifiedIp.trim() };
           }
-          throw new Error("Failed validation status check");
+          throw new Error(`HTTP_Status_${testRes.status}`);
         } catch (err) {
           clearTimeout(timeout);
-          throw err;
+          throw new Error(err.code || err.message || "Timeout");
         }
       };
 
-      // Promise.any returns the FIRST promise that resolves successfully.
-      // The fastest working proxy wins instantly!
+      // The fastest working node wins the race instantly
       const winner = await Promise.any(candidates.map(p => testProxy(p)));
       
-      console.log(`✅ Validated working Indian proxy route: [${winner.proxyUrl}]`);
+      console.log(`\n✅ Success! Connected through Indian Proxy: [${winner.proxyUrl}]`);
+      console.log(`📡 Verified Node Endpoint IP: ${winner.verifiedIp}`);
+      
       setGlobalDispatcher(winner.agent);
       return true;
 
-    } catch (err) {
-      // Catches if Promise.any throws an AggregateError (meaning all 30 options failed)
-      console.warn("❌ All parallel public proxy options failed validation rules.");
+    } catch (aggregateError) {
+      console.error("\n❌ All parallel proxy verification paths failed.");
+      
+      if (aggregateError.errors) {
+        const uniqueErrors = [...new Set(aggregateError.errors.map(e => e.message))];
+        console.log("🔍 Troubleshooting Connection Diagnostics:");
+        uniqueErrors.forEach(err => console.log(`   -> Node dropped request due to: ${err}`));
+      }
     }
     
-    console.warn("⚠️ Pipeline falling back to clear execution context.");
+    console.warn("⚠️ Pipeline falling back to clear system execution context.");
     return false;
   })();
 
