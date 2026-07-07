@@ -1,0 +1,57 @@
+name: Test Jio Proxy Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      jio_limit:
+        description: 'Limit the number of channels to test (0 to fetch all)'
+        required: false
+        default: '15'
+      start_offset:
+        description: 'EPG Start Offset (days)'
+        required: false
+        default: '0'
+      end_offset:
+        description: 'EPG End Offset (days)'
+        required: false
+        default: '1'
+
+jobs:
+  test-jio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run isolated Jio script
+        env:
+          JIO_LIMIT: ${{ github.event.inputs.jio_limit }}
+          JIO_START_OFFSET: ${{ github.event.inputs.start_offset }}
+          JIO_END_OFFSET: ${{ github.event.inputs.end_offset }}
+          JIO_ALLOW_EMPTY: "1"
+        run: npm run jio
+
+      - name: Show console summary
+        run: |
+          echo "==== DIRECTORY CONTENTS ===="
+          ls -lh output || true
+          echo ""
+          echo "==== JIO EPG STATS ===="
+          cat output/jio_epg_stats.json 2>/dev/null || echo "Stats file missing."
+
+      - name: Upload output as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jio-test-results
+          path: output/
+          retention-days: 3
