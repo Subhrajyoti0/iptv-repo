@@ -1,3 +1,6 @@
+// At the top of epg.js, import the headers:
+import { WAF_HEADERS } from "./proxy.js";
+
 import { initIndianProxy } from "./proxy.js";
 import { sleep, retryFetch } from "./rateLimit.js";
 
@@ -21,6 +24,11 @@ export async function fetchEPG(channelId, offset = 0, langId = 6) {
       }
     });
 
+    // ... inside your fetch function:
+  const res = await fetch(`https://jiotv.data.cdn.jio.com/apis/v1.3/epg/get/guide/...`, {
+     headers: WAF_HEADERS // <--- CRITICAL FOR WAF BYPASS
+    });
+    
     if (res.status === 404) {
       console.warn(`   ⚠️ no EPG for channel=${channelId}, offset=${offset}`);
       return [];
