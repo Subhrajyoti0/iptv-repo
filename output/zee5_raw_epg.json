@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T00:53:02.325Z",
+  "generated_at": "2026-08-17T06:40:07.336Z",
   "mode": "gwapi-start-end",
   "start": 0,
   "end": 5,
@@ -515044,29 +515044,7 @@
           "motion_app_cover": "",
           "motion_cover": "",
           "motion_vert_banner": "",
-          "motion_homefeed-launcher-sticker": "",
-          "in__cover": "1920x770006859084c964183bede42b729a4eb14",
-          "in__app_cover": "1920x1080appcover616ab570984746409ba70ed262c6ff63",
-          "in__list": "1920x1080list83f0d0026be84dc8ad556d1709f03a07",
-          "in__channel_square": "386x3861f0bc2e0bcf1408c8c160380a5e4c6ec58c58b5fab1d4b45808f8f6a3797a4641949c3c288f945d692f7768e4654ba80",
-          "in__channel_list": "360x2033e789b21dd3c42079af3fa4a4c5a6576b594053e82124268bc5163a45b1126d48d93ffdf06f545d98fd14a32ca892bc3",
-          "in__channel_web": "170x120f8ea73e1d0f74f0086392eaf454395bdb86eedb650b5405180a1fb329bd420bc2ebf15aafc5e4c3f8e02802918c5ad7b",
-          "in__square": "aajtak374x3749e0e0994358546a8a77dd01542222a2a44c86bbbda7c448a8965a5595ce7c528",
-          "in__tv_cover": "",
-          "in__portrait": "720x1080withlogo8e448c5acd32494fbd0dd34edb73b109",
-          "in__listclean": "1920x1080list09566365408343ad8cb482f3846a54c7",
-          "in__portraitclean": "",
-          "in__homefeed-launcher-sticker": "1920x457e7cbdfb90751460eb1df20e78732ab1a",
-          "in__vert_banner": "845x10806b0d10a5cfbc400ebbc2bb0998ae3759",
-          "in__4k_banner": "",
-          "in__hd_tile": "",
-          "in__2x3_hd_poster": "",
-          "in__title_logo": "",
-          "in__tv_banner": "3840x2160tvbanner32329f10f1c54e59a5f94a2d4f325de2",
-          "in__motion_app_cover": "",
-          "in__motion_cover": "",
-          "in__motion_vert_banner": "",
-          "in__motion_homefeed-launcher-sticker": ""
+          "motion_homefeed-launcher-sticker": ""
         },
         "languages": [
           "hi"
