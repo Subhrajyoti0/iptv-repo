@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-09-22T20:51:01.881Z",
+    "timestamp": "2026-09-23T02:54:17.317Z",
     "xml_display_name": "Zing USA",
     "old_channel_id": "0-9-channel_1643519345",
     "reason": "Hard rules blocked all candidates",
@@ -21,7 +21,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.888Z",
+    "timestamp": "2026-09-23T02:54:17.325Z",
     "xml_display_name": "zeesouthflix",
     "old_channel_id": "0-9-9z51072894",
     "reason": "Hard rules blocked all candidates",
@@ -42,7 +42,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.888Z",
+    "timestamp": "2026-09-23T02:54:17.325Z",
     "xml_display_name": "zeehorrornights",
     "old_channel_id": "0-9-9z51072893",
     "reason": "Hard rules blocked all candidates",
@@ -63,7 +63,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.889Z",
+    "timestamp": "2026-09-23T02:54:17.325Z",
     "xml_display_name": "zeedilse",
     "old_channel_id": "0-9-9z51072892",
     "reason": "Hard rules blocked all candidates",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.889Z",
+    "timestamp": "2026-09-23T02:54:17.326Z",
     "xml_display_name": "zeecomedynation",
     "old_channel_id": "0-9-9z51072556",
     "reason": "Hard rules blocked all candidates",
@@ -105,7 +105,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.904Z",
+    "timestamp": "2026-09-23T02:54:17.343Z",
     "xml_display_name": "Zee Yuva",
     "old_channel_id": "0-9-zeeyuva",
     "reason": "Score below strict threshold",
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-22T20:51:01.904Z",
+    "timestamp": "2026-09-23T02:54:17.343Z",
     "xml_display_name": "Zee TV USA",
     "old_channel_id": "0-9-channel_1586895760",
     "reason": "Hard rules blocked all candidates",
@@ -201,7 +201,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.904Z",
+    "timestamp": "2026-09-23T02:54:17.343Z",
     "xml_display_name": "Zee TV ME",
     "old_channel_id": "0-9-tvme",
     "reason": "Hard rules blocked all candidates",
@@ -222,7 +222,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.904Z",
+    "timestamp": "2026-09-23T02:54:17.344Z",
     "xml_display_name": "Zee TV HD USA",
     "old_channel_id": "0-9-channel_341994370",
     "reason": "Hard rules blocked all candidates",
@@ -243,7 +243,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.904Z",
+    "timestamp": "2026-09-23T02:54:17.344Z",
     "xml_display_name": "Zee TV HD UK",
     "old_channel_id": "0-9-zeetvuk",
     "reason": "Hard rules blocked all candidates",
@@ -264,7 +264,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.904Z",
+    "timestamp": "2026-09-23T02:54:17.344Z",
     "xml_display_name": "Zee TV HD Canada",
     "old_channel_id": "0-9-channel_1017420475",
     "reason": "Hard rules blocked all candidates",
@@ -285,7 +285,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.911Z",
+    "timestamp": "2026-09-23T02:54:17.351Z",
     "xml_display_name": "Zee TV DE",
     "old_channel_id": "0-9-9z5898964",
     "reason": "Hard rules blocked all candidates",
@@ -306,7 +306,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.911Z",
+    "timestamp": "2026-09-23T02:54:17.352Z",
     "xml_display_name": "Zee TV APAC HD",
     "old_channel_id": "0-9-zeetvapac",
     "reason": "Hard rules blocked all candidates",
@@ -327,7 +327,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.918Z",
+    "timestamp": "2026-09-23T02:54:17.360Z",
     "xml_display_name": "Zee Thirai HD",
     "old_channel_id": "0-9-224",
     "reason": "Hard rules blocked all candidates",
@@ -348,7 +348,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.931Z",
+    "timestamp": "2026-09-23T02:54:17.374Z",
     "xml_display_name": "Zee Tamil HD APAC",
     "old_channel_id": "0-9-360",
     "reason": "Hard rules blocked all candidates",
@@ -369,7 +369,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.958Z",
+    "timestamp": "2026-09-23T02:54:17.403Z",
     "xml_display_name": "Zee Sarthak",
     "old_channel_id": "0-9-sarthaktv",
     "reason": "Hard rules blocked all candidates",
@@ -390,7 +390,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.958Z",
+    "timestamp": "2026-09-23T02:54:17.403Z",
     "xml_display_name": "Zee Rajasthan News",
     "old_channel_id": "0-9-zeerajasthannews",
     "reason": "Hard rules blocked all candidates",
@@ -411,7 +411,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.958Z",
+    "timestamp": "2026-09-23T02:54:17.403Z",
     "xml_display_name": "Zee Punjabi HD UK",
     "old_channel_id": "0-9-9z5950417",
     "reason": "Hard rules blocked all candidates",
@@ -432,7 +432,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.958Z",
+    "timestamp": "2026-09-23T02:54:17.404Z",
     "xml_display_name": "Zee Punjabi",
     "old_channel_id": "0-9-215",
     "reason": "Score below strict threshold",
@@ -585,7 +585,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-22T20:51:01.958Z",
+    "timestamp": "2026-09-23T02:54:17.404Z",
     "xml_display_name": "Zee Punjab Haryana Himachal Pradesh",
     "old_channel_id": "0-9-zeepunjabharyanahima",
     "reason": "Hard rules blocked all candidates",
@@ -606,7 +606,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.958Z",
+    "timestamp": "2026-09-23T02:54:17.404Z",
     "xml_display_name": "Zee Power HD",
     "old_channel_id": "0-9-241",
     "reason": "Hard rules blocked all candidates",
@@ -627,7 +627,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.958Z",
+    "timestamp": "2026-09-23T02:54:17.404Z",
     "xml_display_name": "Zee One German",
     "old_channel_id": "0-9-161",
     "reason": "Hard rules blocked all candidates",
@@ -648,7 +648,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.958Z",
+    "timestamp": "2026-09-23T02:54:17.404Z",
     "xml_display_name": "Zee One French",
     "old_channel_id": "0-9-9z5829362",
     "reason": "Hard rules blocked all candidates",
@@ -669,7 +669,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.958Z",
+    "timestamp": "2026-09-23T02:54:17.404Z",
     "xml_display_name": "Zee One",
     "old_channel_id": "0-9-9z5825786",
     "reason": "Hard rules blocked all candidates",
@@ -690,7 +690,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.958Z",
+    "timestamp": "2026-09-23T02:54:17.404Z",
     "xml_display_name": "Zee News Uttar Pradesh Uttrakhand",
     "old_channel_id": "0-9-channel_265145625",
     "reason": "Hard rules blocked all candidates",
@@ -711,7 +711,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.959Z",
+    "timestamp": "2026-09-23T02:54:17.404Z",
     "xml_display_name": "Zee News Telugu",
     "old_channel_id": "0-9-9z583538",
     "reason": "Score below strict threshold",
@@ -786,7 +786,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-22T20:51:01.959Z",
+    "timestamp": "2026-09-23T02:54:17.404Z",
     "xml_display_name": "Zee News Kannada",
     "old_channel_id": "0-9-9z583537",
     "reason": "Score below strict threshold",
@@ -913,7 +913,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-22T20:51:01.959Z",
+    "timestamp": "2026-09-23T02:54:17.404Z",
     "xml_display_name": "Zee News",
     "old_channel_id": "0-9-zeenews",
     "reason": "Hard rules blocked all candidates",
@@ -934,7 +934,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.959Z",
+    "timestamp": "2026-09-23T02:54:17.404Z",
     "xml_display_name": "Zee Marathi USA",
     "old_channel_id": "0-9-channel_926372368",
     "reason": "Hard rules blocked all candidates",
@@ -955,7 +955,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.972Z",
+    "timestamp": "2026-09-23T02:54:17.419Z",
     "xml_display_name": "Zee Madhya Pradesh Chhattisgarh",
     "old_channel_id": "0-9-zeemadhyapradeshchat",
     "reason": "Hard rules blocked all candidates",
@@ -976,7 +976,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:01.972Z",
+    "timestamp": "2026-09-23T02:54:17.419Z",
     "xml_display_name": "Zee Keralam HD",
     "old_channel_id": "0-9-129",
     "reason": "Score below strict threshold",
@@ -1025,7 +1025,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-22T20:51:01.984Z",
+    "timestamp": "2026-09-23T02:54:17.433Z",
     "xml_display_name": "Zee Delhi NCR Haryana",
     "old_channel_id": "0-9-zeekalinganews",
     "reason": "Hard rules blocked all candidates",
@@ -1046,7 +1046,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.029Z",
+    "timestamp": "2026-09-23T02:54:17.457Z",
     "xml_display_name": "Zee Cinema USA",
     "old_channel_id": "0-9-179",
     "reason": "Hard rules blocked all candidates",
@@ -1067,7 +1067,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.029Z",
+    "timestamp": "2026-09-23T02:54:17.457Z",
     "xml_display_name": "Zee Cinema UK",
     "old_channel_id": "0-9-zeecinemauk",
     "reason": "Hard rules blocked all candidates",
@@ -1088,7 +1088,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.029Z",
+    "timestamp": "2026-09-23T02:54:17.457Z",
     "xml_display_name": "Zee Cinema ME",
     "old_channel_id": "0-9-zeecinemaintl",
     "reason": "Hard rules blocked all candidates",
@@ -1109,7 +1109,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.049Z",
+    "timestamp": "2026-09-23T02:54:17.499Z",
     "xml_display_name": "Zee Bollywood",
     "old_channel_id": "0-9-zeeclassic",
     "reason": "Score below strict threshold",
@@ -1262,7 +1262,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-22T20:51:02.049Z",
+    "timestamp": "2026-09-23T02:54:17.499Z",
     "xml_display_name": "Zee Biskope",
     "old_channel_id": "0-9-216",
     "reason": "Hard rules blocked all candidates",
@@ -1283,7 +1283,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.049Z",
+    "timestamp": "2026-09-23T02:54:17.499Z",
     "xml_display_name": "Zee Bioskop",
     "old_channel_id": "0-9-zeebioskop",
     "reason": "Hard rules blocked all candidates",
@@ -1304,7 +1304,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.049Z",
+    "timestamp": "2026-09-23T02:54:17.499Z",
     "xml_display_name": "Zee Bihar Jharkhand",
     "old_channel_id": "0-9-zeebiharjharkhand",
     "reason": "Hard rules blocked all candidates",
@@ -1325,7 +1325,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.049Z",
+    "timestamp": "2026-09-23T02:54:17.500Z",
     "xml_display_name": "Zee Bharat",
     "old_channel_id": "0-9-zeehindustan",
     "reason": "Score below strict threshold",
@@ -1478,7 +1478,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-22T20:51:02.055Z",
+    "timestamp": "2026-09-23T02:54:17.507Z",
     "xml_display_name": "Zee Bangla International",
     "old_channel_id": "0-9-366",
     "reason": "Hard rules blocked all candidates",
@@ -1499,7 +1499,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.068Z",
+    "timestamp": "2026-09-23T02:54:17.521Z",
     "xml_display_name": "Zee Alwan HD",
     "old_channel_id": "0-9-9z5817234",
     "reason": "Hard rules blocked all candidates",
@@ -1520,7 +1520,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.068Z",
+    "timestamp": "2026-09-23T02:54:17.521Z",
     "xml_display_name": "Zee Alwan",
     "old_channel_id": "0-9-zeealwan",
     "reason": "Hard rules blocked all candidates",
@@ -1541,7 +1541,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.068Z",
+    "timestamp": "2026-09-23T02:54:17.521Z",
     "xml_display_name": "Zee Aflam HD",
     "old_channel_id": "0-9-9z5817235",
     "reason": "Hard rules blocked all candidates",
@@ -1562,7 +1562,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.068Z",
+    "timestamp": "2026-09-23T02:54:17.521Z",
     "xml_display_name": "Zee Aflam",
     "old_channel_id": "0-9-zeeaflam",
     "reason": "Hard rules blocked all candidates",
@@ -1583,7 +1583,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.068Z",
+    "timestamp": "2026-09-23T02:54:17.521Z",
     "xml_display_name": "Zee Action",
     "old_channel_id": "0-9-zeeaction",
     "reason": "Hard rules blocked all candidates",
@@ -1604,7 +1604,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.068Z",
+    "timestamp": "2026-09-23T02:54:17.521Z",
     "xml_display_name": "Zee 24 Taas",
     "old_channel_id": "0-9-zee24taas",
     "reason": "Hard rules blocked all candidates",
@@ -1625,7 +1625,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.068Z",
+    "timestamp": "2026-09-23T02:54:17.521Z",
     "xml_display_name": "Zee 24 Kalak",
     "old_channel_id": "0-9-zee24kalak",
     "reason": "Hard rules blocked all candidates",
@@ -1646,7 +1646,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.068Z",
+    "timestamp": "2026-09-23T02:54:17.521Z",
     "xml_display_name": "Zee 24 Ghanta",
     "old_channel_id": "0-9-24ghantatv",
     "reason": "Hard rules blocked all candidates",
@@ -1667,7 +1667,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.121Z",
+    "timestamp": "2026-09-23T02:54:17.581Z",
     "xml_display_name": "Tiny Pop",
     "old_channel_id": "0-9-9z5910526",
     "reason": "Hard rules blocked all candidates",
@@ -1688,7 +1688,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.121Z",
+    "timestamp": "2026-09-23T02:54:17.581Z",
     "xml_display_name": "Suvarna News",
     "old_channel_id": "0-9-201",
     "reason": "Hard rules blocked all candidates",
@@ -1709,7 +1709,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.121Z",
+    "timestamp": "2026-09-23T02:54:17.581Z",
     "xml_display_name": "Somnath Temple",
     "old_channel_id": "0-9-9z5938348",
     "reason": "Hard rules blocked all candidates",
@@ -1730,7 +1730,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.121Z",
+    "timestamp": "2026-09-23T02:54:17.581Z",
     "xml_display_name": "Shree Naga Sai  Temple - Coimbatore",
     "old_channel_id": "0-9-9z5946519",
     "reason": "Hard rules blocked all candidates",
@@ -1751,7 +1751,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.121Z",
+    "timestamp": "2026-09-23T02:54:17.581Z",
     "xml_display_name": "Salaam TV",
     "old_channel_id": "0-9-zeesalaam",
     "reason": "Hard rules blocked all candidates",
@@ -1772,7 +1772,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.121Z",
+    "timestamp": "2026-09-23T02:54:17.581Z",
     "xml_display_name": "Sai Baba, Shirdi",
     "old_channel_id": "0-9-9z5938343",
     "reason": "Hard rules blocked all candidates",
@@ -1793,7 +1793,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.121Z",
+    "timestamp": "2026-09-23T02:54:17.581Z",
     "xml_display_name": "POP UP",
     "old_channel_id": "0-9-9z5910527",
     "reason": "Hard rules blocked all candidates",
@@ -1814,7 +1814,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.121Z",
+    "timestamp": "2026-09-23T02:54:17.581Z",
     "xml_display_name": "POP",
     "old_channel_id": "0-9-9z5910525",
     "reason": "Hard rules blocked all candidates",
@@ -1835,7 +1835,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.121Z",
+    "timestamp": "2026-09-23T02:54:17.581Z",
     "xml_display_name": "Polimer News",
     "old_channel_id": "0-9-203",
     "reason": "Hard rules blocked all candidates",
@@ -1856,7 +1856,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.121Z",
+    "timestamp": "2026-09-23T02:54:17.581Z",
     "xml_display_name": "Patna Sahib",
     "old_channel_id": "0-9-9z5946518",
     "reason": "Hard rules blocked all candidates",
@@ -1877,7 +1877,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.122Z",
+    "timestamp": "2026-09-23T02:54:17.581Z",
     "xml_display_name": "News 9",
     "old_channel_id": "0-9-261",
     "reason": "Score below strict threshold",
@@ -2004,7 +2004,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-22T20:51:02.122Z",
+    "timestamp": "2026-09-23T02:54:17.581Z",
     "xml_display_name": "NDTV Profit",
     "old_channel_id": "0-9-9z5942784",
     "reason": "Hard rules blocked all candidates",
@@ -2025,7 +2025,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.128Z",
+    "timestamp": "2026-09-23T02:54:17.588Z",
     "xml_display_name": "NDTV India",
     "old_channel_id": "0-9-9z5942783",
     "reason": "Hard rules blocked all candidates",
@@ -2046,7 +2046,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.128Z",
+    "timestamp": "2026-09-23T02:54:17.588Z",
     "xml_display_name": "NDTV",
     "old_channel_id": "0-9-9z5942782",
     "reason": "Hard rules blocked all candidates",
@@ -2067,7 +2067,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.128Z",
+    "timestamp": "2026-09-23T02:54:17.588Z",
     "xml_display_name": "Mumbaicha Raja",
     "old_channel_id": "0-9-9z5210099",
     "reason": "Hard rules blocked all candidates",
@@ -2088,7 +2088,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.128Z",
+    "timestamp": "2026-09-23T02:54:17.588Z",
     "xml_display_name": "Mahavir Mandir Patna",
     "old_channel_id": "0-9-9z5938351",
     "reason": "Hard rules blocked all candidates",
@@ -2109,7 +2109,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.128Z",
+    "timestamp": "2026-09-23T02:54:17.588Z",
     "xml_display_name": "Ma Naina Devi",
     "old_channel_id": "0-9-9z5938347",
     "reason": "Hard rules blocked all candidates",
@@ -2130,7 +2130,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.128Z",
+    "timestamp": "2026-09-23T02:54:17.589Z",
     "xml_display_name": "Kashi Vishwanath",
     "old_channel_id": "0-9-9z5938349",
     "reason": "Hard rules blocked all candidates",
@@ -2151,7 +2151,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.128Z",
+    "timestamp": "2026-09-23T02:54:17.589Z",
     "xml_display_name": "Iskcon Vrindavan",
     "old_channel_id": "0-9-9z5938346",
     "reason": "Hard rules blocked all candidates",
@@ -2172,7 +2172,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.135Z",
+    "timestamp": "2026-09-23T02:54:17.597Z",
     "xml_display_name": "India Today",
     "old_channel_id": "0-9-indiatoday",
     "reason": "Score below strict threshold",
@@ -2325,7 +2325,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-22T20:51:02.135Z",
+    "timestamp": "2026-09-23T02:54:17.597Z",
     "xml_display_name": "Great! Mystery",
     "old_channel_id": "0-9-9z5910523",
     "reason": "Hard rules blocked all candidates",
@@ -2346,7 +2346,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.135Z",
+    "timestamp": "2026-09-23T02:54:17.597Z",
     "xml_display_name": "Great! Movies",
     "old_channel_id": "0-9-9z5910243",
     "reason": "Hard rules blocked all candidates",
@@ -2367,7 +2367,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.135Z",
+    "timestamp": "2026-09-23T02:54:17.598Z",
     "xml_display_name": "Great! Christmas",
     "old_channel_id": "0-9-9z5910524",
     "reason": "Hard rules blocked all candidates",
@@ -2388,7 +2388,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.135Z",
+    "timestamp": "2026-09-23T02:54:17.598Z",
     "xml_display_name": "Good News Today",
     "old_channel_id": "0-9-255",
     "reason": "Hard rules blocked all candidates",
@@ -2409,7 +2409,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.135Z",
+    "timestamp": "2026-09-23T02:54:17.598Z",
     "xml_display_name": "Dagdusheth Halwai Ganpati Mandir",
     "old_channel_id": "0-9-9z5938345",
     "reason": "Hard rules blocked all candidates",
@@ -2430,7 +2430,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.135Z",
+    "timestamp": "2026-09-23T02:54:17.598Z",
     "xml_display_name": "Big Magic",
     "old_channel_id": "0-9-bigmagic_1786965389",
     "reason": "Hard rules blocked all candidates",
@@ -2451,7 +2451,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.135Z",
+    "timestamp": "2026-09-23T02:54:17.598Z",
     "xml_display_name": "Asianet News",
     "old_channel_id": "0-9-200",
     "reason": "Hard rules blocked all candidates",
@@ -2472,7 +2472,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.136Z",
+    "timestamp": "2026-09-23T02:54:17.598Z",
     "xml_display_name": "Anmol TV",
     "old_channel_id": "0-9-zeeanmol",
     "reason": "Hard rules blocked all candidates",
@@ -2493,7 +2493,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.136Z",
+    "timestamp": "2026-09-23T02:54:17.599Z",
     "xml_display_name": "Anmol Cinema 2",
     "old_channel_id": "0-9-bigganga",
     "reason": "Score below strict threshold",
@@ -2646,7 +2646,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-22T20:51:02.136Z",
+    "timestamp": "2026-09-23T02:54:17.599Z",
     "xml_display_name": "Anmol Cinema",
     "old_channel_id": "0-9-zeeanmolcinema",
     "reason": "Score below strict threshold",
@@ -2799,7 +2799,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-22T20:51:02.142Z",
+    "timestamp": "2026-09-23T02:54:17.606Z",
     "xml_display_name": "&amp;xplorHD",
     "old_channel_id": "0-9-209",
     "reason": "Score below strict threshold",
@@ -2848,7 +2848,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-22T20:51:02.142Z",
+    "timestamp": "2026-09-23T02:54:17.607Z",
     "xml_display_name": "&amp;TV HD USA",
     "old_channel_id": "0-9-channel_1510237423",
     "reason": "Hard rules blocked all candidates",
@@ -2869,7 +2869,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.154Z",
+    "timestamp": "2026-09-23T02:54:17.620Z",
     "xml_display_name": "&amp;Pictures HD",
     "old_channel_id": "0-9-tvpictureshd",
     "reason": "Hard rules blocked all candidates",
@@ -2890,7 +2890,7 @@
     }
   },
   {
-    "timestamp": "2026-09-22T20:51:02.154Z",
+    "timestamp": "2026-09-23T02:54:17.620Z",
     "xml_display_name": "&amp;Pictures",
     "old_channel_id": "0-9-pictures",
     "reason": "Hard rules blocked all candidates",
