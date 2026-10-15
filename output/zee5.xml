@@ -495,74 +495,69 @@
   <display-name>99</display-name>
   https://akamaividz2.zee5.com/image/upload/gnt374x374e3c1c532779a46f4b683e9f622d5d05f.png
 </channel>
-<channel id="0-9-9z5227140">
-  <display-name>Durga Puja Live 2026</display-name>
-  <display-name>100</display-name>
-  https://akamaividz2.zee5.com/image/upload/386x3861704918820bb4d9ba1086a8909b9b7b1f718fe8a369f49b29a3768fbb658ca66.png
-</channel>
 <channel id="0-9-9z5938345">
   <display-name>Dagdusheth Halwai Ganpati Mandir</display-name>
-  <display-name>101</display-name>
+  <display-name>100</display-name>
   https://akamaividz2.zee5.com/image/upload/386x386d5cb990a0af74066a4e40f09c769f45c.png
 </channel>
 <channel id="0-9-bigmagic_1786965389">
   <display-name>Big Magic</display-name>
-  <display-name>102</display-name>
+  <display-name>101</display-name>
   https://akamaividz2.zee5.com/image/upload/386x3866451c6cb3efb42ef97bf45b491112296.png
 </channel>
 <channel id="0-9-200">
   <display-name>Asianet News</display-name>
-  <display-name>103</display-name>
+  <display-name>102</display-name>
   https://akamaividz2.zee5.com/image/upload/386x3860303050121a84e8c8eeb7e558f3a5ab9.png
 </channel>
 <channel id="0-9-zeeanmol">
   <display-name>Anmol TV</display-name>
-  <display-name>104</display-name>
+  <display-name>103</display-name>
   https://akamaividz2.zee5.com/image/upload/386x386ce766b1364134662acf896a9061dac1e.png
 </channel>
 <channel id="0-9-bigganga">
   <display-name>Anmol Cinema 2</display-name>
-  <display-name>105</display-name>
+  <display-name>104</display-name>
   https://akamaividz2.zee5.com/image/upload/386x386db0a0e443107483180b5056bf25a1d14.png
 </channel>
 <channel id="0-9-zeeanmolcinema">
   <display-name>Anmol Cinema</display-name>
-  <display-name>106</display-name>
+  <display-name>105</display-name>
   https://akamaividz2.zee5.com/image/upload/386x386a66c9e386a604ed8af14de7d1a4d5876.png
 </channel>
 <channel id="AajTak.in@SD">
   <display-name>Aaj Tak</display-name>
-  <display-name>107</display-name>
+  <display-name>106</display-name>
   https://akamaividz2.zee5.com/image/upload/386x3861f0bc2e0bcf1408c8c160380a5e4c6ec58c58b5fab1d4b45808f8f6a3797a464.png
 </channel>
 <channel id="0-9-209">
   <display-name>&amp;xplorHD</display-name>
-  <display-name>108</display-name>
+  <display-name>107</display-name>
   https://akamaividz2.zee5.com/image/upload/386x3860e35d24686f842148b9bb31daf8ac9aa.png
 </channel>
 <channel id="0-9-channel_1510237423">
   <display-name>&amp;TV HD USA</display-name>
-  <display-name>109</display-name>
+  <display-name>108</display-name>
   https://akamaividz2.zee5.com/image/upload/386x386e1bf7416b1a1441ebe7d5926c9eea6e8.png
 </channel>
 <channel id="AndTV.in@HD">
   <display-name>&amp;TV HD</display-name>
-  <display-name>110</display-name>
+  <display-name>109</display-name>
   https://akamaividz2.zee5.com/image/upload/386x3867fb4c339cf574e56958018000e95b6ef.png
 </channel>
 <channel id="AndTV.in@HD">
   <display-name>&amp;TV HD</display-name>
-  <display-name>111</display-name>
+  <display-name>110</display-name>
   https://akamaividz2.zee5.com/image/upload/386x3868d881564fd4b4ff6b1bec707abcf2245.png
 </channel>
 <channel id="0-9-tvpictureshd">
   <display-name>&amp;Pictures HD</display-name>
-  <display-name>112</display-name>
+  <display-name>111</display-name>
   https://akamaividz2.zee5.com/image/upload/386x386681198410b36448fb8b35d61610f5e07.png
 </channel>
 <channel id="0-9-pictures">
   <display-name>&amp;Pictures</display-name>
-  <display-name>113</display-name>
+  <display-name>112</display-name>
   https://akamaividz2.zee5.com/image/upload/386x3861db40448c5484e3ab254d3b5f478523b.png
 </channel>
 <programme channel="0-9-channel_1643519345" start="20261014183000 +0530" stop="20261014190000 +0530">
@@ -24372,6 +24367,504 @@
   <desc>The movie name is yet to be announced by the channel.</desc>
   <category>Film</category>
   ZeeTalkiesHDMovie4318575ae9615c86f44be0bdc04be34fbb2cf2
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261014185300 +0530" stop="20261014211200 +0530">
+  <title>Comedychya Gudgulya</title>
+  <desc>Comedians and stand-up artists take the stage, delivering hilarious skits and scenarios that leave judges and the audience laughing, showcasing their talent and creativity in a fun-filled performance.</desc>
+  <category>Film</category>
+  ZeeTalkiesComedychyaGudgulya1458922966c9688bf8141638fc3cb519993aa06
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261014210000 +0530" stop="20261014233000 +0530">
+  <title>Zapatlela</title>
+  <desc>In this quirky tale, a guy&apos;s life takes a wild turn when a creepy doll-possessed by a gangster&apos;s spirit-shows up, leaving him questioning reality and facing unexpected chaos.</desc>
+  <category>Film</category>
+  ZeeTalkiesZapatlela263838d37d5ee8644202bd7c349aa6f747f2
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261014211200 +0530" stop="20261014233000 +0530">
+  <title>Zapatlela</title>
+  <desc>In this quirky tale, a guy&apos;s life takes a wild turn when a creepy doll-possessed by a gangster&apos;s spirit-shows up, leaving him questioning reality and facing unexpected chaos.</desc>
+  <category>Film</category>
+  ZeeTalkiesZapatlela2638b0cbce5eeb7148438b747330c1638725
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261014233000 +0530" stop="20261015003000 +0530">
+  <title>Patanjali Yog -By Yog Rishi Swami Ramdev</title>
+  <desc>Baba Ramdev shows how yoga can help you. He explains different yoga poses. These poses can make your life healthier and less stressful. Learn yoga from Baba Ramdev!</desc>
+  <category>Film</category>
+  ZeeTalkiesPatanjaliYogByYogRishiSwamiRamdev510740067f8e25f4ec48e5aa288b8a9b22bb48
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015003000 +0530" stop="20261015010000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha44155829129e5d9b54413cb1c137e1503ae950
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015010000 +0530" stop="20261015020000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha4415580f5eafc8741b4dea8f4c550f14e09daa
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015020000 +0530" stop="20261015030000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha4415585a45daa6e5b2440592d9235d90be53fa
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015030000 +0530" stop="20261015040000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha441558728b307681bb42d681552dc5ef4894c6
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015040000 +0530" stop="20261015050000 +0530">
+  <title>Mann Mandira S02</title>
+  <desc>&apos;Man Mandira - Gajar Bhakticha&apos; is a Marathi devotional show, featuring keertan and worship during &apos;Ashadi Ekadashi.&apos; Renowned Keertankars like Nivruti Maharaj offer a spiritual, festive experience.</desc>
+  <category>Film</category>
+  ZeeTalkiesMannMandiraS021487167e47173df952247698e61831b6446e1dd
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015050000 +0530" stop="20261015073000 +0530">
+  <title>Lek Asawi Tar Ashi</title>
+  <desc>Gargi Datar shakes things up in a wealthy family&apos;s perfect life, exposing hidden truths and secrets. Her arrival sparks a wild journey of self-discovery and family dynamics.</desc>
+  <category>Film</category>
+  ZeeTalkiesLekAsawiTarAshi177115214287e3970e94b8e8f72d50a6382025e
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015073000 +0530" stop="20261015100000 +0530">
+  <title>Bastta</title>
+  <desc>Namdeo&apos;s daughter&apos;s marriage is on the brink of collapse because he is struggling to meet the groom&apos;s family&apos;s excessive dowry demands. Will he be able to save his daughter&apos;s wedding?</desc>
+  <category>Film</category>
+  ZeeTalkiesBastta16225390098f6a039ae4ce0bca2e2e0b8edf1ee
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015100000 +0530" stop="20261015123000 +0530">
+  <title>Mayakka Devichya Navana Changbhala</title>
+  <desc>Mayakka Devichya Navana Changbhala Starring Bal Dhuri, Ramesh Bhatkar, Madhu Kambikar U</desc>
+  <category>Film</category>
+  ZeeTalkiesMayakkaDevichyaNavanaChangbhala9393979e5d50e8ea024adc89b6e1b87e837104
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015123000 +0530" stop="20261015133000 +0530">
+  <title>Mann Mandira S02</title>
+  <desc>&apos;Man Mandira - Gajar Bhakticha&apos; is a Marathi devotional show, featuring keertan and worship during &apos;Ashadi Ekadashi.&apos; Renowned Keertankars like Nivruti Maharaj offer a spiritual, festive experience.</desc>
+  <category>Film</category>
+  ZeeTalkiesMannMandiraS02148716719b6e899c6dd4b95a8b5d5c61b4c3f82
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015133000 +0530" stop="20261015143000 +0530">
+  <title>Jai Malhar</title>
+  <desc>The reincarnation of Lord Shiva, Khandoba, rules over the hearts of his devotees who rever him dearly. He soon becomes famous for his magnanimity.</desc>
+  <category>Film</category>
+  ZeeTalkiesJaiMalhar9672137495a170c08549cb8613fc1fda558f43
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015143000 +0530" stop="20261015153000 +0530">
+  <title>Mazya Navryachi Bayko</title>
+  <desc>Hailing from Nagpur, Radhika grows obsessively protective of her marriage, suspecting that her husband&apos;s female colleague is secretly trying to attract him.</desc>
+  <category>Film</category>
+  ZeeTalkiesMazyaNavryachiBayko2120864043062640f184db899ba956b39192fa9
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015153000 +0530" stop="20261015210000 +0530">
+  <title>Comedychya Gudgulya</title>
+  <desc>Comedians and stand-up artists perform funny scenarios and skits to entertain judges and the audience.</desc>
+  <category>Film</category>
+  ZeeTalkiesComedychyaGudgulya1458922a2b35e258e344f0080b776b211e8ffdf
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015210000 +0530" stop="20261015233000 +0530">
+  <title>Rampaat</title>
+  <desc>Rampaat Starring Abhinay Berde, Kashmira Pardeshi U/A</desc>
+  <category>Film</category>
+  ZeeTalkiesRampaat809271ec693a34b81345ee96fa43b8b88b02be
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261015233000 +0530" stop="20261016003000 +0530">
+  <title>Patanjali Yog -By Yog Rishi Swami Ramdev</title>
+  <desc>Baba Ramdev shows how yoga can help you. He explains different yoga poses. These poses can make your life healthier and less stressful. Learn yoga from Baba Ramdev!</desc>
+  <category>Film</category>
+  ZeeTalkiesPatanjaliYogByYogRishiSwamiRamdev510740016c58433f3a4f6cbdd934597b4d5087
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016003000 +0530" stop="20261016010000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha4415585b828f8bd58a4ce2b8b4e6a2b077aef4
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016010000 +0530" stop="20261016020000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha441558c890cca74d38441db69589eecdba5aae
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016020000 +0530" stop="20261016030000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha441558f693831213384aed8fda3626416280e8
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016030000 +0530" stop="20261016040000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha441558da609c14b16d4de181f3d22ec2f11696
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016040000 +0530" stop="20261016050000 +0530">
+  <title>Mann Mandira S02</title>
+  <desc>&apos;Man Mandira - Gajar Bhakticha&apos; is a Marathi devotional show, featuring keertan and worship during &apos;Ashadi Ekadashi.&apos; Renowned Keertankars like Nivruti Maharaj offer a spiritual, festive experience.</desc>
+  <category>Film</category>
+  ZeeTalkiesMannMandiraS021487167d05142cbca004501a9c5236fd11c27f9
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016050000 +0530" stop="20261016073000 +0530">
+  <title>Deoolband</title>
+  <desc>After returning to India, Dr. Raghav is shocked to see that the entire country blindly worships God. He decides to challenge the existence of God and asks to shut the temple in his premises.</desc>
+  <category>Film</category>
+  ZeeTalkiesDeoolband801623f1471320fc2f43ce91a7e246fdb3fb54
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016073000 +0530" stop="20261016100000 +0530">
+  <title>Gallit Gondhal Dillit Mujra</title>
+  <desc>Sworn political rivals Bajirao Dole and Chandrakant Tope aggressively fight for a ticket, completely unaware that a third party is exploiting their intense personal conflict.</desc>
+  <category>Film</category>
+  ZeeTalkiesGallitGondhalDillitMujra4235db207016eff94f51aa735e7fd922c6cd
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016100000 +0530" stop="20261016123000 +0530">
+  <title>Devi Karlyachi Ekvira</title>
+  <desc>Aapli Mansa , Starring Ashok Saraf, Reema Lagoo</desc>
+  <category>Film</category>
+  ZeeTalkiesDeviKarlyachiEkvira3110ccb9f237130848ad8b982ff99ce84326
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016123000 +0530" stop="20261016133000 +0530">
+  <title>Mann Mandira S02</title>
+  <desc>&apos;Man Mandira - Gajar Bhakticha&apos; is a Marathi devotional show, featuring keertan and worship during &apos;Ashadi Ekadashi.&apos; Renowned Keertankars like Nivruti Maharaj offer a spiritual, festive experience.</desc>
+  <category>Film</category>
+  ZeeTalkiesMannMandiraS021487167731fa2690ed64107a76c2c808932a9f8
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016133000 +0530" stop="20261016143000 +0530">
+  <title>Jai Malhar</title>
+  <desc>The reincarnation of Lord Shiva, Khandoba, rules over the hearts of his devotees who rever him dearly. He soon becomes famous for his magnanimity.</desc>
+  <category>Film</category>
+  ZeeTalkiesJaiMalhar967213250432a904c74ca69cff816ae7ccf315
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016143000 +0530" stop="20261016153000 +0530">
+  <title>Mazya Navryachi Bayko</title>
+  <desc>Hailing from Nagpur, Radhika grows obsessively protective of her marriage, suspecting that her husband&apos;s female colleague is secretly trying to attract him.</desc>
+  <category>Film</category>
+  ZeeTalkiesMazyaNavryachiBayko21208643b1d666f11c04ac1b5601f95f958b786
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016153000 +0530" stop="20261016210000 +0530">
+  <title>Comedychya Gudgulya</title>
+  <desc>Comedians and stand-up artists perform funny scenarios and skits to entertain judges and the audience.</desc>
+  <category>Film</category>
+  ZeeTalkiesComedychyaGudgulya14589225d91af0bdcd9462f9e18b922869d4cee
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016210000 +0530" stop="20261016233000 +0530">
+  <title>Doctor Doctor</title>
+  <desc>Keshav and Pushkar, two medical students and friends, start college. They have a wild time, causing funny mistakes on campus. Their journey is full of laughs.</desc>
+  <category>Film</category>
+  ZeeTalkiesDoctorDoctor411763f567f803275d4c98a0dfaea77d997024
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261016233000 +0530" stop="20261017003000 +0530">
+  <title>Patanjali Yog -By Yog Rishi Swami Ramdev</title>
+  <desc>Baba Ramdev shows how yoga can help you. He explains different yoga poses. These poses can make your life healthier and less stressful. Learn yoga from Baba Ramdev!</desc>
+  <category>Film</category>
+  ZeeTalkiesPatanjaliYogByYogRishiSwamiRamdev5107402f30c2656afd49b3af025a403afedfca
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017003000 +0530" stop="20261017010000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha44155895ead4a29ae94474b4a030042f0cdcaa
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017010000 +0530" stop="20261017020000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha441558c84b5454f71b4d51a778b8355954c700
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017020000 +0530" stop="20261017030000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha4415586d047d1d146747d6b33ffff0490ae8a8
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017030000 +0530" stop="20261017040000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha4415586460d5b67f5b4f55b32da7a400d4b91b
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017040000 +0530" stop="20261017050000 +0530">
+  <title>Mann Mandira S02</title>
+  <desc>&apos;Man Mandira - Gajar Bhakticha&apos; is a Marathi devotional show, featuring keertan and worship during &apos;Ashadi Ekadashi.&apos; Renowned Keertankars like Nivruti Maharaj offer a spiritual, festive experience.</desc>
+  <category>Film</category>
+  ZeeTalkiesMannMandiraS02148716706115e5fa9304a808742407a5750c0e8
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017050000 +0530" stop="20261017073000 +0530">
+  <title>Nashibvaan</title>
+  <desc>Babanrao&apos;s monotonous life changes when he accidentally discovers a fortune of money.</desc>
+  <category>Film</category>
+  ZeeTalkiesNashibvaan76917841676bfcee594f4bac4d863f1d03797e
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017073000 +0530" stop="20261017100000 +0530">
+  <title>Palva Palvi</title>
+  <desc>In a remote village, two women find themselves at odds, but amidst their clash, unexpected love blossoms-only to be complicated by a shocking kidnapping.</desc>
+  <category>Film</category>
+  ZeeTalkiesPalvaPalvi4468488f44ea77dcb649cca9f63cfb11186dd8
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017100000 +0530" stop="20261017123000 +0530">
+  <title>Ude Ga Ambabai</title>
+  <desc>Malti is devotee of Goddess Amba Bai. When her friend Bayo is gang raped and murdered. Malti stands up against the village Aamdar.</desc>
+  <category>Film</category>
+  ZeeTalkiesUdeGaAmbabai171399bd9d3467fd8e43d9be5ad5bdf6edcfa8
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017123000 +0530" stop="20261017133000 +0530">
+  <title>Mann Mandira S02</title>
+  <desc>&apos;Man Mandira - Gajar Bhakticha&apos; is a Marathi devotional show, featuring keertan and worship during &apos;Ashadi Ekadashi.&apos; Renowned Keertankars like Nivruti Maharaj offer a spiritual, festive experience.</desc>
+  <category>Film</category>
+  ZeeTalkiesMannMandiraS021487167be64a220fb014ad7abca8890426e5bc9
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017133000 +0530" stop="20261017143000 +0530">
+  <title>Jai Malhar</title>
+  <desc>The reincarnation of Lord Shiva, Khandoba, rules over the hearts of his devotees who rever him dearly. He soon becomes famous for his magnanimity.</desc>
+  <category>Film</category>
+  ZeeTalkiesJaiMalhar9672137e6c4866f7404df3bddda74428bd39eb
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017143000 +0530" stop="20261017180000 +0530">
+  <title>Punha Shivaji Raje Bhosle</title>
+  <desc>Punha Shivaji Raje Bhosle</desc>
+  <category>Film</category>
+  moviea88804ab4ba8484d8c35af1965e017f6
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017180000 +0530" stop="20261017210000 +0530">
+  <title>Comedychya Gudgulya</title>
+  <desc>Comedians and stand-up artists perform funny scenarios and skits to entertain judges and the audience.</desc>
+  <category>Film</category>
+  ZeeTalkiesComedychyaGudgulya145892276a1b88b9d1a476da7078e9cd1ed239c
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017210000 +0530" stop="20261017233000 +0530">
+  <title>Sarla Ek Koti</title>
+  <desc>A man&apos;s jealousy-inspiring marriage leads to chaos when a financial crisis forces him to gamble his wife in a card game.</desc>
+  <category>Film</category>
+  ZeeTalkiesSarlaEkKoti1478506e76be617bfdb4119a8c08eb5c5d20fd0
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261017233000 +0530" stop="20261018003000 +0530">
+  <title>Patanjali Yog -By Yog Rishi Swami Ramdev</title>
+  <desc>Baba Ramdev shows how yoga can help you. He explains different yoga poses. These poses can make your life healthier and less stressful. Learn yoga from Baba Ramdev!</desc>
+  <category>Film</category>
+  ZeeTalkiesPatanjaliYogByYogRishiSwamiRamdev5107402282f24511364f82a6a5db1609f048f2
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261018003000 +0530" stop="20261018010000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha4415583e4ba649a8d24227b2db254dbc26bdc0
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261018010000 +0530" stop="20261018020000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha4415583ff8a16b97614e90bfa0d1e7a327495a
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261018020000 +0530" stop="20261018030000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha441558099041ab7672433a951ea3769dec8a4a
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261018030000 +0530" stop="20261018040000 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha4415585f285dbcb6904984873e56aa5fd4a776
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261018040000 +0530" stop="20261018063000 +0530">
+  <title>Wajwu Ka</title>
+  <desc>Movie starring Ramesh Bhatkar, Usha Chavan, Chetan Dalvi and directed by Dada Kondke.</desc>
+  <category>Film</category>
+  ZeeTalkiesWajwuKa1538355d61617c8317d4f0899346cc9317c5760
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261018063000 +0530" stop="20261018100000 +0530">
+  <title>Punha Shivaji Raje Bhosle</title>
+  <desc>Punha Shivaji Raje Bhosle</desc>
+  <category>Film</category>
+  movie7545826ab047453d89229bf8d7a22e8b
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261018100000 +0530" stop="20261018123000 +0530">
+  <title>Navardev Bsc Agri</title>
+  <desc>Navardev Bsc Agri</desc>
+  <category>Film</category>
+  ZeeTalkiesNavardevBscAgri209615088ae36ff43ce4245b5181b4867552d88
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261018123000 +0530" stop="20261018153000 +0530">
+  <title>Zapatlela</title>
+  <desc>In this quirky tale, a guy&apos;s life takes a wild turn when a creepy doll-possessed by a gangster&apos;s spirit-shows up, leaving him questioning reality and facing unexpected chaos.</desc>
+  <category>Film</category>
+  ZeeTalkiesZapatlela26386612ee96d7b4401a88c693257e892210
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261018153000 +0530" stop="20261018210000 +0530">
+  <title>Comedychya Gudgulya</title>
+  <desc>Comedychya Gudgulya</desc>
+  <category>Film</category>
+  ZeeTalkiesComedychyaGudgulya14589224890c3e305b84a7ea2bcbc91cf5f37c4
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261018210000 +0530" stop="20261018233000 +0530">
+  <title>Movie</title>
+  <desc>The movie name is yet to be announced by the channel.</desc>
+  <category>Film</category>
+  ZeeTalkiesMovie74304636995bb1b49467c9876c50dcafe8d53
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261018233000 +0530" stop="20261019003000 +0530">
+  <title>Patanjali Yog -By Yog Rishi Swami Ramdev</title>
+  <desc>Baba Ramdev shows how yoga can help you. He explains different yoga poses. These poses can make your life healthier and less stressful. Learn yoga from Baba Ramdev!</desc>
+  <category>Film</category>
+  ZeeTalkiesPatanjaliYogByYogRishiSwamiRamdev51074071e6e2b791514804a500384f21531247
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019003000 +0530" stop="20261019011400 +0530">
+  <title>Sur Niragas Ho</title>
+  <desc>During British Raj Vishrampur, rival singers Bhanu Shankar Shastri and Khansaheb Aftab compete for royal status; intrigue, poison, and betrayal change their lives and destinies.</desc>
+  <category>Film</category>
+  ZeeTalkiesSurNiragasHo201942567f71596878543a8bf9dcc4002b09f22
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019011400 +0530" stop="20261019035800 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha441558899758ee9e5448a48ae2458338c19bc3
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019035800 +0530" stop="20261019050000 +0530">
+  <title>Mann Mandira S02</title>
+  <desc>&apos;Man Mandira - Gajar Bhakticha&apos; is a Marathi devotional show, featuring keertan and worship during &apos;Ashadi Ekadashi.&apos; Renowned Keertankars like Nivruti Maharaj offer a spiritual, festive experience.</desc>
+  <category>Film</category>
+  ZeeTalkiesMannMandiraS021487167aeef93ba67374482a8d9cae23a270e11
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019050000 +0530" stop="20261019073000 +0530">
+  <title>Movie</title>
+  <desc>The movie name is yet to be announced by the channel.</desc>
+  <category>Film</category>
+  ZeeTalkiesMovie743040d644c951e634a24ad888ee2e9695a84
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019073000 +0530" stop="20261019100300 +0530">
+  <title>Movie</title>
+  <desc>The movie name is yet to be announced by the channel.</desc>
+  <category>Film</category>
+  ZeeTalkiesMovie74304275df2f62b78492dbab93a0fc8f4eb98
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019100300 +0530" stop="20261019123300 +0530">
+  <title>Movie</title>
+  <desc>The movie name is yet to be announced by the channel.</desc>
+  <category>Film</category>
+  ZeeTalkiesMovie74304b05d20d9764344149b59952571d67ed7
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019123300 +0530" stop="20261019133000 +0530">
+  <title>Mann Mandira S02</title>
+  <desc>&apos;Man Mandira - Gajar Bhakticha&apos; is a Marathi devotional show, featuring keertan and worship during &apos;Ashadi Ekadashi.&apos; Renowned Keertankars like Nivruti Maharaj offer a spiritual, festive experience.</desc>
+  <category>Film</category>
+  ZeeTalkiesMannMandiraS0214871678d314251ef46418a83f2052102cd3df4
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019133000 +0530" stop="20261019143000 +0530">
+  <title>Jai Malhar</title>
+  <desc>The reincarnation of Lord Shiva, Khandoba, rules over the hearts of his devotees who rever him dearly. He soon becomes famous for his magnanimity.</desc>
+  <category>Film</category>
+  ZeeTalkiesJaiMalhar9672131381e971977f40818083790708b6e451
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019143000 +0530" stop="20261019153000 +0530">
+  <title>Movie</title>
+  <desc>The movie name is yet to be announced by the channel.</desc>
+  <category>Film</category>
+  ZeeTalkiesMovie74304f89d58541e3b4f588c294fa831a4e26a
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019153000 +0530" stop="20261019183000 +0530">
+  <title>Comedychya Gudgulya</title>
+  <desc>Comedians and stand-up artists take the stage, delivering hilarious skits and scenarios that leave judges and the audience laughing, showcasing their talent and creativity in a fun-filled performance.</desc>
+  <category>Film</category>
+  ZeeTalkiesComedychyaGudgulya145892267994f2063d04b8888428885b9b43e65
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019183000 +0530" stop="20261019204900 +0530">
+  <title>Movie</title>
+  <desc>The movie name is yet to be announced by the channel.</desc>
+  <category>Film</category>
+  ZeeTalkiesMovie743040e523ee07cee41419d60d0f59d057d04
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019204900 +0530" stop="20261019210000 +0530">
+  <title>Fillers</title>
+  <desc>Enjoy a light-hearted segment offering brief, engaging content that bridges program transitions with humor, intriguing snippets, and delightful unexpected moments for a seamless viewing experience.</desc>
+  <category>Film</category>
+  ZeeTalkiesFillers759108a1969310adb249e280ba75bd1dc4377e
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019210000 +0530" stop="20261019231700 +0530">
+  <title>Movie</title>
+  <desc>The movie name is yet to be announced by the channel.</desc>
+  <category>Film</category>
+  ZeeTalkiesMovie743043aaf7cee77c74ffd8573ff243fb8cd6e
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019231700 +0530" stop="20261019233000 +0530">
+  <title>Fillers</title>
+  <desc>Enjoy a light-hearted segment offering brief, engaging content that bridges program transitions with humor, intriguing snippets, and delightful unexpected moments for a seamless viewing experience.</desc>
+  <category>Film</category>
+  ZeeTalkiesFillers7591082aed21c59ec444309e9b92e929f6a4fe
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261019233000 +0530" stop="20261020002600 +0530">
+  <title>Patanjali Yog -By Yog Rishi Swami Ramdev</title>
+  <desc>Baba Ramdev shows how yoga can help you. He explains different yoga poses. These poses can make your life healthier and less stressful. Learn yoga from Baba Ramdev!</desc>
+  <category>Film</category>
+  ZeeTalkiesPatanjaliYogByYogRishiSwamiRamdev510740af72f34a0c3c456281cdfd6e38afbb34
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261020002600 +0530" stop="20261020010700 +0530">
+  <title>Sur Niragas Ho</title>
+  <desc>During British Raj Vishrampur, rival singers Bhanu Shankar Shastri and Khansaheb Aftab compete for royal status; intrigue, poison, and betrayal change their lives and destinies.</desc>
+  <category>Film</category>
+  ZeeTalkiesSurNiragasHo20194255398809ffecd4f19a95f8424add737d4
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261020010700 +0530" stop="20261020020000 +0530">
+  <title>Hari Mukhe Mhana</title>
+  <desc>Hari Mukhe Mhana # 05</desc>
+  <category>Film</category>
+  ZeeTalkiesHariMukheMhana1309024c7b8a7f7628e4685ac77563d5f9ef683
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261020020000 +0530" stop="20261020035900 +0530">
+  <title>Gajar Kirtanacha Sohala Anandacha</title>
+  <desc>People gather to sing and pray. They offer devotional songs and worship to God. Their kirtans show love and respect for the Almighty.</desc>
+  <category>Film</category>
+  ZeeTalkiesGajarKirtanachaSohalaAnandacha4415580648239af1214f3c971815db79376f68
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261020035900 +0530" stop="20261020045900 +0530">
+  <title>Mann Mandira S02</title>
+  <desc>&apos;Man Mandira - Gajar Bhakticha&apos; is a Marathi devotional show, featuring keertan and worship during &apos;Ashadi Ekadashi.&apos; Renowned Keertankars like Nivruti Maharaj offer a spiritual, festive experience.</desc>
+  <category>Film</category>
+  ZeeTalkiesMannMandiraS0214871679627a2aedd0546eab40dd6a4ae857b90
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261020045900 +0530" stop="20261020073000 +0530">
+  <title>Movie</title>
+  <desc>The movie name is yet to be announced by the channel.</desc>
+  <category>Film</category>
+  ZeeTalkiesMovie74304b538476f243b41328643f1f20f358c6d
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261020073000 +0530" stop="20261020100100 +0530">
+  <title>Movie</title>
+  <desc>The movie name is yet to be announced by the channel.</desc>
+  <category>Film</category>
+  ZeeTalkiesMovie74304546ea6fb73fc4d4ab6c03a2af625450d
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261020100100 +0530" stop="20261020122900 +0530">
+  <title>Movie</title>
+  <desc>The movie name is yet to be announced by the channel.</desc>
+  <category>Film</category>
+  ZeeTalkiesMovie7430409827265bca9440bb92598bed4e9ef21
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261020122900 +0530" stop="20261020132900 +0530">
+  <title>Mann Mandira S02</title>
+  <desc>&apos;Man Mandira - Gajar Bhakticha&apos; is a Marathi devotional show, featuring keertan and worship during &apos;Ashadi Ekadashi.&apos; Renowned Keertankars like Nivruti Maharaj offer a spiritual, festive experience.</desc>
+  <category>Film</category>
+  ZeeTalkiesMannMandiraS021487167f3a3f1d0ba094c52a84637b3301b8ba4
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261020132900 +0530" stop="20261020142900 +0530">
+  <title>Jai Malhar</title>
+  <desc>The reincarnation of Lord Shiva, Khandoba, rules over the hearts of his devotees who rever him dearly. He soon becomes famous for his magnanimity.</desc>
+  <category>Film</category>
+  ZeeTalkiesJaiMalhar9672137dd5531ac32a4181b414867aea369bce
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261020142900 +0530" stop="20261020153100 +0530">
+  <title>Mazya Navryachi Baiko</title>
+  <desc>A 2013 Indian Marathi language movie directed by Mohan Pimple starring: Bharat Jadhav, Dipali Sayyad, Nayana Apte and Pankaj Vishnu.</desc>
+  <category>Film</category>
+  ZeeTalkiesMazyaNavryachiBaiko25570387a72633fe5b4cc5bac84c1d458ec012
+</programme>
+<programme channel="ZeeTalkies.in@SD" start="20261020153100 +0530" stop="20261020185900 +0530">
+  <title>Comedychya Gudgulya</title>
+  <desc>Comedians and stand-up artists take the stage, delivering hilarious skits and scenarios that leave judges and the audience laughing, showcasing their talent and creativity in a fun-filled performance.</desc>
+  <category>Film</category>
+  ZeeTalkiesComedychyaGudgulya14589223aa9b5d0e52642389b2d7988bf3c7f49
 </programme>
 <programme channel="0-9-sarthaktv" start="20261014183000 +0530" stop="20261014190000 +0530">
   <title>Tu Khara Mu Chai</title>
