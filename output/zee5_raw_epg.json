@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T10:59:22.068Z",
+  "generated_at": "2026-10-21T16:25:57.715Z",
   "mode": "gwapi-start-end",
   "start": 0,
   "end": 5,
@@ -811230,46 +811230,6 @@
           ]
         }
       ]
-    },
-    "0-9-9z5227140": {
-      "meta": {
-        "id": "0-9-9z5227140",
-        "name": "Durga Puja Live 2026",
-        "image": {
-          "cover": "1920x7702227aa5229a24c15b6ed92de668fb1b7ad3dc444847a4edb9ee3257b1777c411",
-          "app_cover": "1920x1080appcover9fb02208b09b47afb1e1650efda652d92a07d82392eb48d68b8f0fa8ebc0a397",
-          "list": "1920x1080list4ba8a423479642e5a9cece5180181f554f8dcd7ebb7744179d9e659654cddc89",
-          "channel_square": "386x3861704918820bb4d9ba1086a8909b9b7b1f718fe8a369f49b29a3768fbb658ca66",
-          "channel_list": "360x203a7dd281b28bd4f82b39dee8b486dd21e8c2ff422985f4dc792d0e3edb8b5a6f0",
-          "channel_web": "170x12097be8f6a36cf4f13b17eb76a015e2bef62243cf73e0f49cfb67517a0d7947cfc",
-          "square": "374x374afcee3992ccd4ce09c2932783022f53cfea173ee6eed4fd1baeaa41cd413080e",
-          "tv_cover": "",
-          "portrait": "720x1080withlogo2bbf44c78c55485e9f82c46036a2f37b4d394da47bf74997908e5c267d7336d3",
-          "listclean": "rsz1170x658bdf785cc861b48f7b1a002d76b1fc86c",
-          "portraitclean": "1920x5488c45aa3cacb04a4a8dad20f7e9531ac760d97fd967b047a8bbacd654673fdeee",
-          "homefeed-launcher-sticker": "1920x457ef501e3a022c4bd6a82e5a41b936a3c1df5cc76e00394526a06283c37f7f0533",
-          "vert_banner": "845x108022cab306f1e64295a2013def6005e74842798939956d4310a8a1d10d01765d76",
-          "4k_banner": "3840x2160d214ca4b1e8a4c28ad6f680eed083abed33e802080514f6abdb0d0c835e204d4",
-          "hd_tile": "1920x108027a55f34b03b403685d24089440ed521ceadcecb5d77485cb24de609d59275c8",
-          "2x3_hd_poster": "2000x30004a910fbb854c4a9b89b68c93121cd63f7a76b9d2a6f6433aa0b990984b7aa8a9",
-          "title_logo": "4320x2750ac4f5ef0d8e1410c8fc35865dcbcd0cefda9f1143efa496ebc966d755d711787",
-          "tv_banner": "3840x2160tvbanner0f1a419c4f184cf287abd1e6e3b69bf2affa0dda41bd4d618fe5e035c836e0ac",
-          "motion_app_cover": "",
-          "motion_cover": "",
-          "motion_vert_banner": "",
-          "motion_homefeed-launcher-sticker": "",
-          "home_hero_banner": "2000x3000herofe56727d9c4c430ba7bf92c5dcbc0a0ca27f01664ea745c5a501ddadb7a4fe3f",
-          "sports_page_banner": "",
-          "kids_mobile_banner": "",
-          "top_10_kids": "",
-          "tv_vertical_ctv": "",
-          "2x3_hd_portrait": "2000x30004a910fbb854c4a9b89b68c93121cd63fea355a35f38e4a47bec13974e60138f5"
-        },
-        "languages": [
-          "bn"
-        ]
-      },
-      "epg": []
     },
     "0-9-9z5938345": {
       "meta": {
