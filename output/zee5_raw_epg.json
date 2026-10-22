@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T02:56:05.223Z",
+  "generated_at": "2026-10-22T10:58:46.224Z",
   "mode": "gwapi-start-end",
   "start": 0,
   "end": 5,
@@ -553998,6 +553998,5702 @@
             {
               "id": "News",
               "value": "News"
+            }
+          ]
+        }
+      ]
+    },
+    "0-9-9z51072892": {
+      "meta": {
+        "id": "0-9-9z51072892",
+        "name": "Z Dil Se",
+        "image": {
+          "cover": "1920x7703e01a75ac1f14d37a0dd92b376cf7f36",
+          "app_cover": "1920x1080appcover218d4c849c674db19beb82fa2dd52a8c",
+          "list": "1920x1080list8e159d38dce34fb7b5376192625f2c00",
+          "channel_square": "386x3861ff34251b81b474ca63cb11a46d60275",
+          "channel_list": "360x2036012684c624c429cae055fb0c000983c",
+          "channel_web": "170x1206a375f902e5645f4a27d0287946aa69c",
+          "square": "",
+          "tv_cover": "",
+          "portrait": "720x1080withlogof6fd248a6e0d4f1695b52d76b564e30b",
+          "listclean": "1920x108046cc6f8a51244080a14f01fdad40cfbe",
+          "portraitclean": "",
+          "homefeed-launcher-sticker": "1920x4574673c69450994481aa0f9f22991952ee",
+          "vert_banner": "845x1080e524d5ae057a44b38caaa30cbea39857",
+          "4k_banner": "",
+          "hd_tile": "",
+          "2x3_hd_poster": "2000x3000d777e706ee194b779b68b70c5346eb4c",
+          "title_logo": "4320x275035ade858786d46db98c425e01967749a",
+          "tv_banner": "3840x2160tvbannerb7acc04f68c145a8a0fcdd5fd96b5a92",
+          "motion_app_cover": "",
+          "motion_cover": "",
+          "motion_vert_banner": "",
+          "motion_homefeed-launcher-sticker": "",
+          "home_hero_banner": "2000x3000herod60789462e4540068f33aed5f773936d",
+          "sports_page_banner": "",
+          "kids_mobile_banner": "",
+          "top_10_kids": "",
+          "tv_vertical_ctv": "",
+          "2x3_hd_portrait": "2000x3000badcfe26f76f43588d45f001e0d18b31"
+        },
+        "languages": [
+          "hi"
+        ]
+      },
+      "epg": [
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556337016d6ba9ab44450b21c565788b7d8ba",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022000000",
+          "description": "Promo",
+          "start_time": "2026-10-21T18:30:00Z",
+          "end_time": "2026-10-21T19:30:00Z",
+          "list_image": "ZeeDilSePromo21556337016d6ba9ab44450b21c565788b7d8ba.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633ba5c46f6535d43e7981de440a8dc5cd6",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022010000",
+          "description": "Promo",
+          "start_time": "2026-10-21T19:30:00Z",
+          "end_time": "2026-10-21T20:30:00Z",
+          "list_image": "ZeeDilSePromo2155633ba5c46f6535d43e7981de440a8dc5cd6.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556339bb6e65f4e0147188cb3240091d12cbc",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022020000",
+          "description": "Promo",
+          "start_time": "2026-10-21T20:30:00Z",
+          "end_time": "2026-10-21T21:30:00Z",
+          "list_image": "ZeeDilSePromo21556339bb6e65f4e0147188cb3240091d12cbc.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633da19f51515d5499ca2a46c408b786e15",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022030000",
+          "description": "Promo",
+          "start_time": "2026-10-21T21:30:00Z",
+          "end_time": "2026-10-21T22:30:00Z",
+          "list_image": "ZeeDilSePromo2155633da19f51515d5499ca2a46c408b786e15.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633888b213c38da46a39040f548d2a30cb9",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022040000",
+          "description": "Promo",
+          "start_time": "2026-10-21T22:30:00Z",
+          "end_time": "2026-10-21T23:30:00Z",
+          "list_image": "ZeeDilSePromo2155633888b213c38da46a39040f548d2a30cb9.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633459e8f4a4e484194a2ad86be0b59c7f7",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022050000",
+          "description": "Promo",
+          "start_time": "2026-10-21T23:30:00Z",
+          "end_time": "2026-10-22T00:30:00Z",
+          "list_image": "ZeeDilSePromo2155633459e8f4a4e484194a2ad86be0b59c7f7.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633be9b9c4fd0b6430cb2a92d6e24f68cdc",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022060000",
+          "description": "Promo",
+          "start_time": "2026-10-22T00:30:00Z",
+          "end_time": "2026-10-22T01:30:00Z",
+          "list_image": "ZeeDilSePromo2155633be9b9c4fd0b6430cb2a92d6e24f68cdc.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633bbbe57a6236e498ab07b4e677a835dae",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022070000",
+          "description": "Promo",
+          "start_time": "2026-10-22T01:30:00Z",
+          "end_time": "2026-10-22T02:30:00Z",
+          "list_image": "ZeeDilSePromo2155633bbbe57a6236e498ab07b4e677a835dae.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563322c573890d464112b240ed9cc2724db0",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022080000",
+          "description": "Promo",
+          "start_time": "2026-10-22T02:30:00Z",
+          "end_time": "2026-10-22T03:30:00Z",
+          "list_image": "ZeeDilSePromo215563322c573890d464112b240ed9cc2724db0.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633021acaf506894122980387e518c8b07f",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022090000",
+          "description": "Promo",
+          "start_time": "2026-10-22T03:30:00Z",
+          "end_time": "2026-10-22T04:30:00Z",
+          "list_image": "ZeeDilSePromo2155633021acaf506894122980387e518c8b07f.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556337a6b96294e0e4846b102586c70a9122f",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022100000",
+          "description": "Promo",
+          "start_time": "2026-10-22T04:30:00Z",
+          "end_time": "2026-10-22T05:30:00Z",
+          "list_image": "ZeeDilSePromo21556337a6b96294e0e4846b102586c70a9122f.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563386ee13311d684ae1a1db1004ae2d7fa5",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022110000",
+          "description": "Promo",
+          "start_time": "2026-10-22T05:30:00Z",
+          "end_time": "2026-10-22T06:30:00Z",
+          "list_image": "ZeeDilSePromo215563386ee13311d684ae1a1db1004ae2d7fa5.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556337c90e6d8b0e04d1a970b07dd96756dac",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022120000",
+          "description": "Promo",
+          "start_time": "2026-10-22T06:30:00Z",
+          "end_time": "2026-10-22T07:30:00Z",
+          "list_image": "ZeeDilSePromo21556337c90e6d8b0e04d1a970b07dd96756dac.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633b2f7abe2085f4af1a1845312a6c46d26",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022130000",
+          "description": "Promo",
+          "start_time": "2026-10-22T07:30:00Z",
+          "end_time": "2026-10-22T08:30:00Z",
+          "list_image": "ZeeDilSePromo2155633b2f7abe2085f4af1a1845312a6c46d26.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556336d2a79d2f9f34e4db769b5a53c8babf2",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022140000",
+          "description": "Promo",
+          "start_time": "2026-10-22T08:30:00Z",
+          "end_time": "2026-10-22T09:30:00Z",
+          "list_image": "ZeeDilSePromo21556336d2a79d2f9f34e4db769b5a53c8babf2.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563303c48f3a8c1049f5acb60fab7ade660e",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022150000",
+          "description": "Promo",
+          "start_time": "2026-10-22T09:30:00Z",
+          "end_time": "2026-10-22T10:30:00Z",
+          "list_image": "ZeeDilSePromo215563303c48f3a8c1049f5acb60fab7ade660e.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633ba0f719c83614cccbbc481f261f0c889",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022160000",
+          "description": "Promo",
+          "start_time": "2026-10-22T10:30:00Z",
+          "end_time": "2026-10-22T11:30:00Z",
+          "list_image": "ZeeDilSePromo2155633ba0f719c83614cccbbc481f261f0c889.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633ac9c39b7d7f24aa3ae548c921490108f",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022170000",
+          "description": "Promo",
+          "start_time": "2026-10-22T11:30:00Z",
+          "end_time": "2026-10-22T12:30:00Z",
+          "list_image": "ZeeDilSePromo2155633ac9c39b7d7f24aa3ae548c921490108f.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633580e6e44cbb24aa3b9d9d580f5ada5d0",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022180000",
+          "description": "Promo",
+          "start_time": "2026-10-22T12:30:00Z",
+          "end_time": "2026-10-22T13:30:00Z",
+          "list_image": "ZeeDilSePromo2155633580e6e44cbb24aa3b9d9d580f5ada5d0.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633b252fc871c984c7ab785501e7c903b11",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022190000",
+          "description": "Promo",
+          "start_time": "2026-10-22T13:30:00Z",
+          "end_time": "2026-10-22T14:30:00Z",
+          "list_image": "ZeeDilSePromo2155633b252fc871c984c7ab785501e7c903b11.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563306b6e63d4c76431db65c4f8a889dd9e9",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022200000",
+          "description": "Promo",
+          "start_time": "2026-10-22T14:30:00Z",
+          "end_time": "2026-10-22T15:30:00Z",
+          "list_image": "ZeeDilSePromo215563306b6e63d4c76431db65c4f8a889dd9e9.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633723ec828baf64d4db1f57419b5e10576",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022210000",
+          "description": "Promo",
+          "start_time": "2026-10-22T15:30:00Z",
+          "end_time": "2026-10-22T16:30:00Z",
+          "list_image": "ZeeDilSePromo2155633723ec828baf64d4db1f57419b5e10576.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633fa44a2a77fbf4c64bf364a8c21a9e4c7",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022220000",
+          "description": "Promo",
+          "start_time": "2026-10-22T16:30:00Z",
+          "end_time": "2026-10-22T17:30:00Z",
+          "list_image": "ZeeDilSePromo2155633fa44a2a77fbf4c64bf364a8c21a9e4c7.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556331acc51a987014084930f3fc7ee70d882",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261022230000",
+          "description": "Promo",
+          "start_time": "2026-10-22T17:30:00Z",
+          "end_time": "2026-10-22T18:30:00Z",
+          "list_image": "ZeeDilSePromo21556331acc51a987014084930f3fc7ee70d882.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556335148cff85d2b4c2aa8d4e53d4b2304a2",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023000000",
+          "description": "Promo",
+          "start_time": "2026-10-22T18:30:00Z",
+          "end_time": "2026-10-22T19:30:00Z",
+          "list_image": "ZeeDilSePromo21556335148cff85d2b4c2aa8d4e53d4b2304a2.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633d804d75873cf4ffb979605c44660effe",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023010000",
+          "description": "Promo",
+          "start_time": "2026-10-22T19:30:00Z",
+          "end_time": "2026-10-22T20:30:00Z",
+          "list_image": "ZeeDilSePromo2155633d804d75873cf4ffb979605c44660effe.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563313c86085ab16445e8f0fccd3c0f27ceb",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023020000",
+          "description": "Promo",
+          "start_time": "2026-10-22T20:30:00Z",
+          "end_time": "2026-10-22T21:30:00Z",
+          "list_image": "ZeeDilSePromo215563313c86085ab16445e8f0fccd3c0f27ceb.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556331202f87ca37e4fbc8f4ffc2908025259",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023030000",
+          "description": "Promo",
+          "start_time": "2026-10-22T21:30:00Z",
+          "end_time": "2026-10-22T22:30:00Z",
+          "list_image": "ZeeDilSePromo21556331202f87ca37e4fbc8f4ffc2908025259.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556332cd0a684e0c04db7b1f2789a093cf6ea",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023040000",
+          "description": "Promo",
+          "start_time": "2026-10-22T22:30:00Z",
+          "end_time": "2026-10-22T23:30:00Z",
+          "list_image": "ZeeDilSePromo21556332cd0a684e0c04db7b1f2789a093cf6ea.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556332775327ecfa9420d87f66653047db09d",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023050000",
+          "description": "Promo",
+          "start_time": "2026-10-22T23:30:00Z",
+          "end_time": "2026-10-23T00:30:00Z",
+          "list_image": "ZeeDilSePromo21556332775327ecfa9420d87f66653047db09d.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633998a2add5f7c4fc4bdd0e105dfd58898",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023060000",
+          "description": "Promo",
+          "start_time": "2026-10-23T00:30:00Z",
+          "end_time": "2026-10-23T01:30:00Z",
+          "list_image": "ZeeDilSePromo2155633998a2add5f7c4fc4bdd0e105dfd58898.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556335c4ffb25542c42ae83b84599e491a351",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023070000",
+          "description": "Promo",
+          "start_time": "2026-10-23T01:30:00Z",
+          "end_time": "2026-10-23T02:30:00Z",
+          "list_image": "ZeeDilSePromo21556335c4ffb25542c42ae83b84599e491a351.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633fe5161b8bd2c402a97ead27ff11fb273",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023080000",
+          "description": "Promo",
+          "start_time": "2026-10-23T02:30:00Z",
+          "end_time": "2026-10-23T03:30:00Z",
+          "list_image": "ZeeDilSePromo2155633fe5161b8bd2c402a97ead27ff11fb273.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633b1e7d7b26678472b925e3a42b406c108",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023090000",
+          "description": "Promo",
+          "start_time": "2026-10-23T03:30:00Z",
+          "end_time": "2026-10-23T04:30:00Z",
+          "list_image": "ZeeDilSePromo2155633b1e7d7b26678472b925e3a42b406c108.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633c45f43fbc308464b8d8cf3edddd5f8cd",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023100000",
+          "description": "Promo",
+          "start_time": "2026-10-23T04:30:00Z",
+          "end_time": "2026-10-23T05:30:00Z",
+          "list_image": "ZeeDilSePromo2155633c45f43fbc308464b8d8cf3edddd5f8cd.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633428b35e57bd04fa6a979c1f228bbf745",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023110000",
+          "description": "Promo",
+          "start_time": "2026-10-23T05:30:00Z",
+          "end_time": "2026-10-23T06:30:00Z",
+          "list_image": "ZeeDilSePromo2155633428b35e57bd04fa6a979c1f228bbf745.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633200640d3adb248a1ac3fb32ea72db38a",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023120000",
+          "description": "Promo",
+          "start_time": "2026-10-23T06:30:00Z",
+          "end_time": "2026-10-23T07:30:00Z",
+          "list_image": "ZeeDilSePromo2155633200640d3adb248a1ac3fb32ea72db38a.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563382b720c761134945b82b092f81f78d14",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023130000",
+          "description": "Promo",
+          "start_time": "2026-10-23T07:30:00Z",
+          "end_time": "2026-10-23T08:30:00Z",
+          "list_image": "ZeeDilSePromo215563382b720c761134945b82b092f81f78d14.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633e7547e4a13d1441bb047596f790129d8",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023140000",
+          "description": "Promo",
+          "start_time": "2026-10-23T08:30:00Z",
+          "end_time": "2026-10-23T09:30:00Z",
+          "list_image": "ZeeDilSePromo2155633e7547e4a13d1441bb047596f790129d8.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563343b13c792de94dc886f682f5bf358132",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023150000",
+          "description": "Promo",
+          "start_time": "2026-10-23T09:30:00Z",
+          "end_time": "2026-10-23T10:30:00Z",
+          "list_image": "ZeeDilSePromo215563343b13c792de94dc886f682f5bf358132.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563353cde057cdec4df681d3105efd37f8d6",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023160000",
+          "description": "Promo",
+          "start_time": "2026-10-23T10:30:00Z",
+          "end_time": "2026-10-23T11:30:00Z",
+          "list_image": "ZeeDilSePromo215563353cde057cdec4df681d3105efd37f8d6.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633b6e010aa8c5244d1b6a03dfa87f2e8a6",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023170000",
+          "description": "Promo",
+          "start_time": "2026-10-23T11:30:00Z",
+          "end_time": "2026-10-23T12:30:00Z",
+          "list_image": "ZeeDilSePromo2155633b6e010aa8c5244d1b6a03dfa87f2e8a6.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556332d258fc7351e410c97d5e39ad6b75f40",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023180000",
+          "description": "Promo",
+          "start_time": "2026-10-23T12:30:00Z",
+          "end_time": "2026-10-23T13:30:00Z",
+          "list_image": "ZeeDilSePromo21556332d258fc7351e410c97d5e39ad6b75f40.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633b019615db974416f8aa9dc32e5fbb0b5",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023190000",
+          "description": "Promo",
+          "start_time": "2026-10-23T13:30:00Z",
+          "end_time": "2026-10-23T14:30:00Z",
+          "list_image": "ZeeDilSePromo2155633b019615db974416f8aa9dc32e5fbb0b5.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633a0df46284a164a87b4ce412d533c4e2f",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023200000",
+          "description": "Promo",
+          "start_time": "2026-10-23T14:30:00Z",
+          "end_time": "2026-10-23T15:30:00Z",
+          "list_image": "ZeeDilSePromo2155633a0df46284a164a87b4ce412d533c4e2f.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563320d7f3e5d74248e081f2619ad9356229",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023210000",
+          "description": "Promo",
+          "start_time": "2026-10-23T15:30:00Z",
+          "end_time": "2026-10-23T16:30:00Z",
+          "list_image": "ZeeDilSePromo215563320d7f3e5d74248e081f2619ad9356229.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633be04ee9edff940a38cc8d32e758a007b",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023220000",
+          "description": "Promo",
+          "start_time": "2026-10-23T16:30:00Z",
+          "end_time": "2026-10-23T17:30:00Z",
+          "list_image": "ZeeDilSePromo2155633be04ee9edff940a38cc8d32e758a007b.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633c95d6ad869544c81b480d15a10acfd42",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261023230000",
+          "description": "Promo",
+          "start_time": "2026-10-23T17:30:00Z",
+          "end_time": "2026-10-23T18:30:00Z",
+          "list_image": "ZeeDilSePromo2155633c95d6ad869544c81b480d15a10acfd42.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556337cf756b3d2e24574bdddba7ea948b3c3",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024000000",
+          "description": "Promo",
+          "start_time": "2026-10-23T18:30:00Z",
+          "end_time": "2026-10-23T19:30:00Z",
+          "list_image": "ZeeDilSePromo21556337cf756b3d2e24574bdddba7ea948b3c3.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633d7c55766873f41378138c7f733c7b3b6",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024010000",
+          "description": "Promo",
+          "start_time": "2026-10-23T19:30:00Z",
+          "end_time": "2026-10-23T20:30:00Z",
+          "list_image": "ZeeDilSePromo2155633d7c55766873f41378138c7f733c7b3b6.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633a25ea59c856a4386a993f455505e080b",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024020000",
+          "description": "Promo",
+          "start_time": "2026-10-23T20:30:00Z",
+          "end_time": "2026-10-23T21:30:00Z",
+          "list_image": "ZeeDilSePromo2155633a25ea59c856a4386a993f455505e080b.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556331afe1034dd3e44698ce5192e7081f4cf",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024030000",
+          "description": "Promo",
+          "start_time": "2026-10-23T21:30:00Z",
+          "end_time": "2026-10-23T22:30:00Z",
+          "list_image": "ZeeDilSePromo21556331afe1034dd3e44698ce5192e7081f4cf.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563317b18be3d0de483ea27681af8b9f15d9",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024040000",
+          "description": "Promo",
+          "start_time": "2026-10-23T22:30:00Z",
+          "end_time": "2026-10-23T23:30:00Z",
+          "list_image": "ZeeDilSePromo215563317b18be3d0de483ea27681af8b9f15d9.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633b716fd8a711243d19c3d5e364dbfdb23",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024050000",
+          "description": "Promo",
+          "start_time": "2026-10-23T23:30:00Z",
+          "end_time": "2026-10-24T00:30:00Z",
+          "list_image": "ZeeDilSePromo2155633b716fd8a711243d19c3d5e364dbfdb23.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633aa881805606f4dfaae755bad49596d18",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024060000",
+          "description": "Promo",
+          "start_time": "2026-10-24T00:30:00Z",
+          "end_time": "2026-10-24T01:30:00Z",
+          "list_image": "ZeeDilSePromo2155633aa881805606f4dfaae755bad49596d18.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633e07754aafddb45d7aedb9f39488ed0b5",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024070000",
+          "description": "Promo",
+          "start_time": "2026-10-24T01:30:00Z",
+          "end_time": "2026-10-24T02:30:00Z",
+          "list_image": "ZeeDilSePromo2155633e07754aafddb45d7aedb9f39488ed0b5.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556332d50b56b701d41e0818bdd3b7c8429aa",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024080000",
+          "description": "Promo",
+          "start_time": "2026-10-24T02:30:00Z",
+          "end_time": "2026-10-24T03:30:00Z",
+          "list_image": "ZeeDilSePromo21556332d50b56b701d41e0818bdd3b7c8429aa.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563316b63de371a24ebe867c7c4fa87646f9",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024090000",
+          "description": "Promo",
+          "start_time": "2026-10-24T03:30:00Z",
+          "end_time": "2026-10-24T04:30:00Z",
+          "list_image": "ZeeDilSePromo215563316b63de371a24ebe867c7c4fa87646f9.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633e0782c71ba1d42c2a1bc20ef1e70ea19",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024100000",
+          "description": "Promo",
+          "start_time": "2026-10-24T04:30:00Z",
+          "end_time": "2026-10-24T05:30:00Z",
+          "list_image": "ZeeDilSePromo2155633e0782c71ba1d42c2a1bc20ef1e70ea19.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633693feb64d2924eb18e34f9b6b73da960",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024110000",
+          "description": "Promo",
+          "start_time": "2026-10-24T05:30:00Z",
+          "end_time": "2026-10-24T06:30:00Z",
+          "list_image": "ZeeDilSePromo2155633693feb64d2924eb18e34f9b6b73da960.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563375f7836e3475478fbbc19ceda0a80fd1",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024120000",
+          "description": "Promo",
+          "start_time": "2026-10-24T06:30:00Z",
+          "end_time": "2026-10-24T07:30:00Z",
+          "list_image": "ZeeDilSePromo215563375f7836e3475478fbbc19ceda0a80fd1.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556339cdfc98aa5b0499faadca7d8cbd1fd2c",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024130000",
+          "description": "Promo",
+          "start_time": "2026-10-24T07:30:00Z",
+          "end_time": "2026-10-24T08:30:00Z",
+          "list_image": "ZeeDilSePromo21556339cdfc98aa5b0499faadca7d8cbd1fd2c.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633078e391f394f4c1691df9c3cb6458faa",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024140000",
+          "description": "Promo",
+          "start_time": "2026-10-24T08:30:00Z",
+          "end_time": "2026-10-24T09:30:00Z",
+          "list_image": "ZeeDilSePromo2155633078e391f394f4c1691df9c3cb6458faa.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633fce36ca3837f422fb42d0dc3cf84f193",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024150000",
+          "description": "Promo",
+          "start_time": "2026-10-24T09:30:00Z",
+          "end_time": "2026-10-24T10:30:00Z",
+          "list_image": "ZeeDilSePromo2155633fce36ca3837f422fb42d0dc3cf84f193.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633c773ad55cfc040999a35d2110728507f",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024160000",
+          "description": "Promo",
+          "start_time": "2026-10-24T10:30:00Z",
+          "end_time": "2026-10-24T11:30:00Z",
+          "list_image": "ZeeDilSePromo2155633c773ad55cfc040999a35d2110728507f.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556336dd57232ea80400498f041758748eb8a",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024170000",
+          "description": "Promo",
+          "start_time": "2026-10-24T11:30:00Z",
+          "end_time": "2026-10-24T12:30:00Z",
+          "list_image": "ZeeDilSePromo21556336dd57232ea80400498f041758748eb8a.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633ebad16185ea2416299ed010f35ac15c1",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024180000",
+          "description": "Promo",
+          "start_time": "2026-10-24T12:30:00Z",
+          "end_time": "2026-10-24T13:30:00Z",
+          "list_image": "ZeeDilSePromo2155633ebad16185ea2416299ed010f35ac15c1.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633de99fe93abc64285a0e2a43a51f15493",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024190000",
+          "description": "Promo",
+          "start_time": "2026-10-24T13:30:00Z",
+          "end_time": "2026-10-24T14:30:00Z",
+          "list_image": "ZeeDilSePromo2155633de99fe93abc64285a0e2a43a51f15493.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633f9ae12317dd4455c925e4316dc8bb596",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024200000",
+          "description": "Promo",
+          "start_time": "2026-10-24T14:30:00Z",
+          "end_time": "2026-10-24T15:30:00Z",
+          "list_image": "ZeeDilSePromo2155633f9ae12317dd4455c925e4316dc8bb596.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633591459fea2fc4e7198d3b054c427d94f",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024210000",
+          "description": "Promo",
+          "start_time": "2026-10-24T15:30:00Z",
+          "end_time": "2026-10-24T16:30:00Z",
+          "list_image": "ZeeDilSePromo2155633591459fea2fc4e7198d3b054c427d94f.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633e334e6361db94118be3f70c60959398e",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024220000",
+          "description": "Promo",
+          "start_time": "2026-10-24T16:30:00Z",
+          "end_time": "2026-10-24T17:30:00Z",
+          "list_image": "ZeeDilSePromo2155633e334e6361db94118be3f70c60959398e.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633a99528970b354379b51edbc7e4dd94d3",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261024230000",
+          "description": "Promo",
+          "start_time": "2026-10-24T17:30:00Z",
+          "end_time": "2026-10-24T18:30:00Z",
+          "list_image": "ZeeDilSePromo2155633a99528970b354379b51edbc7e4dd94d3.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563319d92b123db6437e8992cdcbaf0f1367",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025000000",
+          "description": "Promo",
+          "start_time": "2026-10-24T18:30:00Z",
+          "end_time": "2026-10-24T19:30:00Z",
+          "list_image": "ZeeDilSePromo215563319d92b123db6437e8992cdcbaf0f1367.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556338456d66eb79646e8bd283d4e5ffcdcab",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025010000",
+          "description": "Promo",
+          "start_time": "2026-10-24T19:30:00Z",
+          "end_time": "2026-10-24T20:30:00Z",
+          "list_image": "ZeeDilSePromo21556338456d66eb79646e8bd283d4e5ffcdcab.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563307b5cc0318894c13a93299f74177d3d1",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025020000",
+          "description": "Promo",
+          "start_time": "2026-10-24T20:30:00Z",
+          "end_time": "2026-10-24T21:30:00Z",
+          "list_image": "ZeeDilSePromo215563307b5cc0318894c13a93299f74177d3d1.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563351d08b06a766483b87e3d89eada7aca1",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025030000",
+          "description": "Promo",
+          "start_time": "2026-10-24T21:30:00Z",
+          "end_time": "2026-10-24T22:30:00Z",
+          "list_image": "ZeeDilSePromo215563351d08b06a766483b87e3d89eada7aca1.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563316dd4e21cf894099847dfc00c3457786",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025040000",
+          "description": "Promo",
+          "start_time": "2026-10-24T22:30:00Z",
+          "end_time": "2026-10-24T23:30:00Z",
+          "list_image": "ZeeDilSePromo215563316dd4e21cf894099847dfc00c3457786.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556332155f2788760429fbb9d249cdbabcb8a",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025050000",
+          "description": "Promo",
+          "start_time": "2026-10-24T23:30:00Z",
+          "end_time": "2026-10-25T00:30:00Z",
+          "list_image": "ZeeDilSePromo21556332155f2788760429fbb9d249cdbabcb8a.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563385353a8d00604137b8478a426fded14d",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025060000",
+          "description": "Promo",
+          "start_time": "2026-10-25T00:30:00Z",
+          "end_time": "2026-10-25T01:30:00Z",
+          "list_image": "ZeeDilSePromo215563385353a8d00604137b8478a426fded14d.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556334a3ab39750cd441fb32bcf3d9a37b011",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025070000",
+          "description": "Promo",
+          "start_time": "2026-10-25T01:30:00Z",
+          "end_time": "2026-10-25T02:30:00Z",
+          "list_image": "ZeeDilSePromo21556334a3ab39750cd441fb32bcf3d9a37b011.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633b9f10e7988f945fb85bee3eff53f8c7d",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025080000",
+          "description": "Promo",
+          "start_time": "2026-10-25T02:30:00Z",
+          "end_time": "2026-10-25T03:30:00Z",
+          "list_image": "ZeeDilSePromo2155633b9f10e7988f945fb85bee3eff53f8c7d.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633bb5c55cea53d4c7b973afaae0c3cc956",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025090000",
+          "description": "Promo",
+          "start_time": "2026-10-25T03:30:00Z",
+          "end_time": "2026-10-25T04:30:00Z",
+          "list_image": "ZeeDilSePromo2155633bb5c55cea53d4c7b973afaae0c3cc956.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563326e3d08e2ffe4735bddd1f51a0da2430",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025100000",
+          "description": "Promo",
+          "start_time": "2026-10-25T04:30:00Z",
+          "end_time": "2026-10-25T05:30:00Z",
+          "list_image": "ZeeDilSePromo215563326e3d08e2ffe4735bddd1f51a0da2430.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633b50aeabed07841a8a08b0b508cc3c552",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025110000",
+          "description": "Promo",
+          "start_time": "2026-10-25T05:30:00Z",
+          "end_time": "2026-10-25T06:30:00Z",
+          "list_image": "ZeeDilSePromo2155633b50aeabed07841a8a08b0b508cc3c552.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633cb155ce58ee24bd1bb5f3807baaf91b5",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025120000",
+          "description": "Promo",
+          "start_time": "2026-10-25T06:30:00Z",
+          "end_time": "2026-10-25T07:30:00Z",
+          "list_image": "ZeeDilSePromo2155633cb155ce58ee24bd1bb5f3807baaf91b5.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633fe067114e9fe443e95fd6f2ed14921db",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025130000",
+          "description": "Promo",
+          "start_time": "2026-10-25T07:30:00Z",
+          "end_time": "2026-10-25T08:30:00Z",
+          "list_image": "ZeeDilSePromo2155633fe067114e9fe443e95fd6f2ed14921db.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556333961a7d587b1460aa42a5e56cd924ef2",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025140000",
+          "description": "Promo",
+          "start_time": "2026-10-25T08:30:00Z",
+          "end_time": "2026-10-25T09:30:00Z",
+          "list_image": "ZeeDilSePromo21556333961a7d587b1460aa42a5e56cd924ef2.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556338ec8f7821d964dfe8f145e6cc63beab0",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025150000",
+          "description": "Promo",
+          "start_time": "2026-10-25T09:30:00Z",
+          "end_time": "2026-10-25T10:30:00Z",
+          "list_image": "ZeeDilSePromo21556338ec8f7821d964dfe8f145e6cc63beab0.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633345639591e33462e960f1426283364d1",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025160000",
+          "description": "Promo",
+          "start_time": "2026-10-25T10:30:00Z",
+          "end_time": "2026-10-25T11:30:00Z",
+          "list_image": "ZeeDilSePromo2155633345639591e33462e960f1426283364d1.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633f5e885ce2fea4c08a4c1e58f09fd0e30",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025170000",
+          "description": "Promo",
+          "start_time": "2026-10-25T11:30:00Z",
+          "end_time": "2026-10-25T12:30:00Z",
+          "list_image": "ZeeDilSePromo2155633f5e885ce2fea4c08a4c1e58f09fd0e30.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633657152951ebb459fb30358e706473249",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025180000",
+          "description": "Promo",
+          "start_time": "2026-10-25T12:30:00Z",
+          "end_time": "2026-10-25T13:30:00Z",
+          "list_image": "ZeeDilSePromo2155633657152951ebb459fb30358e706473249.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633731be410004e46ed845177d0e7038c3a",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025190000",
+          "description": "Promo",
+          "start_time": "2026-10-25T13:30:00Z",
+          "end_time": "2026-10-25T14:30:00Z",
+          "list_image": "ZeeDilSePromo2155633731be410004e46ed845177d0e7038c3a.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633b1c4cc422efe4595adaaae1405ad925c",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025200000",
+          "description": "Promo",
+          "start_time": "2026-10-25T14:30:00Z",
+          "end_time": "2026-10-25T15:30:00Z",
+          "list_image": "ZeeDilSePromo2155633b1c4cc422efe4595adaaae1405ad925c.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556337325c3520c034c309637079e367e96dc",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025210000",
+          "description": "Promo",
+          "start_time": "2026-10-25T15:30:00Z",
+          "end_time": "2026-10-25T16:30:00Z",
+          "list_image": "ZeeDilSePromo21556337325c3520c034c309637079e367e96dc.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563326049a355dc44f939c78e1c2a4c98352",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025220000",
+          "description": "Promo",
+          "start_time": "2026-10-25T16:30:00Z",
+          "end_time": "2026-10-25T17:30:00Z",
+          "list_image": "ZeeDilSePromo215563326049a355dc44f939c78e1c2a4c98352.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633bf9ef43f6e4b4555b086b9a91f23d1ad",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261025230000",
+          "description": "Promo",
+          "start_time": "2026-10-25T17:30:00Z",
+          "end_time": "2026-10-25T18:30:00Z",
+          "list_image": "ZeeDilSePromo2155633bf9ef43f6e4b4555b086b9a91f23d1ad.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633699f1c6ef1d346f58b94b745c96c6720",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026000000",
+          "description": "Promo",
+          "start_time": "2026-10-25T18:30:00Z",
+          "end_time": "2026-10-25T19:30:00Z",
+          "list_image": "ZeeDilSePromo2155633699f1c6ef1d346f58b94b745c96c6720.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633e837089065dd44c98b17bcf32e62e203",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026010000",
+          "description": "Promo",
+          "start_time": "2026-10-25T19:30:00Z",
+          "end_time": "2026-10-25T20:30:00Z",
+          "list_image": "ZeeDilSePromo2155633e837089065dd44c98b17bcf32e62e203.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556336048f4bb7a6941279e231ef97949b856",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026020000",
+          "description": "Promo",
+          "start_time": "2026-10-25T20:30:00Z",
+          "end_time": "2026-10-25T21:30:00Z",
+          "list_image": "ZeeDilSePromo21556336048f4bb7a6941279e231ef97949b856.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556330e07510bbadb4df0a3561488ee8df773",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026030000",
+          "description": "Promo",
+          "start_time": "2026-10-25T21:30:00Z",
+          "end_time": "2026-10-25T22:30:00Z",
+          "list_image": "ZeeDilSePromo21556330e07510bbadb4df0a3561488ee8df773.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563338452c228ed346d8ab0ec80eed1ddef2",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026040000",
+          "description": "Promo",
+          "start_time": "2026-10-25T22:30:00Z",
+          "end_time": "2026-10-25T23:30:00Z",
+          "list_image": "ZeeDilSePromo215563338452c228ed346d8ab0ec80eed1ddef2.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633e1ceccc351224504b831975f82a415c0",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026050000",
+          "description": "Promo",
+          "start_time": "2026-10-25T23:30:00Z",
+          "end_time": "2026-10-26T00:30:00Z",
+          "list_image": "ZeeDilSePromo2155633e1ceccc351224504b831975f82a415c0.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556339ce18c4e27884185b7cccdb6b5cf4770",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026060000",
+          "description": "Promo",
+          "start_time": "2026-10-26T00:30:00Z",
+          "end_time": "2026-10-26T01:30:00Z",
+          "list_image": "ZeeDilSePromo21556339ce18c4e27884185b7cccdb6b5cf4770.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633f4c4e3bca6d54ae4bd270456e880afd7",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026070000",
+          "description": "Promo",
+          "start_time": "2026-10-26T01:30:00Z",
+          "end_time": "2026-10-26T02:30:00Z",
+          "list_image": "ZeeDilSePromo2155633f4c4e3bca6d54ae4bd270456e880afd7.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563386511522415e42bd8eda4a6633e272c0",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026080000",
+          "description": "Promo",
+          "start_time": "2026-10-26T02:30:00Z",
+          "end_time": "2026-10-26T03:30:00Z",
+          "list_image": "ZeeDilSePromo215563386511522415e42bd8eda4a6633e272c0.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633f61746e851c44bb5998631063ada4df4",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026090000",
+          "description": "Promo",
+          "start_time": "2026-10-26T03:30:00Z",
+          "end_time": "2026-10-26T04:30:00Z",
+          "list_image": "ZeeDilSePromo2155633f61746e851c44bb5998631063ada4df4.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633ce41e40c558742c1bd208686044a999a",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026100000",
+          "description": "Promo",
+          "start_time": "2026-10-26T04:30:00Z",
+          "end_time": "2026-10-26T05:30:00Z",
+          "list_image": "ZeeDilSePromo2155633ce41e40c558742c1bd208686044a999a.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633fa75610a11864ad39a241c184d927aeb",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026110000",
+          "description": "Promo",
+          "start_time": "2026-10-26T05:30:00Z",
+          "end_time": "2026-10-26T06:30:00Z",
+          "list_image": "ZeeDilSePromo2155633fa75610a11864ad39a241c184d927aeb.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633df37504aedd44b2aab970e18f4c97cff",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026120000",
+          "description": "Promo",
+          "start_time": "2026-10-26T06:30:00Z",
+          "end_time": "2026-10-26T07:30:00Z",
+          "list_image": "ZeeDilSePromo2155633df37504aedd44b2aab970e18f4c97cff.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556338944029bd30f46bb8cef1e23b86fc582",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026130000",
+          "description": "Promo",
+          "start_time": "2026-10-26T07:30:00Z",
+          "end_time": "2026-10-26T08:30:00Z",
+          "list_image": "ZeeDilSePromo21556338944029bd30f46bb8cef1e23b86fc582.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563371afa250362046bf9e04c5f27b405204",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026140000",
+          "description": "Promo",
+          "start_time": "2026-10-26T08:30:00Z",
+          "end_time": "2026-10-26T09:30:00Z",
+          "list_image": "ZeeDilSePromo215563371afa250362046bf9e04c5f27b405204.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633b52205029130469aa811a5cc099474fb",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026150000",
+          "description": "Promo",
+          "start_time": "2026-10-26T09:30:00Z",
+          "end_time": "2026-10-26T10:30:00Z",
+          "list_image": "ZeeDilSePromo2155633b52205029130469aa811a5cc099474fb.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633a7c88cb4012845189e0592d56cbfdef7",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026160000",
+          "description": "Promo",
+          "start_time": "2026-10-26T10:30:00Z",
+          "end_time": "2026-10-26T11:30:00Z",
+          "list_image": "ZeeDilSePromo2155633a7c88cb4012845189e0592d56cbfdef7.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556330e0de6f384134df1a8bc13fdb6bd9cc7",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026170000",
+          "description": "Promo",
+          "start_time": "2026-10-26T11:30:00Z",
+          "end_time": "2026-10-26T12:30:00Z",
+          "list_image": "ZeeDilSePromo21556330e0de6f384134df1a8bc13fdb6bd9cc7.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633b49a67c35a6f457cafdb54026ca3c787",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026180000",
+          "description": "Promo",
+          "start_time": "2026-10-26T12:30:00Z",
+          "end_time": "2026-10-26T13:30:00Z",
+          "list_image": "ZeeDilSePromo2155633b49a67c35a6f457cafdb54026ca3c787.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556338ad1b21f564a4f3d9c834a8c242d1e8e",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026190000",
+          "description": "Promo",
+          "start_time": "2026-10-26T13:30:00Z",
+          "end_time": "2026-10-26T14:30:00Z",
+          "list_image": "ZeeDilSePromo21556338ad1b21f564a4f3d9c834a8c242d1e8e.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556339ad69c6916ed40008c46164d6a379a6b",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026200000",
+          "description": "Promo",
+          "start_time": "2026-10-26T14:30:00Z",
+          "end_time": "2026-10-26T15:30:00Z",
+          "list_image": "ZeeDilSePromo21556339ad69c6916ed40008c46164d6a379a6b.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563396d6f8452864458e88b4f7cf4cc43af3",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026210000",
+          "description": "Promo",
+          "start_time": "2026-10-26T15:30:00Z",
+          "end_time": "2026-10-26T16:30:00Z",
+          "list_image": "ZeeDilSePromo215563396d6f8452864458e88b4f7cf4cc43af3.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633e31583f3f9d64b8f83d48354026576eb",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026220000",
+          "description": "Promo",
+          "start_time": "2026-10-26T16:30:00Z",
+          "end_time": "2026-10-26T17:30:00Z",
+          "list_image": "ZeeDilSePromo2155633e31583f3f9d64b8f83d48354026576eb.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563381492961fd2f4aeb8198a862003899f3",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261026230000",
+          "description": "Promo",
+          "start_time": "2026-10-26T17:30:00Z",
+          "end_time": "2026-10-26T18:30:00Z",
+          "list_image": "ZeeDilSePromo215563381492961fd2f4aeb8198a862003899f3.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633255b3cb7aeea4ec898b90d4f850a2800",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027000000",
+          "description": "Promo",
+          "start_time": "2026-10-26T18:30:00Z",
+          "end_time": "2026-10-26T19:30:00Z",
+          "list_image": "ZeeDilSePromo2155633255b3cb7aeea4ec898b90d4f850a2800.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556339e9c4ee959434a119a3916b9f2bccb20",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027010000",
+          "description": "Promo",
+          "start_time": "2026-10-26T19:30:00Z",
+          "end_time": "2026-10-26T20:30:00Z",
+          "list_image": "ZeeDilSePromo21556339e9c4ee959434a119a3916b9f2bccb20.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556330b3984c90b8841db833aa17e74fd7b6c",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027020000",
+          "description": "Promo",
+          "start_time": "2026-10-26T20:30:00Z",
+          "end_time": "2026-10-26T21:30:00Z",
+          "list_image": "ZeeDilSePromo21556330b3984c90b8841db833aa17e74fd7b6c.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633886389732ebc47799c1263fbc3899891",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027030000",
+          "description": "Promo",
+          "start_time": "2026-10-26T21:30:00Z",
+          "end_time": "2026-10-26T22:30:00Z",
+          "list_image": "ZeeDilSePromo2155633886389732ebc47799c1263fbc3899891.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633e71a2fe868be4d309bba82abd2de355f",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027040000",
+          "description": "Promo",
+          "start_time": "2026-10-26T22:30:00Z",
+          "end_time": "2026-10-26T23:30:00Z",
+          "list_image": "ZeeDilSePromo2155633e71a2fe868be4d309bba82abd2de355f.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633385bc4bb6ce64fc29eb94ab15b3ddb8e",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027050000",
+          "description": "Promo",
+          "start_time": "2026-10-26T23:30:00Z",
+          "end_time": "2026-10-27T00:30:00Z",
+          "list_image": "ZeeDilSePromo2155633385bc4bb6ce64fc29eb94ab15b3ddb8e.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556335e7bceb231694542bca52cd2e1321c5e",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027060000",
+          "description": "Promo",
+          "start_time": "2026-10-27T00:30:00Z",
+          "end_time": "2026-10-27T01:30:00Z",
+          "list_image": "ZeeDilSePromo21556335e7bceb231694542bca52cd2e1321c5e.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556334c17738a8ad249608a2310db260002a4",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027070000",
+          "description": "Promo",
+          "start_time": "2026-10-27T01:30:00Z",
+          "end_time": "2026-10-27T02:30:00Z",
+          "list_image": "ZeeDilSePromo21556334c17738a8ad249608a2310db260002a4.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633c6995b7402a6457d9d0d46cb806470d1",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027080000",
+          "description": "Promo",
+          "start_time": "2026-10-27T02:30:00Z",
+          "end_time": "2026-10-27T03:30:00Z",
+          "list_image": "ZeeDilSePromo2155633c6995b7402a6457d9d0d46cb806470d1.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633e7f9665df64d482fb5911fb2f9b9b0c5",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027090000",
+          "description": "Promo",
+          "start_time": "2026-10-27T03:30:00Z",
+          "end_time": "2026-10-27T04:30:00Z",
+          "list_image": "ZeeDilSePromo2155633e7f9665df64d482fb5911fb2f9b9b0c5.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556330f3b6492af16462ebb76615792e22fb2",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027100000",
+          "description": "Promo",
+          "start_time": "2026-10-27T04:30:00Z",
+          "end_time": "2026-10-27T05:30:00Z",
+          "list_image": "ZeeDilSePromo21556330f3b6492af16462ebb76615792e22fb2.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633e6913ab884164168b16ef0a5d36ffe27",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027110000",
+          "description": "Promo",
+          "start_time": "2026-10-27T05:30:00Z",
+          "end_time": "2026-10-27T06:30:00Z",
+          "list_image": "ZeeDilSePromo2155633e6913ab884164168b16ef0a5d36ffe27.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633acf889430c154ca580292a6ff8f82170",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027120000",
+          "description": "Promo",
+          "start_time": "2026-10-27T06:30:00Z",
+          "end_time": "2026-10-27T07:30:00Z",
+          "list_image": "ZeeDilSePromo2155633acf889430c154ca580292a6ff8f82170.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556335e883e5145714fcc8412fa13403e4cd4",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027130000",
+          "description": "Promo",
+          "start_time": "2026-10-27T07:30:00Z",
+          "end_time": "2026-10-27T08:30:00Z",
+          "list_image": "ZeeDilSePromo21556335e883e5145714fcc8412fa13403e4cd4.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633f89e4a23c8644805b98c22eda6fb37f6",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027140000",
+          "description": "Promo",
+          "start_time": "2026-10-27T08:30:00Z",
+          "end_time": "2026-10-27T09:30:00Z",
+          "list_image": "ZeeDilSePromo2155633f89e4a23c8644805b98c22eda6fb37f6.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633cb3d5e7f640a4ea4bb9b244a62b6815c",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027150000",
+          "description": "Promo",
+          "start_time": "2026-10-27T09:30:00Z",
+          "end_time": "2026-10-27T10:30:00Z",
+          "list_image": "ZeeDilSePromo2155633cb3d5e7f640a4ea4bb9b244a62b6815c.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633069819254f95499f903cc0712d7227d8",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027160000",
+          "description": "Promo",
+          "start_time": "2026-10-27T10:30:00Z",
+          "end_time": "2026-10-27T11:30:00Z",
+          "list_image": "ZeeDilSePromo2155633069819254f95499f903cc0712d7227d8.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563394870c1e0ebf41bb82e69ba9bef5c9ed",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027170000",
+          "description": "Promo",
+          "start_time": "2026-10-27T11:30:00Z",
+          "end_time": "2026-10-27T12:30:00Z",
+          "list_image": "ZeeDilSePromo215563394870c1e0ebf41bb82e69ba9bef5c9ed.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo21556333ae420da11a1467f860a2064cfafae4d",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027180000",
+          "description": "Promo",
+          "start_time": "2026-10-27T12:30:00Z",
+          "end_time": "2026-10-27T13:30:00Z",
+          "list_image": "ZeeDilSePromo21556333ae420da11a1467f860a2064cfafae4d.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633a1d961b5c4dd419cac2785e98cd9bdba",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027190000",
+          "description": "Promo",
+          "start_time": "2026-10-27T13:30:00Z",
+          "end_time": "2026-10-27T14:30:00Z",
+          "list_image": "ZeeDilSePromo2155633a1d961b5c4dd419cac2785e98cd9bdba.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563334ba5aa071d946f0a44fc5db2cfd3b31",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027200000",
+          "description": "Promo",
+          "start_time": "2026-10-27T14:30:00Z",
+          "end_time": "2026-10-27T15:30:00Z",
+          "list_image": "ZeeDilSePromo215563334ba5aa071d946f0a44fc5db2cfd3b31.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633e740ddd875924604abe926a1efdae07a",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027210000",
+          "description": "Promo",
+          "start_time": "2026-10-27T15:30:00Z",
+          "end_time": "2026-10-27T16:30:00Z",
+          "list_image": "ZeeDilSePromo2155633e740ddd875924604abe926a1efdae07a.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633de9cb0d39475432fba0e0511e61005dd",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027220000",
+          "description": "Promo",
+          "start_time": "2026-10-27T16:30:00Z",
+          "end_time": "2026-10-27T17:30:00Z",
+          "list_image": "ZeeDilSePromo2155633de9cb0d39475432fba0e0511e61005dd.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo215563316ebea57af974775bc5494579e413c9e",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261027230000",
+          "description": "Promo",
+          "start_time": "2026-10-27T17:30:00Z",
+          "end_time": "2026-10-27T18:30:00Z",
+          "list_image": "ZeeDilSePromo215563316ebea57af974775bc5494579e413c9e.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
+            }
+          ]
+        },
+        {
+          "image": {
+            "cover": "",
+            "list": "ZeeDilSePromo2155633e97d9126a9a9408f853ff631d51761ed",
+            "in__cover": "",
+            "in__list": ""
+          },
+          "original_title": "Promo",
+          "title": "Promo",
+          "tags": [
+            "Entertainment"
+          ],
+          "duration": 60,
+          "actors": [],
+          "asset_type": 10,
+          "id": "0-10-CHN-000030331-20261028000000",
+          "description": "Promo",
+          "start_time": "2026-10-27T18:30:00Z",
+          "end_time": "2026-10-27T19:30:00Z",
+          "list_image": "ZeeDilSePromo2155633e97d9126a9a9408f853ff631d51761ed.jpg",
+          "licensing": {
+            "licensing_periods": []
+          },
+          "channel": {
+            "id": "0-9-9z51072892"
+          },
+          "languages": [
+            "hi"
+          ],
+          "audio_languages": [
+            "hi"
+          ],
+          "genres": [
+            {
+              "id": "Entertainment",
+              "value": "Entertainment"
             }
           ]
         }
