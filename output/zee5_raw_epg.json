@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T01:04:18.242Z",
+  "generated_at": "2026-11-10T14:06:36.860Z",
   "mode": "gwapi-start-end",
   "start": 0,
   "end": 5,
@@ -481080,7 +481080,13 @@
           "motion_app_cover": "",
           "motion_cover": "",
           "motion_vert_banner": "",
-          "motion_homefeed-launcher-sticker": ""
+          "motion_homefeed-launcher-sticker": "",
+          "home_hero_banner": "",
+          "sports_page_banner": "",
+          "kids_mobile_banner": "",
+          "top_10_kids": "",
+          "tv_vertical_ctv": "",
+          "2x3_hd_portrait": ""
         },
         "languages": [
           "id"
