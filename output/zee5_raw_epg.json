@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T01:26:09.251Z",
+  "generated_at": "2026-11-17T15:21:47.914Z",
   "mode": "gwapi-start-end",
   "start": 0,
   "end": 5,
@@ -829099,7 +829099,13 @@
           "motion_app_cover": "",
           "motion_cover": "",
           "motion_vert_banner": "",
-          "motion_homefeed-launcher-sticker": ""
+          "motion_homefeed-launcher-sticker": "",
+          "home_hero_banner": "",
+          "sports_page_banner": "",
+          "kids_mobile_banner": "",
+          "top_10_kids": "",
+          "tv_vertical_ctv": "",
+          "2x3_hd_portrait": ""
         },
         "languages": [
           "en"
@@ -834399,7 +834405,13 @@
           "motion_app_cover": "",
           "motion_cover": "",
           "motion_vert_banner": "",
-          "motion_homefeed-launcher-sticker": ""
+          "motion_homefeed-launcher-sticker": "",
+          "home_hero_banner": "",
+          "sports_page_banner": "",
+          "kids_mobile_banner": "",
+          "top_10_kids": "",
+          "tv_vertical_ctv": "",
+          "2x3_hd_portrait": ""
         },
         "languages": [
           "en"
@@ -860402,7 +860414,13 @@
           "motion_app_cover": "",
           "motion_cover": "",
           "motion_vert_banner": "",
-          "motion_homefeed-launcher-sticker": ""
+          "motion_homefeed-launcher-sticker": "",
+          "home_hero_banner": "",
+          "sports_page_banner": "",
+          "kids_mobile_banner": "",
+          "top_10_kids": "",
+          "tv_vertical_ctv": "",
+          "2x3_hd_portrait": ""
         },
         "languages": [
           "en"
@@ -874286,6 +874304,12 @@
           "motion_cover": "",
           "motion_vert_banner": "",
           "motion_homefeed-launcher-sticker": "",
+          "home_hero_banner": "",
+          "sports_page_banner": "",
+          "kids_mobile_banner": "",
+          "top_10_kids": "",
+          "tv_vertical_ctv": "",
+          "2x3_hd_portrait": "",
           "in__cover": "1920x77028fc89d7af014d73975d1200e12ec3b0",
           "in__app_cover": "1920x1080appcover9e80e217f6064c8987f3187b70f4a47c",
           "in__list": "1920x1080list7688549badc94ac683c8575a9c294ccd",
@@ -874307,7 +874331,13 @@
           "in__motion_app_cover": "",
           "in__motion_cover": "",
           "in__motion_vert_banner": "",
-          "in__motion_homefeed-launcher-sticker": ""
+          "in__motion_homefeed-launcher-sticker": "",
+          "in__home_hero_banner": "",
+          "in__sports_page_banner": "",
+          "in__kids_mobile_banner": "",
+          "in__top_10_kids": "",
+          "in__tv_vertical_ctv": "",
+          "in__2x3_hd_portrait": ""
         },
         "languages": [
           "en"
