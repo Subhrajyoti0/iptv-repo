@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T04:33:07.386Z",
+  "generated_at": "2026-11-22T13:54:51.457Z",
   "mode": "gwapi-start-end",
   "start": 0,
   "end": 5,
@@ -745989,6 +745989,46 @@
           ]
         }
       ]
+    },
+    "0-9-9z51114536": {
+      "meta": {
+        "id": "0-9-9z51114536",
+        "name": "Super T10 League | Auction",
+        "image": {
+          "cover": "3840x2160cae7b085ba4e4522a39f928926177124",
+          "app_cover": "1920x1080ee63e1b149ce4fbb92bb7d84f91f73a7",
+          "list": "1920x1080b78f435eafa642a4b61af2457a521640",
+          "channel_square": "3840x21603d9a5e623ca08493196e8273c4ec921d2",
+          "channel_list": "3840x21602e2161a1a3afa4126b0332f7d9a72a0a2",
+          "channel_web": "3840x216010e7d32415575405fa25dad8ebc0a73e7",
+          "square": "",
+          "tv_cover": "",
+          "portrait": "2000x3000e82e80b3f6c54ceea4df53b60af75dbc",
+          "listclean": "1920x1080c5ca52e656a849419452eb41383dc500",
+          "portraitclean": "",
+          "homefeed-launcher-sticker": "",
+          "vert_banner": "",
+          "4k_banner": "",
+          "hd_tile": "",
+          "2x3_hd_poster": "2000x3000898435395129416e92bc78f907cf949a",
+          "title_logo": "",
+          "tv_banner": "3840x21608d28cb9bf9f84bda85f3f8423eee2773",
+          "motion_app_cover": "",
+          "motion_cover": "",
+          "motion_vert_banner": "",
+          "motion_homefeed-launcher-sticker": "",
+          "home_hero_banner": "2000x30005b8c1f6c2c9544049f787b4b7d850f63",
+          "sports_page_banner": "resizeimageprojectnovember222026at163338d66a791b5bd64f42af970c4a4d805496",
+          "kids_mobile_banner": "",
+          "top_10_kids": "",
+          "tv_vertical_ctv": "",
+          "2x3_hd_portrait": "2000x300061271e2677c04356a8f02b7ab126012e"
+        },
+        "languages": [
+          "hi"
+        ]
+      },
+      "epg": []
     },
     "0-9-9z5938348": {
       "meta": {
