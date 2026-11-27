@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-11-26T16:17:42.442Z",
+    "timestamp": "2026-11-27T01:30:19.426Z",
     "xml_display_name": "Zee Telugu HD",
     "old_channel_id": "0-9-zeetelugu",
     "new_channel_id": "ZeeTelugu.in@HD",
@@ -49,7 +49,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.460Z",
+    "timestamp": "2026-11-27T01:30:19.441Z",
     "xml_display_name": "Zee Telugu",
     "old_channel_id": "0-9-9z5383485",
     "new_channel_id": "ZeeTelugu.in@HD",
@@ -98,7 +98,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.476Z",
+    "timestamp": "2026-11-27T01:30:19.456Z",
     "xml_display_name": "Zee Tamil HD",
     "old_channel_id": "0-9-zeetamil",
     "new_channel_id": "ZeeTamil.in@HD",
@@ -147,7 +147,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.491Z",
+    "timestamp": "2026-11-27T01:30:19.470Z",
     "xml_display_name": "Zee Tamil",
     "old_channel_id": "0-9-9z5383487",
     "new_channel_id": "ZeeTamil.in@HD",
@@ -196,7 +196,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.509Z",
+    "timestamp": "2026-11-27T01:30:19.487Z",
     "xml_display_name": "Zee Marathi HD",
     "old_channel_id": "0-9-zeemarathi",
     "new_channel_id": "ZeeMarathi.in@HD",
@@ -245,7 +245,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.524Z",
+    "timestamp": "2026-11-27T01:30:19.500Z",
     "xml_display_name": "Zee Marathi",
     "old_channel_id": "0-9-9z5383486",
     "new_channel_id": "ZeeMarathi.in@HD",
@@ -294,7 +294,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.540Z",
+    "timestamp": "2026-11-27T01:30:19.515Z",
     "xml_display_name": "Zee Kannada HD",
     "old_channel_id": "0-9-zeekannada",
     "new_channel_id": "ZeeKannada.in@HD",
@@ -343,7 +343,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.554Z",
+    "timestamp": "2026-11-27T01:30:19.528Z",
     "xml_display_name": "Zee Kannada",
     "old_channel_id": "0-9-9z5383466",
     "new_channel_id": "ZeeKannada.in@HD",
@@ -392,7 +392,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.573Z",
+    "timestamp": "2026-11-27T01:30:19.543Z",
     "xml_display_name": "Zee Cinema HD",
     "old_channel_id": "0-9-zeecinemahd",
     "new_channel_id": "ZeeCinema.in@APAC",
@@ -441,7 +441,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.591Z",
+    "timestamp": "2026-11-27T01:30:19.558Z",
     "xml_display_name": "Zee Cinema",
     "old_channel_id": "0-9-zeecinema",
     "new_channel_id": "ZeeCinema.in@APAC",
@@ -490,7 +490,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.633Z",
+    "timestamp": "2026-11-27T01:30:19.596Z",
     "xml_display_name": "Zee Cine Classic",
     "old_channel_id": "0-9-9z51072553",
     "new_channel_id": "ZeeCineClassic.in@SD",
@@ -539,7 +539,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.649Z",
+    "timestamp": "2026-11-27T01:30:19.611Z",
     "xml_display_name": "Zee Business",
     "old_channel_id": "0-9-zeebusiness",
     "new_channel_id": "ZeeBusiness.in@SD",
@@ -588,12 +588,12 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.666Z",
+    "timestamp": "2026-11-27T01:30:19.627Z",
     "xml_display_name": "Zee Bangla HD",
     "old_channel_id": "0-9-zeebangla",
     "new_channel_id": "ZeeBangla.in@HD",
     "confidence": 0.99,
-    "method": "exact-display-name",
+    "method": "strict-weighted",
     "evaluated": {
       "xmlMeta": {
         "rawName": "Zee Bangla HD",
@@ -637,12 +637,12 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.681Z",
+    "timestamp": "2026-11-27T01:30:19.641Z",
     "xml_display_name": "Zee Bangla",
     "old_channel_id": "0-9-9z5383484",
-    "new_channel_id": "ZeeBangla.in@HD",
+    "new_channel_id": "ZeeBangla.in@SD",
     "confidence": 0.966,
-    "method": "exact-display-name",
+    "method": "strict-weighted",
     "evaluated": {
       "xmlMeta": {
         "rawName": "Zee Bangla",
@@ -660,18 +660,18 @@
         }
       },
       "chosenMeta": {
-        "rawName": "Zee Bangla HD (720p)",
+        "rawName": "Zee Bangla (1080p)",
         "brand": "zee",
         "language": "bn",
         "genre": "general",
         "family": "bangla",
         "region": "in",
-        "quality": "hd",
+        "quality": "sd",
         "parsedId": {
-          "raw": "ZeeBangla.in@HD",
+          "raw": "ZeeBangla.in@SD",
           "baseId": "ZeeBangla",
           "region": "in",
-          "quality": "hd"
+          "quality": "sd"
         }
       },
       "scoreBreakdown": {
@@ -686,7 +686,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.698Z",
+    "timestamp": "2026-11-27T01:30:19.657Z",
     "xml_display_name": "WION",
     "old_channel_id": "0-9-wion",
     "new_channel_id": "WION.in@SD",
@@ -735,7 +735,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.715Z",
+    "timestamp": "2026-11-27T01:30:19.673Z",
     "xml_display_name": "TV9 Telugu",
     "old_channel_id": "0-9-258",
     "new_channel_id": "TV9Telugu.in@SD",
@@ -784,7 +784,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.732Z",
+    "timestamp": "2026-11-27T01:30:19.688Z",
     "xml_display_name": "TV9 Marathi",
     "old_channel_id": "0-9-257",
     "new_channel_id": "TV9Marathi.in@SD",
@@ -833,7 +833,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.749Z",
+    "timestamp": "2026-11-27T01:30:19.704Z",
     "xml_display_name": "TV9 Kannada",
     "old_channel_id": "0-9-259",
     "new_channel_id": "TV9Kannada.in@SD",
@@ -882,7 +882,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.766Z",
+    "timestamp": "2026-11-27T01:30:19.719Z",
     "xml_display_name": "TV9 Gujarati",
     "old_channel_id": "0-9-260",
     "new_channel_id": "TV9Gujarati.in@SD",
@@ -931,7 +931,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.783Z",
+    "timestamp": "2026-11-27T01:30:19.734Z",
     "xml_display_name": "TV9 Bharatvarsh",
     "old_channel_id": "0-9-251",
     "new_channel_id": "TV9Bharatvarsh.in@SD",
@@ -980,7 +980,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.800Z",
+    "timestamp": "2026-11-27T01:30:19.749Z",
     "xml_display_name": "TV9 Bangla",
     "old_channel_id": "0-9-378",
     "new_channel_id": "TV9Bangla.in@SD",
@@ -1029,7 +1029,7 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.817Z",
+    "timestamp": "2026-11-27T01:30:19.764Z",
     "xml_display_name": "NDTV Marathi",
     "old_channel_id": "0-9-9z5942785",
     "new_channel_id": "NDTVMarathi.in@SD",
@@ -1078,7 +1078,105 @@
     }
   },
   {
-    "timestamp": "2026-11-26T16:17:42.877Z",
+    "timestamp": "2026-11-27T01:30:19.815Z",
+    "xml_display_name": "Anmol Cinema 2",
+    "old_channel_id": "0-9-bigganga",
+    "new_channel_id": "AnmolCinema2.in@SD",
+    "confidence": 0.942,
+    "method": "exact-display-name",
+    "evaluated": {
+      "xmlMeta": {
+        "rawName": "Anmol Cinema 2",
+        "brand": null,
+        "language": null,
+        "genre": "movies",
+        "family": "cinema",
+        "region": null,
+        "quality": null,
+        "parsedId": {
+          "raw": "",
+          "baseId": "",
+          "region": null,
+          "quality": null
+        }
+      },
+      "chosenMeta": {
+        "rawName": "Anmol Cinema 2 (576p)",
+        "brand": null,
+        "language": null,
+        "genre": "movies",
+        "family": "cinema",
+        "region": "in",
+        "quality": "sd",
+        "parsedId": {
+          "raw": "AnmolCinema2.in@SD",
+          "baseId": "AnmolCinema2",
+          "region": "in",
+          "quality": "sd"
+        }
+      },
+      "scoreBreakdown": {
+        "finalScore": 0.942,
+        "scoreName": 1,
+        "familyScore": 1,
+        "regionScore": 0.9,
+        "qualityScore": 0.7,
+        "languageScore": 0.7,
+        "genreScore": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-27T01:30:19.828Z",
+    "xml_display_name": "Anmol Cinema",
+    "old_channel_id": "0-9-zeeanmolcinema",
+    "new_channel_id": "AnmolCinema.in@SD",
+    "confidence": 0.942,
+    "method": "exact-display-name",
+    "evaluated": {
+      "xmlMeta": {
+        "rawName": "Anmol Cinema",
+        "brand": null,
+        "language": null,
+        "genre": "movies",
+        "family": "cinema",
+        "region": null,
+        "quality": null,
+        "parsedId": {
+          "raw": "",
+          "baseId": "",
+          "region": null,
+          "quality": null
+        }
+      },
+      "chosenMeta": {
+        "rawName": "Anmol Cinema (576p)",
+        "brand": null,
+        "language": null,
+        "genre": "movies",
+        "family": "cinema",
+        "region": "in",
+        "quality": "sd",
+        "parsedId": {
+          "raw": "AnmolCinema.in@SD",
+          "baseId": "AnmolCinema",
+          "region": "in",
+          "quality": "sd"
+        }
+      },
+      "scoreBreakdown": {
+        "finalScore": 0.942,
+        "scoreName": 1,
+        "familyScore": 1,
+        "regionScore": 0.9,
+        "qualityScore": 0.7,
+        "languageScore": 0.7,
+        "genreScore": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-27T01:30:19.842Z",
     "xml_display_name": "Aaj Tak",
     "old_channel_id": "0-9-aajtak",
     "new_channel_id": "AajTak.in@SD",
